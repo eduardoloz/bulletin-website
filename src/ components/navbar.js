@@ -1,16 +1,16 @@
-// Navbar.js
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({ setCurrentPage }) => {
   return (
-    <nav className="bg-blue-600 text-white p-4 shadow-lg">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg font-semibold">
-          <a href="/" className="hover:text-gray-200">Home</a>
+    <nav className="bg-blue-500 p-4">
+      <div className="max-w-7xl mx-auto flex justify-between items-center">
+        <div className="text-white text-2xl font-bold">
+          <button onClick={() => setCurrentPage('home')}>STONY BROOK UNDERGRADUATE BULLETIN</button>
         </div>
-        <div className="space-x-4">
-          <a href="/about" className="hover:text-gray-200">About Us</a>
-          <a href="/login" className="hover:text-gray-200">Login</a>
+        <div className="space-x-6">
+          <button onClick={() => setCurrentPage('home')} className="text-white hover:text-gray-200">Home</button>
+          <button onClick={() => setCurrentPage('about')} className="text-white hover:text-gray-200">About</button>
+          <button onClick={() => setCurrentPage('login')} className="text-white hover:text-gray-200">Login</button>
         </div>
       </div>
     </nav>
