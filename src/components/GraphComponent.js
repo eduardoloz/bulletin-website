@@ -10,14 +10,12 @@ const CourseGraph = () => {
             { id: "CSE 216", x: 200, y: 600 },
             { id: "CSE 220", x: 200, y: 300 },
             { id: "CSE 260", x: 200, y: 400 }
-
-          // Additional courses...
+            // Additional courses...
         ],
         links: [
             { source: "CSE 114", target: "CSE 214" },
             { source: "CSE 214", target: "CSE 216" },
-            { source: "CSE 260", target: "CSE 214"},
-
+            { source: "CSE 260", target: "CSE 214" },
             // Additional prerequisite links...
         ]
     };
@@ -39,13 +37,15 @@ const CourseGraph = () => {
     };
 
     return (
-        <div>
-            <h2>Course Prerequisites Graph</h2>
-            <Graph
-                id="course-graph"
-                data={data}
-                config={myConfig}
-            />
+        <div className="flex flex-col items-center justify-center min-h-screen p-10">
+            <div className="w-full max-w-4xl border-2 border-gray-400 rounded-lg p-10">
+                <h2>Course Prerequisites Graph</h2>
+                <Graph
+                    id="course-graph"
+                    data={data}
+                    config={myConfig}
+                />
+            </div>
         </div>
     );
 };
