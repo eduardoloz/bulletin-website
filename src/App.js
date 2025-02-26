@@ -5,7 +5,6 @@ import CourseGraph from './components/GraphComponent';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './pages/About';
 import Login from './pages/Login'
-import GraphComponent from './graph_component';
 
  
  
