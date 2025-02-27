@@ -1,0 +1,565 @@
+[
+    {
+        "title": "CSE 101: Computer Science Principles",
+        "description": "Introduces central ideas of computing and computer science, instills practices of algorithmic and computational thinking, and engages students in the creative aspects of the field. Also introduces appropriate computing technology as a means for solving computational problems and exploring creative endeavors. Includes weekly computer programming assignments, but assumes no previous programming experience. May not be taken by students with credit for CSE 114 or CSE 160.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 102: Introduction to Web Design and Programming",
+        "description": "An introduction to the design of Web pages, specifically the development of browser and device independent HTML, with an emphasis on the XHTML standards. Includes the use of style sheets (CSS) and tools for page layout and verification.  HTML is presented as a mark-up language, exploring the rules of HTML elements and attributes. Students learn the separation of page viewing information from the HTML through CSS style sheets as well as the use of block layout without using HTML tables. Addresses HTML display properties including text, color, image, and graphic elements as well as approaches to HTML validation and techniques.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 110: Introduction to Computer Science",
+        "description": "An introduction to fundamentals of computer science. Topics covered include algorithmic design, problem-solving techniques for computer programming, fundamentals of digital logic and computer organization, the role of the operating system, introductory programming methodology including variables, assignment statements, control statements and subroutines (methods), programming paradigms, the compilation process, theoretical limits of computation, social and ethical issues.  Intended for students who have not taken any college-level computer science course containing programming assignments in a high-level programming language.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 113: Foundations of Computer Science I",
+        "description": "Introduction to the mathematical foundations of computer science. Topics include logic (propositional and predicate); proof techniques (induction/recursion, contradiction, and others); and key concepts of mathematical structures (sequences, sets, functions, relations, and graphs). Not for credit in addition to CSE 215.",
+        "prerequisite": [
+            "AMS 151",
+            "MAT 125",
+            "MAT 131"
+        ]
+    },
+    {
+        "title": "CSE 114: Introduction to Object-Oriented Programming",
+        "description": "An introduction to procedural and object-oriented  programming methodology. Topics include program structure, conditional and iterative programming, procedures, arrays and records, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, and exceptions. Includes required laboratory. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+        "prerequisite": [
+            "CSE 101",
+            "ISE 108"
+        ]
+    },
+    {
+        "title": "CSE 130: Introduction to Programming in C",
+        "description": "Introduces programming concepts using the C language.  Variables, data types, and expressions.  Conditional and iterative statements, functions, and structures.  Pointers, arrays, and strings.  Scope of variables and program organization.  Includes programming projects of an interdisciplinary nature.  Suitable as an introductory programming course for non-CSE majors.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 150: Foundations of Computer Science: Honors",
+        "description": "Introduction to the logical and mathematical foundations of computer science for computer science honors students. Topics include functions, relations, and sets; recursion and functional programming; basic logic; and mathematical induction and other proof techniques.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 160: Computer Science A: Honors",
+        "description": "First part of a two-semester sequence, CSE 160 and CSE 260.  An introduction to procedural and object-oriented programming methodology and basic data structures. Topics include program structure, conditional and iterative programming, procedures, arrays, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, exceptions and simple data structures, such as lists, queues and stacks.",
+        "prerequisite": [
+            "CSE 101",
+            "CSE 161"
+        ]
+    },
+    {
+        "title": "CSE 161: Laboratory for Computer Science A: Honors",
+        "description": "Must be taken concurrently with lecture component, CSE 160; a common grade for both courses will be assigned. Laboratory sessions will focus on development of pragmatic programming skills and use of programming environments and tools in a supervised setting.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 190: Special Topics in Practice and Applications of Computer Science",
+        "description": "A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 191: Special Topics in Practice and Applications for Computer Science",
+        "description": "A lecture course on a current topic in the practice and application of computer science.  May be repeated as the topic changes.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 192: Special Topics in Practice and Applications for Computer Science",
+        "description": "A lecture course on a current topic in the practice and application of computer science. May be repeated as the topic changes.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 214: Data Structures",
+        "description": "An extension of programming methodology to data storage and manipulation on complex data sets. Topics include: programming and applications of data structures; stacks, queues, lists, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons.",
+        "prerequisite": [
+            "CSE 114"
+        ]
+    },
+    {
+        "title": "CSE 215: Foundations of Computer Science",
+        "description": "Introduction to the logical and mathematical foundations of computer science. Topics include functions, relations, and sets; recursion; elementary logic; and mathematical induction and other proof techniques. Not for credit in addition to CSE 113.",
+        "prerequisite": [
+            "AMS 151",
+            "MAT 125",
+            "MAT 131"
+        ]
+    },
+    {
+        "title": "CSE 216: Programming Abstractions",
+        "description": "Intermediate-level programming concepts and paradigms, including  functional programming, object-orientation, basics of type systems, memory management, program and data abstractions, parameter passing, modularity, and parallel programming. Includes weekly recitations, which provide students with experience in the practice of programming in a variety of high-level languages.",
+        "prerequisite": [
+            "CSE 214"
+        ]
+    },
+    {
+        "title": "CSE 220: Systems Fundamentals I",
+        "description": "Introduces systems-level programming concepts using the C language and assembly language, and explores the correspondence of programming constructs in these languages. Topics include internal data representation, basic instructions and control structures, bitwise operations, arithmetic operations, memory management, pointers, function calls and parameter passing, linking and loading. Included is an overview of foundational topics in computer architecture, organization and networks.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 230: Intermediate Programming in C and C++",
+        "description": "Intermediate programming concepts using the C language in a UNIX environment. Files, systems calls, stream I/O, the C preprocessor, bitwise operations, the use of makefiles, advanced formatting of input and output, conversions. Introduction to object-oriented programming using C++; classes, objects, inheritance, aggregation, and overloading. Suitable for all majors.",
+        "prerequisite": [
+            "CSE 130",
+            "CSE 220",
+            "ESE 124",
+            "ESG 111",
+            "BME 120",
+            "MEC 102"
+        ]
+    },
+    {
+        "title": "CSE 260: Computer Science B: Honors",
+        "description": "Second part of a two-semester sequence, CSE 160 and CSE 260. Applies object-oriented programming methodology to data storage and manipulation on complex data sets, such as, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons. Intermediate-level programming language concepts and paradigms, including functional programming, basics of type systems, program and data abstractions, and modularity.",
+        "prerequisite": [
+            "CSE 160",
+            "CSE 261"
+        ]
+    },
+    {
+        "title": "CSE 261: Laboratory for Computer Science B: Honors",
+        "description": "Must be taken concurrently with lecture component, CSE 260; a common grade for both courses will be assigned. Weekly laboratories provide students with experience in the practice of programming in a variety of high-level languages such as Java, Scala, Haskell, Python or Javascript.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 300: Technical Communications",
+        "description": "Principles of professional technical communications for Computer Science and Information Systems majors. Topics include writing business communications, user manuals, press releases, literature reviews, and research abstracts. Persuasive oral communications and effective presentation techniques, to address a range of audiences, will also be covered. This course satisfies the upper-division writing requirement for CSE and ISE majors.",
+        "prerequisite": [
+            "WRT 102"
+        ]
+    },
+    {
+        "title": "CSE 301: History of Computing",
+        "description": "A study of the history of computational devices from the early ages through the end of the 20th century. Topics include needs for computation in ancient times, development of computational models and devices through the 1800's and early 1900's, World War II and the development of the first modern computer, and early uses in business. Creation of programming languages and the microchip. Societal changes in computer usage due to the microcomputer, emergence of the Internet, the World Wide Web, and mobile computing. Legal and social impacts of modern computing. Cannot be used as a technical elective for the CSE major or minor.  This course is offered as both CSE 301 and ISE 301.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 303: Introduction to the Theory of Computation",
+        "description": "An introduction to the abstract notions encountered in machine computation. Topics include finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Questions relating to what can and cannot be done by machines are covered by considering various models of computation, including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 350.",
+        "prerequisite": [
+            "CSE 160",
+            "CSE 214",
+            "CSE 150",
+            "CSE 215"
+        ]
+    },
+    {
+        "title": "CSE 304: Compiler Design",
+        "description": "Topics studied include formal description of programming languages, lexical analysis, syntax analysis, symbol tables and memory allocation, code generation, and interpreters. Students undertake a semester project that includes the design and implementation of a compiler for a language chosen by the instructor.",
+        "prerequisite": [
+            "CSE 216",
+            "CSE 260",
+            "CSE 220",
+            "CSE 303",
+            "CSE 350"
+        ]
+    },
+    {
+        "title": "CSE 305: Principles of Database Systems",
+        "description": "The design of database management systems to obtain consistency, integrity, and availability of data. Conceptual models and schemas of data: relational, hierarchical, and network. Students undertake a semester project that includes the design and implementation of a database system.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 216",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 306: Operating Systems",
+        "description": "Students are introduced to the structure of modern operating systems. Topics include virtual memory, resource allocation strategies, concurrency, and protection. The design and implementation of a simple operating system are performed. This course focuses on teaching the skills required to design and build modules of an operating system kernel. It covers key algorithms and architectures. A companion course, CSE 320, teaches complementary skills from the application programmer's point of view.",
+        "prerequisite": [
+            "CSE 320",
+            "ESE 280"
+        ]
+    },
+    {
+        "title": "CSE 307: Principles of Programming Languages",
+        "description": "An introduction to programming languages paradigms, including functional and logic programming, and the suitability of various languages for particular programming tasks. Students write sample programs in the studied languages. The languages are used to illustrate programming language constructs such as scoping and binding, type systems, storage management and operating environments. This illustration is accompanied by an introduction to the implementation of programming languages, such as parsing, semantic analysis, symbol tables, memory allocation and code generation. Students complete a series of assignments to implement a language chosen by the instructor.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 216",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 310: Computer Networks",
+        "description": "Overview of computer networks and the Internet. Concept of end systems, access networks, clients and servers. Connection-oriented and connectionless services. Circuit switching and packet switching. Description of Internet protocol layers, including application layer, transport layer, network layer and link layer. Architecture of the current Internet and the World-Wide Web. TCP/IP protocol stack. Internet routing and addressing. Local area network protocols, Ethernet hubs and switches. Wireless LANs. Multimedia networking. May not be taken by students with credit for ESE 346.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 220",
+            "ISE 218",
+            "AMS 310"
+        ]
+    },
+    {
+        "title": "CSE 311: Systems Administration",
+        "description": "This course covers practical techniques to manage information systems, also known as IT Systems Administration.  Students will learn how to install computers for assorted hardware and software platforms (Windows, Unix/Linux, OS-X).  Install networking equipment and configure it.  Install server software on several systems (e.g. web, database, mail) and configure it.  Secure the network, hosts, and services, and apply system patches.  Set up redundant computing services, virtual machines/services, and hardware so that services can survive some hardware/software failures.  Evaluate the performance, reliability, and security of the overall system. This course is offered as both CSE 311 and ISE 311.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 230",
+            "CSE 260",
+            "ISE 208"
+        ]
+    },
+    {
+        "title": "CSE 312: Social, Legal, and Ethical Issues in Computing",
+        "description": "This course deals with the impact of computers on us as individuals and on our society.  Rapid changes in computing technology and in our use of that technology have changed the ways we work, play, and interact with other people.  These changes have created a flood of new social, legal and ethical issues that demand critical examination. This course is offered as both CSE 312 and ISE 312.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 316: Fundamentals of Software Development",
+        "description": "Introduction to systematic design, development and testing of software systems, including event-driven programming, information management, databases, principles and practices for secure computing, and version control. Students apply these skills in the construction of large, robust programs.",
+        "prerequisite": [
+            "CSE 216",
+            "CSE 260",
+            "CSE 307"
+        ]
+    },
+    {
+        "title": "CSE 320: Systems Fundamentals II",
+        "description": "This course introduces essential concepts of operating systems, compilers, concurrency, and performance analysis, focused around several cross-cutting examples, such as memory management, error handling, and threaded programming. In this course, operating systems concepts are considered from the point of view of the application programmer, and the focus is on APIs for interacting with an operating system. A companion course, CSE 306, considers operating systems from the point of view of the OS kernel implementer.",
+        "prerequisite": [
+            "CSE 220"
+        ]
+    },
+    {
+        "title": "CSE 323: Human-Computer Interaction",
+        "description": "A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice.  Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor's discretion. Course is cross-listed as CSE 323, EST 323 and ISE 323.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 230",
+            "CSE 260",
+            "ISE 208"
+        ]
+    },
+    {
+        "title": "CSE 325: Computers and Sculpture",
+        "description": "This multidisciplinary class surveys how computer science and computer technology are used in sculpture. Case studies with slides, videos, and software demonstrations illustrate a range of approaches of sculptors incorporating computers in their creative process. Various state-of-the art fabrication technologies are studied (with site visits if available on campus). Mathematical foundations are emphasized so students can recognize them when analyzing sculpture and choose the right tool when designing. In the weekly laboratory, these ideas are reinforced with projects using a range of available software and inexpensive construction materials, e.g., paper, cardboard, and foamcore.",
+        "prerequisite": [
+            "CSE 110",
+            "CSE 101",
+            "CSE 114"
+        ]
+    },
+    {
+        "title": "CSE 327: Fundamentals of Computer Vision",
+        "description": "Introduces fundamental concepts, algorithms, and techniques in visual information processing. Covers image formation, binary image processing, image features, model fitting, optics, illumination, texture, motion, segmentation, and object recognition.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 230",
+            "CSE 260",
+            "AMS 210",
+            "MAT 211"
+        ]
+    },
+    {
+        "title": "CSE 328: Fundamentals of Computer Graphics",
+        "description": "An introduction to computer graphics including graphics application programming; data structures for graphics; representing and specifying color; fundamental hardware and software concepts for calligraphic and raster displays; two-dimensional, geometric transformations; introduction to three-dimensional graphics; graphics standards; and input devices, interaction handling, and user-computer interface.",
+        "prerequisite": [
+            "CSE 220"
+        ]
+    },
+    {
+        "title": "CSE 331: Computer Security Fundamentals",
+        "description": "Introduces the basic concepts and terminology of computer security. Covers basic security topics such as cryptography, operating systems security, network security, and language-based security.",
+        "prerequisite": [
+            "CSE 220",
+            "CSE 320"
+        ]
+    },
+    {
+        "title": "CSE 332: Introduction to Visualization",
+        "description": "This course is an introduction to both the foundations and applications of visualization and visual analytics, for the purpose of understanding complex data in science, medicine, business, finance, and many others. It will begin with the basics - visual perception, cognition, human-computer interaction, the sense-making process, data mining, computer graphics, and information visualization. It will then move to discuss how these elementary techniques are coupled into an effective visual analytics pipeline that allows humans to interactively think with data and gain insight. Students will get hands-on experience via several programming projects, using popular public-domain statistics and visualization libraries and APIs. This course is offered as both CSE 332 and  ISE 332.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260",
+            "MAT 211",
+            "AMS 210",
+            "AMS 110",
+            "AMS 310"
+        ]
+    },
+    {
+        "title": "CSE 333: User Interface Development",
+        "description": "Survey of user interface systems, with emphasis on responsive and adaptive strategies to accommodate cross-platform deployment across multiple devices such as desktops and mobile devices. Demonstration of the use of tool kits for designing user interfaces. Additional topics include human factors, design standards, and visual languages. Students participate in a project involving the design and implementation of  user interface systems. This course is offered as both CSE 333 and ISE 333.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 334: Introduction to Multimedia Systems",
+        "description": "Survey of technologies available for user interfaces. Discussion of hypertext; voice, music, and video together with tools and models for capturing, editing, presenting, and combining them. Capabilities and characteristics of a range of peripheral devices including devices based on posture, gesture, head movement, and touch. Case studies of academic and commercial multimedia systems including virtual reality systems. Students participate in laboratory exercises and build a multimedia project. This course is offered as both CSE 334 and  ISE 334.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 336: Internet Programming",
+        "description": "Introduces the design and development of software for Internet commerce. Topics include extended markup language, servlets, cookies, sessions, Internet media types, Web protocols, digital signatures, certificates, encryption, and the wireless Internet.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 337: Scripting Languages",
+        "description": "Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 350: Theory of Computation: Honors",
+        "description": "Introduces the abstract notions of machine computation for honors students. Includes finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Explores what can and cannot be computed by considering various models of computation including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 303.",
+        "prerequisite": [
+            "CSE 113",
+            "CSE 150",
+            "CSE 215",
+            "AMS 210",
+            "MAT 211"
+        ]
+    },
+    {
+        "title": "CSE 351: Introduction to Data Science",
+        "description": "This multidisciplinary course introduces both theoretical concepts and practical approaches to extract knowledge from data. Topics include linear algebra, probability, statistics, machine learning, and programming. Using large data sets collected from real-world problems in areas of science, technology, and medicine, we introduce how to preprocess data, identify the best model that describes the data, make predictions, evaluate the results, and finally report the results using proper visualization methods. This course also teaches state-of-the art tools for data analysis, such as Python and its scientific libraries.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260",
+            "AMS 310"
+        ]
+    },
+    {
+        "title": "CSE 352: Artificial Intelligence",
+        "description": "Topics covered include critique of artificial intelligence research; state-space problem representations and search algorithms; game-playing programs; theorem-proving programs; programs for the study and simulation of cognitive processes and pattern recognition. Further topics in current research as time permits.",
+        "prerequisite": [
+            "CSE 316",
+            "CSE 351"
+        ]
+    },
+    {
+        "title": "CSE 353: Machine Learning",
+        "description": "Covers fundamental concepts for intelligent systems that autonomously learn to perform a task and improve with experience, including problem formulations (e.g., selecting input features and outputs) and learning frameworks (e.g., supervised vs. unsupervised), standard models, methods, computational tools, algorithms and modern techniques, as well as methodologies to evaluate learning ability and to automatically select optimal models. Applications to areas such as computer vision (e.g., character and digit recognition), natural-language processing (e.g., spam filtering) and robotics (e.g., navigating complex environments) will motivate the coursework and material.",
+        "prerequisite": [
+            "CSE 316",
+            "CSE 351",
+            "AMS 310",
+            "AMS 311",
+            "AMS 412"
+        ]
+    },
+    {
+        "title": "CSE 354: Natural Language Processing",
+        "description": "Natural language processing techniques power many intelligent language based applications. This course will introduce basic language analysis tasks such as language modeling and syntactic analysis, as well as core applications such as text classification, information extraction, question answering, and machine translation. The course will cover relevant algorithms, machine learning solutions, and evaluation methodologies.",
+        "prerequisite": [
+            "CSE 316",
+            "CSE 351"
+        ]
+    },
+    {
+        "title": "CSE 355: Computational Geometry",
+        "description": "The design and analysis of efficient algorithms to solve geometric problems that arise in computer graphics, robotics, geographical information systems, manufacturing, and optimization. Topics include convex hulls, triangulation, Voronoi diagrams, visibility, intersection, robot motion planning, and arrangements. This course is offered as both  AMS 345 and CSE 355.",
+        "prerequisite": [
+            "AMS 301"
+        ]
+    },
+    {
+        "title": "CSE 356: Cloud Computing",
+        "description": "Creating online services capable of handling millions of users requires a different mindset compared to traditional software development and deployment. Rather than building monolithic software packages from the ground up, bringing up modern online services calls for architecting systems by gluing together mature existing technologies deployed across many unreliable servers, working in concert to provide high-availability robust services. In this course, students will be exposed to the concepts and technologies behind deploying and scaling online services on the computing resources available in modern datacenters.",
+        "prerequisite": [
+            "CSE 316",
+            "CSE 320"
+        ]
+    },
+    {
+        "title": "CSE 357: Statistical Methods for Data Science",
+        "description": "This interdisciplinary course introduces the mathematical concepts required to interpret results and subsequently draw conclusions from data in an applied manner. The course presents different techniques for applied statistical inference and data analysis, including their implementation in Python, such as parameter and distribution estimators, hypothesis testing, Bayesian inference, and likelihood.",
+        "prerequisite": [
+            "CSE 214",
+            "AMS 310"
+        ]
+    },
+    {
+        "title": "CSE 360: Software Security",
+        "description": "This course will describe the principles and practice of securing software systems. Topics will include: software vulnerabilities; static and dynamic analysis techniques for vulnerability detection; exploit detection and prevention; secure software development techniques and defensive programming; malware detection and analysis; security policies and sandboxing; information flow.",
+        "prerequisite": [
+            "CSE 220",
+            "CSE 320"
+        ]
+    },
+    {
+        "title": "CSE 361: Web Security",
+        "description": "This course will cover all aspects of web security, including browser security, web server security, and web application security. Topics include: SOP and JavaScript; application and protocol vulnerabilities; probing, surveillance, and tracking; penetration testing; modern social engineering techniques; monetary incentives and monetization.",
+        "prerequisite": [
+            "CSE 220",
+            "CSE 320"
+        ]
+    },
+    {
+        "title": "CSE 362: Mobile Security",
+        "description": "The course covers the latest security technologies for mobile platforms (e.g., Android and iOS). It first introduces the security issues plaguing mobile apps and discusses defensive mechanisms, such as code signing, app permissions, and sandbox. It then peeks into mobile OS, explaining how jailbreaking/rooting works and the internals of iOS/Android security designs. Finally, it surveys modern hardware-level security features, such as secure booting, TrustZone, and biometrics.",
+        "prerequisite": [
+            "CSE 220",
+            "CSE 320"
+        ]
+    },
+    {
+        "title": "CSE 363: Offensive Security",
+        "description": "Hands-on course with the goal of understanding various security problems in depth, through a more adversarial way of thinking. By focusing on finding and exploiting vulnerabilities, the course will cover a broad range of topics, including the ethics of offensive security, reverse engineering, software vulnerability discovery and exploitation, malicious code analysis, network traffic interception and manipulation, reconnaissance and information gathering, physical security, and social engineering. All topics will be covered from a highly practical perspective, following a hands-on approach and tutorial-like sessions, along with programming assignments.",
+        "prerequisite": [
+            "CSE 220",
+            "CSE 320"
+        ]
+    },
+    {
+        "title": "CSE 364: Advanced Multimedia Techniques",
+        "description": "Digital media production techniques for high-bandwidth applications such as electronic magazine illustration, broadcast television, and motion picture special effects. Students explore techniques such as 3D modeling and character animation, video compositing, and high-resolution image processing in a state-of-the art multimedia computing laboratory. High-capacity mutlimedia storage, high-speed networks, and new technologies such as DVD, HDTV, and broadband will be reviewed. This course is offered as both CSE 364 and  ISE 364.",
+        "prerequisite": [
+            "ISE 334"
+        ]
+    },
+    {
+        "title": "CSE 366: Introduction to Virtual Reality",
+        "description": "An introduction to the practical issues in the design and implementation of virtual environments. Topics covered include the fundamentals of systems requirements, transformations, user-interaction models, human vision models, tracking systems, input/output devices and techniques, and augmented reality. The topics covered are explained through the use of real-life applications of virtual-reality systems in engineering, science, and medicine.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260",
+            "MAT 211",
+            "AMS 210"
+        ]
+    },
+    {
+        "title": "CSE 370: Wireless and Mobile Networking",
+        "description": "The fundamentals of wireless communication. Link, network and transcript layer protocols for wireless and mobile networking. Cellular networks. Wireless LANs. Wireless multihop networks. Mobile applications.",
+        "prerequisite": [
+            "CSE 310"
+        ]
+    },
+    {
+        "title": "CSE 371: Logic",
+        "description": "A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel's incompleteness theorem. This course is offered as both CSE 371 and MAT 371.",
+        "prerequisite": [
+            "CSE 113",
+            "CSE 150",
+            "CSE 215",
+            "MAT 200",
+            "MAT 250"
+        ]
+    },
+    {
+        "title": "CSE 373: Analysis of Algorithms",
+        "description": "Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. This course is offered as CSE 373 and MAT 373. Not for credit in addition to CSE 385.",
+        "prerequisite": [
+            "CSE 113",
+            "CSE 150",
+            "CSE 215",
+            "MAT 200",
+            "MAT 250",
+            "MAT 211",
+            "AMS 210",
+            "CSE 214",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 376: Advanced Systems Programming in UNIX/C",
+        "description": "Focuses on several aspects of producing commercial-grade system software: reliability, portability, security, and survivability.   Uses Unix and C, heavily used in industry when developing systems and embedded systems code. Emphasizes techniques and tools to produce reliable, secure, and highly portable code.  Requires substantial programming as well as a course project.",
+        "prerequisite": [
+            "CSE 320"
+        ]
+    },
+    {
+        "title": "CSE 377: Introduction to Medical Imaging",
+        "description": "An introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. Covers fundamentals of X-ray computer tomography, ultrasonic imaging, nuclear imaging, and magnetic resonance imaging (MRI), as well as more general concepts required for these, such as linear systems theory and the Fourier transform. Popular techniques for the visualization, segmentation, and analysis of medical image data are discussed, as well as applications of medical imaging, such as image-guided intervention. The course is appropriate for computer science, biomedical engineering, and electrical engineering majors.",
+        "prerequisite": [
+            "AMS 161",
+            "MAT 127",
+            "AMS 210",
+            "MAT 211"
+        ]
+    },
+    {
+        "title": "CSE 378: Introduction to Robotics",
+        "description": "Introduces basic concepts in robotics including coordinate transformation, kinematics, dynamics, Laplace transforms, equations of motion, feedback and feedforward control, and trajectory planning. Covers simple and complex sensors (such as cameras), hybrid and behavior based control and path planning. Concepts are illustrated through laboratories using the LEGO Robot Kit.",
+        "prerequisite": [
+            "AMS 161",
+            "MAT 127",
+            "AMS 210",
+            "MAT 211",
+            "MEC 262"
+        ]
+    },
+    {
+        "title": "CSE 380: 2D Game Programming",
+        "description": "An introduction to the fundamental concepts of computer game programming. Students design and develop original games for PCs applying proven game design and software engineering principles.",
+        "prerequisite": [
+            "CSE 220"
+        ]
+    },
+    {
+        "title": "CSE 381: 3D Game Programming",
+        "description": "This course explores the concepts and technologies behind making 3D, networked games. This will include the examination of game engine creation as well as the use of middleware to build graphically sophisticated game systems.",
+        "prerequisite": [
+            "CSE 220"
+        ]
+    },
+    {
+        "title": "CSE 385: Analysis of Algorithms: Honors",
+        "description": "Algorithmic design and analysis for Computer Science Honors students. Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower-bound, and average-case analysis. Randomization. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. Not for credit in addition to CSE/MAT 373.",
+        "prerequisite": [
+            "CSE 113",
+            "CSE 150",
+            "CSE 215",
+            "MAT 200",
+            "MAT 250",
+            "AMS 210",
+            "MAT 211",
+            "CSE 214",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 390: Special Topics in Computer Science",
+        "description": "A lecture or seminar course on a current topic in computer science. May be repeated as the topic changes, but cannot be used more than twice to satisfy CSE major requirements.",
+        "prerequisite": [
+            "CSE 214",
+            "CSE 260"
+        ]
+    },
+    {
+        "title": "CSE 416: Software Engineering",
+        "description": "Introduces the basic concepts and modern tools and techniques of software engineering. Emphasizes the development of reliable and maintainable software via system requirements and specifications, software design methodologies including object-oriented design, implementation, integration, and testing; software project management; life-cycle documentation; software maintenance; and consideration of human factor issues.",
+        "prerequisite": [
+            "CSE 316"
+        ]
+    },
+    {
+        "title": "CSE 475: Undergraduate Teaching Practicum",
+        "description": "Students assist faculty in teaching by conducting a recitation or laboratory section that supplements a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 487: Research in Computer Science",
+        "description": "An independent research project with faculty supervision. Only three credits of research electives (AMS 487, CSE 487, BME 499, ESE 499, ESM 499, ISE 487, and MEC 499) may be counted toward technical elective requirements. May not be taken for more than six credits.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 488: Internship in Computer Science",
+        "description": "Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the courses, students are required to submit proof that the work is related to their studies and the work will include a minimum of 180 hours during the semester. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department. May be repeated up to a limit of 12 credits but can only be used once as a technical elective to satisfy CSE major requirements.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 495: Senior Honors Research Project I",
+        "description": "A two-semester research project carried out under the supervision of a computer science faculty member. Students who enroll in CSE 495 must complete CSE 496 in the subsequent semester and receive only one grade upon completion of the sequence.",
+        "prerequisite": []
+    },
+    {
+        "title": "CSE 496: Senior Honors Research Project II",
+        "description": "A two-semester research project carried out under the supervision of a computer science faculty member. Students must submit a written project report and make a presentation to the department at the year-end Honors Project Colloquium.",
+        "prerequisite": [
+            "CSE 495"
+        ]
+    }
+]
