@@ -20,6 +20,5 @@ async function addCourse(course) {
 // You can add more logic here in future, e.g. updateCourse(), deleteCourse(), etc.
 
 module.exports = {
-  getAllCourses,
-  addCourse,
+  getAllCourses
 };

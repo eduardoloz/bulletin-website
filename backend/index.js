@@ -14,6 +14,11 @@ connectDB()
   .then(() => {
     console.log('✅ MongoDB connected');
 
+    // ✅ Add this route for root access
+    app.get('/', (req, res) => {
+      res.send('🎉 Server is running. Try GET /api/courses to see all courses.');
+    });
+        
     // GET all courses
     app.get('/api/courses', async (req, res) => {
       try {
@@ -36,7 +41,7 @@ connectDB()
 
     // Start server
     app.listen(PORT, () => {
-      console.log(`🚀 Server running at http://localhost:${PORT}`);
+      console.log(`🚀 Server running at http://localhost:${PORT}/api/courses`);
     });
   })
   .catch((err) => {
