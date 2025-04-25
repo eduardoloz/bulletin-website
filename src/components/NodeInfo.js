@@ -1,20 +1,31 @@
 import React from 'react';
 
-function ProfessorInfo() {
-    
-  return (
-    <div className="border border-black border-3.5 rounded-lg border-3 bg-white m-4">
+function NodeInfo({ course }) {
+  if (!course) {
+    return (
+      <div className="border p-4 rounded-lg bg-gray-100 m-4">
+        <p>Click a course node to view course details.</p>
+      </div>
+    );
+  }
 
-    <div className="/">
-      <h2 className="text-xl font-semibold mb-2">Dr. Eleanor Vance</h2>
-      <p className="text-gray-700 mb-1"><strong className="font-medium">Department:</strong> Computer Science</p>
-      <p className="text-gray-700 mb-1"><strong className="font-medium">Research Interests:</strong> Artificial Intelligence, Machine Learning, Natural Language Processing</p>
-      <p className="text-gray-700 mb-1"><strong className="font-medium">Office:</strong> Frey Hall 305</p>
-      <p className="text-gray-700 mb-1"><strong className="font-medium">Email:</strong> eleanor.vance@stonybrook.edu</p>
-      <p className="text-gray-700"><strong className="font-medium">Biography:</strong> Dr. Vance is a leading researcher in the field of AI, with over 15 years of experience. Her current work focuses on developing more intuitive and explainable machine learning models.</p>
-    </div>
+  const [code, name] = course.title.split(':').map(s => s.trim());
+
+  return (
+    <div className="border border-black rounded-lg bg-white m-4 p-4">
+      <h2 className="text-xl font-semibold mb-2">{code}</h2>
+      <h3 className="text-md font-medium mb-4">{name}</h3>
+
+      <p className="text-gray-700 mb-2">
+        <strong className="font-medium">Description:</strong> {course.description}
+      </p>
+
+      <p className="text-gray-700 mb-2">
+        <strong className="font-medium">Prerequisites:</strong>{' '}
+        {course.prerequisite.length > 0 ? course.prerequisite.join(', ') : 'None'}
+      </p>
     </div>
   );
 }
 
-export default ProfessorInfo;
+export default NodeInfo;

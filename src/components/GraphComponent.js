@@ -20,7 +20,7 @@ const ARROW_SIZE   = 10;   // arrow-head length
  * Nodes are pre-laid out in centred rows by the processor; D3 forces
  * keep them on-grid while still allowing links, drag, zoom, etc.
  */
-export default function CourseGraph() {
+export default function CourseGraph({ onNodeClick }) {
   /* ---------- one-time graph data ---------- */
   const processor   = useMemo(() => new CourseGraphProcessor(courses), []);
   const data        = useMemo(() => processor.processGraph(), [processor]);
@@ -55,28 +55,27 @@ export default function CourseGraph() {
   const nodeColor = id => {
     if (mode === 'completed') {
       if (completedCourses.has(id)) return 'green';
-
-      /* first-generation unlocks (blue) */
+  
       const unlocked = new Set();
-      data.links.forEach(l => completedCourses.has(l.source.id)
-                              && unlocked.add(l.target.id));
+      data.links.forEach(l => completedCourses.has(l.source.id) && unlocked.add(l.target.id));
       if (unlocked.has(id)) return 'blue';
-
-      /* second-generation unlocks (purple) */
+  
       if (futureMode) {
         const future = new Set();
-        data.links.forEach(l => unlocked.has(l.source.id)
-                                && future.add(l.target.id));
+        data.links.forEach(l => unlocked.has(l.source.id) && future.add(l.target.id));
         return future.has(id) ? 'purple' : '#ccc';
       }
+  
       return '#ccc';
     }
-
+  
     if (mode === 'prereqs' && selectedCourse) {
       return getAllPrerequisites(selectedCourse).has(id) ? 'orange' : '#eee';
     }
-    return 'lightgreen';
+  
+    return 'lightgreen'; // default
   };
+  
 
   /* ---------- D3 setup ---------- */
   const setupSvg = sel =>
@@ -231,12 +230,18 @@ export default function CourseGraph() {
   }, [data]);
 
   useEffect(() => {
-    const handleNodeClick = id =>
-      mode === 'completed' ? toggleCompleted(id)
-                           : setSelectedCourse(id);
+    const handleNodeClick = id => {
+      if (mode === 'completed') {
+        toggleCompleted(id);
+      } else {
+        setSelectedCourse(id);
+        if (onNodeClick) onNodeClick(id);
+      }
+    };
+  
     updateGraphVisuals(gRef.current, nodeColor, handleNodeClick);
-  }, [completedCourses, selectedCourse, mode, futureMode, data]);
-
+  }, [completedCourses, selectedCourse, mode, futureMode, data, onNodeClick]);
+  
   /* ---------- UI ---------- */
   const resetGraph = () => {
     setCompletedCourses(new Set());
