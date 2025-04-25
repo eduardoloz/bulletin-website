@@ -13,7 +13,10 @@ export default function Chatbot() {
   useEffect(() => {
     fetch("http://localhost:4000/profs")
       .then(r => r.json())
-      .then(setProfList)
+      .then(data => {
+        const sortedData = data.sort((a, b) => a.prof_name.localeCompare(b.prof_name));
+        setProfList(sortedData);
+      })
       .catch(err => console.error("Failed to load profs:", err));
   }, []);
 

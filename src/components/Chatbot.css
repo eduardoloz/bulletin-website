@@ -1,16 +1,16 @@
 .chatbot {
     margin: 2rem auto;
     width: min(90%, 600px);
-    background: #1f2025;
+    background: #ffffff;             /* changed from dark to white */
     border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     padding: 2rem;
-    color: #e8e8e8;
+    color: #333333;                  /* make default text darker */
     font-family: "Segoe UI", Roboto, sans-serif;
   }
   
   .chatbot h2 {
-    color: #61dafb;
+    color: #0a3d62;                  /* darker accent */
     margin-bottom: 1rem;
   }
   
@@ -20,23 +20,40 @@
     gap: 0.8rem;
   }
   
-  .chatbot input {
-    background: #2d2f36;
-    border: 1px solid #3f4047;
+  /* style the dropdown/select */
+  .chatbot select {
+    background: #ffffff;
+    color: #333333;                  /* darker font for names */
+    border: 1px solid #ccc;
     border-radius: 6px;
     padding: 0.6rem;
-    color: #e8e8e8;
+    font-size: 1rem;
+    appearance: none;                /* remove default arrow if you want custom styling */
+  }
+  
+  /* ensure option text is dark */
+  .chatbot select option {
+    color: #333333;
+  }
+  
+  /* inputs stay clean on white */
+  .chatbot input {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 0.6rem;
+    color: #333333;
   }
   
   .chatbot input:focus {
     outline: none;
-    border-color: #61dafb;
+    border-color: #0a3d62;
   }
   
   .chatbot button {
     align-self: flex-end;
-    background: #61dafb;
-    color: #1f2025;
+    background: #0a3d62;
+    color: #ffffff;
     border: none;
     border-radius: 6px;
     padding: 0.6rem 1.2rem;
@@ -55,11 +72,12 @@
   
   .answer {
     margin-top: 1.4rem;
-    background: #2d2f36;
+    background: #f9f9f9;
     border-radius: 8px;
     padding: 1rem;
     line-height: 1.5;
     text-align: left;
     white-space: pre-wrap;
+    color: #333333;
   }
   
