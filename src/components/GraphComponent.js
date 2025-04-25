@@ -1,31 +1,54 @@
 // CourseGraph.js
-import React, { useRef, useEffect, useState } from 'react';
+import React, {
+  useRef,
+  useEffect,
+  useState,
+  useMemo,
+} from 'react';
 import * as d3 from 'd3';
 import courses from '../data/cse.json';
-import CourseGraphProcessor from './CourseGraphProcessor'; // keep path
+import CourseGraphProcessor from './CourseGraphProcessor'; // ← keep this import
 
-const WIDTH  = 960;   // SVG viewport
+/* ---------- constants ---------- */
+const WIDTH = 960;
 const HEIGHT = 800;
-const RADIUS = 18;    // node circle size
-const NODE_RADIUS = 28;     // was 18 — gives room for the label text
-const ARROW_SIZE  = 6;      // new – overall “length” of the arrow head
+const NODE_RADIUS = 28; // circle radius (room for label)
+const ARROW_SIZE = 6; // arrow-head length
 
+/**
+ * The main component for rendering the course prerequisite graph using D3.
+ * Allows users to interact with nodes to mark courses as completed or view prerequisites.
+ */
 export default function CourseGraph() {
-  const processor = new CourseGraphProcessor(courses);
+  /* ---------- one-time graph data ---------- */
+  // Use memoization to ensure the graph data is processed only once
+  const processor = useMemo(() => new CourseGraphProcessor(courses), []);
+  const data = useMemo(() => processor.processGraph(), [processor]);
+
+  /* ---------- React state ---------- */
+  // Set of course IDs marked as completed
   const [completedCourses, setCompletedCourses] = useState(new Set());
-  const [selectedCourse, setSelectedCourse]   = useState(null);
-  const [mode, setMode]                       = useState('default'); // 'completed' | 'prereqs' | 'default'
-  const [futureMode, setFutureMode]           = useState(false);
+  // The currently selected course ID for prerequisite highlighting
+  const [selectedCourse, setSelectedCourse] = useState(null);
+  // Current display mode: 'completed', 'prereqs', or 'default'
+  const [mode, setMode] = useState('default');
+  // Whether to show future unlocked courses in 'completed' mode
+  const [futureMode, setFutureMode] = useState(false);
 
-  const svgRef  = useRef(null);
-  const gRef    = useRef(null);               // <g> that is zoomed / panned
-  const simRef  = useRef(null);               // d3.forceSimulation
+  /* ---------- D3 refs ---------- */
+  // Reference to the main SVG element
+  const svgRef = useRef(null);
+  // Reference to the zoom/pan group element
+  const gRef = useRef(null);
+  // Reference to the D3 force simulation
+  const simRef = useRef(null);
 
-  // Build static graph structure only once
-  const data = processor.processGraph();
-  console.log('Graph data:', data);
+  /* ---------- helper utilities ---------- */
 
-  /* ---------- helpers ---------- */
+  /**
+   * Toggles the completion status of a course.
+   * @param {string} id - The ID of the course to toggle.
+   */
   const toggleCompleted = id =>
     setCompletedCourses(prev => {
       const s = new Set(prev);
@@ -33,12 +56,22 @@ export default function CourseGraph() {
       return s;
     });
 
+  /**
+   * Resets the graph state to its initial default view.
+   */
   const resetGraph = () => {
     setCompletedCourses(new Set());
     setSelectedCourse(null);
     setMode('default');
+    setFutureMode(false);
   };
 
+  /**
+   * Recursively finds all prerequisites for a given course ID.
+   * @param {string} id - The ID of the course to find prerequisites for.
+   * @param {Set<string>} [visited=new Set()] - Set of visited course IDs during recursion to prevent cycles.
+   * @returns {Set<string>} A set containing all prerequisite course IDs.
+   */
   const getAllPrerequisites = (id, visited = new Set()) => {
     if (visited.has(id)) return visited;
     visited.add(id);
@@ -47,252 +80,339 @@ export default function CourseGraph() {
     return visited;
   };
 
+  /**
+   * Determines the color of a node based on the current mode and state.
+   * @param {string} id - The ID of the node (course) to color.
+   * @returns {string} The color string for the node.
+   */
   const nodeColor = id => {
     if (mode === 'completed') {
       if (completedCourses.has(id)) return 'green';
 
-      // first-generation unlocks
+      // first-generation unlocks (courses whose direct prereq is completed)
       const unlocked = new Set();
-      data.links.forEach(l => completedCourses.has(l.source) && unlocked.add(l.target));
+      data.links.forEach(l => completedCourses.has(l.source.id) && unlocked.add(l.target.id)); // Use .id here
 
       if (unlocked.has(id)) return 'blue';
 
       if (futureMode) {
+        // second-generation unlocks (courses whose direct prereq is a first-gen unlock)
         const future = new Set();
-        data.links.forEach(l => unlocked.has(l.source) && future.add(l.target));
+        data.links.forEach(l => unlocked.has(l.source.id) && future.add(l.target.id)); // Use .id here
         return future.has(id) ? 'purple' : '#ccc';
       }
       return '#ccc';
     }
     if (mode === 'prereqs' && selectedCourse) {
+      // Check if the node is a prerequisite for the selected course
       return getAllPrerequisites(selectedCourse).has(id) ? 'orange' : '#eee';
     }
+    // Default mode color
     return 'lightgreen';
   };
 
-  /* ---------- initial scene & zoom ---------- */
-  useEffect(() => {
-    const svg = d3.select(svgRef.current)
-                  .attr('viewBox', [0, 0, WIDTH, HEIGHT]);
+  /* ---------- D3 helper functions ---------- */
 
-    /* ----- arrowhead defs: added EARLY and once ----- */
-    svg.append('defs')
-       .append('marker')
-       .attr('id',          'arrow')
-       .attr('markerUnits', 'strokeWidth')        // <- use strokeWidth here
-       .attr('viewBox',     `0 ${-ARROW_SIZE} ${ARROW_SIZE*2} ${ARROW_SIZE*2}`)
-       .attr('refX',        ARROW_SIZE)           // tip of the triangle
-       .attr('refY',        0)
-       .attr('markerWidth', ARROW_SIZE)
-       .attr('markerHeight',ARROW_SIZE)
-       .attr('orient',      'auto')
-       .append('path')
-       .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
-       .attr('fill', '#999');
-    
+  /**
+   * Sets up the main SVG element and its viewBox.
+   * @param {object} svgSelection - The D3 selection of the SVG element.
+   */
+  const setupSvg = (svgSelection) => {
+    svgSelection
+      .attr('viewBox', [0, 0, WIDTH, HEIGHT])
+      .style('border', '1px solid #888')
+      .style('backgroundColor', '#f9f9f9');
+  };
 
-    // single <g> that moves under zoom
-    const g = svg.append('g').attr('pointer-events', 'all');
-    gRef.current = g;
+  /**
+   * Adds necessary definitions to the SVG, like arrow markers.
+   * This defines the shape and properties of the arrowhead.
+   * @param {object} svgSelection - The D3 selection of the SVG element.
+   */
+  const setupDefs = (svgSelection) => {
+    svgSelection.append('defs')
+      .append('marker')
+      .attr('id', 'arrow') // Unique ID for the marker
+      .attr('markerUnits', 'strokeWidth') // Scale the marker with the stroke width
+      .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE * 2} ${ARROW_SIZE * 2}`) // Define the coordinate system for the marker
+      .attr('refX', ARROW_SIZE) // X coordinate of the point that should be positioned at the end of the line
+      .attr('refY', 0) // Y coordinate of the point that should be positioned at the end of the line
+      .attr('markerWidth', ARROW_SIZE) // Width of the marker viewport
+      .attr('markerHeight', ARROW_SIZE) // Height of the marker viewport
+      .attr('orient', 'auto') // Automatically orient the marker along the path
+      .append('path')
+      .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`) // Path data for the arrowhead shape (a triangle)
+      .attr('fill', '#999'); // Color of the arrowhead
+  };
 
-    // zoom/pan handler (event is first param in v6+)
-    svg.call(
+  /**
+   * Sets up the zoom and pan behavior on the SVG.
+   * @param {object} svgSelection - The D3 selection of the SVG element.
+   * @param {object} gSelection - The D3 selection of the main group element for transformations.
+   */
+  const setupZoom = (svgSelection, gSelection) => {
+    svgSelection.call(
       d3.zoom()
         .scaleExtent([0.25, 4])
-        .on('zoom', (event) => g.attr('transform', event.transform))
+        .on('zoom', e => gSelection.attr('transform', e.transform)),
     );
+  };
 
-    // lines behind nodes
-    g.append('g').attr('class', 'links');
-    g.append('g').attr('class', 'nodes');
-
-    return () => svg.selectAll('*').remove();
-  }, []);
-
-  /* ---------- (re)draw graph whenever state changes ---------- */
-  useEffect(() => {
-    if (!gRef.current) return;
-
-    const g      = gRef.current;
-    const linkG  = g.select('.links');
-    const nodeG  = g.select('.nodes');
-
-    /* data join — LINKS */
-    const linkKey = d => {
-      const s = typeof d.source === 'object' ? d.source.id : d.source;
-      const t = typeof d.target === 'object' ? d.target.id : d.target;
-      return `${s}->${t}`;
+  /**
+   * Appends the main group element and layers for links and nodes.
+   * @param {object} svgSelection - The D3 selection of the SVG element.
+   * @returns {object} An object containing the D3 selections for the main group, links group, and nodes group.
+   */
+  const setupLayers = (svgSelection) => {
+    const g = svgSelection.append('g');
+    const linkG = g.append('g').attr('class', 'links');
+    const nodeG = g.append('g').attr('class', 'nodes');
+    return {
+      g,
+      linkG,
+      nodeG
     };
-    const linksSel = linkG.selectAll('line').data(data.links, linkKey);
+  };
 
-    // Remove any old links
-    linksSel.exit().remove();
+  /**
+   * Renders the static links and nodes in the graph.
+   * @param {object} linkGSelection - The D3 selection for the links group.
+   * @param {object} nodeGSelection - The D3 selection for the nodes group.
+   * @param {object} graphData - The graph data object containing nodes and links.
+   * @param {object} simulation - The D3 force simulation instance.
+   */
+  const setupStaticElements = (linkGSelection, nodeGSelection, graphData, simulation) => {
+  /* ----- static links ----- */
+  linkGSelection.selectAll('line')
+  .data(graphData.links, d => `${d.source.id}->${d.target.id}`) // Use .id for key
+  .enter()
+  .append('line')
+  .attr('stroke', '#999')
+  .attr('stroke-width', 1.5)
+  .attr('marker-end', 'url(#arrow)'); // <-- This line applies the marker by referencing its ID
 
-    // Enter new links
-    linksSel.enter()
-      .append('line')
-      .attr('stroke', '#999')
-      .attr('stroke-width', 1.5)
-      .attr('marker-end', 'url(#arrow)');
-
-    // Update existing links (ensure arrowhead is present after rebinds)
-    linksSel
-      .attr('stroke', '#999')
-      .attr('stroke-width', 1.5)
-      .attr('marker-end', 'url(#arrow)');
-
-    /* data join — NODES */
-    const nodesSel = nodeG.selectAll('g.node')
-      .data(data.nodes, d => d.id);
-
-    const nodesEnter = nodesSel.enter().append('g')
+    /* ----- static nodes ----- */
+    const nodeEnter = nodeGSelection.selectAll('g.node')
+      .data(graphData.nodes, d => d.id)
+      .enter()
+      .append('g')
       .attr('class', 'node')
-      .call(d3.drag()                        // drag behaviour
-        .on('start', dragstarted)
-        .on('drag',  dragged)
-        .on('end',   dragended));
+      .call(d3.drag()
+        .on('start', (event, d) => dragstarted(event, d, simulation))
+        .on('drag', (event, d) => dragged(event, d))
+        .on('end', (event, d) => dragended(event, d, simulation)));
 
-    nodesEnter.append('circle').attr('r', NODE_RADIUS);
-    nodesEnter.append('text')
-      .attr('y', 2)            // vertical centring inside the circle
-      .attr('font-size', 11)   // readable but still fits
-      .attr('text-anchor', 'middle')
-      .text(d => d.id);
-
-    nodesSel.exit().remove();
-
-    /* put every node where its x/y already are */
-    nodeG.selectAll('g.node')
-      .attr('transform', d => `translate(${d.x},${d.y})`);
-
-    // Update colors every render
-    nodeG.selectAll('circle')
-      .attr('fill', d => nodeColor(d.id))
+    nodeEnter.append('circle')
+      .attr('r', NODE_RADIUS)
       .attr('stroke', '#333')
       .attr('stroke-width', 1.5);
-    
-    ticked(); // initial tick to position nodes
 
-    /* ---------- simulation ---------- */
-    if (!simRef.current) {
-      simRef.current = d3.forceSimulation(data.nodes)
-        .force('link',
-          d3.forceLink(data.links)
-            .id(d => d.id)
-            .distance(120)
-        )
-        .force('charge',
-          d3.forceManyBody().strength(-300)
-        )
-        .force('center',
-          d3.forceCenter(WIDTH / 2, HEIGHT / 2)
-        )
-        .force('collide', d3.forceCollide(NODE_RADIUS + 4)        // prevent overlap
-        )
-        .on('tick', ticked);
-    } else {
-      simRef.current.nodes(data.nodes);
-      simRef.current.force('link').links(data.links);
-      simRef.current.alpha(1).restart();
-    }
+    nodeEnter.append('text')
+      .attr('y', 2)
+      .attr('text-anchor', 'middle')
+      .attr('font-size', 11)
+      .text(d => d.id);
+  };
 
-    /* ---------- helpers ---------- */
-    function ticked() {
-      /* --- shorten every link so arrowhead is not hidden --- */
-      linkG.selectAll('line').each(function (d) {
-        const dx   = d.target.x - d.source.x;
-        const dy   = d.target.y - d.source.y;
-        const dist = Math.hypot(dx, dy) || 1;          // avoid divide-by-zero
-    
-        // offset so the line starts/ends at the circle edge, not the centre
-        const offX = (dx / dist) * (NODE_RADIUS + ARROW_SIZE);
-        const offY = (dy / dist) * (NODE_RADIUS + ARROW_SIZE);        
-    
-        d3.select(this)
-          .attr('x1', d.source.x + offX)               // just outside source circle
-          .attr('y1', d.source.y + offY)
-          .attr('x2', d.target.x - offX)               // just outside target circle
-          .attr('y2', d.target.y - offY);
-      });
-    
-      /* --- keep nodes where the simulation puts them --- */
-      nodeG.selectAll('g.node')
-        .attr('transform', d => `translate(${d.x},${d.y})`);
-    }
-    
-      
+  /**
+   * Sets up and starts the D3 force simulation.
+   * @param {object} graphData - The graph data object containing nodes and links.
+   * @param {object} linkGSelection - The D3 selection for the links group.
+   * @param {object} nodeGSelection - The D3 selection for the nodes group.
+   * @returns {object} The D3 force simulation instance.
+   */
+  const setupForceSimulation = (graphData, linkGSelection, nodeGSelection) => {
+    const simulation = d3.forceSimulation(graphData.nodes)
+      .force('link', d3.forceLink(graphData.links).id(d => d.id).distance(120))
+      .force('charge', d3.forceManyBody().strength(-300))
+      .force('center', d3.forceCenter(WIDTH / 2, HEIGHT / 2))
+      .force('collide', d3.forceCollide(NODE_RADIUS + 4))
+      .on('tick', () => ticked(linkGSelection, nodeGSelection));
 
-    function dragstarted(event, d) {
-      if (!event.active) simRef.current.alphaTarget(0.3).restart();
-      d.fx = d.x; d.fy = d.y;
-    }
-    function dragged(event, d) {
-      d.fx = event.x; d.fy = event.y;
-    }
-    function dragended(event, d) {
-      if (!event.active) simRef.current.alphaTarget(0);
-      d.fx = null; d.fy = null;
-    }
-  }, [completedCourses, selectedCourse, mode, futureMode]);
+    return simulation;
+  };
 
-  /* ---------- click handling ---------- */
+  /**
+   * The tick function for the force simulation, updates element positions.
+   * @param {object} linkGSelection - The D3 selection for the links group.
+   * @param {object} nodeGSelection - The D3 selection for the nodes group.
+   */
+  const ticked = (linkGSelection, nodeGSelection) => {
+    linkGSelection.selectAll('line')
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y);
+
+    nodeGSelection.selectAll('g.node')
+      .attr('transform', d => `translate(${d.x},${d.y})`);
+  };
+
+  /**
+   * Drag start handler for nodes.
+   * @param {object} event - The D3 drag event.
+   * @param {object} d - The data bound to the dragged node.
+   * @param {object} simulation - The D3 force simulation instance.
+   */
+  const dragstarted = (event, d, simulation) => {
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  };
+
+  /**
+   * Drag handler for nodes.
+   * @param {object} event - The D3 drag event.
+   * @param {object} d - The data bound to the dragged node.
+   */
+  const dragged = (event, d) => {
+    d.fx = event.x;
+    d.fy = event.y;
+  };
+
+  /**
+   * Drag end handler for nodes.
+   * @param {object} event - The D3 drag event.
+   * @param {object} d - The data bound to the dragged node.
+   * @param {object} simulation - The D3 force simulation instance.
+   */
+  const dragended = (event, d, simulation) => {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  };
+
+  /**
+   * Updates the visual properties of graph elements based on current React state
+   * (e.g., node colors and click handlers).
+   * @param {object} gSelection - The D3 selection of the main group element.
+   * @param {Function} colorLogic - Function to determine node color.
+   * @param {Function} clickHandler - Function to handle node clicks.
+   */
+  const updateGraphVisuals = (gSelection, colorLogic, clickHandler) => {
+    if (!gSelection) return;
+
+    /* update circle fills */
+    gSelection
+      .selectAll('g.node > circle')
+      .attr('fill', d => colorLogic(d.id));
+
+    /* (re)attach click handler */
+    gSelection
+      .selectAll('g.node')
+      .on('click', (_, d) => clickHandler(d.id));
+  };
+
+  /* ---------- useEffect hooks (manage D3 lifecycle) ---------- */
+
+  // Effect to set up the D3 scene (runs once after initial render)
   useEffect(() => {
-    if (!gRef.current) return;
-    
-    gRef.current.selectAll('g.node')
-      .on('click', (_, d) => {
-        if (mode === 'completed') toggleCompleted(d.id);
-        else setSelectedCourse(d.id);
-      });
-  }, [mode, completedCourses]);
+    const svg = d3.select(svgRef.current);
+    setupSvg(svg);
+    setupDefs(svg);
+
+    const {
+      g,
+      linkG,
+      nodeG
+    } = setupLayers(svg);
+    gRef.current = g; // Store the main group selection in ref
+
+    setupZoom(svg, g);
+    setupStaticElements(linkG, nodeG, data, simRef.current); // Pass simRef.current for drag handlers
+
+    const simulation = setupForceSimulation(data, linkG, nodeG);
+    simRef.current = simulation; // Store the simulation instance in ref
+
+    /* cleanup on unmount */
+    return () => {
+      simulation.stop();
+      svg.selectAll('*').remove();
+    };
+  }, [data]); // Re-run only if graph data changes (unlikely in this app)
+
+  // Effect to update graph visuals when state changes (colors, click handlers)
+  useEffect(() => {
+    const handleNodeClick = (id) => {
+      if (mode === 'completed') toggleCompleted(id);
+      else setSelectedCourse(id);
+    };
+    updateGraphVisuals(gRef.current, nodeColor, handleNodeClick);
+  }, [completedCourses, selectedCourse, mode, futureMode, data]); // Depend on state and data
 
   /* ---------- UI ---------- */
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-10">
       <div className="w-full max-w-4xl border-2 border-gray-400 rounded-lg p-10">
-        <h2>Course Prerequisites Graph</h2>
+        <h2 className="text-xl font-bold mb-2">Course Prerequisites Graph</h2>
+
         <div className="text-lg font-semibold my-2">
-          Current Mode: <span className="text-blue-500">
-            {mode === 'completed' ? (futureMode ? 'Completed + Future' : 'Completed')
-                                   : mode === 'prereqs' ? 'Prereqs' : 'Default'}
+          Current Mode:{' '}
+          <span className="text-blue-500">
+            {mode === 'completed'
+              ? (futureMode ? 'Completed + Future' : 'Completed')
+              : mode === 'prereqs'
+                ? 'Prereqs'
+                : selectedCourse ? `Showing Prereqs for ${selectedCourse}` : 'Default'}
           </span>
         </div>
+        {selectedCourse && mode === 'prereqs' && (
+           <div className="text-sm text-gray-600 mb-4">
+             Click anywhere on the background or switch mode to clear selection.
+           </div>
+        )}
 
-        <div className="flex space-x-4 my-4">
+
+        <div className="flex flex-wrap gap-4 my-4">
           <button
-            onClick={() => setMode('completed')}
-            className={`px-4 py-2 ${mode === 'completed' ? 'bg-green-700' : 'bg-green-500'} text-white rounded`}>
+            onClick={() => {
+              setMode('completed');
+              setSelectedCourse(null); // Clear selection when switching mode
+            }}
+            className={`px-4 py-2 rounded text-white ${
+              mode === 'completed' ? 'bg-green-700' : 'bg-green-500'
+            }`}
+          >
             Completed Mode
           </button>
 
           {mode === 'completed' && (
             <button
               onClick={() => setFutureMode(f => !f)}
-              className={`px-4 py-2 ${futureMode ? 'bg-purple-700' : 'bg-purple-500'} text-white rounded`}>
+              className={`px-4 py-2 rounded text-white ${
+                futureMode ? 'bg-purple-700' : 'bg-purple-500'
+              }`}
+            >
               Future Mode
             </button>
           )}
 
           <button
-            onClick={() => setMode('prereqs')}
-            className={`px-4 py-2 ${mode === 'prereqs' ? 'bg-orange-700' : 'bg-orange-500'} text-white rounded`}>
+            onClick={() => {
+              setMode('prereqs');
+               // No need to clear selectedCourse here, as 'prereqs' mode uses it
+            }}
+            className={`px-4 py-2 rounded text-white ${
+              mode === 'prereqs' ? 'bg-orange-700' : 'bg-orange-500'
+            }`}
+          >
             Prereqs Mode
           </button>
 
-          <button onClick={resetGraph}
-                  className="px-4 py-2 bg-red-500 text-white rounded">
+          <button
+            onClick={resetGraph}
+            className="px-4 py-2 rounded bg-red-500 text-white"
+          >
             Reset
           </button>
         </div>
 
+        {/* The SVG container for the D3 graph */}
         <svg
           ref={svgRef}
           width="100%"
           height={HEIGHT}
-          style={{
-            border: "1px solid #888",
-            backgroundColor: "#f9f9f9",
-          }}
+          // Styles are now applied in setupSvg helper
         />
       </div>
     </div>
