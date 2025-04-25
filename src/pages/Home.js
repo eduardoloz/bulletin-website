@@ -2,6 +2,8 @@
 import React from 'react';
 import ProfessorInfo from '../components/NodeInfo'; // Import the ProfessorInfo component
 import CourseGraph from '../components/GraphComponent';
+import Chatbot from "../components/chatbot";
+
 
 //import professorInfo to the courseGraph component
 function Home() {
@@ -19,7 +21,7 @@ function Home() {
 
       <div className="col-span-1 bg-white rounded-lg  p-10"> {/* Occupy 1 column */} {/* Render the ProfessorInfo component */}
          <ProfessorInfo />
-         <ProfessorInfo />
+         <Chatbot />
                </div>
 
       </div>
