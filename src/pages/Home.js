@@ -20,7 +20,7 @@ function Home() {
           <CourseGraph onNodeClick={handleNodeClick} />
         </div>
 
-        <div className="col-span-1 bg-white rounded-lg p-10">
+        <div className="col-span-1 bg-white rounded-lg p-3">
           <NodeInfo course={selectedCourse} />
           <Chatbot />
         </div>

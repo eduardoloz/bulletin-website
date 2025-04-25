@@ -251,8 +251,8 @@ export default function CourseGraph({ onNodeClick }) {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen p-10">
-      <div className="w-full max-w-4xl border-2 border-gray-400 rounded-lg p-10">
+    <div className="flex flex-col items-center justify-center min-h-screen p-4">
+      <div className="w-full max-w-4xl border-2 border-gray-400 rounded-lg p-4">
         <h2 className="text-xl font-bold mb-2">Course Prerequisites Graph</h2>
 
         <div className="text-lg font-semibold my-2">
