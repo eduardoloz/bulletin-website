@@ -7,7 +7,7 @@ import { OAuth2Client } from 'google-auth-library';
 
 dotenv.config();
 const app = express();
-const client = new OAuth2Client(process.env.GOOGLE_CLIENT_ID);
+const client = new OAuth2Client(process.env.REACT_APP_GOOGLE_CLIENT_ID);
 
 app.use(cors());
 app.use(express.json());
