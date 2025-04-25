@@ -7,28 +7,28 @@ function About() {
   const members = [
     {
       name: "Karina Lam",
-      linkedIn: "#", // Replace with actual LinkedIn profile URLs
-      github: "#"    // Replace with actual GitHub profile URLs
+      linkedIn: "https://www.linkedin.com/in/karina-lam-767a93248/", // Replace with actual LinkedIn profile URLs
+      github: "https://github.com/klam118"    // Replace with actual GitHub profile URLs
     },
     {
       name: "Samantha Li",
-      linkedIn: "#",
-      github: "#"
+      linkedIn: "https://www.linkedin.com/in/samanthali01/",
+      github: "https://github.com/sli012"
     },
     {
       name: "Brandon Moy",
-      linkedIn: "#",
-      github: "#"
+      linkedIn: "https://www.linkedin.com/in/brandon-moy-495a65278/",
+      github: "https://github.com/Btmoy1122"
     },
     {
       name: "Timothy Sit",
-      linkedIn: "#",
-      github: "#"
+      linkedIn: "https://www.linkedin.com/in/tim-sit/",
+      github: "https://github.com/T-lang3"
     },
     {
       name: "Eduardo Lozano",
-      linkedIn: "#",
-      github: "#"
+      linkedIn: "https://www.linkedin.com/in/eduardo-s-lozano/",
+      github: "https://github.com/eduardoloz"
     }
   ];
 
