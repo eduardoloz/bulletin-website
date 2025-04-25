@@ -17,6 +17,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <Navbar />
+        <></>
         <Routes>
           <Route path="/" element={<Home />} /> {/* this is the graph which is on the home page */}
           <Route path="/about" element={<About />} /> {/* About Route */}
