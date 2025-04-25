@@ -60,15 +60,14 @@ function About() {
         {/* Map over members to create a card for each */}
         {members.map((member) => (
           // Member card with padding, border, and rounded corners
-          <div key={member.name} className="border border-gray-300 p-4 rounded-md shadow-sm">
+          <div key={member.name} className="border border-gray-300 p-4 rounded-md shadow-sm flex flex-col items-center"> {/* Added flex and items-center for centering content */}
             {/* Member name */}
             <h3 className="text-xl font-semibold mb-2">{member.name}</h3>
-            {/* Social links */}
-            <p className="text-blue-600 hover:underline">
-              {/* Link to LinkedIn */}
+            {/* Social links - Now in separate paragraphs */}
+            <p className="text-blue-600 hover:underline mb-1"> {/* Added mb-1 for small space */}
               <a href={member.linkedIn} target="_blank" rel="noopener noreferrer">LinkedIn</a>
-              <span className="mx-2">|</span> {/* Separator */}
-              {/* Link to GitHub */}
+            </p>
+            <p className="text-blue-600 hover:underline">
               <a href={member.github} target="_blank" rel="noopener noreferrer">GitHub</a>
             </p>
           </div>
