@@ -102,6 +102,7 @@ export default function CourseGraph() {
 
     /* ---------- helper utilities ---------- */
     const toggleCompleted = useCallback(id => {
+        console.log("Completed Courses:", completedCourses)
         setCompletedCourses(prev => {
             const s = new Set(prev);
             s.has(id) ? s.delete(id) : s.add(id);
@@ -141,7 +142,7 @@ const nodeColor = useCallback((id) => {
 
             const directlyUnlocked = new Set();
             data.nodes.forEach(node => {
-                const prereqs = processor.courseMap[node.id]?.prerequisite || [];
+                const prereqs = (processor.courseMap[node.id]?.prerequisite || []).filter(p => p.trim().startsWith("CSE"));
                 if (prereqs.length > 0 && prereqs.every(p => completedCourses.has(p.trim()))) {
                     directlyUnlocked.add(node.id);
                 }
