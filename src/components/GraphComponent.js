@@ -190,9 +190,9 @@ const setupDefs = (svgSelection) => {
       .append('g')
       .attr('class', 'node')
       .call(d3.drag()
-        .on('start', (event, d) => dragstarted(event, d, simulation))
-        .on('drag', (event, d) => dragged(event, d))
-        .on('end', (event, d) => dragended(event, d, simulation)));
+      .on('start', (event, d) => dragstarted(event, d, simRef.current))
+      .on('drag', (event, d) => dragged(event, d))
+      .on('end', (event, d) => dragended(event, d, simRef.current)));
 
     nodeEnter.append('circle')
       .attr('r', NODE_RADIUS)
