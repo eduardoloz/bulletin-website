@@ -1,145 +1,104 @@
 // CourseGraphProcessor.js
 export default class CourseGraphProcessor {
-    constructor(courses) {
-      this.courses = courses;
-      this.courseMap = {};
-      // Build a map from course code to course data.
-      courses.forEach(course => {
-        // Assume title format "CSE 101: Course Name"
-        const code = course.title.split(':')[0].trim();
-        this.courseMap[code] = course;
+  constructor(
+    courses,
+    { verticalSpacing = 150, horizontalSpacing = 120 } = {}
+  ) {
+    this.courses = courses;
+    this.verticalSpacing = verticalSpacing;
+    this.horizontalSpacing = horizontalSpacing;
+
+    /* ----- build helper maps ----- */
+    this.courseMap = Object.fromEntries(
+      courses.map(c => [c.title.split(':')[0].trim(), c])
+    );
+
+    // adjacency list: prereq → dependants
+    this.adjList = Object.fromEntries(
+      Object.keys(this.courseMap).map(c => [c, []])
+    );
+    courses.forEach(({ title, prerequisite }) => {
+      const code = title.split(':')[0].trim();
+      prerequisite.forEach(p => {
+        const pCode = p.trim();
+        if (this.courseMap[pCode]) this.adjList[pCode].push(code);
       });
-  
-      // Build an adjacency list (prerequisite -> dependent courses).
-      this.adjList = {};
-      Object.keys(this.courseMap).forEach(code => {
-        this.adjList[code] = [];
-      });
-      courses.forEach(course => {
-        const courseCode = course.title.split(':')[0].trim();
-        course.prerequisite.forEach(prereq => {
-          const prereqCode = prereq.trim();
-          if (this.courseMap[prereqCode]) {
-            this.adjList[prereqCode].push(courseCode);
-          }
-        });
-      });
-    }
-  
-    processGraph() {
-      // Compute in-degrees for topological sort.
-      const inDegree = {};
-      Object.keys(this.courseMap).forEach(code => {
-        inDegree[code] = 0;
-      });
-      Object.keys(this.adjList).forEach(prereq => {
-        this.adjList[prereq].forEach(dependent => {
-          inDegree[dependent]++;
-        });
-      });
-  
-      // Queue for nodes with no prerequisites.
-      const queue = [];
-      const level = {}; // level (or depth) for each course.
-      Object.keys(inDegree).forEach(code => {
-        if (inDegree[code] === 0) {
-          queue.push(code);
-          level[code] = 0;
-        }
-      });
-  
-      // Topological sort and compute level (depth) for each course.
-      while (queue.length) {
-        const node = queue.shift();
-        this.adjList[node].forEach(dependent => {
-          inDegree[dependent]--;
-          // A course's level is one more than the maximum level of its prerequisites.
-          level[dependent] = Math.max(level[dependent] || 0, level[node] + 1);
-          if (inDegree[dependent] === 0) {
-            queue.push(dependent);
-          }
-        });
-      }
-  
-      // Separate courses into isolated (no prereqs and no children) and tree courses.
-      const isolatedCodes = [];
-      const treeCodes = [];
-      Object.keys(this.courseMap).forEach(code => {
-        const course = this.courseMap[code];
-        // Isolated if it has no prerequisites AND unlocks no other course.
-        if (course.prerequisite.length === 0 && this.adjList[code].length === 0) {
-          isolatedCodes.push(code);
-        } else {
-          treeCodes.push(code);
-        }
-      });
-  
-      // For non-isolated (tree) courses, shift their level down by 1
-      // so they appear one row below the isolated courses.
-      treeCodes.forEach(code => {
-        level[code] = (level[code] || 0) + 1;
-      });
-  
-      // Group courses by level.
-      const levelNodes = {};
-      // Add isolated courses at level 0.
-      if (isolatedCodes.length) {
-        levelNodes[0] = [...isolatedCodes];
-      }
-      // Group tree courses by their (shifted) level.
-      treeCodes.forEach(code => {
-        const lvl = level[code] || 0;
-        if (!levelNodes[lvl]) {
-          levelNodes[lvl] = [];
-        }
-        levelNodes[lvl].push(code);
-      });
-  
-      // Determine the overall maximum number of nodes in any level
-      // for horizontal centering.
-      let maxNodesInLevel = 0;
-      Object.keys(levelNodes).forEach(lvl => {
-        if (levelNodes[lvl].length > maxNodesInLevel) {
-          maxNodesInLevel = levelNodes[lvl].length;
-        }
-      });
-  
-      // Layout settings.
-      const verticalSpacing = 150;
-      const horizontalSpacing = 50; // compact horizontal spacing.
-      const nodes = [];
-  
-      // For each level, center the nodes horizontally.
-      Object.keys(levelNodes).forEach(lvlStr => {
-        const lvl = parseInt(lvlStr, 10);
-        const codesAtLevel = levelNodes[lvl];
-        // Compute offset so that each row is centered relative to the widest row.
-        const offset = ((maxNodesInLevel - codesAtLevel.length) * horizontalSpacing) / 2;
-        codesAtLevel.forEach((code, index) => {
-          nodes.push({
-            id: code,
-            x: offset + index * horizontalSpacing,
-            y: lvl * verticalSpacing
-          });
-        });
-      });
-  
-      // Build links: for every course, create a link from each prerequisite to it.
-      const links = [];
-      this.courses.forEach(course => {
-        const courseCode = course.title.split(':')[0].trim();
-        course.prerequisite.forEach(prereq => {
-          const prereqCode = prereq.trim();
-          if (this.courseMap[prereqCode]) {
-            links.push({
-              source: prereqCode,
-              target: courseCode
-            });
-          }
-        });
-      });
-  
-      return { nodes, links };
-    }
+    });
   }
-  
+
+  processGraph() {
+    /* ---------- topo‐sort to find each course’s depth ---------- */
+    const inDeg = Object.fromEntries(
+      Object.keys(this.courseMap).map(c => [c, 0])
+    );
+    Object.values(this.adjList).forEach(list =>
+      list.forEach(t => (inDeg[t] += 1))
+    );
+
+    const q = [];
+    const level = {};
+    Object.entries(inDeg).forEach(([c, d]) => {
+      if (d === 0) {
+        q.push(c);
+        level[c] = 0;
+      }
+    });
+
+    while (q.length) {
+      const v = q.shift();
+      this.adjList[v].forEach(w => {
+        inDeg[w] -= 1;
+        level[w] = Math.max(level[w] ?? 0, (level[v] ?? 0) + 1);
+        if (inDeg[w] === 0) q.push(w);
+      });
+    }
+
+    /* ---------- gather nodes by level (isolated row 0) ---------- */
+    const iso = [];
+    const tree = [];
+    Object.keys(this.courseMap).forEach(c => {
+      if (
+        this.courseMap[c].prerequisite.length === 0 &&
+        this.adjList[c].length === 0
+      )
+        iso.push(c);
+      else tree.push(c);
+    });
+
+    tree.forEach(c => (level[c] += 1)); // shift tree rows down
+
+    const levelNodes = {};
+    if (iso.length) levelNodes[0] = iso;
+    tree.forEach(c => {
+      levelNodes[level[c]] = (levelNodes[level[c]] || []).concat(c);
+    });
+
+    /* ---------- compute grid coordinates ---------- */
+    const maxNodes = Math.max(...Object.values(levelNodes).map(a => a.length));
+    const maxRowW  = (maxNodes - 1) * this.horizontalSpacing;
+
+    const nodes = [];
+    Object.entries(levelNodes).forEach(([lvlStr, codes]) => {
+      const lvl      = +lvlStr;
+      const rowW     = (codes.length - 1) * this.horizontalSpacing;
+      const startX   = (maxRowW - rowW) / 2;          // centre row
+      const y        = lvl * this.verticalSpacing;
+
+      codes.forEach((code, i) =>
+        nodes.push({ id: code, x: startX + i * this.horizontalSpacing, y })
+      );
+    });
+
+    /* ---------- build links ---------- */
+    const links = [];
+    this.courses.forEach(({ title, prerequisite }) => {
+      const tgt = title.split(':')[0].trim();
+      prerequisite.forEach(p => {
+        const src = p.trim();
+        if (this.courseMap[src]) links.push({ source: src, target: tgt });
+      });
+    });
+
+    return { nodes, links };
+  }
+}
