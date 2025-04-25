@@ -15,11 +15,12 @@ const HEIGHT = 800;
 const NODE_RADIUS = 28; // circle radius (room for label)
 const ARROW_SIZE = 10; // arrow-head length
 
+
 /**
  * The main component for rendering the course prerequisite graph using D3.
  * Allows users to interact with nodes to mark courses as completed or view prerequisites.
  */
-export default function CourseGraph() {
+export default function CourseGraph({ onNodeClick }) {
   /* ---------- one-time graph data ---------- */
   // Use memoization to ensure the graph data is processed only once
   const processor = useMemo(() => new CourseGraphProcessor(courses), []);
@@ -347,10 +348,14 @@ const setupDefs = (svgSelection) => {
   useEffect(() => {
     const handleNodeClick = (id) => {
       if (mode === 'completed') toggleCompleted(id);
-      else setSelectedCourse(id);
+      else {
+        setSelectedCourse(id);
+        if (onNodeClick) onNodeClick(id); // ← Added this line only
+      }
     };
     updateGraphVisuals(gRef.current, nodeColor, handleNodeClick);
-  }, [completedCourses, selectedCourse, mode, futureMode, data]); // Depend on state and data
+  }, [completedCourses, selectedCourse, mode, futureMode, data, onNodeClick]);
+  
 
   /* ---------- UI ---------- */
   return (
