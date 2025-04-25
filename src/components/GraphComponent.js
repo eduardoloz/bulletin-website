@@ -13,15 +13,15 @@ import CourseGraphProcessor from './CourseGraphProcessor';   // ← keep this im
 const WIDTH        = 960;
 const HEIGHT       = 800;
 const NODE_RADIUS  = 28;   // circle radius (room for label)
-const ARROW_SIZE   = 10;   // arrow-head length
+const ARROW_SIZE   = 10;   // arrow‑head length
 
 /**
  * Renders the prerequisite graph with D3.
- * Nodes are pre-laid out in centred rows by the processor; D3 forces
- * keep them on-grid while still allowing links, drag, zoom, etc.
+ * Nodes are pre‑laid out in centred rows by the processor; D3 forces
+ * keep them on‑grid while still allowing links, drag, zoom, etc.
  */
 export default function CourseGraph({ onNodeClick }) {
-  /* ---------- one-time graph data ---------- */
+  /* ---------- one‑time graph data ---------- */
   const processor   = useMemo(() => new CourseGraphProcessor(courses), []);
   const data        = useMemo(() => processor.processGraph(), [processor]);
 
@@ -29,7 +29,7 @@ export default function CourseGraph({ onNodeClick }) {
   const [completedCourses, setCompletedCourses] = useState(new Set()); // green
   const [selectedCourse,   setSelectedCourse]   = useState(null);      // orange
   const [mode,             setMode]             = useState('default'); // view mode
-  const [futureMode,       setFutureMode]       = useState(false);     // 2-hop
+  const [futureMode,       setFutureMode]       = useState(false);     // 2‑hop
 
   /* ---------- D3 refs ---------- */
   const svgRef = useRef(null);   // <svg>
@@ -55,24 +55,24 @@ export default function CourseGraph({ onNodeClick }) {
   const nodeColor = id => {
     if (mode === 'completed') {
       if (completedCourses.has(id)) return 'green';
-  
+
       const unlocked = new Set();
       data.links.forEach(l => completedCourses.has(l.source.id) && unlocked.add(l.target.id));
       if (unlocked.has(id)) return 'blue';
-  
+
       if (futureMode) {
         const future = new Set();
         data.links.forEach(l => unlocked.has(l.source.id) && future.add(l.target.id));
         return future.has(id) ? 'purple' : '#ccc';
       }
-  
+
       return '#ccc';
     }
-  
+
     if (mode === 'prereqs' && selectedCourse) {
       return getAllPrerequisites(selectedCourse).has(id) ? 'orange' : '#eee';
     }
-  
+
     return 'lightgreen'; // default
   };
   
@@ -84,16 +84,18 @@ export default function CourseGraph({ onNodeClick }) {
        .style('background', '#f9f9f9');
 
   const setupDefs = sel => {
-    sel.append('defs')
+    // --- Arrow marker whose tip will sit exactly on the node circumference ---
+    const marker = sel.append('defs')
        .append('marker')
        .attr('id', 'arrow')
-       .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE * 2} ${ARROW_SIZE * 2}`)
-       .attr('refX', NODE_RADIUS + ARROW_SIZE)
+       .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE} ${ARROW_SIZE * 2}`)
+       .attr('refX', ARROW_SIZE)        // place the *tip* of the arrow at the line end
        .attr('refY', 0)
        .attr('markerWidth',  ARROW_SIZE)
        .attr('markerHeight', ARROW_SIZE)
-       .attr('orient', 'auto')
-       .append('path')
+       .attr('orient', 'auto');
+
+    marker.append('path')
        .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
        .attr('fill', '#999');
   };
@@ -143,11 +145,11 @@ export default function CourseGraph({ onNodeClick }) {
   };
 
   const setupForceSimulation = (graphData, linkG, nodeG) => {
-    // Freeze every node at its pre-laid-out (x,y) position
+    // Freeze every node at its pre‑laid‑out (x,y) position
     graphData.nodes.forEach(d => { d.fx = d.x; d.fy = d.y; });
     
     const sim = d3.forceSimulation(graphData.nodes)
-      /* pull each node to its pre-laid-out (x,y) */
+      /* pull each node to its pre‑laid‑out (x,y) */
       .force('x',      d3.forceX(d => d.x).strength(1))
       .force('y',      d3.forceY(d => d.y).strength(1))
       /* keep links and minimal spacing */
@@ -166,10 +168,12 @@ export default function CourseGraph({ onNodeClick }) {
   const ticked = (linkG, nodeG) => {
     linkG.selectAll('line')
       .each(function(d) {
-        const dx = d.target.x - d.source.x;
-        const dy = d.target.y - d.source.y;
+        const dx   = d.target.x - d.source.x;
+        const dy   = d.target.y - d.source.y;
         const dist = Math.hypot(dx, dy);
-        const nx = dx / dist, ny = dy / dist;
+        const nx   = dx / dist, ny = dy / dist;
+
+        // Stop the visible line *exactly* at the node circumference.
         const tX = d.target.x - nx * NODE_RADIUS;
         const tY = d.target.y - ny * NODE_RADIUS;
 
