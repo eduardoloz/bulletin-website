@@ -13,7 +13,7 @@ import Home from './pages/Home';
 
 function App() {
   return (
-  <GoogleOAuthProvider clientId="1053435573914-gobsa14rkfech73r1h96r5htmskdejku.apps.googleusercontent.com">
+    <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}>
     <BrowserRouter>
       <div className="App">
         <Navbar />
