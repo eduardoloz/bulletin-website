@@ -7,6 +7,8 @@ import CourseGraphProcessor from './CourseGraphProcessor'; // keep path
 const WIDTH  = 960;   // SVG viewport
 const HEIGHT = 800;
 const RADIUS = 18;    // node circle size
+const NODE_RADIUS = 28;     // was 18 — gives room for the label text
+const ARROW_SIZE  = 6;      // new – overall “length” of the arrow head
 
 export default function CourseGraph() {
   const processor = new CourseGraphProcessor(courses);
@@ -74,20 +76,20 @@ export default function CourseGraph() {
                   .attr('viewBox', [0, 0, WIDTH, HEIGHT]);
 
     /* ----- arrowhead defs: added EARLY and once ----- */
-    svg.select('defs').remove();              // remove any stale defs
     svg.append('defs')
        .append('marker')
-       .attr('id', 'arrow')
-       .attr('viewBox', '0 -6 12 12')           // fits the bigger path
-       .attr('refX', 10)                        // 10 == arrow tip x-coord
-       .attr('refY', 0)
-       .attr('markerWidth', 10)                 // a bit larger = easier to see
-       .attr('markerHeight', 10)
-       .attr('orient', 'auto')                  // rotates with line
-       // leave default markerUnits (strokeWidth) – it scales with zoom
+       .attr('id',          'arrow')
+       .attr('markerUnits', 'strokeWidth')        // <- use strokeWidth here
+       .attr('viewBox',     `0 ${-ARROW_SIZE} ${ARROW_SIZE*2} ${ARROW_SIZE*2}`)
+       .attr('refX',        ARROW_SIZE)           // tip of the triangle
+       .attr('refY',        0)
+       .attr('markerWidth', ARROW_SIZE)
+       .attr('markerHeight',ARROW_SIZE)
+       .attr('orient',      'auto')
        .append('path')
-       .attr('d', 'M0,-6L12,0L0,6Z')            // bigger 12-unit triangle
+       .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
        .attr('fill', '#999');
+    
 
     // single <g> that moves under zoom
     const g = svg.append('g').attr('pointer-events', 'all');
@@ -116,8 +118,12 @@ export default function CourseGraph() {
     const nodeG  = g.select('.nodes');
 
     /* data join — LINKS */
-    const linksSel = linkG.selectAll('line')
-      .data(data.links, d => `${d.source}->${d.target}`);
+    const linkKey = d => {
+      const s = typeof d.source === 'object' ? d.source.id : d.source;
+      const t = typeof d.target === 'object' ? d.target.id : d.target;
+      return `${s}->${t}`;
+    };
+    const linksSel = linkG.selectAll('line').data(data.links, linkKey);
 
     // Remove any old links
     linksSel.exit().remove();
@@ -146,11 +152,11 @@ export default function CourseGraph() {
         .on('drag',  dragged)
         .on('end',   dragended));
 
-    nodesEnter.append('circle').attr('r', RADIUS);
+    nodesEnter.append('circle').attr('r', NODE_RADIUS);
     nodesEnter.append('text')
+      .attr('y', 2)            // vertical centring inside the circle
+      .attr('font-size', 11)   // readable but still fits
       .attr('text-anchor', 'middle')
-      .attr('y', 4)
-      .attr('font-size', 10)
       .text(d => d.id);
 
     nodesSel.exit().remove();
@@ -181,8 +187,7 @@ export default function CourseGraph() {
         .force('center',
           d3.forceCenter(WIDTH / 2, HEIGHT / 2)
         )
-        .force('collide',
-          d3.forceCollide(RADIUS + 4)        // prevent overlap
+        .force('collide', d3.forceCollide(NODE_RADIUS + 4)        // prevent overlap
         )
         .on('tick', ticked);
     } else {
@@ -200,8 +205,8 @@ export default function CourseGraph() {
         const dist = Math.hypot(dx, dy) || 1;          // avoid divide-by-zero
     
         // offset so the line starts/ends at the circle edge, not the centre
-        const offX = (dx / dist) * RADIUS;
-        const offY = (dy / dist) * RADIUS;
+        const offX = (dx / dist) * (NODE_RADIUS + ARROW_SIZE);
+        const offY = (dy / dist) * (NODE_RADIUS + ARROW_SIZE);        
     
         d3.select(this)
           .attr('x1', d.source.x + offX)               // just outside source circle
