@@ -49,7 +49,7 @@ export default function CourseGraph() {
     if (mode === 'completed') {
       if (completedCourses.has(id)) return 'green';
 
-      // first‑generation unlocks
+      // first-generation unlocks
       const unlocked = new Set();
       data.links.forEach(l => completedCourses.has(l.source) && unlocked.add(l.target));
 
@@ -73,6 +73,22 @@ export default function CourseGraph() {
     const svg = d3.select(svgRef.current)
                   .attr('viewBox', [0, 0, WIDTH, HEIGHT]);
 
+    /* ----- arrowhead defs: added EARLY and once ----- */
+    svg.select('defs').remove();              // remove any stale defs
+    svg.append('defs')
+       .append('marker')
+       .attr('id', 'arrow')
+       .attr('viewBox', '0 -6 12 12')           // fits the bigger path
+       .attr('refX', 10)                        // 10 == arrow tip x-coord
+       .attr('refY', 0)
+       .attr('markerWidth', 10)                 // a bit larger = easier to see
+       .attr('markerHeight', 10)
+       .attr('orient', 'auto')                  // rotates with line
+       // leave default markerUnits (strokeWidth) – it scales with zoom
+       .append('path')
+       .attr('d', 'M0,-6L12,0L0,6Z')            // bigger 12-unit triangle
+       .attr('fill', '#999');
+
     // single <g> that moves under zoom
     const g = svg.append('g').attr('pointer-events', 'all');
     gRef.current = g;
@@ -94,19 +110,27 @@ export default function CourseGraph() {
   /* ---------- (re)draw graph whenever state changes ---------- */
   useEffect(() => {
     if (!gRef.current) return;
-    /* ---------- give every node a starting spot ---------- */
 
-    const g = gRef.current;
-    const linkG = g.select('.links');
-    const nodeG = g.select('.nodes');
+    const g      = gRef.current;
+    const linkG  = g.select('.links');
+    const nodeG  = g.select('.nodes');
 
     /* data join — LINKS */
     const linksSel = linkG.selectAll('line')
       .data(data.links, d => `${d.source}->${d.target}`);
 
+    // Remove any old links
     linksSel.exit().remove();
+
+    // Enter new links
     linksSel.enter()
       .append('line')
+      .attr('stroke', '#999')
+      .attr('stroke-width', 1.5)
+      .attr('marker-end', 'url(#arrow)');
+
+    // Update existing links (ensure arrowhead is present after rebinds)
+    linksSel
       .attr('stroke', '#999')
       .attr('stroke-width', 1.5)
       .attr('marker-end', 'url(#arrow)');
@@ -135,61 +159,63 @@ export default function CourseGraph() {
     nodeG.selectAll('g.node')
       .attr('transform', d => `translate(${d.x},${d.y})`);
 
-
-
     // Update colors every render
     nodeG.selectAll('circle')
       .attr('fill', d => nodeColor(d.id))
       .attr('stroke', '#333')
       .attr('stroke-width', 1.5);
+    
+    ticked(); // initial tick to position nodes
 
     /* ---------- simulation ---------- */
-if (!simRef.current) {
-
-
-  simRef.current = d3.forceSimulation(data.nodes)
-    .force('link',
-      d3.forceLink(data.links)
-        .id(d => d.id)
-        .distance(120)
-    )
-    .force('charge',
-      d3.forceManyBody().strength(-300)
-    )
-    .force('center',
-      d3.forceCenter(WIDTH / 2, HEIGHT / 2)
-    )
-    // 2) Prevent node overlap
-    .force('collide',
-      d3.forceCollide(RADIUS + 4)
-    )
-    .on('tick', ticked);
-
-} else {
-  // re‑bind the nodes array
-  simRef.current.nodes(data.nodes);
-  // re‑bind the links on the link‑force
-  simRef.current.force('link').links(data.links);
-  // bump alpha so the layout re‑runs visibly
-  simRef.current.alpha(1);
-  // kick the sim back into motion
-  simRef.current.restart();
-}
-
-
-
+    if (!simRef.current) {
+      simRef.current = d3.forceSimulation(data.nodes)
+        .force('link',
+          d3.forceLink(data.links)
+            .id(d => d.id)
+            .distance(120)
+        )
+        .force('charge',
+          d3.forceManyBody().strength(-300)
+        )
+        .force('center',
+          d3.forceCenter(WIDTH / 2, HEIGHT / 2)
+        )
+        .force('collide',
+          d3.forceCollide(RADIUS + 4)        // prevent overlap
+        )
+        .on('tick', ticked);
+    } else {
+      simRef.current.nodes(data.nodes);
+      simRef.current.force('link').links(data.links);
+      simRef.current.alpha(1).restart();
+    }
 
     /* ---------- helpers ---------- */
     function ticked() {
-      linkG.selectAll('line')
-        .attr('x1', d => d.source.x)
-        .attr('y1', d => d.source.y)
-        .attr('x2', d => d.target.x)
-        .attr('y2', d => d.target.y);
-
+      /* --- shorten every link so arrowhead is not hidden --- */
+      linkG.selectAll('line').each(function (d) {
+        const dx   = d.target.x - d.source.x;
+        const dy   = d.target.y - d.source.y;
+        const dist = Math.hypot(dx, dy) || 1;          // avoid divide-by-zero
+    
+        // offset so the line starts/ends at the circle edge, not the centre
+        const offX = (dx / dist) * RADIUS;
+        const offY = (dy / dist) * RADIUS;
+    
+        d3.select(this)
+          .attr('x1', d.source.x + offX)               // just outside source circle
+          .attr('y1', d.source.y + offY)
+          .attr('x2', d.target.x - offX)               // just outside target circle
+          .attr('y2', d.target.y - offY);
+      });
+    
+      /* --- keep nodes where the simulation puts them --- */
       nodeG.selectAll('g.node')
         .attr('transform', d => `translate(${d.x},${d.y})`);
     }
+    
+      
 
     function dragstarted(event, d) {
       if (!event.active) simRef.current.alphaTarget(0.3).restart();
@@ -215,24 +241,6 @@ if (!simRef.current) {
       });
   }, [mode, completedCourses]);
 
-  /* ---------- arrowhead defs ---------- */
-  useEffect(() => {
-    const svg = d3.select(svgRef.current);
-    if (svg.select('defs').empty()) {
-      svg.append('defs').append('marker')
-        .attr('id', 'arrow')
-        .attr('viewBox', '0 -5 10 10')
-        .attr('refX', 22)
-        .attr('refY', 0)
-        .attr('markerWidth', 6)
-        .attr('markerHeight', 6)
-        .attr('orient', 'auto')
-        .append('path')
-        .attr('d', 'M0,-5L10,0L0,5')
-        .attr('fill', '#999');
-    }
-  }, []);
-
   /* ---------- UI ---------- */
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-10">
@@ -240,7 +248,7 @@ if (!simRef.current) {
         <h2>Course Prerequisites Graph</h2>
         <div className="text-lg font-semibold my-2">
           Current Mode: <span className="text-blue-500">
-            {mode === 'completed' ? (futureMode ? 'Completed + Future' : 'Completed')
+            {mode === 'completed' ? (futureMode ? 'Completed + Future' : 'Completed')
                                    : mode === 'prereqs' ? 'Prereqs' : 'Default'}
           </span>
         </div>
@@ -273,15 +281,14 @@ if (!simRef.current) {
         </div>
 
         <svg
-  ref={svgRef}
-  width="100%"
-  height={HEIGHT}
-  style={{
-    border: "1px solid #888",
-    backgroundColor: "#f9f9f9",
-  }}
-/>
-
+          ref={svgRef}
+          width="100%"
+          height={HEIGHT}
+          style={{
+            border: "1px solid #888",
+            backgroundColor: "#f9f9f9",
+          }}
+        />
       </div>
     </div>
   );
