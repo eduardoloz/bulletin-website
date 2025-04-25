@@ -36,14 +36,21 @@
     color: #333333;
   }
   
-  /* inputs stay clean on white */
   .chatbot input {
     background: #f9f9f9;
     border: 1px solid #ccc;
     border-radius: 6px;
-    padding: 0.6rem;
+    padding: 0.8rem 1rem;         /* Increased padding */
     color: #333333;
+    font-size: 1.05rem;           /* Slightly larger font */
+    width: 100%;                 /* Take full container width */
   }
+  .chatbot label {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+  }
+  
   
   .chatbot input:focus {
     outline: none;
