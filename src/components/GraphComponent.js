@@ -183,18 +183,18 @@ const nodeColor = useCallback((id) => {
     };
 
     const setupDefs = (svgSelection) => {
-        const defs = svgSelection.append('defs');
-        defs.append('marker')
-            .attr('id', 'arrow')
-            .attr('viewBox', `0 ${-ARROW_SIZE / 2} ${ARROW_SIZE} ${ARROW_SIZE}`)
-            .attr('refX', ARROW_SIZE)
-            .attr('refY', 0)
-            .attr('markerWidth', ARROW_SIZE)
-            .attr('markerHeight', ARROW_SIZE)
-            .attr('orient', 'auto-start-reverse')
-            .append('path')
-            .attr('d', `M0,<span class="math-inline">\{\-ARROW\_SIZE / 2\} L</span>{ARROW_SIZE},0 L0,${ARROW_SIZE / 2} Z`)
-            .attr('fill', '#999');
+      svgSelection.append('defs')
+        .append('marker')
+        .attr('id', 'arrow')
+        .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE * 2} ${ARROW_SIZE * 2}`)
+        .attr('refX', ARROW_SIZE + 2)  // Increased slightly to account for node radius
+        .attr('refY', 0)
+        .attr('markerWidth', ARROW_SIZE)
+        .attr('markerHeight', ARROW_SIZE)
+        .attr('orient', 'auto')
+        .append('path')
+        .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
+        .attr('fill', '#999');
     };
 
     const setupZoom = (svgSelection, gSelection) => {
