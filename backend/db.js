@@ -14,7 +14,7 @@ async function connectDB() {
   const conn = await mongoose.connect(MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
-    dbName: 'class_information',
+     dbName: 'class_information'
   });
 
   db = conn.connection.db;
