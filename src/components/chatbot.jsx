@@ -67,13 +67,14 @@ export default function Chatbot() {
 
         <label>
           Your Question:
-          <input
-            type="text"
+          <textarea
             placeholder="e.g. Is grading tough?"
             value={question}
             onChange={e => setQuestion(e.target.value)}
+            rows={4} // you can adjust this
             required
-          />
+            />
+
         </label>
 
         <button type="submit" disabled={loading}>
