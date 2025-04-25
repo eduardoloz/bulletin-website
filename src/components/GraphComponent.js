@@ -273,7 +273,7 @@ export default function CourseGraph({ onNodeClick }) {
           </div>}
 
         {/* ---------- buttons ---------- */}
-        <div className="flex flex-wrap gap-4 my-4">
+        <div className="flex flex-wrap gap-4 my-4 justify-center">
           <button
             onClick={() => { setMode('completed'); setSelectedCourse(null); }}
             className={`px-4 py-2 rounded text-white
