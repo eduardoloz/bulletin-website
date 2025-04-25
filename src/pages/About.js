@@ -50,7 +50,8 @@ function About() {
 
       {/* Introductory paragraph */}
       <p className="text-lg mb-8 max-w-2xl mx-auto">
-        Introducing Karina Lam, Samantha Li, Brandon Moy, Timothy Sit, and Eduardo Lozano. We are a team dedicated to [briefly mention your project/goal].
+        Introducing Karina Lam, Samantha Li, Brandon Moy, Timothy Sit, and Eduardo Lozano. We are a team dedicated to showing you UP TO DATE information
+        about your classes and visually showing them as a graph where you "unlock" new classes. We hope this website makes finding classes more accessible.
       </p>
 
       {/* Team grid container */}
