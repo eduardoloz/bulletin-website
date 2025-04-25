@@ -13,7 +13,7 @@ import CourseGraphProcessor from './CourseGraphProcessor'; // ← keep this impo
 const WIDTH = 960;
 const HEIGHT = 800;
 const NODE_RADIUS = 28; // circle radius (room for label)
-const ARROW_SIZE = 6; // arrow-head length
+const ARROW_SIZE = 10; // arrow-head length
 
 /**
  * The main component for rendering the course prerequisite graph using D3.
@@ -129,21 +129,20 @@ export default function CourseGraph() {
    * This defines the shape and properties of the arrowhead.
    * @param {object} svgSelection - The D3 selection of the SVG element.
    */
-  const setupDefs = (svgSelection) => {
-    svgSelection.append('defs')
-      .append('marker')
-      .attr('id', 'arrow') // Unique ID for the marker
-      .attr('markerUnits', 'strokeWidth') // Scale the marker with the stroke width
-      .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE * 2} ${ARROW_SIZE * 2}`) // Define the coordinate system for the marker
-      .attr('refX', ARROW_SIZE) // X coordinate of the point that should be positioned at the end of the line
-      .attr('refY', 0) // Y coordinate of the point that should be positioned at the end of the line
-      .attr('markerWidth', ARROW_SIZE) // Width of the marker viewport
-      .attr('markerHeight', ARROW_SIZE) // Height of the marker viewport
-      .attr('orient', 'auto') // Automatically orient the marker along the path
-      .append('path')
-      .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`) // Path data for the arrowhead shape (a triangle)
-      .attr('fill', '#999'); // Color of the arrowhead
-  };
+const setupDefs = (svgSelection) => {
+  svgSelection.append('defs')
+    .append('marker')
+    .attr('id', 'arrow')
+    .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE * 2} ${ARROW_SIZE * 2}`)
+    .attr('refX', ARROW_SIZE + 2)  // Increased slightly to account for node radius
+    .attr('refY', 0)
+    .attr('markerWidth', ARROW_SIZE)
+    .attr('markerHeight', ARROW_SIZE)
+    .attr('orient', 'auto')
+    .append('path')
+    .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
+    .attr('fill', '#999');
+};
 
   /**
    * Sets up the zoom and pan behavior on the SVG.
@@ -182,15 +181,8 @@ export default function CourseGraph() {
    * @param {object} simulation - The D3 force simulation instance.
    */
   const setupStaticElements = (linkGSelection, nodeGSelection, graphData, simulation) => {
-  /* ----- static links ----- */
-  linkGSelection.selectAll('line')
-  .data(graphData.links, d => `${d.source.id}->${d.target.id}`) // Use .id for key
-  .enter()
-  .append('line')
-  .attr('stroke', '#999')
-  .attr('stroke-width', 1.5)
-  .attr('marker-end', 'url(#arrow)'); // <-- This line applies the marker by referencing its ID
 
+  console.log('linkGSelection', graphData);
     /* ----- static nodes ----- */
     const nodeEnter = nodeGSelection.selectAll('g.node')
       .data(graphData.nodes, d => d.id)
@@ -212,6 +204,16 @@ export default function CourseGraph() {
       .attr('text-anchor', 'middle')
       .attr('font-size', 11)
       .text(d => d.id);
+
+    
+  /* ----- static links ----- */
+  linkGSelection.selectAll('line')
+  .data(graphData.links, d => `${d.source.id}->${d.target.id}`) // Use .id for key
+  .enter()
+  .append('line')
+  .attr('stroke', '#999')
+  .attr('stroke-width', 1.5)
+  .attr('marker-end', 'url(#arrow)'); // <-- This line applies the marker by referencing its ID
   };
 
   /**
@@ -239,10 +241,20 @@ export default function CourseGraph() {
    */
   const ticked = (linkGSelection, nodeGSelection) => {
     linkGSelection.selectAll('line')
-      .attr('x1', d => d.source.x)
-      .attr('y1', d => d.source.y)
-      .attr('x2', d => d.target.x)
-      .attr('y2', d => d.target.y);
+      .each(function(d) { // Use .each to access each line element
+        const dx = d.target.x - d.source.x;
+        const dy = d.target.y - d.source.y;
+        const distance = Math.sqrt(dx * dx + dy * dy);
+        const normalizedX = dx / distance;
+        const normalizedY = dy / distance;
+        const targetX = d.target.x - normalizedX * NODE_RADIUS;
+        const targetY = d.target.y - normalizedY * NODE_RADIUS;
+        d3.select(this)
+          .attr('x1', d => d.source.x)
+          .attr('y1', d => d.source.y)
+          .attr('x2', targetX)
+          .attr('y2', targetY);
+      });
 
     nodeGSelection.selectAll('g.node')
       .attr('transform', d => `translate(${d.x},${d.y})`);
