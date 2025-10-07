@@ -11,6 +11,8 @@ const Navbar = () => {
         <div className="space-x-4">
           <a href="/about" className="hover:text-gray-200">About Us</a>
           <a href="/login" className="hover:text-gray-200">Login</a>
+          <a href="/cat" className="hover:text-gray-200">CatPage</a>
+
         </div>
       </div>
     </nav>
