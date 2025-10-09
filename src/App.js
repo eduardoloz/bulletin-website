@@ -1,31 +1,40 @@
 import React from 'react';
 import { GoogleOAuthProvider } from '@react-oauth/google';
 import './App.css';
-import Navbar from './components/navbar';
-//import CourseGraph from './components/GraphComponent';
+import Navbar from './components/navbar'; // Make sure folder/file capitalization matches
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import About from './pages/About';
-
-import LoginPage from './pages/LoginPAGE';
 import Home from './pages/Home';
-
+import Login from './components/Login'; // Supabase login
+import ProtectedRoute from './ProtectedRoute';
 import Chatbot from "./components/chatbot";
-
 
 function App() {
   return (
     <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}>
-    <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} /> {/* this is the graph which is on the home page */}
-          <Route path="/about" element={<About />} /> {/* About Route */}
-          <Route path="/login" element={<LoginPage />} /> {/* Login Route */}
-        </Routes>
-      </div>
-    </BrowserRouter>
-  </GoogleOAuthProvider>
+      <BrowserRouter>
+        <div className="App">
+          <Navbar />
+          <Routes>
+            {/* Protected Home page */}
+            <Route
+              path="/"
+              element={
+                <ProtectedRoute>
+                  <Home />
+                </ProtectedRoute>
+              }
+            />
+
+            {/* Public routes */}
+            <Route path="/about" element={<About />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/chatbot" element={<Chatbot />} />
+          </Routes>
+        </div>
+      </BrowserRouter>
+    </GoogleOAuthProvider>
   );
 }
 
