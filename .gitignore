@@ -28,7 +28,3 @@ echo ".env" >> .gitignore
 
 
 /scripts/*.json
-
-ForcedLogin/
-ForcedLogin 2/
-
