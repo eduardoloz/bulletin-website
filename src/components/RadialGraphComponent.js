@@ -151,7 +151,9 @@ export default function RadialGraphComponent({ onNodeClick }) {
     // Set up SVG
     svg.attr('viewBox', [0, 0, WIDTH, HEIGHT])
        .style('border', '1px solid #888')
-       .style('background', '#f9f9f9');
+       .style('background', '#f9f9f9')
+       .style('touch-action', 'none') // allow pointer-based pan/zoom
+       .style('pointer-events', 'all');
 
     // Create main group
     const g = svg.append('g');
