@@ -11,7 +11,7 @@ export default function Chatbot() {
 
   // 1️⃣ Fetch the professor list on mount
   useEffect(() => {
-    fetch("http://localhost:4000/profs")
+    fetch("http://localhost:5000/profs")
       .then(r => r.json())
       .then(data => {
         const sortedData = data.sort((a, b) => a.prof_name.localeCompare(b.prof_name));
@@ -30,7 +30,8 @@ export default function Chatbot() {
     setAnswer("");
 
     try {
-      const res = await fetch("http://localhost:4000/chat", {
+      //This will have to be changed to the backend server once the backend is deployed
+      const res = await fetch("http://localhost:5000/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ prof_id: profId, question })
