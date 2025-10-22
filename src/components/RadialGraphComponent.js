@@ -35,6 +35,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
 
   /* ---------- D3 refs ---------- */
   const svgRef = useRef(null);
+  const zoomRef = useRef(null);
 
   /* ---------- helpers ---------- */
   const toggleCompleted = id =>
@@ -141,14 +142,11 @@ export default function RadialGraphComponent({ onNodeClick }) {
     return 'lightgreen';
   };
 
-  /* ---------- D3 setup and rendering ---------- */
+  /* ---------- D3 setup (runs once) ---------- */
   useEffect(() => {
-    if (!svgRef.current || !data.nodes.length) return;
+    if (!svgRef.current) return;
 
     const svg = d3.select(svgRef.current);
-    
-    // Clear everything
-    svg.selectAll('*').remove();
     
     // Set up SVG
     svg.attr('viewBox', [0, 0, WIDTH, HEIGHT])
@@ -173,17 +171,41 @@ export default function RadialGraphComponent({ onNodeClick }) {
       .scale(0.3);
     svg.call(zoom.transform, initialTransform);
 
-    // Add arrow markers
-    const defs = svg.append('defs');
-    defs.append('marker')
-      .attr('id', 'arrowhead')
-      .attr('viewBox', '-0 -5 10 10')
-      .attr('refX', NODE_RADIUS + 5)
-      .attr('refY', 0)
-      .attr('orient', 'auto')
-      .append('path')
-      .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
-      .attr('fill', '#999');
+    // Store zoom reference
+    zoomRef.current = zoom;
+
+    // Cleanup function
+    return () => {
+      svg.selectAll('*').remove();
+    };
+  }, []); // Empty dependency array - runs only once
+
+  /* ---------- D3 rendering (runs when data changes) ---------- */
+  useEffect(() => {
+    if (!svgRef.current || !data.nodes.length) return;
+
+    const svg = d3.select(svgRef.current);
+    let g = svg.select('g');
+    if (g.empty()) {
+      g = svg.append('g');
+    }
+    
+    // Clear previous content but keep the main group
+    g.selectAll('.link, .node').remove();
+
+    // Add arrow markers (only if they don't exist)
+    if (svg.select('defs').empty()) {
+      const defs = svg.append('defs');
+      defs.append('marker')
+        .attr('id', 'arrowhead')
+        .attr('viewBox', '-0 -5 10 10')
+        .attr('refX', NODE_RADIUS + 5)
+        .attr('refY', 0)
+        .attr('orient', 'auto')
+        .append('path')
+        .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+        .attr('fill', '#999');
+    }
 
     // Draw links
     const linkSelection = g.selectAll('.link')
@@ -242,12 +264,9 @@ export default function RadialGraphComponent({ onNodeClick }) {
       .text(d => d.name)
       .style('pointer-events', 'none');
 
-
-    // Cleanup function
-    return () => {
-      svg.selectAll('*').remove();
-    };
-  }, [data, completedCourses, externalCourses, selectedCourse, mode, futureMode, onNodeClick]);
+    // Cleanup is a no-op to preserve zoom/group
+    return () => {};
+  }, [data, completedCourses, externalCourses, selectedCourse, mode, futureMode]);
   
   /* ---------- UI ---------- */
   const resetGraph = () => {
@@ -344,24 +363,27 @@ export default function RadialGraphComponent({ onNodeClick }) {
               className={`px-4 py-2 rounded text-white
                           ${futureMode ? 'bg-purple-700' : 'bg-purple-500'}`}>
               Future Mode
-            </button>}
+            </button>
+          }
 
           <button
             onClick={() => setMode('prereqs')}
             className={`px-4 py-2 rounded text-white
-                        ${mode === 'prereqs' ? 'bg-orange-700' : 'bg-orange-500'}`}>
+                        ${mode === 'prereqs' ? 'bg-blue-700' : 'bg-blue-500'}`}>
             Prereqs Mode
           </button>
 
           <button
             onClick={resetGraph}
-            className="px-4 py-2 rounded bg-red-500 text-white">
-            Reset
+            className="px-4 py-2 rounded text-white bg-red-500 hover:bg-red-600">
+            Reset Graph
           </button>
         </div>
 
         {/* ---------- graph ---------- */}
-        <svg ref={svgRef} width="100%" height={HEIGHT} />
+        <svg ref={svgRef} width="100%" height={HEIGHT}>
+          <g />
+        </svg>
       </div>
     </div>
   );
