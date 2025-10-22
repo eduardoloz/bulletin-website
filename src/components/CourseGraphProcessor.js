@@ -101,4 +101,118 @@ export default class CourseGraphProcessor {
 
     return { nodes, links };
   }
+
+  processRadialGraph() {
+    /* ---------- Simple radial layout based on prerequisite depth ---------- */
+    const courseMap = this.courseMap;
+
+    // Calculate depth for each course (how many prerequisites deep)
+    const depths = {};
+    const visited = new Set();
+
+    const calculateDepth = (courseId) => {
+      if (visited.has(courseId)) return depths[courseId] || 0;
+      visited.add(courseId);
+
+      const course = courseMap[courseId];
+      if (!course || course.prerequisite.length === 0) {
+        // Only put truly entry-level courses in the center (CSE 101, 102, 110, 113, 114)
+        const entryLevelCourses = ['CSE 101', 'CSE 102', 'CSE 110', 'CSE 113', 'CSE 114'];
+        if (entryLevelCourses.includes(courseId)) {
+          depths[courseId] = 0;
+          return 0;
+        } else {
+          // Other courses with no prerequisites go to depth 1
+          depths[courseId] = 1;
+          return 1;
+        }
+      }
+
+      // Filter out prerequisites that don't exist in courseMap
+      const validPrereqs = course.prerequisite.filter(prereq =>
+        courseMap[prereq.trim()]
+      );
+
+      if (validPrereqs.length === 0) {
+        depths[courseId] = 1;
+        return 1;
+      }
+
+      const maxPrereqDepth = Math.max(...validPrereqs.map(prereq =>
+        calculateDepth(prereq.trim())
+      ));
+      depths[courseId] = maxPrereqDepth + 1;
+      return depths[courseId];
+    };
+
+    // Calculate depths for all courses
+    Object.keys(courseMap).forEach(courseId => calculateDepth(courseId));
+
+    // Group courses by depth
+    const coursesByDepth = {};
+    Object.entries(depths).forEach(([courseId, depth]) => {
+      if (!coursesByDepth[depth]) coursesByDepth[depth] = [];
+      coursesByDepth[depth].push(courseId);
+    });
+
+    const maxDepth = Math.max(...Object.keys(coursesByDepth).map(Number));
+    const radiusStep = 120; // Distance between rings
+    const centerX = 0;
+    const centerY = 0;
+
+    /* ---------- Create nodes with radial positioning ---------- */
+    const nodes = [];
+    const links = [];
+
+    Object.entries(coursesByDepth).forEach(([depthStr, courseIds]) => {
+      const depth = parseInt(depthStr);
+      const radius = depth * radiusStep + 80; // Start at radius 80
+      const angleStep = (2 * Math.PI) / courseIds.length;
+
+      courseIds.forEach((courseId, index) => {
+        const course = courseMap[courseId];
+        if (!course) {
+          return; // Skip if course doesn't exist
+        }
+
+        const angle = index * angleStep - Math.PI / 2; // Start at top
+        const x = centerX + radius * Math.cos(angle);
+        const y = centerY + radius * Math.sin(angle);
+
+        const node = {
+          id: courseId,
+          x: x,
+          y: y,
+          depth: depth,
+          name: course.title.split(':')[0].trim(),
+          fullName: course.title
+        };
+
+        nodes.push(node);
+      });
+    });
+
+    /* ---------- Create links ---------- */
+    this.courses.forEach(({ title, prerequisite }) => {
+      const targetId = title.split(':')[0].trim();
+      prerequisite.forEach(prereq => {
+        const sourceId = prereq.trim();
+        if (courseMap[sourceId]) {
+          links.push({ source: sourceId, target: targetId });
+        }
+      });
+    });
+
+    // Convert string references to actual node objects for D3
+    const linkObjects = links.map(link => {
+      const sourceNode = nodes.find(n => n.id === link.source);
+      const targetNode = nodes.find(n => n.id === link.target);
+      if (sourceNode && targetNode) {
+        return { source: sourceNode, target: targetNode };
+      }
+      return null;
+    }).filter(Boolean);
+
+    return { nodes, links: linkObjects };
+  }
 }
