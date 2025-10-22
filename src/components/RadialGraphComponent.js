@@ -153,10 +153,27 @@ export default function RadialGraphComponent({ onNodeClick }) {
        .style('border', '1px solid #888')
        .style('background', '#f9f9f9')
        .style('touch-action', 'none') // allow pointer-based pan/zoom
-       .style('pointer-events', 'all');
+       .style('pointer-events', 'all')
+       .style('user-select', 'none');
 
-    // Create main group
-    const g = svg.append('g');
+    // Ensure an input layer exists to capture interactions
+    let inputLayer = svg.select('rect.zoom-capture');
+    if (inputLayer.empty()) {
+      inputLayer = svg.insert('rect', ':first-child')
+        .attr('class', 'zoom-capture')
+        .attr('x', 0)
+        .attr('y', 0)
+        .attr('width', WIDTH)
+        .attr('height', HEIGHT)
+        .attr('fill', 'transparent')
+        .style('pointer-events', 'all');
+    }
+
+    // Create main group if missing
+    let g = svg.select('g');
+    if (g.empty()) {
+      g = svg.append('g');
+    }
 
     // Set up zoom
     const zoom = d3.zoom()
@@ -165,6 +182,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
         g.attr('transform', event.transform);
       });
 
+    // Attach zoom to the svg (works across browsers). The input layer ensures events hit the svg.
     svg.call(zoom);
 
     // Set initial zoom (zoomed out to see the full graph)
@@ -178,7 +196,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
 
     // Cleanup function
     return () => {
-      svg.selectAll('*').remove();
+      // Keep structure; no teardown to preserve zoom between renders
     };
   }, []); // Empty dependency array - runs only once
 
