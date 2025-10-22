@@ -1,4 +1,4 @@
-// CourseGraph.js
+// RadialGraphComponent.js
 import React, {
   useRef,
   useEffect,
@@ -7,35 +7,34 @@ import React, {
 } from 'react';
 import * as d3 from 'd3';
 import courses from '../data/cse.json';
-import CourseGraphProcessor from './CourseGraphProcessor';   // ← keep this import
+import CourseGraphProcessor from './CourseGraphProcessor';
 
 /* ---------- constants ---------- */
-const WIDTH        = 960;
-const HEIGHT       = 800;
-const NODE_RADIUS  = 28;   // circle radius (room for label)
-const ARROW_SIZE   = 10;   // arrow‑head length
+const WIDTH = 960;
+const HEIGHT = 800;
+const NODE_RADIUS = 35;
+const ARROW_SIZE = 8;
 
 /**
- * Renders the prerequisite graph with D3.
- * Nodes are pre‑laid out in centred rows by the processor; D3 forces
- * keep them on‑grid while still allowing links, drag, zoom, etc.
+ * Renders the prerequisite graph with D3 radial tree layout.
+ * Courses spiral outward from center, showing hierarchy through concentric rings.
  */
-export default function CourseGraph({ onNodeClick }) {
+export default function RadialGraphComponent({ onNodeClick }) {
   /* ---------- one‑time graph data ---------- */
-  const processor   = useMemo(() => new CourseGraphProcessor(courses), []);
-  const data        = useMemo(() => processor.processGraph(), [processor]);
+  const processor = useMemo(() => new CourseGraphProcessor(courses), []);
+  const data = useMemo(() => {
+    return processor.processRadialGraph();
+  }, [processor]);
 
   /* ---------- React state ---------- */
-  const [completedCourses, setCompletedCourses] = useState(new Set()); // green
-  const [externalCourses, setExternalCourses] = useState(new Set()); // external courses (AMS, MAT, etc.)
-  const [selectedCourse,   setSelectedCourse]   = useState(null);      // orange
-  const [mode,             setMode]             = useState('default'); // view mode
-  const [futureMode,       setFutureMode]       = useState(false);     // 2‑hop
+  const [completedCourses, setCompletedCourses] = useState(new Set());
+  const [externalCourses, setExternalCourses] = useState(new Set());
+  const [selectedCourse, setSelectedCourse] = useState(null);
+  const [mode, setMode] = useState('default');
+  const [futureMode, setFutureMode] = useState(false);
 
   /* ---------- D3 refs ---------- */
-  const svgRef = useRef(null);   // <svg>
-  const gRef   = useRef(null);   // zoom/pan group
-  const simRef = useRef(null);   // force simulation
+  const svgRef = useRef(null);
 
   /* ---------- helpers ---------- */
   const toggleCompleted = id =>
@@ -68,16 +67,12 @@ export default function CourseGraph({ onNodeClick }) {
     return visited;
   };
 
-  // Prerequisite checking - treats all prerequisites as required (simplified logic)
+  // Prerequisite checking - treats all prerequisites as required
   const checkPrerequisitesSatisfied = (prerequisites, completedCourses, externalCourses) => {
     if (prerequisites.length === 0) return true;
     
-    // For now, treat ALL prerequisites as required (both CSE and external)
-    // TODO: In the future, we'll need a new JSON format that specifies either/or logic
-    
     return prerequisites.every(prereq => {
       const trimmed = prereq.trim();
-      // Check if it's a CSE course (completed by clicking) or external course (added manually)
       return completedCourses.has(trimmed) || externalCourses.has(trimmed);
     });
   };
@@ -86,7 +81,6 @@ export default function CourseGraph({ onNodeClick }) {
     if (mode === 'completed') {
       if (completedCourses.has(id)) return 'green';
 
-      // Check if prerequisites are satisfied (handles either/or logic)
       const course = processor.courseMap[id];
       if (course && course.prerequisite.length > 0) {
         const prereqsSatisfied = checkPrerequisitesSatisfied(
@@ -98,8 +92,7 @@ export default function CourseGraph({ onNodeClick }) {
       }
 
       if (futureMode) {
-        // For future mode, show courses that would be available after completing currently available courses
-        // First, find all currently available courses (blue ones)
+        // Future mode logic (same as regular graph)
         const currentlyAvailable = new Set();
         Object.keys(processor.courseMap).forEach(courseId => {
           if (!completedCourses.has(courseId)) {
@@ -117,13 +110,11 @@ export default function CourseGraph({ onNodeClick }) {
           }
         });
 
-        // Then, find courses that would become available if we completed all currently available courses
         const futureAvailable = new Set();
         Object.keys(processor.courseMap).forEach(courseId => {
           if (!completedCourses.has(courseId) && !currentlyAvailable.has(courseId)) {
             const course = processor.courseMap[courseId];
             if (course && course.prerequisite.length > 0) {
-              // Create a hypothetical state where all currently available courses are completed
               const hypotheticalCompleted = new Set([...completedCourses, ...currentlyAvailable]);
               const prereqsSatisfied = checkPrerequisitesSatisfied(
                 course.prerequisite, 
@@ -147,178 +138,116 @@ export default function CourseGraph({ onNodeClick }) {
       return getAllPrerequisites(selectedCourse).has(id) ? 'orange' : '#eee';
     }
 
-    return 'lightgreen'; // default
+    return 'lightgreen';
   };
-  
 
-  /* ---------- D3 setup ---------- */
-  const setupSvg = sel =>
-    sel.attr('viewBox', [0, 0, WIDTH, HEIGHT])
+  /* ---------- D3 setup and rendering ---------- */
+  useEffect(() => {
+    if (!svgRef.current || !data.nodes.length) return;
+
+    const svg = d3.select(svgRef.current);
+    
+    // Clear everything
+    svg.selectAll('*').remove();
+    
+    // Set up SVG
+    svg.attr('viewBox', [0, 0, WIDTH, HEIGHT])
        .style('border', '1px solid #888')
        .style('background', '#f9f9f9');
 
-  const setupDefs = sel => {
-    // --- Arrow marker whose tip will sit exactly on the node circumference ---
-    const marker = sel.append('defs')
-       .append('marker')
-       .attr('id', 'arrow')
-       .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE} ${ARROW_SIZE * 2}`)
-       .attr('refX', ARROW_SIZE)        // place the *tip* of the arrow at the line end
-       .attr('refY', 0)
-       .attr('markerWidth',  ARROW_SIZE)
-       .attr('markerHeight', ARROW_SIZE)
-       .attr('orient', 'auto');
+    // Create main group
+    const g = svg.append('g');
 
-    marker.append('path')
-       .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
-       .attr('fill', '#999');
-  };
-
-  const setupZoom = (svgSel, gSel) =>
-    svgSel.call(
-      d3.zoom()
-        .scaleExtent([0.25, 4])
-        .on('zoom', e => gSel.attr('transform', e.transform)),
-    );
-
-  const setupStaticElements = (linkG, nodeG, graphData) => {
-    /* ----- nodes ----- */
-    const nodeEnter = nodeG.selectAll('g.node')
-      .data(graphData.nodes, d => d.id)
-      .enter()
-      .append('g')
-      .attr('class', 'node')
-      .call( d3.drag()
-              .on('start', (e,d) => dragstarted(e,d, simRef.current))
-              .on('drag',  (e,d) => dragged(e,d))
-              .on('end',   (e,d) => dragended(e,d, simRef.current)) );
-
-    nodeEnter.append('circle')
-      .attr('r', NODE_RADIUS)
-      .attr('stroke', '#333')
-      .attr('stroke-width', 1.5);
-
-    nodeEnter.append('text')
-      .attr('y', 2)
-      .attr('text-anchor', 'middle')
-      .attr('font-size', 11)
-      .text(d => d.id);
-
-    /* ----- links ----- */
-    linkG.selectAll('line')
-      .data(
-        graphData.links,
-        d => `${typeof d.source === 'object' ? d.source.id : d.source}`
-           + `->${typeof d.target === 'object' ? d.target.id : d.target}`,
-      )
-      .enter()
-      .append('line')
-      .attr('stroke', '#999')
-      .attr('stroke-width', 1.5)
-      .attr('marker-end', 'url(#arrow)');
-  };
-
-  const setupForceSimulation = (graphData, linkG, nodeG) => {
-    // Freeze every node at its pre‑laid‑out (x,y) position
-    graphData.nodes.forEach(d => { d.fx = d.x; d.fy = d.y; });
-    
-    const sim = d3.forceSimulation(graphData.nodes)
-      /* pull each node to its pre‑laid‑out (x,y) */
-      .force('x',      d3.forceX(d => d.x).strength(1))
-      .force('y',      d3.forceY(d => d.y).strength(1))
-      /* keep links and minimal spacing */
-      .force('link',   d3.forceLink(graphData.links)
-                         .id(d => d.id)
-                         .distance(90)
-                         .strength(0.7))
-      .force('collide', d3.forceCollide(NODE_RADIUS + 4))
-      .alpha(1)
-      .alphaDecay(0.08)
-      .on('tick', () => ticked(linkG, nodeG));
-
-    return sim;
-  };
-
-  const ticked = (linkG, nodeG) => {
-    linkG.selectAll('line')
-      .each(function(d) {
-        const dx   = d.target.x - d.source.x;
-        const dy   = d.target.y - d.source.y;
-        const dist = Math.hypot(dx, dy);
-        const nx   = dx / dist, ny = dy / dist;
-
-        // Stop the visible line *exactly* at the node circumference.
-        const tX = d.target.x - nx * NODE_RADIUS;
-        const tY = d.target.y - ny * NODE_RADIUS;
-
-        d3.select(this)
-          .attr('x1', d.source.x)
-          .attr('y1', d.source.y)
-          .attr('x2', tX)
-          .attr('y2', tY);
+    // Set up zoom
+    const zoom = d3.zoom()
+      .scaleExtent([0.1, 4])
+      .on('zoom', (event) => {
+        g.attr('transform', event.transform);
       });
 
-    nodeG.selectAll('g.node')
-         .attr('transform', d => `translate(${d.x},${d.y})`);
-  };
+    svg.call(zoom);
 
-  /* ---------- drag helpers ---------- */
-  const dragstarted = (e,d,sim) => {
-    if (!e.active) sim.alphaTarget(0.3).restart();
-    d.fx = d.x; d.fy = d.y;
-  };
-  const dragged = (e,d) => {
-    d.fx = e.x; d.fy = e.y;
-  };
-  const dragended = (e,d,sim) => {
-    if (!e.active) sim.alphaTarget(0);
-    d.fx = d.x;
-    d.fy = d.y;
-  };
+    // Set initial zoom (zoomed out to see the full graph)
+    const initialTransform = d3.zoomIdentity
+      .translate(WIDTH / 2, HEIGHT / 2)
+      .scale(0.3);
+    svg.call(zoom.transform, initialTransform);
 
-  const updateGraphVisuals = (gSel, colorFn, clickHandler) => {
-    if (!gSel) return;
-    gSel.selectAll('g.node > circle')
-        .attr('fill', d => colorFn(d.id));
-    gSel.selectAll('g.node')
-        .on('click', (_,d) => clickHandler(d.id));
-  };
+    // Add arrow markers
+    const defs = svg.append('defs');
+    defs.append('marker')
+      .attr('id', 'arrowhead')
+      .attr('viewBox', '-0 -5 10 10')
+      .attr('refX', NODE_RADIUS + 5)
+      .attr('refY', 0)
+      .attr('orient', 'auto')
+      .append('path')
+      .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+      .attr('fill', '#999');
 
-  /* ---------- D3 lifecycle ---------- */
-  useEffect(() => {
-    const svg   = d3.select(svgRef.current);
-    setupSvg(svg);
-    setupDefs(svg);
+    // Draw links
+    const linkSelection = g.selectAll('.link')
+      .data(data.links);
+    
+    linkSelection.enter()
+      .append('line')
+      .attr('class', 'link')
+      .merge(linkSelection)
+      .attr('x1', d => d.source.x)
+      .attr('y1', d => d.source.y)
+      .attr('x2', d => d.target.x)
+      .attr('y2', d => d.target.y)
+      .attr('stroke', '#999')
+      .attr('stroke-opacity', 0.6)
+      .attr('stroke-width', 2)
+      .attr('marker-end', 'url(#arrowhead)');
 
-    const g     = svg.append('g');
-    const linkG = g.append('g').attr('class', 'links');
-    const nodeG = g.append('g').attr('class', 'nodes');
-    gRef.current = g;
 
-    setupZoom(svg, g);
-    setupStaticElements(linkG, nodeG, data);
+    // Draw nodes
+    const nodeSelection = g.selectAll('.node')
+      .data(data.nodes);
+    
+    const nodes = nodeSelection.enter()
+      .append('g')
+      .attr('class', 'node')
+      .merge(nodeSelection)
+      .attr('transform', d => `translate(${d.x},${d.y})`);
 
-    const sim = setupForceSimulation(data, linkG, nodeG);
-    simRef.current = sim;
+    nodes.selectAll('circle')
+      .data(d => [d])
+      .join('circle')
+      .attr('r', NODE_RADIUS)
+      .attr('fill', d => nodeColor(d.id))
+      .attr('stroke', '#333')
+      .attr('stroke-width', 2)
+      .style('cursor', 'pointer')
+      .on('click', (event, d) => {
+        event.stopPropagation();
+        if (mode === 'completed') {
+          toggleCompleted(d.id);
+        } else {
+          setSelectedCourse(d.id);
+          if (onNodeClick) onNodeClick(d.id);
+        }
+      });
 
+    nodes.selectAll('text')
+      .data(d => [d])
+      .join('text')
+      .attr('text-anchor', 'middle')
+      .attr('dy', '0.35em')
+      .attr('font-size', '10px')
+      .attr('font-weight', 'bold')
+      .attr('fill', '#333')
+      .text(d => d.name)
+      .style('pointer-events', 'none');
+
+
+    // Cleanup function
     return () => {
-      sim.stop();
       svg.selectAll('*').remove();
     };
-  }, [data]);
-
-  useEffect(() => {
-    const handleNodeClick = id => {
-      if (mode === 'completed') {
-        toggleCompleted(id);
-      } else {
-        setSelectedCourse(id);
-        if (onNodeClick) onNodeClick(id);
-      }
-    };
-  
-    updateGraphVisuals(gRef.current, nodeColor, handleNodeClick);
-  }, [completedCourses, externalCourses, selectedCourse, mode, futureMode, data, onNodeClick]);
+  }, [data, completedCourses, externalCourses, selectedCourse, mode, futureMode, onNodeClick]);
   
   /* ---------- UI ---------- */
   const resetGraph = () => {
@@ -332,7 +261,10 @@ export default function CourseGraph({ onNodeClick }) {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <div className="w-full max-w-4xl border-2 border-gray-400 rounded-lg p-4">
-        <h2 className="text-xl font-bold mb-2">Course Prerequisites Graph</h2>
+        <h2 className="text-xl font-bold mb-2">Course Prerequisites Graph - Radial View</h2>
+        <div className="text-sm text-gray-600 mb-2">
+          💡 <strong>Tip:</strong> Use mouse wheel to zoom in/out. Drag to pan around the graph.
+        </div>
 
         <div className="text-lg font-semibold my-2">
           Current Mode:&nbsp;
