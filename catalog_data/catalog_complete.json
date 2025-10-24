@@ -1,0 +1,187 @@
+{
+  "departments": [
+    {
+      "code": "ACC",
+      "name": "ACC"
+    },
+    {
+      "code": "AIM",
+      "name": "AIM"
+    },
+    {
+      "code": "ASC",
+      "name": "ASC"
+    }
+  ],
+  "courses": [
+    {
+      "id": "50bf3652-90c2-4172-8475-7ee02496ec71",
+      "dept_code": "ASC",
+      "number": "101",
+      "code": "ASC101",
+      "title": "Practicing Engaging Presentations",
+      "description": "Engaging Presentations An introduction to the basics of public speaking, including how to engage audiences with relevant and engaging resources. Each week, students prepare and give presentations on various topics, and develop skills including using appropriate body language, effectively utilizing audio and visual aids, finding a personal presentation style, and handling the unexpected. Presentation formats addressed include introductory, instructional, and informational. Students receive feedback from instructors and peers, and are expected to build upon this feedback each week.",
+      "credits": 0.0,
+      "active": true,
+      "prerequisite_text": "",
+      "corequisite_text": ""
+    },
+    {
+      "id": "8d46d848-1e6c-426c-8ba1-614f954d6221",
+      "dept_code": "ACC",
+      "number": "210",
+      "code": "ACC210",
+      "title": "Financial Accounting",
+      "description": "Accounting This course presents an introduction to fundamental financial accounting principles, concentrating on identifying, recording, and communicating the economic events of a business organization. Topics include the accounting cycle, the preparation and presentation of the income statement, retained earnings statement and balance sheet, and an in-depth exploration of the measure and presentation of assets and liabilities.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "Business Major or ACC Minor or MTD or ECO or ISE Major or FIN Minor",
+      "corequisite_text": ""
+    },
+    {
+      "id": "a0b903cd-c360-4dc0-9f3d-83c8718f7a4d",
+      "dept_code": "ACC",
+      "number": "214",
+      "code": "ACC214",
+      "title": "Managerial Cost Analysis and Applications",
+      "description": "Cost Analysis and Applications A study of cost concepts, and theories as it relates to cost accumulation systems for product, process and activity based costing, as well as the implementation and evaluation of an accounting system as a source of information for decision making, planning, control, and evaluation of the organization by management. Includes cost-volume-profit analysis, overhead rates, budgeting and variance analysis, statement of cash flows and financial statement ratio analysis.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "BUS major or ACC minor or FIN minor or ISE major",
+      "corequisite_text": ""
+    },
+    {
+      "id": "4bafaacc-0701-4f0f-bbde-61a0497f377f",
+      "dept_code": "ACC",
+      "number": "310",
+      "code": "ACC310",
+      "title": "Intermediate Accounting I",
+      "description": "Accounting I This course expands upon the basic financial accounting framework and explores the theoretical and analytical applications of Generally Accepted Accounting Principles (GAAP) in a business environment. The student will gain an understanding of financial reporting criteria and the reliance placed upon financial information by external users. Topics include the measurement and reporting of cash, receivables, inventories, and operational assets, revenue recognition and the preparation of financial statements.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "BUS major or ACC minor and ACC 210",
+      "corequisite_text": ""
+    },
+    {
+      "id": "9bbefe96-c03c-4ff1-b769-8371b2452979",
+      "dept_code": "ACC",
+      "number": "311",
+      "code": "ACC311",
+      "title": "Federal Income Taxation I Introduces and explores fundamental income taxation concepts for individuals. Topics include gross income, exclusions, adjusted gross income, deductions, exemptions, tax computations, and credits. Introductory tax concepts, including cash and accrual methods, property acquisitions and dispositions, like-kind exchanges, and passive loss rules are also reviewed. Additionally, students will familiarize themselves with tax planning concepts, the legislative process, and professional responsibilities in tax practice.",
+      "description": "Income Taxation I Introduces and explores fundamental income taxation concepts for individuals. Topics include gross income, exclusions, adjusted gross income, deductions, exemptions, tax computations, and credits. Introductory tax concepts, including cash and accrual methods, property acquisitions and dispositions, like-kind exchanges, and passive loss rules are also reviewed. Additionally, students will familiarize themselves with tax planning concepts, the legislative process, and professional responsibilities in tax practice.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "BUS major or ACC minor",
+      "corequisite_text": ""
+    },
+    {
+      "id": "7484bd17-ed81-47a8-9570-61c1da5e38c2",
+      "dept_code": "ACC",
+      "number": "313",
+      "code": "ACC313",
+      "title": "Intermediate Accounting II",
+      "description": "Accounting II This course is the second in the intermediate accounting sequence ( ACC 310 ). This course continues in the exploration of the financial accounting framework and the theoretical and analytical applications of Generally Accepted Accounting Principles (GAAP). Topics the study of advanced topics including accounting for investments, stockholders equity, pensions, leases, income taxes, bonds, and other contemporary financial accounting issues.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "BUS major or ACC Minor and ACC 310 SBC: SBS, SPK",
+      "corequisite_text": ""
+    },
+    {
+      "id": "fbdba3cd-67d9-4ba6-bff5-26304b27b440",
+      "dept_code": "ACC",
+      "number": "314",
+      "code": "ACC314",
+      "title": "Federal Income Taxation II Introduces and explores fundamental income taxation concepts for business entities, with a focus on C corporations, S corporations, and partnerships. Topics include the formation, operation, reorganization and liquidation of C corporations, as well as the formation, operation and liquidation of flow-through entities. Students will also familiarize themselves with specialty topics concerning estates and trusts, transfer taxes and jurisdictional taxation.",
+      "description": "Income Taxation II Introduces and explores fundamental income taxation concepts for business entities, with a focus on C corporations, S corporations, and partnerships. Topics include the formation, operation, reorganization and liquidation of C corporations, as well as the formation, operation and liquidation of flow-through entities. Students will also familiarize themselves with specialty topics concerning estates and trusts, transfer taxes and jurisdictional taxation.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "BUS Major or ACC Minor and ACC 311",
+      "corequisite_text": ""
+    },
+    {
+      "id": "b9687fb7-5a53-4009-b97d-03c2181ceefd",
+      "dept_code": "ACC",
+      "number": "400",
+      "code": "ACC400",
+      "title": "External Auditing",
+      "description": "Auditing The course is designed to introduce and explore basic auditing principles, concepts and applications within the context of the audit of an annual financial statement. This course will review the audit process and cover the following: planning (identification of the risks of material misstatement); application of procedures (reducing audit risk below an acceptable level); assessment (based upon documented audit evidence); and, reporting (in accordance with generally accepted auditing standards) This course will also examine professional ethical standards and their relevance to the audit process. Other topics will include analysis and testing of internal control, substantive testing, and accounting research.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "BUS Major or ACC minor and ACC 210",
+      "corequisite_text": ""
+    },
+    {
+      "id": "68d9d396-8edf-4fe7-8815-2c2ae735234b",
+      "dept_code": "ACC",
+      "number": "402",
+      "code": "ACC402",
+      "title": "Advanced Accounting",
+      "description": "Accounting This course provides students with in-depth and up-to-date coverage of accounting for investments, business combinations, consolidated financial statements, segment and interim reporting, foreign currency transactions, and partnerships. The course links theory and practice with consistent emphasis on the logic of procedures.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "ACC 313",
+      "corequisite_text": ""
+    },
+    {
+      "id": "14ef9a1f-458f-46b9-bc40-a0e1f39d01ae",
+      "dept_code": "AIM",
+      "number": "100",
+      "code": "AIM100",
+      "title": "EOP Pre-Freshman Summer Academic Bridge",
+      "description": "Pre-Freshman Summer Academic Bridge The purpose of the EOP Summer Academic Bridge course is to give students a foundation in math, writing, and a science related to their undergraduate goals. The course will build on their current skills with the goal of increasing the likelihood of their academic success in these areas during their first full semester at Stony Brook University. Students will be placed in the appropriate section based on the university placement recommendations in math and writing. The EOP Summer Academic Bridge will be supported through the EOP Transitional Support Bridge course.",
+      "credits": 3.0,
+      "active": true,
+      "prerequisite_text": "",
+      "corequisite_text": ""
+    }
+  ],
+  "course_requirements": [
+    {
+      "id": 1,
+      "course_id": "4bafaacc-0701-4f0f-bbde-61a0497f377f",
+      "group_no": 0,
+      "kind": "prerequisite",
+      "required_code": "ACC210",
+      "required_id": "8d46d848-1e6c-426c-8ba1-614f954d6221"
+    },
+    {
+      "id": 2,
+      "course_id": "7484bd17-ed81-47a8-9570-61c1da5e38c2",
+      "group_no": 0,
+      "kind": "prerequisite",
+      "required_code": "ACC310",
+      "required_id": "4bafaacc-0701-4f0f-bbde-61a0497f377f"
+    },
+    {
+      "id": 3,
+      "course_id": "fbdba3cd-67d9-4ba6-bff5-26304b27b440",
+      "group_no": 0,
+      "kind": "prerequisite",
+      "required_code": "ACC311",
+      "required_id": "9bbefe96-c03c-4ff1-b769-8371b2452979"
+    },
+    {
+      "id": 4,
+      "course_id": "b9687fb7-5a53-4009-b97d-03c2181ceefd",
+      "group_no": 0,
+      "kind": "prerequisite",
+      "required_code": "ACC210",
+      "required_id": "8d46d848-1e6c-426c-8ba1-614f954d6221"
+    },
+    {
+      "id": 5,
+      "course_id": "68d9d396-8edf-4fe7-8815-2c2ae735234b",
+      "group_no": 0,
+      "kind": "prerequisite",
+      "required_code": "ACC313",
+      "required_id": "7484bd17-ed81-47a8-9570-61c1da5e38c2"
+    }
+  ],
+  "course_aliases": [],
+  "metadata": {
+    "scraped_at": "2025-10-23 19:58:21",
+    "catalog_id": "7",
+    "total_departments": 3,
+    "total_courses": 10
+  }
+}
