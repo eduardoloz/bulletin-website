@@ -8,7 +8,6 @@ import About from './pages/About';
 
 import LoginPage from './pages/LoginPAGE';
 import Home from './pages/Home';
-import CatPage from './pages/CatPage';
 
 import Chatbot from "./components/chatbot";
 
@@ -23,7 +22,6 @@ function App() {
             <Route path="/" element={<Home />} /> {/* this is the graph which is on the home page */}
             <Route path="/about" element={<About />} /> {/* About Route */}
             <Route path="/login" element={<LoginPage />} /> {/* Login Route */}
-            <Route path="/cat" element={<CatPage />} /> {/* cat Route */}
           </Routes>
         </div>
       </BrowserRouter>
