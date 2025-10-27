@@ -1,33 +1,45 @@
 import React from 'react';
-import { GoogleOAuthProvider } from '@react-oauth/google';
 import './App.css';
 import Navbar from './components/navbar';
-//import CourseGraph from './components/GraphComponent';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import About from './pages/About';
-
 import LoginPage from './pages/LoginPAGE';
 import Home from './pages/Home';
 import CatPage from './pages/CatPage';
-
-import Chatbot from "./components/chatbot";
-
+import { useAuth } from './hooks/useAuth';
 
 function App() {
+  const { user, loading } = useAuth();
+
+  // Loading state - checking authentication
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+        <div className="text-center">
+          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"></div>
+          <p className="text-gray-600">Loading...</p>
+        </div>
+      </div>
+    );
+  }
+
+  // Not authenticated - show login page only
+  if (!user) {
+    return <LoginPage />;
+  }
+
+  // Authenticated - show full app
   return (
-    <GoogleOAuthProvider clientId={process.env.REACT_APP_GOOGLE_CLIENT_ID}>
     <BrowserRouter>
       <div className="App">
         <Navbar />
         <Routes>
-          <Route path="/" element={<Home />} /> {/* this is the graph which is on the home page */}
-          <Route path="/about" element={<About />} /> {/* About Route */}
-          <Route path="/login" element={<LoginPage />} /> {/* Login Route */}
-          <Route path="/cat" element={<CatPage />} /> {/* cat Route */}
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/cat" element={<CatPage />} />
         </Routes>
       </div>
     </BrowserRouter>
-  </GoogleOAuthProvider>
   );
 }
 

@@ -6,8 +6,15 @@ import React, {
   useMemo,
 } from 'react';
 import * as d3 from 'd3';
-import courses from '../data/cse.json';
+import courses from '../data/sbu_cse_courses_new_schema.json';
 import CourseGraphProcessor from './CourseGraphProcessor';
+import {
+  buildCourseMap,
+  buildCourseCodeMap,
+  canTakeCourse,
+  getAllPrerequisites
+} from '../utils/courseUtils';
+import { useUserProgress } from '../hooks/useUserProgress';
 
 /* ---------- constants ---------- */
 const WIDTH = 960;
@@ -20,122 +27,151 @@ const ARROW_SIZE = 8;
  * Courses spiral outward from center, showing hierarchy through concentric rings.
  */
 export default function RadialGraphComponent({ onNodeClick }) {
-  /* ---------- one‑time graph data ---------- */
+  /* ---------- one-time graph data ---------- */
   const processor = useMemo(() => new CourseGraphProcessor(courses), []);
-  const data = useMemo(() => {
-    return processor.processRadialGraph();
-  }, [processor]);
+  const data = useMemo(() => processor.processRadialGraph(), [processor]);
+  const courseMap = useMemo(() => buildCourseMap(courses), []);
+  const courseCodeMap = useMemo(() => buildCourseCodeMap(courses), []);
+
+  /* ---------- User progress from database ---------- */
+  const { progress, saving, save, isAuthenticated } = useUserProgress();
 
   /* ---------- React state ---------- */
-  const [completedCourses, setCompletedCourses] = useState(new Set());
-  const [externalCourses, setExternalCourses] = useState(new Set());
-  const [selectedCourse, setSelectedCourse] = useState(null);
+  const [completedCourses, setCompletedCourses] = useState(new Set()); // IDs of completed courses
+  const [externalCourses, setExternalCourses] = useState(new Set());   // External course codes
+  const [selectedCourse, setSelectedCourse] = useState(null);          // Selected course ID
   const [mode, setMode] = useState('default');
   const [futureMode, setFutureMode] = useState(false);
+
+  // Sync local state with database on load
+  useEffect(() => {
+    if (progress) {
+      setCompletedCourses(new Set(progress.completed_courses || []));
+      setExternalCourses(new Set(progress.external_courses || []));
+    }
+  }, [progress]);
 
   /* ---------- D3 refs ---------- */
   const svgRef = useRef(null);
 
-  /* ---------- helpers ---------- */
-  const toggleCompleted = id =>
-    setCompletedCourses(prev => {
-      const s = new Set(prev);
-      s.has(id) ? s.delete(id) : s.add(id);
-      return s;
-    });
+  /* ---------- helpers with database persistence ---------- */
+  const toggleCompleted = async (id) => {
+    // Update local state immediately for fast UI response
+    const newCompleted = new Set(completedCourses);
+    newCompleted.has(id) ? newCompleted.delete(id) : newCompleted.add(id);
+    setCompletedCourses(newCompleted);
 
-  const addExternalCourse = (courseCode) => {
-    const trimmed = courseCode.trim().toUpperCase();
-    if (trimmed) {
-      setExternalCourses(prev => new Set([...prev, trimmed]));
+    // Save to database in background (if authenticated)
+    if (isAuthenticated) {
+      try {
+        await save({
+          completedCourses: Array.from(newCompleted),
+          externalCourses: Array.from(externalCourses),
+          standing: progress?.standing || 1,
+          majorId: progress?.major_id || null,
+        });
+      } catch (error) {
+        console.error('Failed to save progress:', error);
+        // Note: We don't revert the local state so the graph still works
+        // even if the database table doesn't exist yet
+      }
     }
   };
 
-  const removeExternalCourse = (courseCode) => {
-    setExternalCourses(prev => {
-      const s = new Set(prev);
-      s.delete(courseCode);
-      return s;
-    });
+  const addExternalCourse = async (courseCode) => {
+    const trimmed = courseCode.trim().toUpperCase();
+    if (!trimmed) return;
+
+    // Update local state immediately
+    const newExternal = new Set([...externalCourses, trimmed]);
+    setExternalCourses(newExternal);
+
+    // Save to database in background (if authenticated)
+    if (isAuthenticated) {
+      try {
+        await save({
+          completedCourses: Array.from(completedCourses),
+          externalCourses: Array.from(newExternal),
+          standing: progress?.standing || 1,
+          majorId: progress?.major_id || null,
+        });
+      } catch (error) {
+        console.error('Failed to save progress:', error);
+        // Note: We don't revert the local state so the graph still works
+        // even if the database table doesn't exist yet
+      }
+    }
   };
 
-  const getAllPrerequisites = (id, visited = new Set()) => {
-    if (visited.has(id)) return visited;
-    visited.add(id);
-    (processor.courseMap[id]?.prerequisite || [])
-      .forEach(p => getAllPrerequisites(p, visited));
-    return visited;
+  const removeExternalCourse = async (courseCode) => {
+    // Update local state immediately
+    const newExternal = new Set(externalCourses);
+    newExternal.delete(courseCode);
+    setExternalCourses(newExternal);
+
+    // Save to database in background (if authenticated)
+    if (isAuthenticated) {
+      try {
+        await save({
+          completedCourses: Array.from(completedCourses),
+          externalCourses: Array.from(newExternal),
+          standing: progress?.standing || 1,
+          majorId: progress?.major_id || null,
+        });
+      } catch (error) {
+        console.error('Failed to save progress:', error);
+        // Note: We don't revert the local state so the graph still works
+        // even if the database table doesn't exist yet
+      }
+    }
   };
 
-  // Prerequisite checking - treats all prerequisites as required
-  const checkPrerequisitesSatisfied = (prerequisites, completedCourses, externalCourses) => {
-    if (prerequisites.length === 0) return true;
-    
-    return prerequisites.every(prereq => {
-      const trimmed = prereq.trim();
-      return completedCourses.has(trimmed) || externalCourses.has(trimmed);
+  // Get all prerequisite IDs for external courses that are in our course list
+  const getExternalCourseIds = () => {
+    const ids = new Set();
+    externalCourses.forEach(code => {
+      const course = courseCodeMap[code];
+      if (course) ids.add(course.id);
     });
+    return ids;
   };
 
   const nodeColor = id => {
     if (mode === 'completed') {
       if (completedCourses.has(id)) return 'green';
 
-      const course = processor.courseMap[id];
-      if (course && course.prerequisite.length > 0) {
-        const prereqsSatisfied = checkPrerequisitesSatisfied(
-          course.prerequisite, 
-          completedCourses, 
-          externalCourses
-        );
-        if (prereqsSatisfied) return 'blue';
+      const course = courseMap[id];
+      if (!course) return '#ccc';
+
+      // Combine completed CSE courses with external courses
+      const allCompletedIds = new Set([...completedCourses, ...getExternalCourseIds()]);
+
+      // Check if course is available (prerequisites satisfied)
+      if (canTakeCourse(course, allCompletedIds)) {
+        return 'blue';
       }
 
       if (futureMode) {
-        // Future mode logic (same as regular graph)
+        // Find all currently available courses
         const currentlyAvailable = new Set();
-        Object.keys(processor.courseMap).forEach(courseId => {
-          if (!completedCourses.has(courseId)) {
-            const course = processor.courseMap[courseId];
-            if (course && course.prerequisite.length > 0) {
-              const prereqsSatisfied = checkPrerequisitesSatisfied(
-                course.prerequisite, 
-                completedCourses, 
-                externalCourses
-              );
-              if (prereqsSatisfied) {
-                currentlyAvailable.add(courseId);
-              }
-            }
+        Object.values(courseMap).forEach(c => {
+          if (!completedCourses.has(c.id) && canTakeCourse(c, allCompletedIds)) {
+            currentlyAvailable.add(c.id);
           }
         });
 
-        const futureAvailable = new Set();
-        Object.keys(processor.courseMap).forEach(courseId => {
-          if (!completedCourses.has(courseId) && !currentlyAvailable.has(courseId)) {
-            const course = processor.courseMap[courseId];
-            if (course && course.prerequisite.length > 0) {
-              const hypotheticalCompleted = new Set([...completedCourses, ...currentlyAvailable]);
-              const prereqsSatisfied = checkPrerequisitesSatisfied(
-                course.prerequisite, 
-                hypotheticalCompleted, 
-                externalCourses
-              );
-              if (prereqsSatisfied) {
-                futureAvailable.add(courseId);
-              }
-            }
-          }
-        });
-
-        return futureAvailable.has(id) ? 'purple' : '#ccc';
+        // Find courses available after completing all currently available courses
+        const hypotheticalCompleted = new Set([...allCompletedIds, ...currentlyAvailable]);
+        if (canTakeCourse(course, hypotheticalCompleted)) {
+          return 'purple';
+        }
       }
 
       return '#ccc';
     }
 
     if (mode === 'prereqs' && selectedCourse) {
-      return getAllPrerequisites(selectedCourse).has(id) ? 'orange' : '#eee';
+      return getAllPrerequisites(selectedCourse, courseMap).has(id) ? 'orange' : '#eee';
     }
 
     return 'lightgreen';
@@ -146,10 +182,10 @@ export default function RadialGraphComponent({ onNodeClick }) {
     if (!svgRef.current || !data.nodes.length) return;
 
     const svg = d3.select(svgRef.current);
-    
+
     // Clear everything
     svg.selectAll('*').remove();
-    
+
     // Set up SVG
     svg.attr('viewBox', [0, 0, WIDTH, HEIGHT])
        .style('border', '1px solid #888')
@@ -188,7 +224,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
     // Draw links
     const linkSelection = g.selectAll('.link')
       .data(data.links);
-    
+
     linkSelection.enter()
       .append('line')
       .attr('class', 'link')
@@ -206,7 +242,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
     // Draw nodes
     const nodeSelection = g.selectAll('.node')
       .data(data.nodes);
-    
+
     const nodes = nodeSelection.enter()
       .append('g')
       .attr('class', 'node')
@@ -227,7 +263,8 @@ export default function RadialGraphComponent({ onNodeClick }) {
           toggleCompleted(d.id);
         } else {
           setSelectedCourse(d.id);
-          if (onNodeClick) onNodeClick(d.id);
+          const course = courseMap[d.id];
+          if (onNodeClick && course) onNodeClick(course.code);
         }
       });
 
@@ -239,7 +276,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
       .attr('font-size', '10px')
       .attr('font-weight', 'bold')
       .attr('fill', '#333')
-      .text(d => d.name)
+      .text(d => d.code)
       .style('pointer-events', 'none');
 
 
@@ -247,23 +284,24 @@ export default function RadialGraphComponent({ onNodeClick }) {
     return () => {
       svg.selectAll('*').remove();
     };
-  }, [data, completedCourses, externalCourses, selectedCourse, mode, futureMode, onNodeClick]);
-  
+  }, [data, completedCourses, externalCourses, selectedCourse, mode, futureMode, onNodeClick, courseMap]);
+
   /* ---------- UI ---------- */
-  const resetGraph = () => {
-    setCompletedCourses(new Set());
-    setExternalCourses(new Set());
-    setSelectedCourse(null);
-    setMode('default');
-    setFutureMode(false);
-  };
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <div className="w-full max-w-4xl border-2 border-gray-400 rounded-lg p-4">
+        {/* Saving indicator */}
+        {saving && (
+          <div className="mb-4 p-3 bg-blue-50 border border-blue-200 rounded-lg flex items-center gap-2">
+            <div className="inline-block animate-spin rounded-full h-4 w-4 border-b-2 border-blue-600"></div>
+            <span className="text-blue-700 text-sm font-medium">Saving your progress...</span>
+          </div>
+        )}
+
         <h2 className="text-xl font-bold mb-2">Course Prerequisites Graph - Radial View</h2>
         <div className="text-sm text-gray-600 mb-2">
-          💡 <strong>Tip:</strong> Use mouse wheel to zoom in/out. Drag to pan around the graph.
+          Use mouse wheel to zoom in/out. Drag to pan around the graph.
         </div>
 
         <div className="text-lg font-semibold my-2">
@@ -274,7 +312,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
               : mode === 'prereqs'
                 ? 'Prereqs'
                 : selectedCourse
-                  ? `Showing prereqs for ${selectedCourse}`
+                  ? `Showing prereqs for ${courseMap[selectedCourse]?.code || selectedCourse}`
                   : 'Default'}
           </span>
         </div>
@@ -291,7 +329,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
               {Array.from(externalCourses).map(course => (
                 <span key={course} className="bg-blue-200 px-2 py-1 rounded text-sm">
                   {course}
-                  <button 
+                  <button
                     onClick={() => removeExternalCourse(course)}
                     className="ml-1 text-red-600 hover:text-red-800"
                   >
@@ -305,7 +343,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
                 type="text"
                 placeholder="e.g., MAT 125, AMS 151"
                 className="px-3 py-1 border rounded"
-                onKeyPress={(e) => {
+                onKeyDown={(e) => {
                   if (e.key === 'Enter') {
                     addExternalCourse(e.target.value);
                     e.target.value = '';
@@ -351,12 +389,6 @@ export default function RadialGraphComponent({ onNodeClick }) {
             className={`px-4 py-2 rounded text-white
                         ${mode === 'prereqs' ? 'bg-orange-700' : 'bg-orange-500'}`}>
             Prereqs Mode
-          </button>
-
-          <button
-            onClick={resetGraph}
-            className="px-4 py-2 rounded bg-red-500 text-white">
-            Reset
           </button>
         </div>
 

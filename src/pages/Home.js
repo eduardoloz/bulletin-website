@@ -3,19 +3,49 @@ import NodeInfo from '../components/NodeInfo'; // previously ProfessorInfo
 import CourseGraph from '../components/GraphComponent';
 import RadialGraphComponent from '../components/RadialGraphComponent';
 import Chatbot from "../components/chatbot";
-import courses from '../data/cse.json';
+import courses from '../data/sbu_cse_courses_new_schema.json';
+import { useAuth } from '../hooks/useAuth';
 
 function Home() {
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [graphView, setGraphView] = useState('grid'); // 'grid' or 'radial'
+  const { user, loading: authLoading, signOut } = useAuth();
 
-  const handleNodeClick = (id) => {
-    const course = courses.find(c => c.title.startsWith(id));
+  const handleNodeClick = (courseCode) => {
+    // Find course by code (e.g., "CSE 101")
+    const course = courses.find(c => c.code === courseCode);
     setSelectedCourse(course);
   };
 
   return (
     <div className="home-page">
+      {/* Auth Status - Top Right Corner */}
+      {!authLoading && (
+        <div className="fixed top-4 right-4 bg-white shadow-lg rounded-lg px-4 py-2 border border-gray-200 z-50">
+          {user ? (
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-green-500 rounded-full"></div>
+                <span className="text-sm text-gray-700 font-medium">
+                  {user.email}
+                </span>
+              </div>
+              <button
+                onClick={signOut}
+                className="text-xs px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+              >
+                Sign Out
+              </button>
+            </div>
+          ) : (
+            <div className="flex items-center gap-2">
+              <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
+              <span className="text-sm text-gray-500">Not signed in</span>
+            </div>
+          )}
+        </div>
+      )}
+
       <div className="grid grid-cols-3 gap-1 shadow-md p-6 border-2 border-gray-300 rounded-lg m-10">
         
         <div className="col-span-2 bg-white m-4">
