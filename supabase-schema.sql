@@ -5,11 +5,12 @@
 -- https://supabase.com/dashboard/project/ivgfwasqkndbtucqpkkw/editor
 
 -- 1. Create the user_progress table
+-- Note: Course IDs are TEXT (e.g., "uuid-cse101") not real UUIDs
 CREATE TABLE IF NOT EXISTS user_progress (
   user_id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,
-  completed_courses UUID[] DEFAULT '{}',
-  taking_now UUID[] DEFAULT '{}',
-  external_courses TEXT[] DEFAULT '{}',
+  completed_courses TEXT[] DEFAULT ARRAY[]::TEXT[],
+  taking_now TEXT[] DEFAULT ARRAY[]::TEXT[],
+  external_courses TEXT[] DEFAULT ARRAY[]::TEXT[],
   standing INTEGER DEFAULT 1,
   major_id UUID,
   created_at TIMESTAMPTZ DEFAULT NOW(),
