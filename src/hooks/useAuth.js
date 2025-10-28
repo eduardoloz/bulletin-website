@@ -21,6 +21,7 @@ export function useAuth() {
   const [user, setUser] = useState(null);
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(true);
+  const [signingOut, setSigningOut] = useState(false);
 
   useEffect(() => {
     // Get initial session on mount
@@ -45,7 +46,21 @@ export function useAuth() {
 
   // Sign out helper
   const signOut = async () => {
-    await supabase.auth.signOut();
+    // Prevent multiple simultaneous sign-out calls
+    if (signingOut) return;
+
+    setSigningOut(true);
+    try {
+      // Use local scope to avoid global logout issues
+      await supabase.auth.signOut({ scope: 'local' });
+    } catch (error) {
+      // If sign out fails, clear local state anyway
+      console.error('Sign out error:', error);
+      setUser(null);
+      setSession(null);
+    } finally {
+      setSigningOut(false);
+    }
   };
 
   return {
@@ -53,5 +68,6 @@ export function useAuth() {
     session,
     loading,
     signOut,
+    signingOut,
   };
 }

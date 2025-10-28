@@ -3,7 +3,7 @@ import React from 'react';
 import { useAuth } from '../hooks/useAuth';
 
 const Navbar = () => {
-  const { user, loading: authLoading, signOut } = useAuth();
+  const { user, loading: authLoading, signOut, signingOut } = useAuth();
 
   return (
     <nav className="bg-blue-600 text-white p-4 shadow-lg">
@@ -24,9 +24,10 @@ const Navbar = () => {
               </div>
               <button
                 onClick={signOut}
-                className="text-xs px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors"
+                disabled={signingOut}
+                className="text-xs px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Sign Out
+                {signingOut ? 'Signing out...' : 'Sign Out'}
               </button>
             </div>
           )}
