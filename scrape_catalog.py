@@ -86,8 +86,72 @@ def get_course_links(driver: webdriver.Chrome, catalog_id: str) -> List[str]:
     return course_links
 
 
-def scrape_course_page(driver: webdriver.Chrome, url: str) -> Optional[Dict]:
+def parse_requirement_tree(req_text: str, course_code_to_id: Dict[str, str]) -> Optional[Dict]:
+    """Parse prerequisite/corequisite text into a tree structure (AND/OR/COURSE nodes)."""
+    if not req_text or req_text.lower() in ["none", "permission of instructor"]:
+        return {"kind": "TRUE"}
+
+    # Extract course codes from the requirement text
+    course_codes = re.findall(r"[A-Z]{2,4}\s*\d{3}[A-Z]?", req_text)
+
+    if not course_codes:
+        return {"kind": "TRUE"}
+
+    # Normalize course codes (remove spaces)
+    normalized_codes = [c.replace(" ", "") for c in course_codes]
+
+    # Simple heuristic: if "or" appears in text, use OR node; otherwise AND
+    # This is a simplified parser - a full implementation would need proper parsing
+    if re.search(r"\bor\b", req_text, re.IGNORECASE):
+        # OR logic
+        nodes = []
+        for code in normalized_codes:
+            # Generate a placeholder ID if course doesn't exist yet
+            course_id = course_code_to_id.get(code, f"uuid-{code.lower()}")
+            nodes.append({"kind": "COURSE", "courseId": course_id})
+
+        if len(nodes) == 1:
+            return nodes[0]
+        return {"kind": "OR", "nodes": nodes}
+    else:
+        # AND logic (default)
+        nodes = []
+        for code in normalized_codes:
+            course_id = course_code_to_id.get(code, f"uuid-{code.lower()}")
+            nodes.append({"kind": "COURSE", "courseId": course_id})
+
+        if len(nodes) == 0:
+            return {"kind": "TRUE"}
+        elif len(nodes) == 1:
+            return nodes[0]
+        return {"kind": "AND", "nodes": nodes}
+
+
+def extract_sbc_fulfillments(text: str) -> List[Dict]:
+    """Extract SBC categories from course text."""
+    fulfills = []
+
+    # Common SBC patterns in Stony Brook catalog
+    sbc_pattern = r"SBC:\s*([A-Z+\s,]+)"
+    match = re.search(sbc_pattern, text, re.IGNORECASE)
+
+    if match:
+        sbc_text = match.group(1)
+        # Parse individual SBC codes (e.g., "TECH", "STEM+", "EXP+")
+        for sbc in re.findall(r"[A-Z]+", sbc_text):
+            sbc_clean = sbc.replace("+", "")
+            # Map to known SBC categories
+            if sbc_clean in ["EXP", "HUM", "ART", "SBS", "STEM", "DIV", "USA", "LANG", "WRT"]:
+                fulfills.append({"category": sbc_clean})
+
+    return fulfills
+
+
+def scrape_course_page(driver: webdriver.Chrome, url: str, course_code_to_id: Dict[str, str] = None) -> Optional[Dict]:
     try:
+        if course_code_to_id is None:
+            course_code_to_id = {}
+
         if not safe_get(driver, url):
             return None
 
@@ -114,19 +178,26 @@ def scrape_course_page(driver: webdriver.Chrome, url: str) -> Optional[Dict]:
         else:
             title = rest.split('.')[0].strip()  # Fallback: use first sentence
 
-        course_code = f"{dept_code}{number}"
+        # Generate course code with space (e.g., "CSE 101")
+        course_code_with_space = f"{dept_code} {number}"
+        course_code_no_space = f"{dept_code}{number}"
+
+        # Generate ID in the format uuid-cse101
+        course_id = f"uuid-{course_code_no_space.lower()}"
+
+        # Full title format like "CSE 101: Computer Science Principles"
+        full_title = f"{course_code_with_space}: {title}"
 
         # Extract credits
         credits = None
         credits_match = re.search(r"(\d+(?:\.\d+)?)\s*credits?", text, re.IGNORECASE)
         if credits_match:
             try:
-                credits = float(credits_match.group(1))
+                credits = int(float(credits_match.group(1)))
             except ValueError:
                 pass
 
         # Extract description - between title and credits info
-        # Pattern: "Title Description...0 credit,SBC:..."
         desc_match = re.search(r"[−–\-—]\s*[^\n]+?\s+([A-Z][^.]+.*?)\s*\d+\s*credits?", text, re.DOTALL)
         if desc_match:
             description = desc_match.group(1).strip()
@@ -135,13 +206,11 @@ def scrape_course_page(driver: webdriver.Chrome, url: str) -> Optional[Dict]:
 
         description = re.sub(r"\s+", " ", description).strip()
 
-        # Extract prerequisite text from the FULL page text (not just description)
-        # Prerequisites come after credits: "3 credits Prerequisite(s): BUS major or..."
+        # Extract prerequisite text
         prereq_text = ""
         match = re.search(r"Prerequisite\(s\):\s*(.+)", text, re.IGNORECASE)
         if match:
             prereq_text = match.group(1)
-            # Clean up: remove everything after "Print"
             prereq_text = re.split(r'\s+Print\s+', prereq_text)[0].strip()
 
         # Extract corequisite text
@@ -153,27 +222,28 @@ def scrape_course_page(driver: webdriver.Chrome, url: str) -> Optional[Dict]:
                 coreq_text = match.group(1).strip()
                 break
 
-        # Also extract course codes from prerequisites for the requirements table
-        prereq_courses = []
-        coreq_courses = []
-        if prereq_text:
-            prereq_courses = re.findall(r"[A-Z]{2,4}\s*\d{3}[A-Z]?", prereq_text)
-        if coreq_text:
-            coreq_courses = re.findall(r"[A-Z]{2,4}\s*\d{3}[A-Z]?", coreq_text)
+        # Parse requirements into tree structures
+        prereq_tree = parse_requirement_tree(prereq_text, course_code_to_id) if prereq_text else {"kind": "TRUE"}
+        coreq_tree = parse_requirement_tree(coreq_text, course_code_to_id) if coreq_text else None
+
+        # Extract SBC fulfillments
+        fulfills = extract_sbc_fulfillments(text)
 
         return {
-            "id": str(uuid4()),
-            "dept_code": dept_code,
+            "id": course_id,
+            "deptCode": dept_code,
             "number": number,
-            "code": course_code,
-            "title": title,
+            "code": course_code_with_space,
+            "title": full_title,
             "description": description,
             "credits": credits,
             "active": True,
-            "prerequisite_text": prereq_text,
-            "corequisite_text": coreq_text,
-            "prerequisites": [c.replace(" ", "") for c in prereq_courses],
-            "corequisites": [c.replace(" ", "") for c in coreq_courses],
+            "prerequisites": prereq_tree,
+            "corequisites": coreq_tree,
+            "advisorNotes": None,
+            "fulfills": fulfills,
+            "_raw_prereq_text": prereq_text,  # Keep for debugging
+            "_raw_coreq_text": coreq_text,    # Keep for debugging
         }
     except Exception as e:
         return None
@@ -181,34 +251,18 @@ def scrape_course_page(driver: webdriver.Chrome, url: str) -> Optional[Dict]:
 
 
 
-def build_requirements(courses: List[Dict]) -> List[Dict]:
-    requirements = []
-    course_code_to_id = {c["code"]: c["id"] for c in courses}
-
+def build_course_code_to_id_map(courses: List[Dict]) -> Dict[str, str]:
+    """Build a mapping from course codes (both with and without spaces) to course IDs."""
+    mapping = {}
     for course in courses:
-        group_no = 0
-        for prereq_code in course.get("prerequisites", []):
-            requirements.append({
-                "id": len(requirements) + 1,
-                "course_id": course["id"],
-                "group_no": group_no,
-                "kind": "prerequisite",
-                "required_code": prereq_code,
-                "required_id": course_code_to_id.get(prereq_code)
-            })
-            group_no += 1
+        code_with_space = course["code"]  # e.g., "CSE 101"
+        code_no_space = code_with_space.replace(" ", "")  # e.g., "CSE101"
+        course_id = course["id"]
 
-        for coreq_code in course.get("corequisites", []):
-            requirements.append({
-                "id": len(requirements) + 1,
-                "course_id": course["id"],
-                "group_no": group_no,
-                "kind": "corequisite",
-                "required_code": coreq_code,
-                "required_id": course_code_to_id.get(coreq_code)
-            })
-            group_no += 1
-    return requirements
+        mapping[code_with_space] = course_id
+        mapping[code_no_space] = course_id
+
+    return mapping
 
 
 def find_course_aliases(courses: List[Dict]) -> List[Dict]:
@@ -247,7 +301,7 @@ def main(output_dir: str = OUTPUT_DIR, headless: bool = True):
             return
         print(f"Found {len(course_links)} courses\n")
 
-        print("Scraping courses...")
+        print("Scraping courses (pass 1 - basic info)...")
         all_courses = []
         for i, url in enumerate(course_links, 1):
             if i % 5 == 0:
@@ -261,54 +315,45 @@ def main(output_dir: str = OUTPUT_DIR, headless: bool = True):
 
         print(f"\nScraped {len(all_courses)} total courses\n")
 
-        print("Processing requirements and aliases...")
-        requirements = build_requirements(all_courses)
-        aliases = find_course_aliases(all_courses)
-        print(f"{len(requirements)} requirements, {len(aliases)} aliases\n")
+        # Build course code to ID mapping
+        print("Building course code mappings...")
+        course_code_to_id = build_course_code_to_id_map(all_courses)
 
+        # Second pass: update prerequisite/corequisite trees with actual course IDs
+        print("Updating prerequisite/corequisite references...")
         for course in all_courses:
-            course.pop("prerequisites", None)
-            course.pop("corequisites", None)
-            # Keep prerequisite_text and corequisite_text in the final output
+            # Re-parse prerequisites with complete course mapping
+            if course.get("_raw_prereq_text"):
+                course["prerequisites"] = parse_requirement_tree(
+                    course["_raw_prereq_text"], course_code_to_id
+                )
+
+            # Re-parse corequisites with complete course mapping
+            if course.get("_raw_coreq_text"):
+                course["corequisites"] = parse_requirement_tree(
+                    course["_raw_coreq_text"], course_code_to_id
+                )
+
+            # Clean up raw text fields (optional - remove if you want to keep them)
+            course.pop("_raw_prereq_text", None)
+            course.pop("_raw_coreq_text", None)
 
         print("Extracting departments...")
-        dept_codes = sorted(set(c["dept_code"] for c in all_courses))
+        dept_codes = sorted(set(c["deptCode"] for c in all_courses))
         dept_data = [{"code": code, "name": code} for code in dept_codes]
         print(f"Found {len(dept_data)} departments\n")
 
         print("Saving data...")
 
-        (output_path / "departments.json").write_text(
-            json.dumps(dept_data, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"departments.json ({len(dept_data)})")
-
+        # Save main courses file in the schema format
         (output_path / "courses.json").write_text(
             json.dumps(all_courses, indent=2, ensure_ascii=False), encoding="utf-8")
         print(f"courses.json ({len(all_courses)})")
 
-        (output_path / "course_requirements.json").write_text(
-            json.dumps(requirements, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"course_requirements.json ({len(requirements)})")
-
-        (output_path / "course_aliases.json").write_text(
-            json.dumps(aliases, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"course_aliases.json ({len(aliases)})")
-
-        combined = {
-            "departments": dept_data,
-            "courses": all_courses,
-            "course_requirements": requirements,
-            "course_aliases": aliases,
-            "metadata": {
-                "scraped_at": time.strftime("%Y-%m-%d %H:%M:%S"),
-                "catalog_id": catalog_id,
-                "total_departments": len(dept_data),
-                "total_courses": len(all_courses),
-            }
-        }
-        (output_path / "catalog_complete.json").write_text(
-            json.dumps(combined, indent=2, ensure_ascii=False), encoding="utf-8")
-        print(f"catalog_complete.json")
+        # Also save departments for reference
+        (output_path / "departments.json").write_text(
+            json.dumps(dept_data, indent=2, ensure_ascii=False), encoding="utf-8")
+        print(f"departments.json ({len(dept_data)})")
 
     finally:
         driver.quit()
