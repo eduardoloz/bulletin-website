@@ -50,17 +50,25 @@ export function useAuth() {
     if (signingOut) return;
 
     setSigningOut(true);
+
     try {
-      // Use local scope to avoid global logout issues
+      // Call Supabase sign out first (this triggers onAuthStateChange)
       await supabase.auth.signOut({ scope: 'local' });
     } catch (error) {
-      // If sign out fails, clear local state anyway
-      console.error('Sign out error:', error);
-      setUser(null);
-      setSession(null);
-    } finally {
-      setSigningOut(false);
+      // Silently ignore 403 errors (session already invalid)
+      // Only log unexpected errors
+      if (error?.status !== 403 && error?.code !== '403') {
+        console.log('Sign out error:', error.message);
+      }
     }
+
+    // Clear local state (in case the listener didn't fire)
+    setUser(null);
+    setSession(null);
+    setSigningOut(false);
+
+    // Force reload to ensure clean state
+    window.location.href = '/';
   };
 
   return {
