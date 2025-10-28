@@ -5,6 +5,8 @@ import RadialGraphComponent from '../components/RadialGraphComponent';
 import Chatbot from "../components/chatbot";
 import courses from '../data/sbu_cse_courses_new_schema.json';
 
+import DegreeProgress1 from '../components/DegreeProgress1';
+
 function Home() {
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [graphView, setGraphView] = useState('grid'); // 'grid' or 'radial'
@@ -18,7 +20,7 @@ function Home() {
   return (
     <div className="home-page">
       <div className="grid grid-cols-3 gap-1 shadow-md p-6 border-2 border-gray-300 rounded-lg m-10">
-        
+
         <div className="col-span-2 bg-white m-4">
           {/* Graph View Selector */}
           <div className="mb-4 p-3 bg-gray-50 rounded-lg">
@@ -55,6 +57,8 @@ function Home() {
         </div>
 
       </div>
+      <DegreeProgress1 />
+
     </div>
   );
 }

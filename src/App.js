@@ -8,6 +8,7 @@ import Home from './pages/Home';
 import CatPage from './pages/CatPage';
 import { useAuth } from './hooks/useAuth';
 
+
 function App() {
   const { user, loading } = useAuth();
 
