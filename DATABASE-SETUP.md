@@ -41,9 +41,19 @@ You should see an empty table with these columns:
 
 ### 3. Test the Application
 
-1. **Fix Google OAuth first** (if you haven't already):
+1. **Configure Supabase Redirect URLs**:
+   - Go to: https://supabase.com/dashboard/project/ivgfwasqkndbtucqpkkw/auth/url-configuration
+   - Set **Site URL** to: `https://courses.sbcs.io`
+   - Add these **Redirect URLs**:
+     - `http://localhost:3000/**`
+     - `https://courses.sbcs.io/**`
+     - `https://*.vercel.app/**`
+   - Click "Save changes"
+
+2. **Configure Google OAuth**:
    - Go to Google Cloud Console: https://console.cloud.google.com/apis/credentials
    - Add this to your OAuth redirect URIs: `https://ivgfwasqkndbtucqpkkw.supabase.co/auth/v1/callback`
+   - Add JavaScript origins: `https://courses.sbcs.io` and `http://localhost:3000`
 
 2. **Start your app**:
    ```bash
