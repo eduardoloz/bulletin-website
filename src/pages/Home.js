@@ -3,7 +3,7 @@ import NodeInfo from '../components/NodeInfo'; // previously ProfessorInfo
 import CourseGraph from '../components/GraphComponent';
 import RadialGraphComponent from '../components/RadialGraphComponent';
 import Chatbot from "../components/chatbot";
-import courses from '../data/cse.json';
+import courses from '../data/sbu_cse_courses_new_schema.json';
 
 import DegreeProgress1 from '../components/DegreeProgress1';
 
@@ -11,8 +11,9 @@ function Home() {
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [graphView, setGraphView] = useState('grid'); // 'grid' or 'radial'
 
-  const handleNodeClick = (id) => {
-    const course = courses.find(c => c.title.startsWith(id));
+  const handleNodeClick = (courseCode) => {
+    // Find course by code (e.g., "CSE 101")
+    const course = courses.find(c => c.code === courseCode);
     setSelectedCourse(course);
   };
 
