@@ -11,6 +11,7 @@ import Home from './pages/Home';
 import CatPage from './pages/CatPage';
 
 import Chatbot from "./components/chatbot";
+import BottomLeftBox from './components/Legend';
 
 
 function App() {

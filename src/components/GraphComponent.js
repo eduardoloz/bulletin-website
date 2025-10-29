@@ -54,11 +54,11 @@ export default function CourseGraph({ onNodeClick }) {
 
   const nodeColor = id => {
     if (mode === 'completed') {
-      if (completedCourses.has(id)) return 'green';
+      if (completedCourses.has(id)) return '#34D399';
 
       const unlocked = new Set();
       data.links.forEach(l => completedCourses.has(l.source.id) && unlocked.add(l.target.id));
-      if (unlocked.has(id)) return 'blue';
+      if (unlocked.has(id)) return '#60A5FA';
 
       if (futureMode) {
         const future = new Set();
@@ -258,6 +258,7 @@ export default function CourseGraph({ onNodeClick }) {
     <div className="flex flex-col items-center justify-center min-h-screen p-4">
       <div className="w-full max-w-4xl border-2 border-gray-400 rounded-lg p-4">
         <h2 className="text-xl font-bold mb-2">Course Prerequisites Graph</h2>
+        
 
         <div className="text-lg font-semibold my-2">
           Current Mode:&nbsp;
@@ -306,6 +307,7 @@ export default function CourseGraph({ onNodeClick }) {
             Reset
           </button>
         </div>
+              
 
         {/* ---------- graph ---------- */}
         <svg ref={svgRef} width="100%" height={HEIGHT} />

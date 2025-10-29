@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import NodeInfo from '../components/NodeInfo'; // previously ProfessorInfo
 import CourseGraph from '../components/GraphComponent';
+import Legend from '../components/Legend';
 import Chatbot from "../components/chatbot";
 import courses from '../data/cse.json';
 
@@ -16,6 +17,10 @@ function Home() {
     <div className="home-page">
       <div className="grid grid-cols-3 gap-1 shadow-md p-6 border-2 border-gray-300 rounded-lg m-10">
         
+        <div className="col-span-2 bg-white m-4">
+          <Legend />
+        </div>
+
         <div className="col-span-2 bg-white m-4">
           <CourseGraph onNodeClick={handleNodeClick} />
         </div>
