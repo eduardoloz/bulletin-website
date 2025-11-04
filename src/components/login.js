@@ -1,14 +1,11 @@
 import { GoogleLogin } from '@react-oauth/google';
-import axios from 'axios';
+import ApiService from '../api/apiService';
 
 function Login() {
   const handleLoginSuccess = async (credentialResponse) => {
     try {
       const { credential } = credentialResponse;
-      const res = await axios.post('http://localhost:5000/api/auth/google', {
-        token: credential,
-      });
-      console.log(res.data); // user info or JWT
+      const userData = await ApiService.authenticateWithGoogle(credential);
     } catch (err) {
       console.error(err);
     }
@@ -26,7 +23,7 @@ function Login() {
 
             <GoogleLogin
               onSuccess={handleLoginSuccess}
-              onError={() => console.log('Login Failed')}
+              onError={() => {}}
               useOneTap
               className="w-full py-2.5 px-4 mt-6 text-[15px] font-medium tracking-wide rounded-lg text-white bg-blue-600 hover:bg-blue-700 focus:outline-none"
             />

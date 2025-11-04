@@ -1,6 +1,7 @@
 // src/components/Chatbot.jsx
 import { useState, useEffect } from "react";
 import "./Chatbot.css";
+import ApiService from "../api/apiService";
 
 export default function Chatbot() {
   const [profList,  setProfList]  = useState([]); 
@@ -9,15 +10,18 @@ export default function Chatbot() {
   const [answer,    setAnswer]    = useState("");
   const [loading,   setLoading]   = useState(false);
 
-  // 1️⃣ Fetch the professor list on mount
+  // Fetch the professor list on mount
   useEffect(() => {
-    fetch("http://localhost:4000/profs")
-      .then(r => r.json())
-      .then(data => {
+    const loadProfessors = async () => {
+      try {
+        const data = await ApiService.getProfessors();
         const sortedData = data.sort((a, b) => a.prof_name.localeCompare(b.prof_name));
         setProfList(sortedData);
-      })
-      .catch(err => console.error("Failed to load profs:", err));
+      } catch (err) {
+      }
+    };
+    
+    loadProfessors();
   }, []);
 
   const ask = async (e) => {
@@ -30,15 +34,9 @@ export default function Chatbot() {
     setAnswer("");
 
     try {
-      const res = await fetch("http://localhost:4000/chat", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ prof_id: profId, question })
-      });
-      const data = await res.json();
+      const data = await ApiService.sendChatMessage(profId, question);
       setAnswer(data.answer || data.error);
     } catch (err) {
-      console.error(err);
       setAnswer("Server error");
     } finally {
       setLoading(false);
