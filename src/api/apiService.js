@@ -1,7 +1,9 @@
 import axios from 'axios';
 
 // Base configuration
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000';
+// Use a relative base URL by default so CRA dev server proxy can forward requests.
+// Set REACT_APP_API_URL to override (e.g., for production builds).
+const API_BASE_URL = process.env.REACT_APP_API_URL || '';
 
 // Create axios instance with default configuration
 const apiClient = axios.create({
