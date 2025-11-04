@@ -1,21 +1,43 @@
 export default function Legend() {
   const boxStyle = {
-    position: "absolute",
     bottom: "20px",
-    right: "100px",
-    backgroundColor: "#dcc5c5ff",
+    right: "140px",
+    backgroundColor: "#ffffffff",
     color: "black",
     padding: "16px",
-    borderRadius: "8px",
-    boxShadow: "0 4px 12px rgba(165, 40, 40, 0.3)",
+    borderRadius: "20px",
+    boxShadow: "0 10px 20px rgba(224, 221, 221, 0.3)",
     fontFamily: "sans-serif",
     width: "450px",
     height: "190px",
+    border: "2px solid #000000ff"
   };
+
+  const circleStyle = (color) => ({
+    display: "inline-block",
+    width: "14px",
+    height: "14px",
+    borderRadius: "50%",
+    backgroundColor: color,
+    marginRight: "8px",
+    verticalAlign: "middle",
+  });
+
+  const textStyle = { fontSize: "14px", marginBottom: "8px" };
 
   return (
     <div style={boxStyle}>
       <h1 style={{ fontSize: "18px", marginBottom: "8px" }}>Legend</h1>
+      <h2 style={{ fontSize: "16px", marginBottom: "8px" }}>Node Colors</h2>
+      <h3 style={textStyle}>
+        <span style={circleStyle("#CBD5E1")}></span>can take this course
+      </h3>
+      <h3 style={textStyle}>
+        <span style={circleStyle("#34D399")}></span>have taken this course
+      </h3>
+      <h3 style={textStyle}>
+        <span style={circleStyle("#60A5FA")}></span>cannot take this course yet
+      </h3>
     </div>
   );
 }

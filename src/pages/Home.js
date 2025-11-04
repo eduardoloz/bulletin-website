@@ -22,9 +22,7 @@ function Home() {
     <div className="home-page">
       <div className="grid grid-cols-3 gap-1 shadow-md p-6 border-2 border-gray-300 rounded-lg m-10">
         
-        <div className="col-span-2 bg-white m-4">
-          <Legend />
-        </div>
+      
 
         <div className="col-span-2 bg-white m-4">
           {/* Graph View Selector */}
@@ -59,6 +57,7 @@ function Home() {
         <div className="col-span-1 bg-white rounded-lg p-3">
           <NodeInfo course={selectedCourse} />
           <Chatbot />
+          <Legend />
         </div>
 
       </div>
