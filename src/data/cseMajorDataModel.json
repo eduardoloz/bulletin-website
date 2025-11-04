@@ -1,0 +1,16 @@
+{
+    "major" : "Computer Science, BS",
+    "course requirements" : [
+        "CSE 113 - Foundations of Computer Science|CSE 150 - Foundations of Computer Science: Honors",
+        "CSE 114 - Introduction to Object-Oriented Programming",
+        "CSE 213 - Foundations of Computer Science II",
+        "CSE 214 - Data Structures",
+        "CSE 220 - Systems Fundamentals I",
+        "CSE 307 - Principles of Programming Languages",
+        "CSE 316 - Fundamentals of Software Development",
+        "CSE 320 - Systems Fundamentals II",
+        "CSE 373 - Analysis of Algorithms|CSE 385 - Analysis of Algorithms: Honors",
+        "CSE 356 - Cloud Computing|CSE 416 - Software Engineering"
+        
+    ]
+}

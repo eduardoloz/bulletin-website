@@ -141,7 +141,7 @@ export default function CourseGraph({ onNodeClick }) {
 
   const nodeColor = id => {
     if (mode === 'completed') {
-      if (completedCourses.has(id)) return 'green';
+      if (completedCourses.has(id)) return '#34D399';
 
       const course = courseMap[id];
       if (!course) return '#ccc';
@@ -151,7 +151,7 @@ export default function CourseGraph({ onNodeClick }) {
 
       // Check if course is available (prerequisites satisfied)
       if (canTakeCourse(course, allCompletedIds)) {
-        return 'blue';
+        return '#60A5FA';
       }
 
       if (futureMode) {
@@ -360,6 +360,7 @@ export default function CourseGraph({ onNodeClick }) {
         )}
 
         <h2 className="text-xl font-bold mb-2">Course Prerequisites Graph</h2>
+        
 
         <div className="text-lg font-semibold my-2">
           Current Mode:&nbsp;
@@ -448,6 +449,7 @@ export default function CourseGraph({ onNodeClick }) {
             Prereqs Mode
           </button>
         </div>
+              
 
         {/* ---------- graph ---------- */}
         <svg ref={svgRef} width="100%" height={HEIGHT} />
