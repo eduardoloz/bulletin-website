@@ -3,10 +3,7 @@ import NodeInfo from '../components/NodeInfo'; // previously ProfessorInfo
 import CourseGraph from '../components/GraphComponent';
 import Legend from '../components/Legend';
 import RadialGraphComponent from '../components/RadialGraphComponent';
-import Chatbot from "../components/chatbot";
 import courses from '../data/sbu_cse_courses_new_schema.json';
-
-import DegreeProgress1 from '../components/DegreeProgress1';
 
 function Home() {
   const [selectedCourse, setSelectedCourse] = useState(null);
@@ -56,12 +53,10 @@ function Home() {
 
         <div className="col-span-1 bg-white rounded-lg p-3">
           <NodeInfo course={selectedCourse} />
-          <Chatbot />
           <Legend />
         </div>
 
       </div>
-      <DegreeProgress1 />
 
     </div>
   );
