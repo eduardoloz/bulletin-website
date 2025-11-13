@@ -1,3 +1,6 @@
+// DISABLED: General Ed requirements tracking
+// This component is preserved but not currently in use
+
 import { useState, useEffect } from "react";
 
 export default function DegreeProgress1() {

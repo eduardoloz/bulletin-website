@@ -1,3 +1,6 @@
+// DISABLED: General Ed requirements tracking
+// This component is preserved but not currently in use
+
 import React, { useState } from "react";
 
 // Updated General Education categories with example courses that fulfill them

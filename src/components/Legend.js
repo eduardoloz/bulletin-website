@@ -30,13 +30,13 @@ export default function Legend() {
       <h1 style={{ fontSize: "18px", marginBottom: "8px" }}>Legend</h1>
       <h2 style={{ fontSize: "16px", marginBottom: "8px" }}>Node Colors</h2>
       <h3 style={textStyle}>
-        <span style={circleStyle("#CBD5E1")}></span>can take this course
+        <span style={circleStyle("#CBD5E1")}></span>Untaken Course
       </h3>
       <h3 style={textStyle}>
-        <span style={circleStyle("#34D399")}></span>have taken this course
+        <span style={circleStyle("#34D399")}></span>Taken Course
       </h3>
       <h3 style={textStyle}>
-        <span style={circleStyle("#60A5FA")}></span>cannot take this course yet
+        <span style={circleStyle("#60A5FA")}></span> Unlocked Course (you can take the course now)
       </h3>
     </div>
   );
