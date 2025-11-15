@@ -20,7 +20,6 @@ import { useUserProgress } from '../hooks/useUserProgress';
 const WIDTH = 960;
 const HEIGHT = 800;
 const NODE_RADIUS = 35;
-const ARROW_SIZE = 8;
 
 /**
  * Renders the prerequisite graph with D3 radial tree layout.
@@ -437,6 +436,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
     return () => {
       svg.selectAll('*').remove();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, completedCourses, externalCourses, selectedCourse, mode, futureMode, onNodeClick, courseMap]);
 
   /* ---------- UI ---------- */
