@@ -20,7 +20,6 @@ import { useUserProgress } from '../hooks/useUserProgress';
 const WIDTH = 960;
 const HEIGHT = 800;
 const NODE_RADIUS = 35;
-const ARROW_SIZE = 8;
 
 /**
  * Renders the prerequisite graph with D3 radial tree layout.
@@ -40,7 +39,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
   const [completedCourses, setCompletedCourses] = useState(new Set()); // IDs of completed courses
   const [externalCourses, setExternalCourses] = useState(new Set());   // External course codes
   const [selectedCourse, setSelectedCourse] = useState(null);          // Selected course ID
-  const [mode, setMode] = useState('default');
+  const [mode, setMode] = useState('view');                            // view mode: 'view', 'completed', 'prereqs'
   const [futureMode, setFutureMode] = useState(false);
 
   // Sync local state with database on load
@@ -137,8 +136,9 @@ export default function RadialGraphComponent({ onNodeClick }) {
   };
 
   const nodeColor = id => {
-    if (mode === 'completed') {
-      if (completedCourses.has(id)) return 'green';
+    // View mode and completed mode use the same color logic
+    if (mode === 'completed' || mode === 'view') {
+      if (completedCourses.has(id)) return '#34D399'; // Green - completed
 
       const course = courseMap[id];
       if (!course) return '#ccc';
@@ -148,7 +148,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
 
       // Check if course is available (prerequisites satisfied)
       if (canTakeCourse(course, allCompletedIds)) {
-        return 'blue';
+        return '#60A5FA'; // Blue - available
       }
 
       if (futureMode) {
@@ -163,18 +163,19 @@ export default function RadialGraphComponent({ onNodeClick }) {
         // Find courses available after completing all currently available courses
         const hypotheticalCompleted = new Set([...allCompletedIds, ...currentlyAvailable]);
         if (canTakeCourse(course, hypotheticalCompleted)) {
-          return 'purple';
+          return 'purple'; // Purple - future available
         }
       }
 
-      return '#ccc';
+      return '#ccc'; // Gray - locked
     }
 
     if (mode === 'prereqs' && selectedCourse) {
       return getAllPrerequisites(selectedCourse, courseMap).has(id) ? 'orange' : '#eee';
     }
 
-    return 'lightgreen';
+    // Default fallback
+    return '#ccc';
   };
 
   /* ---------- D3 setup and rendering ---------- */
@@ -209,10 +210,12 @@ export default function RadialGraphComponent({ onNodeClick }) {
       .scale(0.3);
     svg.call(zoom.transform, initialTransform);
 
-    // Add arrow markers
+    // Add arrow markers with different colors
     const defs = svg.append('defs');
+
+    // Default gray arrow
     defs.append('marker')
-      .attr('id', 'arrowhead')
+      .attr('id', 'arrowhead-default')
       .attr('viewBox', '-0 -5 10 10')
       .attr('refX', NODE_RADIUS + 5)
       .attr('refY', 0)
@@ -221,7 +224,40 @@ export default function RadialGraphComponent({ onNodeClick }) {
       .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
       .attr('fill', '#999');
 
-    // Draw links
+    // Orange arrow for prereqs
+    defs.append('marker')
+      .attr('id', 'arrowhead-orange')
+      .attr('viewBox', '-0 -5 10 10')
+      .attr('refX', NODE_RADIUS + 5)
+      .attr('refY', 0)
+      .attr('orient', 'auto')
+      .append('path')
+      .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+      .attr('fill', '#f97316');
+
+    // Green arrow for completed path
+    defs.append('marker')
+      .attr('id', 'arrowhead-green')
+      .attr('viewBox', '-0 -5 10 10')
+      .attr('refX', NODE_RADIUS + 5)
+      .attr('refY', 0)
+      .attr('orient', 'auto')
+      .append('path')
+      .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+      .attr('fill', '#34D399');
+
+    // Blue arrow for available courses
+    defs.append('marker')
+      .attr('id', 'arrowhead-blue')
+      .attr('viewBox', '-0 -5 10 10')
+      .attr('refX', NODE_RADIUS + 5)
+      .attr('refY', 0)
+      .attr('orient', 'auto')
+      .append('path')
+      .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
+      .attr('fill', '#60A5FA');
+
+    // Draw links with dynamic highlighting
     const linkSelection = g.selectAll('.link')
       .data(data.links);
 
@@ -233,10 +269,122 @@ export default function RadialGraphComponent({ onNodeClick }) {
       .attr('y1', d => d.source.y)
       .attr('x2', d => d.target.x)
       .attr('y2', d => d.target.y)
-      .attr('stroke', '#999')
-      .attr('stroke-opacity', 0.6)
+      .attr('stroke', d => {
+        if (mode === 'prereqs' && selectedCourse) {
+          const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
+          const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+          const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+          if (prereqIds.has(sourceId) && prereqIds.has(targetId)) {
+            return '#f97316'; // Orange
+          }
+        }
+
+        // In view/completed mode
+        if ((mode === 'view' || mode === 'completed') && completedCourses) {
+          const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+          const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+
+          // Green for completed path
+          if (completedCourses.has(sourceId) && completedCourses.has(targetId)) {
+            return '#34D399';
+          }
+
+          // Blue for arrows leading to available courses
+          const targetCourse = courseMap[targetId];
+          if (targetCourse && !completedCourses.has(targetId)) {
+            const allCompletedIds = new Set([...completedCourses, ...getExternalCourseIds()]);
+            if (canTakeCourse(targetCourse, allCompletedIds) && completedCourses.has(sourceId)) {
+              return '#60A5FA'; // Blue for available course connections
+            }
+          }
+        }
+
+        return '#999'; // Default gray
+      })
+      .attr('stroke-opacity', d => {
+        if (mode === 'prereqs' && selectedCourse) {
+          const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
+          const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+          const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+          if (prereqIds.has(sourceId) && prereqIds.has(targetId)) {
+            return 1; // Full opacity
+          }
+          return 0.15; // Fade out non-relevant
+        }
+
+        // In view/completed mode
+        if ((mode === 'view' || mode === 'completed') && completedCourses) {
+          const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+          const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+
+          // Full opacity for completed path
+          if (completedCourses.has(sourceId) && completedCourses.has(targetId)) {
+            return 1;
+          }
+
+          // Full opacity for arrows to available courses
+          const targetCourse = courseMap[targetId];
+          if (targetCourse && !completedCourses.has(targetId)) {
+            const allCompletedIds = new Set([...completedCourses, ...getExternalCourseIds()]);
+            if (canTakeCourse(targetCourse, allCompletedIds) && completedCourses.has(sourceId)) {
+              return 1; // Full opacity for available
+            }
+          }
+
+          return 0.1; // Nearly invisible for non-completed connections
+        }
+
+        return 0.6; // Default opacity
+      })
       .attr('stroke-width', 2)
-      .attr('marker-end', 'url(#arrowhead)');
+      .attr('stroke-dasharray', d => {
+        // Dotted line for arrows leading to available courses
+        if ((mode === 'view' || mode === 'completed') && completedCourses) {
+          const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+          const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+          const targetCourse = courseMap[targetId];
+
+          if (targetCourse && !completedCourses.has(targetId)) {
+            const allCompletedIds = new Set([...completedCourses, ...getExternalCourseIds()]);
+            if (canTakeCourse(targetCourse, allCompletedIds) && completedCourses.has(sourceId)) {
+              return '5,5'; // Dotted pattern
+            }
+          }
+        }
+        return null; // Solid line (default)
+      })
+      .attr('marker-end', d => {
+        if (mode === 'prereqs' && selectedCourse) {
+          const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
+          const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+          const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+          if (prereqIds.has(sourceId) && prereqIds.has(targetId)) {
+            return 'url(#arrowhead-orange)';
+          }
+        }
+
+        // In view/completed mode
+        if ((mode === 'view' || mode === 'completed') && completedCourses) {
+          const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+          const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+
+          // Green arrow for completed path
+          if (completedCourses.has(sourceId) && completedCourses.has(targetId)) {
+            return 'url(#arrowhead-green)';
+          }
+
+          // Blue arrow for available courses
+          const targetCourse = courseMap[targetId];
+          if (targetCourse && !completedCourses.has(targetId)) {
+            const allCompletedIds = new Set([...completedCourses, ...getExternalCourseIds()]);
+            if (canTakeCourse(targetCourse, allCompletedIds) && completedCourses.has(sourceId)) {
+              return 'url(#arrowhead-blue)';
+            }
+          }
+        }
+
+        return 'url(#arrowhead-default)';
+      });
 
 
     // Draw nodes
@@ -261,8 +409,12 @@ export default function RadialGraphComponent({ onNodeClick }) {
         event.stopPropagation();
         if (mode === 'completed') {
           toggleCompleted(d.id);
-        } else {
+        } else if (mode === 'prereqs') {
           setSelectedCourse(d.id);
+          const course = courseMap[d.id];
+          if (onNodeClick && course) onNodeClick(course.code);
+        } else if (mode === 'view') {
+          // View mode: just show info, don't modify state
           const course = courseMap[d.id];
           if (onNodeClick && course) onNodeClick(course.code);
         }
@@ -284,6 +436,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
     return () => {
       svg.selectAll('*').remove();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, completedCourses, externalCourses, selectedCourse, mode, futureMode, onNodeClick, courseMap]);
 
   /* ---------- UI ---------- */
@@ -310,15 +463,19 @@ export default function RadialGraphComponent({ onNodeClick }) {
             {mode === 'completed'
               ? (futureMode ? 'Completed + Future' : 'Completed')
               : mode === 'prereqs'
-                ? 'Prereqs'
-                : selectedCourse
-                  ? `Showing prereqs for ${courseMap[selectedCourse]?.code || selectedCourse}`
-                  : 'Default'}
+                ? (selectedCourse
+                    ? `Prereqs for ${courseMap[selectedCourse]?.code || selectedCourse}`
+                    : 'Prereqs (click a course)')
+                : 'View Only'}
           </span>
         </div>
         {selectedCourse && mode === 'prereqs' &&
           <div className="text-sm text-gray-600 mb-4">
             Click background or switch mode to clear selection.
+          </div>}
+        {mode === 'view' &&
+          <div className="text-sm text-gray-600 mb-4">
+            Green = Completed | Blue = Available | Gray = Locked. Click to view details without modifying state.
           </div>}
 
         {/* ---------- External Courses Management ---------- */}
@@ -370,6 +527,13 @@ export default function RadialGraphComponent({ onNodeClick }) {
         {/* ---------- buttons ---------- */}
         <div className="flex flex-wrap gap-4 my-4 justify-center">
           <button
+            onClick={() => { setMode('view'); setSelectedCourse(null); setFutureMode(false); }}
+            className={`px-4 py-2 rounded text-white
+                        ${mode === 'view' ? 'bg-red-700' : 'bg-red-500'}`}>
+            View Mode
+          </button>
+
+          <button
             onClick={() => { setMode('completed'); setSelectedCourse(null); }}
             className={`px-4 py-2 rounded text-white
                         ${mode === 'completed' ? 'bg-green-700' : 'bg-green-500'}`}>
@@ -385,7 +549,7 @@ export default function RadialGraphComponent({ onNodeClick }) {
             </button>}
 
           <button
-            onClick={() => setMode('prereqs')}
+            onClick={() => { setMode('prereqs'); setFutureMode(false); }}
             className={`px-4 py-2 rounded text-white
                         ${mode === 'prereqs' ? 'bg-orange-700' : 'bg-orange-500'}`}>
             Prereqs Mode

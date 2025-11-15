@@ -5,10 +5,11 @@ export enum Standing {
   FRESHMAN = 1, SOPHOMORE, JUNIOR, SENIOR, GRADUATE
 }
 
-export enum SBCCategory {
-  EXP = "EXP", HUM = "HUM", ART = "ART", SBS = "SBS", STEM = "STEM",
-  DIV = "DIV", USA = "USA", LANG = "LANG", WRT = "WRT", TECH_ELECTIVE = "TECH_ELECTIVE",
-}
+// Disabled: General Ed requirements
+// export enum SBCCategory {
+//   EXP = "EXP", HUM = "HUM", ART = "ART", SBS = "SBS", STEM = "STEM",
+//   DIV = "DIV", USA = "USA", LANG = "LANG", WRT = "WRT", TECH_ELECTIVE = "TECH_ELECTIVE",
+// }
 
 // --- User now includes takingNow ---
 export interface User {
@@ -26,10 +27,11 @@ export interface Course {
   prerequisites?: ReqNode;       // AND/OR tree
   corequisites?: ReqNode;        // AND/OR tree
   advisorNotes?: string;
-  fulfills: Fulfillment[];
+  // fulfills: Fulfillment[];  // Disabled: General Ed requirements
 }
 
-export interface Fulfillment { category: SBCCategory; count?: number; credits?: number; }
+// Disabled: General Ed requirements
+// export interface Fulfillment { category: SBCCategory; count?: number; credits?: number; }
 
 export type ReqNode = AndNode | OrNode | CourseNode | StandingNode | TrueNode;
 export interface AndNode { kind: "AND"; nodes: ReadonlyArray<ReqNode>; }
