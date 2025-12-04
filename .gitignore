@@ -26,3 +26,7 @@ yarn-error.log*
 
 
 /scripts/*.json
+# Python virtual environment
+/scripts/venv/
+# Scraper output
+/scripts/courses.csv
