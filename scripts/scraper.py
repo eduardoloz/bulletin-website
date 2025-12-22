@@ -2,15 +2,23 @@
 """
 scripts/scraper.py — Stony Brook course scraper
 
-Key fixes for your current setup:
-- Writes directly to: <project-root>/src/data/courses/all.json (what GraphComponent imports) :contentReference[oaicite:0]{index=0}
-- Uses stable IDs (course.id == course.code) so saved progress doesn’t break across re-scrapes :contentReference[oaicite:1]{index=1}
-- Uses a requests.Session + browser-like headers + status checks (so 403/blocking is obvious)
+Fix for major dropdown labels:
+- Ensures every course record gets a `deptName` (e.g., "Accounting") so your UI
+  can display "ACC - Accounting" for *every* dept in all.json, not just a few.
 
-Run:
-  python3 scripts/scraper.py
-Optional:
-  TEST_MODE=True/False below, or pass --full to disable test mode.
+Why your UI shows only some names right now:
+- Your GraphComponent is using `deptName` found inside the course records.
+- Your previous dept-name scraper only worked when the <option value> was exactly
+  the dept code (ACC/ASC were, many others weren't). This version parses the
+  dept code + name from the OPTION TEXT instead (more reliable).
+
+Output:
+- <project-root>/src/data/courses/all.json
+- <project-root>/src/data/courses/all.csv
+
+Usage:
+  python scripts/scraper.py          # test mode (first 10)
+  python scripts/scraper.py --full   # scrape all pages
 """
 
 from __future__ import annotations
@@ -30,11 +38,10 @@ from bs4.element import NavigableString, Tag
 
 BASE = "https://catalog.stonybrook.edu"
 
-# Default behavior (you can override via CLI flags)
-TEST_MODE_DEFAULT = True
-TEST_LIMIT_DEFAULT = 30
+# Defaults (override with CLI args)
+TEST_MODE_DEFAULT = False
+TEST_LIMIT_DEFAULT = 15
 
-# Listing pages (course inventory)
 PAGE_URL_TEMPLATE = (
     "https://catalog.stonybrook.edu/content.php?"
     "catoid=8&navoid=484&filter%5Bitem_type%5D=3&"
@@ -44,28 +51,22 @@ PAGE_URL_TEMPLATE = (
 REQUEST_DELAY_SEC = 0.15
 TIMEOUT_SEC = 30
 
+# Matches e.g. "ACC - Accounting" or "ACC – Accounting" or "ACC — Accounting"
+DEPT_TEXT_RE = re.compile(r"^([A-Z]{2,4})\s*[-–—]\s*(.+)$")
+
 
 # ----------------------------- project paths -----------------------------
 
 def find_project_root(start: Path) -> Path:
-    """
-    Walk upward to find a plausible React project root.
-    Prefers directories containing package.json AND src/.
-    """
     cur = start.resolve()
     for _ in range(12):
         if (cur / "package.json").exists() and (cur / "src").exists():
             return cur
         cur = cur.parent
-    # Fallback: script directory’s parent (works for common layouts)
     return start.resolve().parent
 
 
 def output_paths(project_root: Path) -> tuple[Path, Path]:
-    """
-    Return (json_out_path, csv_out_path).
-    GraphComponent imports ../data/courses/all.json :contentReference[oaicite:2]{index=2}
-    """
     out_dir = project_root / "src" / "data" / "courses"
     out_dir.mkdir(parents=True, exist_ok=True)
     return (out_dir / "all.json", out_dir / "all.csv")
@@ -139,6 +140,25 @@ def text_of(x: Any) -> Optional[str]:
     return s or None
 
 
+def scrape_dept_name_map() -> dict[str, str]:
+    """Scrape deptCode -> deptName from the listing page dropdown options."""
+    html = fetch(PAGE_URL_TEMPLATE.format(page=1))
+    soup = BeautifulSoup(html, "html.parser")
+
+    dept_map: dict[str, str] = {}
+    for opt in soup.select("option"):
+        text = opt.get_text(" ", strip=True)
+        m = DEPT_TEXT_RE.match(text)
+        if not m:
+            continue
+        code = m.group(1).strip()
+        name = m.group(2).strip()
+        # Keep first seen mapping (avoid accidental overrides)
+        dept_map.setdefault(code, name)
+
+    return dept_map
+
+
 # ----------------------------- STEP 1: links -----------------------------
 
 def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
@@ -165,7 +185,6 @@ def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
 
         time.sleep(REQUEST_DELAY_SEC)
 
-    # Deduplicate (preserve order)
     seen: set[str] = set()
     deduped: list[str] = []
     for link in all_links:
@@ -181,7 +200,7 @@ def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
 
 # ----------------------------- STEP 2: course page -----------------------------
 
-def parse_course_page(url: str) -> Optional[dict[str, Any]]:
+def parse_course_page(url: str, dept_map: dict[str, str]) -> Optional[dict[str, Any]]:
     html = fetch(url)
     soup = BeautifulSoup(html, "html.parser")
 
@@ -192,7 +211,6 @@ def parse_course_page(url: str) -> Optional[dict[str, Any]]:
 
     full_title = block.get_text(" ", strip=True)
 
-    # Extract "CSE 114"
     code_match = re.match(r"([A-Z]{2,4}\s*\d{2,3})", full_title)
     if not code_match:
         print(f"[WARN] Could not find course code in: {full_title} ({url})")
@@ -200,14 +218,12 @@ def parse_course_page(url: str) -> Optional[dict[str, Any]]:
 
     course_code = " ".join(code_match.group(1).split())
 
-    # Split dept + number
     dept_match = re.match(r"([A-Z]{2,4})\s*(\d{2,3})", course_code)
     if not dept_match:
         print(f"[WARN] Could not split department/number: {course_code} ({url})")
         return None
     dept_code, number = dept_match.group(1), dept_match.group(2)
 
-    # Title (remove leading hyphen/en-dash/em-dash after the code)
     title_only = full_title
     if full_title.startswith(course_code):
         rest = full_title[len(course_code):].replace("\u00A0", " ")
@@ -236,7 +252,6 @@ def parse_course_page(url: str) -> Optional[dict[str, Any]]:
         if m:
             credits_num = int(m.group(1))
 
-    # Description: everything before first <strong>
     desc_parts: list[str] = []
     for node in parent_p.contents:
         if isinstance(node, Tag) and node.name == "strong":
@@ -253,12 +268,12 @@ def parse_course_page(url: str) -> Optional[dict[str, Any]]:
 
     raw_prereq_clean = clean_prerequisites_text(raw_prereq)
 
-    # IMPORTANT: stable ID so saved progress continues to match after re-scraping
-    stable_id = course_code  # e.g., "CSE 114"
+    stable_id = course_code  # stable across scrapes
 
     return {
         "id": stable_id,
         "deptCode": dept_code,
+        "deptName": dept_map.get(dept_code),  # <-- key for dropdown label
         "number": number,
         "code": course_code,
         "title": title_only,
@@ -266,14 +281,14 @@ def parse_course_page(url: str) -> Optional[dict[str, Any]]:
         "credits": credits_num,
         "active": True,
         "rawPrerequisites": raw_prereq_clean,
-        "prerequisites": None,  # filled in second pass
+        "prerequisites": None,
         "corequisites": None,
         "advisorNotes": None,
         "url": url,
     }
 
 
-# ----------------------------- STEP 3: prerequisites node -----------------------------
+# ----------------------------- STEP 3: prereq node -----------------------------
 
 def build_reqnode(course: dict[str, Any], code_to_id: dict[str, str]) -> Optional[dict[str, Any]]:
     text = course.get("rawPrerequisites")
@@ -315,16 +330,9 @@ def save_json(path: Path, courses: list[dict[str, Any]]) -> None:
 
 def save_csv(path: Path, courses: list[dict[str, Any]]) -> None:
     keys = [
-        "id",
-        "deptCode",
-        "number",
-        "code",
-        "title",
-        "description",
-        "credits",
-        "active",
-        "rawPrerequisites",
-        "url",
+        "id", "deptCode", "deptName", "number", "code",
+        "title", "description", "credits", "active",
+        "rawPrerequisites", "url"
     ]
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as f:
@@ -354,18 +362,20 @@ def main() -> None:
     print(f"[*] Output JSON : {json_out}")
     print(f"[*] Output CSV  : {csv_out}")
 
+    dept_map = scrape_dept_name_map()
+    print(f"[*] Dept names scraped: {len(dept_map)}")
+
     links = get_course_links(test_mode=test_mode, test_limit=test_limit)
     print(f"[*] Scraping {len(links)} course preview page(s)...")
 
     courses: list[dict[str, Any]] = []
     for i, link in enumerate(links, 1):
         print(f"  - ({i}/{len(links)}) {link}")
-        c = parse_course_page(link)
+        c = parse_course_page(link, dept_map)
         if c:
             courses.append(c)
         time.sleep(REQUEST_DELAY_SEC)
 
-    # code -> id map (ids are stable course codes)
     code_to_id = {c["code"]: c["id"] for c in courses}
     for c in courses:
         c["prerequisites"] = build_reqnode(c, code_to_id)

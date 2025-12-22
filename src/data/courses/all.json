@@ -2,6 +2,7 @@
   {
     "id": "ASC 101",
     "deptCode": "ASC",
+    "deptName": null,
     "number": "101",
     "code": "ASC 101",
     "title": "Practicing Engaging Presentations",
@@ -17,6 +18,7 @@
   {
     "id": "ACC 210",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "210",
     "code": "ACC 210",
     "title": "Financial Accounting",
@@ -34,6 +36,7 @@
   {
     "id": "ACC 214",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "214",
     "code": "ACC 214",
     "title": "Managerial Cost Analysis and Applications",
@@ -51,6 +54,7 @@
   {
     "id": "ACC 301",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "301",
     "code": "ACC 301",
     "title": "Governmental & Not-for-Profit Accounting and Reporting",
@@ -66,6 +70,7 @@
   {
     "id": "ACC 310",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "310",
     "code": "ACC 310",
     "title": "Intermediate Accounting I",
@@ -83,6 +88,7 @@
   {
     "id": "ACC 311",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "311",
     "code": "ACC 311",
     "title": "Federal Income Taxation I",
@@ -100,6 +106,7 @@
   {
     "id": "ACC 313",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "313",
     "code": "ACC 313",
     "title": "Intermediate Accounting II",
@@ -117,6 +124,7 @@
   {
     "id": "ACC 314",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "314",
     "code": "ACC 314",
     "title": "Federal Income Taxation II",
@@ -134,6 +142,7 @@
   {
     "id": "ACC 320",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "320",
     "code": "ACC 320",
     "title": "Artificial Intelligence in Accounting and Assurance",
@@ -151,6 +160,7 @@
   {
     "id": "ACC 400",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "400",
     "code": "ACC 400",
     "title": "External Auditing",
@@ -168,6 +178,7 @@
   {
     "id": "ACC 401",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "401",
     "code": "ACC 401",
     "title": "Intermediate Managerial Accounting & Data Analytics",
@@ -185,6 +196,7 @@
   {
     "id": "ACC 402",
     "deptCode": "ACC",
+    "deptName": null,
     "number": "402",
     "code": "ACC 402",
     "title": "Advanced Accounting",
@@ -200,6 +212,7 @@
   {
     "id": "AIM 100",
     "deptCode": "AIM",
+    "deptName": null,
     "number": "100",
     "code": "AIM 100",
     "title": "EOP Pre-Freshman Summer Academic Bridge",
@@ -215,6 +228,7 @@
   {
     "id": "AIM 101",
     "deptCode": "AIM",
+    "deptName": null,
     "number": "101",
     "code": "AIM 101",
     "title": "EOP Pre-Freshman Summer Support Bridge",
@@ -230,6 +244,7 @@
   {
     "id": "AIM 102",
     "deptCode": "AIM",
+    "deptName": null,
     "number": "102",
     "code": "AIM 102",
     "title": "Expository Writing",
@@ -247,6 +262,7 @@
   {
     "id": "AIM 104",
     "deptCode": "AIM",
+    "deptName": null,
     "number": "104",
     "code": "AIM 104",
     "title": "Literary Analysis and Critical Reasoning",
@@ -264,6 +280,7 @@
   {
     "id": "ADV 101",
     "deptCode": "ADV",
+    "deptName": null,
     "number": "101",
     "code": "ADV 101",
     "title": "Advising 101 Transfer Seminar",
@@ -281,6 +298,7 @@
   {
     "id": "ADV 201",
     "deptCode": "ADV",
+    "deptName": null,
     "number": "201",
     "code": "ADV 201",
     "title": "Preparing for Medical School",
@@ -298,6 +316,7 @@
   {
     "id": "ADV 202",
     "deptCode": "ADV",
+    "deptName": null,
     "number": "202",
     "code": "ADV 202",
     "title": "Academic Success Seminar",
@@ -315,6 +334,7 @@
   {
     "id": "ADV 475",
     "deptCode": "ADV",
+    "deptName": null,
     "number": "475",
     "code": "ADV 475",
     "title": "Undergraduate Teaching Practicum I",
@@ -332,6 +352,7 @@
   {
     "id": "ADV 476",
     "deptCode": "ADV",
+    "deptName": null,
     "number": "476",
     "code": "ADV 476",
     "title": "Undergraduate Teaching Practicum II",
@@ -347,6 +368,7 @@
   {
     "id": "ADV 488",
     "deptCode": "ADV",
+    "deptName": null,
     "number": "488",
     "code": "ADV 488",
     "title": "Academic and Transfer Advising Services Internship",
@@ -364,6 +386,7 @@
   {
     "id": "AFH 101",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "101",
     "code": "AFH 101",
     "title": "The Wonders of the Black World",
@@ -379,6 +402,7 @@
   {
     "id": "AFH 205",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "205",
     "code": "AFH 205",
     "title": "Contemporary African Literature",
@@ -394,6 +418,7 @@
   {
     "id": "AFH 206",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "206",
     "code": "AFH 206",
     "title": "Great Books of the Black Experience",
@@ -409,6 +434,7 @@
   {
     "id": "AFH 215",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "215",
     "code": "AFH 215",
     "title": "Hip Hop and the Intellectual Tradition",
@@ -424,6 +450,7 @@
   {
     "id": "AFH 249",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "249",
     "code": "AFH 249",
     "title": "African-American Literature and Music in the 19th and 20th Centuries",
@@ -439,6 +466,7 @@
   {
     "id": "AFH 282",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "282",
     "code": "AFH 282",
     "title": "Contemporary Caribbean Women’s Literature",
@@ -454,6 +482,7 @@
   {
     "id": "AFH 329",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "329",
     "code": "AFH 329",
     "title": "Pan-African Literature I",
@@ -471,6 +500,7 @@
   {
     "id": "AFH 330",
     "deptCode": "AFH",
+    "deptName": null,
     "number": "330",
     "code": "AFH 330",
     "title": "Pan-African Literature II",
@@ -484,5 +514,1233 @@
     "corequisites": null,
     "advisorNotes": null,
     "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8467"
+  },
+  {
+    "id": "AFH 339",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "339",
+    "code": "AFH 339",
+    "title": "Arts of the African Diaspora",
+    "description": "AFH 339 - Arts of the African Diaspora A study of the arts of the African Diaspora from the African continent to Brazil, Surinam, the Caribbean, and the United States. Emphasis is on the full range of art forms, including not only sculptural and performance traditions, but also textiles, basketry, and other crafts. Cultural continuities, spiritual belief, and significant changes in context, meaning, style, and technology are examined.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8468"
+  },
+  {
+    "id": "AFH 368",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "368",
+    "code": "AFH 368",
+    "title": "Caribbean and American Connections in Literature",
+    "description": "AFH 368 - Caribbean and American Connections in Literature An exploration of the connections between writers from the French-speaking and English-speaking Caribbean and from the African-American community, who share a similar cultural heritage, historical heritage, and historical experience, but differ in geopolitical situations. Special attention is paid to spirituality, gender, and identity motifs in the literature. Covers the Interdisciplinary topic for the English major.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8469"
+  },
+  {
+    "id": "AFH 379",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "379",
+    "code": "AFH 379",
+    "title": "Philosophy of Race (III)",
+    "description": "AFH 379 - Philosophy of Race (III) Examination of our assumptions about race and the impact of those assumptions on issues concerning gender, class, and sexuality throughout American history. Readings include critical race theory, feminist theory, and critical legal theory. Students examine racial issues from a philosophical perspective and consider the ways in which representations of race may reinforce patterns of power and privilege.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one PHI course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8470"
+  },
+  {
+    "id": "AFH 380",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "380",
+    "code": "AFH 380",
+    "title": "African American and Caribbean Theatre",
+    "description": "AFH 380 - African American and Caribbean Theatre African American and Caribbean Theatre examines the connection between Black theatre and political and social movements of the 1940s to the 2000s. The course studies how playwrights use theatre to educate audiences about specific injustices of the day. An historical reading of the plays by playwrights such as Wole Soyinka, August Wilson, Lorraine Hansberry, and Susan Lori Parks introduces students to major topics for discussion in black theatre, including racial politics, socio-political disenfranchisement, the struggle to define self, and alienation from the community/society.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8471"
+  },
+  {
+    "id": "AFH 382",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "382",
+    "code": "AFH 382",
+    "title": "Black Women’s Literature of the African Diaspora",
+    "description": "AFH 382 - Black Women’s Literature of the African Diaspora Black women’s literature presents students with the opportunity to examine through literature the political, social, and historical experiences of Black women from the African Diaspora. The course is structured around five major themes commonly addressed in Black women’s writing: Black female oppression, sexual politics of Black womanhood, Black female sexuality, Black male/female relationships, and Black women and defining self. Covers the Interdisciplinary topic for the English major.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8472"
+  },
+  {
+    "id": "AFH 385",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "385",
+    "code": "AFH 385",
+    "title": "French Caribbean Literature",
+    "description": "AFH 385 - French Caribbean Literature A study of representative texts from the French Caribbean translated into English, focusing on literary manifestations of a search for a specific identity by writers from Martinique, Guadeloupe, French Guiana, and Haiti.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8473"
+  },
+  {
+    "id": "AFH 390",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "390",
+    "code": "AFH 390",
+    "title": "Topics in Africana Studies",
+    "description": "AFH 390 - Topics in Africana Studies May be repeated for credit as the topic changes. Designed for upper-division students, this course provides an in-depth study of a specific topic within humanities disciplines such as music, art, literature, religion, and philosophy. Students will be expected to demonstrate knowledge of the conventions and methods used in the humanities discipline(s) studied. Past topics have included titles such as Black Women Writers; Autobiography and Biography as Black History; and The African Novel: Origins and Development.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8474"
+  },
+  {
+    "id": "AFH 391",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "391",
+    "code": "AFH 391",
+    "title": "Topics in Africana Studies",
+    "description": "AFH 391 - Topics in Africana Studies May be repeated for credit as the topic changes. Designed for upper-division students, this course provides an in-depth study of a specific topic within humanities disciplines such as music, art, literature, religion, and philosophy. Students will be expected to demonstrate knowledge of the conventions and methods used in the humanities discipline(s) studied. Past topics have included titles such as Black Women Writers; Autobiography and Biography as Black History; and The African Novel: Origins and Development.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8475"
+  },
+  {
+    "id": "AFH 423",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "423",
+    "code": "AFH 423",
+    "title": "Africana Literature in French",
+    "description": "AFH 423 - Africana Literature in French An examination of a range of literature in French produced by writers throughout the African diaspora who claim affiliation with Africa. While the course is conducted in French, students will have the option to write papers in either French or English. Competence in reading and speaking French is a requirement for the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8476"
+  },
+  {
+    "id": "AFH 444",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "444",
+    "code": "AFH 444",
+    "title": "Experiential Learning",
+    "description": "AFH 444 - Experiential Learning This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8477"
+  },
+  {
+    "id": "AFH 447",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "447",
+    "code": "AFH 447",
+    "title": "Readings in Africana Studies",
+    "description": "AFH 447 - Readings in Africana Studies Individually supervised reading in selected topics in the Black Experience.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor and program director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8478"
+  },
+  {
+    "id": "AFH 475",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "475",
+    "code": "AFH 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "AFH 475 - Undergraduate Teaching Practicum I Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course. Students may not serve as teaching assistants in the same course twice. Not for major or minor credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Africana studies major or minor; U4 standing; permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8479"
+  },
+  {
+    "id": "AFH 476",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "476",
+    "code": "AFH 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "AFH 476 - Undergraduate Teaching Practicum II Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course. Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students may not serve as teaching assistants in the same course twice. Not for major or minor credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8480"
+  },
+  {
+    "id": "AFH 487",
+    "deptCode": "AFH",
+    "deptName": null,
+    "number": "487",
+    "code": "AFH 487",
+    "title": "Research in Africana Studies",
+    "description": "AFH 487 - Research in Africana Studies Individual research projects in the Black Experience carried out under the direct supervision of a faculty member.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor and program director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8481"
+  },
+  {
+    "id": "AFS 101",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "101",
+    "code": "AFS 101",
+    "title": "Themes in the Black Experience I",
+    "description": "AFS 101 - Themes in the Black Experience I An historical survey of the experience of black people against the background of a thorough review of American history and the events which impacted upon the black experience in America. This course also examines the responses of African Americans to the changing historical circumstances that they encountered in the United States. Consideration is also given to the similarities and differences among the lifestyles of people of African descent in America. This course treats themes to 1865.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8482"
+  },
+  {
+    "id": "AFS 102",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "102",
+    "code": "AFS 102",
+    "title": "Themes in the Black Experience II",
+    "description": "AFS 102 - Themes in the Black Experience II An historical survey of the experience of black people against the background of a thorough review of American history and the events which impacted upon the black experience in America. This course also examines the responses of African Americans to the changing historical circumstances that they encountered in the United States. Consideration is also given to the similarities and differences among the lifestyles of people of African descent in America. This course treats themes from 1865 to the present.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8483"
+  },
+  {
+    "id": "AFS 221",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "221",
+    "code": "AFS 221",
+    "title": "Introduction to Modern African History",
+    "description": "AFS 221 - Introduction to Modern African History Historical themes in 19th- and 20th-century Africa. Topics include social and political relations in African states; slavery and the slave trade in West Africa; the impact of Christianity and Islam on African colonialism; colonialism and its consequences; nationalist movements and de-colonization; pan-Africanism and the politics of African unity; the postcolonial state project; economic planning in postcolonial Africa; and African states and international politics in the Cold War era.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8484"
+  },
+  {
+    "id": "AFS 223",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "223",
+    "code": "AFS 223",
+    "title": "Regional History of Africa",
+    "description": "AFS 223 - Regional History of Africa Given the immensity of the African continent, it is often divided into regions (such as east, west, north, or southern, equatorial, the Horn, the Sahel, Atlantic or Indian Ocean) to explore connections and boundaries. This course gives students the opportunity to focus more deeply on a region of Africa. The particular region examined will change each semester. Factors that integrate a region may be environment and land use strategies, long-distance trade networks, religious communities, imperialism, and political regimes. The course will examine the challenges to regional integration, such as conflicts, language diversity, and separatist movements.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8485"
+  },
+  {
+    "id": "AFS 239",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "239",
+    "code": "AFS 239",
+    "title": "Introduction to the Caribbean Experience",
+    "description": "AFS 239 - Introduction to the Caribbean Experience An introduction to the political economy of contemporary Caribbean societies with emphasis on the historical roots of their present underdevelopment.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8486"
+  },
+  {
+    "id": "AFS 240",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "240",
+    "code": "AFS 240",
+    "title": "Issues in Caribbean Society",
+    "description": "AFS 240 - Issues in Caribbean Society An analysis of the process of social change in the English, Spanish, and French Caribbean with special emphasis on those societies undergoing rapid transformation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8487"
+  },
+  {
+    "id": "AFS 277",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "277",
+    "code": "AFS 277",
+    "title": "The Modern Color Line",
+    "description": "AFS 277 - The Modern Color Line An exploration of the significance of race in 19th- and early 20th-century America. Topics include forms of political organization and collective struggle; the social and psychic consequences of racist subjection; the relationship among race, racism, and culture; and the cultural politics of race and gender.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8488"
+  },
+  {
+    "id": "AFS 283",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "283",
+    "code": "AFS 283",
+    "title": "Community Service",
+    "description": "AFS 283 - Community Service The Stony Brook University AFS 283 Community Outreach Mentoring Program, in partnership with Tri Community and Youth Agency, is a mentoring program designed to provide support and guidance for at risk students from underserved neighborhoods in Huntington, Long Island. Through field experience, readings, research, and discussion, students focus on social and educational problems relating primarily to the African-American and Latin experience.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8489"
+  },
+  {
+    "id": "AFS 300",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "300",
+    "code": "AFS 300",
+    "title": "Blacks in the City",
+    "description": "AFS 300 - Blacks in the City The urban experiences of blacks as a force in determining the character, culture, and social climate of the American city. A central theme is that blacks have greatly impacted U.S. urban life and made important contributions to its sense of vitality and cultural diversity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8490"
+  },
+  {
+    "id": "AFS 306",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "306",
+    "code": "AFS 306",
+    "title": "Gender and Public Health in Africa",
+    "description": "AFS 306 - Gender and Public Health in Africa Examines approaches to disease prevention and treatment through public health systems in African countries. The impact of global health organizations such as WHO, UNAIDS and other UN bodies and international development organizations on domestic health care policy is also analyzed. An emphasis is placed on identifying the most prominent public health issues in each of the county case studies and identifying points of convergence and divergence among them. More specifically their relationships to gender equality, education, and economic security and population displacement will be evaluated using Intersectionality as a theoretical framework. Disparities in access to health insurance, treatment, and medication, and funding mechanisms will be analyzed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8491"
+  },
+  {
+    "id": "AFS 308",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "308",
+    "code": "AFS 308",
+    "title": "Women Islam and Political Change in Africa",
+    "description": "AFS 308 - Women Islam and Political Change in Africa Explores the impact of Islam on political institutions and representation in Africa. Using the example of how Muslim women in West, North, Southern, and East Africa are mobilizing to address gender inequality, explores variations in the formation of Islamist movements and examine the influence of moderate, progressive, and more radical forms of political Islam on the experiences of women. In order to provide students with a comprehensive picture, Islam and politics is contextualized by focusing on the experiences of selected countries from East and West Africa including Tanzania, Kenya, Somalia, Nigeria, Ghana, and Senegal.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8492"
+  },
+  {
+    "id": "AFS 310",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "310",
+    "code": "AFS 310",
+    "title": "American Attitudes Toward Race",
+    "description": "AFS 310 - American Attitudes Toward Race An historical examination of the growth and development of racism in America from the arrival of the first Africans to the continent to the present day. The focus is on African Americans and their relationships with the American system, its institutions, and culture. References are made to other ethnic groups in order to give balance to the examination of social conditions and attitudes shaping American society throughout.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8493"
+  },
+  {
+    "id": "AFS 319",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "319",
+    "code": "AFS 319",
+    "title": "The Politics of Race",
+    "description": "AFS 319 - The Politics of Race An analysis of political concepts often associated with racism and the tracing of the origins of the concept of race. Forms in which racism manifests itself today are identified and discussed showing the similarities and differences where they exist.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8494"
+  },
+  {
+    "id": "AFS 320",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "320",
+    "code": "AFS 320",
+    "title": "Black Popular Culture and the Terrain",
+    "description": "AFS 320 - Black Popular Culture and the Terrain A study of black popular culture in 20th century America through close readings of text, music, and film. We will examine black cultural production and its relationship to black political activism, particularly in the urban terrain. Enables students to interrogate the relationship between African Americans, culture and American society during the 20th century.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one D.E.C. F or SBS course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8495"
+  },
+  {
+    "id": "AFS 325",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "325",
+    "code": "AFS 325",
+    "title": "Civil Rights and Black Power",
+    "description": "AFS 325 - Civil Rights and Black Power The course considers how the ‘long civil rights movement’ and century-long struggles for Black Power were interwined movements, rather than conventional narratives that conceive them as being opposed to one another. The course will therefore span the whole of the twentieth century, beginning with the founding of the United Negro Improvement Association and the National Association for the Advancement of Colored People (NAACP), and it will conclude with the turn from civil rights to economic justice, Black political empowerment, and campaigns against police brutality.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; 1 D.E.C. F or SBS course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8496"
+  },
+  {
+    "id": "AFS 337",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "337",
+    "code": "AFS 337",
+    "title": "The Politics of Africa",
+    "description": "AFS 337 - The Politics of Africa A study of nationalism, political thought, and political institutions in Africa. Consideration is given to the quest for unity, the problems of liberation, and the political implications of social change.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Two AFS or POL courses; U2 or higher standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8497"
+  },
+  {
+    "id": "AFS 339",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "339",
+    "code": "AFS 339",
+    "title": "Recent African American History",
+    "description": "AFS 339 - Recent African American History A study of recent African American history. Topics will include the dramatic increase in the number of black elected officials, rise of the black middle-class, the urban crisis, contemporary civil rights struggles, affirmative action, the decline of black radicalism, and the incorporation of black leadership. Enables students to examine the relationship between African Americans and American society during the past 100 years, particularly since 1970.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; 1 D.E.C. F or SBS course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8498"
+  },
+  {
+    "id": "AFS 340",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "340",
+    "code": "AFS 340",
+    "title": "Human Rights and Africa",
+    "description": "AFS 340 - Human Rights and Africa A study of the significance of Africa in the development of international human rights. The courses focuses on the images of Africa generated by international human rights organizations and activists, the conceptions of human rights developed by African states and people, and the variable impact of human rights discourse and practice on African quests for equality and justice. This course analyzes the political, historical, and ethical complexity of international human rights’ engagement with Africa.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8499"
+  },
+  {
+    "id": "AFS 345",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "345",
+    "code": "AFS 345",
+    "title": "Culture and Gender: Women in Africa and the Caribbean",
+    "description": "AFS 345 - Culture and Gender: Women in Africa and the Caribbean Comparative analysis of the status and role of women in colonial and contemporary societies of Africa and the Caribbean. Exploration of the forces that shape women’s lives and the ways in which women have contributed to the development of these societies.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8500"
+  },
+  {
+    "id": "AFS 346",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "346",
+    "code": "AFS 346",
+    "title": "Political and Social History of Africa",
+    "description": "AFS 346 - Political and Social History of Africa An exploration of theoretical perspectives in the historical sociology and comparative politics of Africa. Topics include the crisis of state legitimacy; the patriarchal society; ethnicity, religion, and politics; the politics of modernization; development and the environment; population growth and underdevelopment; globalization, neo-liberal economic policy and the postcolonial state; and the history of state and society relations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; 1 D.E.C. F or SBS course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8501"
+  },
+  {
+    "id": "AFS 350",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "350",
+    "code": "AFS 350",
+    "title": "Black Women and Social Change: A Cross-Cultural Perspective",
+    "description": "AFS 350 - Black Women and Social Change: A Cross-Cultural Perspective A cross-cultural survey of the history of black women in the context of the struggles for social justice in the Caribbean (English- and Spanish-speaking), Africa, and the United States. Several major topics are covered: the slave resistance and the anti-slavery movement; the anti-colonial struggle in Africa and the Caribbean; the trade union movement in the United States and Africa; the struggle against underdevelopment in Cuba, Puerto Rico, and Jamaica; and the anti-apartheid movement in South Africa.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8502"
+  },
+  {
+    "id": "AFS 355",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "355",
+    "code": "AFS 355",
+    "title": "Ancient African Civilizations",
+    "description": "AFS 355 - Ancient African Civilizations African archaeology is reshaping global debates on the origins of agriculture and civilization. This course examines the prehistoric economic foundations of Africa’s complex societies: intensive hunting and gathering, early herding, and plant domestication. Detailed case studies of ancient civilizations (Egypt, Aksum, Jenne, Swahili, and Great Zimbabwe) reveal distinct processes of prehistoric social change in different parts of Africa. Students consider the implications of archaeology for African heritage conservation, research, and public education.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "One 100-level course in AFS or ANT",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8503"
+  },
+  {
+    "id": "AFS 360",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "360",
+    "code": "AFS 360",
+    "title": "African-American Social Commentary",
+    "description": "AFS 360 - African-American Social Commentary A study of African-American responses to the social order in America. The course concentrates on the various ways African Americans have conceptualized and described their condition since their arrival in America. Discussion of the solutions proposed by African-American spokespersons from the Civil War period to the present day.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8504"
+  },
+  {
+    "id": "AFS 363",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "363",
+    "code": "AFS 363",
+    "title": "The Black Experience in Mass Media",
+    "description": "AFS 363 - The Black Experience in Mass Media An historical examination of the major media characterizations of black Americans and the Black Experience, and the impact of these portrayals on American society at large. The roles of newspapers, books, magazines, plays, radio, movies, television, and advertisements are studied.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8505"
+  },
+  {
+    "id": "AFS 365",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "365",
+    "code": "AFS 365",
+    "title": "Global Africa",
+    "description": "AFS 365 - Global Africa Examination of the ways that the slave trade and colonization affected African societies’ incorporation into the world economy as well as the development of their social and political institutions. The nature of African institutions, organizations, belief and value systems before the colonial impact and how these histories were understood and experienced by African men and women are considered. The historical continuities and discontinuities in contemporary African societies as well as the effects of globalization and modernization in Africa are examined.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one D.E.C. F or SBS course or U3/U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8506"
+  },
+  {
+    "id": "AFS 368",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "368",
+    "code": "AFS 368",
+    "title": "Health and Disease in Africa",
+    "description": "AFS 368 - Health and Disease in Africa Health and disease lie at the intersection of social, political, economic, biological, and cultural processes. In other words, they have changed throughout human history, and they are not just defined by scientists and doctors but by many more actors. This course has two goals: to introduce students to the study of disease and health as historical phenomena and to examine Africa’s importance within global and regional histories of these subjects. We will explore how the experiences of sickness and well-being have changed over time.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; 1 D.E.C. F or SBS course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8507"
+  },
+  {
+    "id": "AFS 369",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "369",
+    "code": "AFS 369",
+    "title": "Religion and Politics in Africa",
+    "description": "AFS 369 - Religion and Politics in Africa Sub-Saharan Africa is home to many religions’ indigenous belief systems, Judaism, Christianity, and Islam It is also arguably a region with a history of peaceful coexistence until recent decades. This course examines African religious transformations, encounters, exchanges, and conflicts. Topics to be covered include medieval and modern theocracies, reformism and jihad, literacy, gender hierarchies, education, European colonialism and Christian proselytization, Islamic evangelism, and religion and resistance to foreign domination. We will also explore theories about charismatic leadership, modernization, secularization, and radicalism.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; 1 D.E.C. F or SBS course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8508"
+  },
+  {
+    "id": "AFS 370",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "370",
+    "code": "AFS 370",
+    "title": "The African-American Family",
+    "description": "AFS 370 - The African-American Family The African-American family from the early 1800’s to the present day. The nature and structure of that family, the obstacles it has faced, and its interrelationships with the African-American community and the diversity of American society.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8509"
+  },
+  {
+    "id": "AFS 372",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "372",
+    "code": "AFS 372",
+    "title": "African-American Political Thought",
+    "description": "AFS 372 - African-American Political Thought A critical analysis of the major architects of black political thought and their movements in the context of their distinctive historical development. Emphasis is on the intellectual and ideological ferment of the 19th and 20th centuries.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8510"
+  },
+  {
+    "id": "AFS 373",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "373",
+    "code": "AFS 373",
+    "title": "Sexualities: African and Caribbean Perspectives",
+    "description": "AFS 373 - Sexualities: African and Caribbean Perspectives Designed to introduce students to the complexities of human sexuality from a perspective that places subaltern individuals at the center of the analysis. It locates these individuals, and their sexual practices, in the tropics–or “warm, warm climates”–first in those man-made communities where sexuality was one of the (unspoken) exigencies of the slave economy and later in the modern era where the slave economy gave way to “neo-colonies.”",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8511"
+  },
+  {
+    "id": "AFS 374",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "374",
+    "code": "AFS 374",
+    "title": "Environment and Development in African History",
+    "description": "AFS 374 - Environment and Development in African History Provides a critical exploration of the history and political-economy of environmental changes and human activities in Africa from earlier times to the present. It examines the ways in which the dynamics of human-environment relationship have shaped the development of African societies and economies from the rise of ancient civilizations to the contemporary problems of war and famine. Although significant attention will be given to the pre-colonial era (like the impacts of iron-working, irrigation, deforestation and desertification), the focus of the course will be on the 20th and century and after, looking at the impacts of imperialism, colonialism, globalization and the postcolonial quest for development on the state of the environment in Africa. In the discussion, we will demonstrate that the shaping of African environments and ecologies is a product of complex, evolving and interconnected developments between humans and nature within and beyond the African continent. Not for credit in addition to SBC: 320 or SBC: 374.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8512"
+  },
+  {
+    "id": "AFS 375",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "375",
+    "code": "AFS 375",
+    "title": "Slavery",
+    "description": "AFS 375 - Slavery The historical experience of blacks in slavery from a social and historical perspective with emphasis on the American South and with comparative references to slave systems as they developed in the western hemisphere.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8513"
+  },
+  {
+    "id": "AFS 380",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "380",
+    "code": "AFS 380",
+    "title": "Race and Ethnicity in Latin America and the Caribbean",
+    "description": "AFS 380 - Race and Ethnicity in Latin America and the Caribbean Concepts and theories of race and ethnicity in Latin American and Caribbean settings. The historical evolution and the contemporary social and cultural significance of racial and ethnic identities within the region are explored. Specific examples of social relations characterized by ethnic or racial conflict are presented.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8514"
+  },
+  {
+    "id": "AFS 381",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "381",
+    "code": "AFS 381",
+    "title": "AIDS, Race, and Gender in the Black Community",
+    "description": "AFS 381 - AIDS, Race, and Gender in the Black Community Review of current biological and epidemiological knowledge about the HIV virus, and examination of the virus’ social impact on the Black community.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8515"
+  },
+  {
+    "id": "AFS 382",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "382",
+    "code": "AFS 382",
+    "title": "Race, Ethnicity and the Environment",
+    "description": "AFS 382 - Race, Ethnicity and the Environment A historical survey of how African Americans, Mexican Americans, and Asian Americans have been the victims of injustice in the way their environments were violated beginning in the nineteenth century. To better understand the birth of the environmental justice movement, we will engage sources about the history of various people’s relationship to nature and how they used their knowledge of the environment forged greater community awareness following the civil rights movement. We will also attempt to understand the values that certain cultural groups place on the environment.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8516"
+  },
+  {
+    "id": "AFS 383",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "383",
+    "code": "AFS 383",
+    "title": "The Global African Diaspora in Comparative Perspective",
+    "description": "AFS 383 - The Global African Diaspora in Comparative Perspective Provides a conceptual and thematic exploration of the principal issues and forces in the socio-cultural and political history of the global African diaspora. Temporally, the course focuses the pre-16th century, the 16th-20th centuries, and the more recent period. Spatially, the course investigates, by comparing, the experiences of both the Atlantic and Indian Ocean/Red Sea African diasporas and teases out their commonalities and divergences. Thematically, the course will help students develop a deeper and critical understanding of how and why African diasporic identities emerged, converged and diverged over the centuries. Students will engage in class discussions and debates, making presentations, and writing reflective/evaluative papers on the issues as well as on readings, documentaries, and movies used in the class.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8517"
+  },
+  {
+    "id": "AFS 392",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "392",
+    "code": "AFS 392",
+    "title": "The Black Power Movement",
+    "description": "AFS 392 - The Black Power Movement A study of the Black Power Movement’s promotions of racial pride, self-determination, unity, and revolution in American society and abroad from 1955-1975.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8518"
+  },
+  {
+    "id": "AFS 393",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "393",
+    "code": "AFS 393",
+    "title": "The Caribbean Immigrants in the United States: Dreams and Realities",
+    "description": "AFS 393 - The Caribbean Immigrants in the United States: Dreams and Realities This course analyzes the forces that shape Caribbean migration to the United States and the pressures that are exerted upon the immigrants to fit into the United States’ social structure. It also explores the immigrants’ responses to these pressures as they choose among the following possibilities: total assimilation into the ranks of the existing ethnic and racial minority groups, multicultural identity, and transnational identity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8519"
+  },
+  {
+    "id": "AFS 394",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "394",
+    "code": "AFS 394",
+    "title": "Black Nationalism in America",
+    "description": "AFS 394 - Black Nationalism in America A study of the history of black nationalism in America. Centered around racial pride, unity, and self-determination, black nationalism has been a potent strain within African Americans’ long struggle for liberation within America’s shores and beyond.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8520"
+  },
+  {
+    "id": "AFS 396",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "396",
+    "code": "AFS 396",
+    "title": "Topics in African-American History",
+    "description": "AFS 396 - Topics in African-American History Topics may include titles such as Urban African-American history Since 1865; and Slavery, Abolition, and Emancipation 1600-Present. Designed for upper-division students, this course provides an in-depth study of a specific topic relating to American history. Students are expected to demonstrate knowledge of 1) a basic narrative of American history, political, economic, social, and cultural, including knowledge of unity and diversity within American society; 2) knowledge of common institutions in American society and how they have affected different groups; and 3) an understanding of America’s evolving relationship with the rest of the world.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8521"
+  },
+  {
+    "id": "AFS 410",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "410",
+    "code": "AFS 410",
+    "title": "Computers and Technology in Africa",
+    "description": "AFS 410 - Computers and Technology in Africa Examines how African countries utilize information technology (IT) with special emphasis on information communication technologies ICTs, development, and increasing market access. A survey of the basic structures of IT will foreground discussions about the applications of IT, ICTs and social media platforms to leverage social capital and mobilize politically. An emphasis is placed on analyzing the relationships among hardware, social media, software (apps, etc.), databases, networks and variations in infrastructure through country case studies. The selection of case studies include IT incubators such as Kenya and countries with less IT infrastructure to compare sub-regional trends and best practices.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8522"
+  },
+  {
+    "id": "AFS 421",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "421",
+    "code": "AFS 421",
+    "title": "Topics in Africana Studies",
+    "description": "AFS 421 - Topics in Africana Studies",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8523"
+  },
+  {
+    "id": "AFS 422",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "422",
+    "code": "AFS 422",
+    "title": "Topics in Africana Studies",
+    "description": "AFS 422 - Topics in Africana Studies",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8524"
+  },
+  {
+    "id": "AFS 444",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "444",
+    "code": "AFS 444",
+    "title": "Experiential Learning",
+    "description": "AFS 444 - Experiential Learning This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8525"
+  },
+  {
+    "id": "AFS 447",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "447",
+    "code": "AFS 447",
+    "title": "Readings in Africana Studies",
+    "description": "AFS 447 - Readings in Africana Studies Individually supervised readings in selected topics in the Black Experience.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8526"
+  },
+  {
+    "id": "AFS 459",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "459",
+    "code": "AFS 459",
+    "title": "Write Effectively in Africana Studies",
+    "description": "AFS 459 - Write Effectively in Africana Studies A zero credit course that may be taken in conjunction with any 300- or 400-level Africana Studies course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8527"
+  },
+  {
+    "id": "AFS 475",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "475",
+    "code": "AFS 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "AFS 475 - Undergraduate Teaching Practicum I Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. The student is required to attend all the classes, do all the regularly assigned work and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course. Not for major or minor credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Africana studies major or minor; U4 standing; permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8528"
+  },
+  {
+    "id": "AFS 476",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "476",
+    "code": "AFS 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "AFS 476 - Undergraduate Teaching Practicum II Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. The course in which the student is permitted to work as a teaching assistant must be different from the course in which he or she previously served. Not for major or minor credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8529"
+  },
+  {
+    "id": "AFS 477",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "477",
+    "code": "AFS 477",
+    "title": "Qualitative & Mixed Methods",
+    "description": "AFS 477 - Qualitative & Mixed Methods Exposes students to qualitative and mixed methods research including epistemological, ontological debates, research design, methodologies, data analysis, and applications in scholarly published works. A combination of mixed methods approaches utilized in political science and the interdisciplinary fields of African Studies, Africana Studies, and Women’s and Gender Studies are explored. Key methods that will be covered include interviews (unstructured, semi-structured, structured), oral histories, case studies, analytical narratives, participant observation and ethnography, focus groups, large-N studies, GIS, sequencing of methods, databases, and content analysis. Students will develop a research proposal that can be utilized for senior projects.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8530"
+  },
+  {
+    "id": "AFS 487",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "487",
+    "code": "AFS 487",
+    "title": "Research in Africana Studies",
+    "description": "AFS 487 - Research in Africana Studies Individual research projects in the Black Experience carried out under the direct supervision of a faculty member.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8531"
+  },
+  {
+    "id": "AFS 488",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "488",
+    "code": "AFS 488",
+    "title": "Internship",
+    "description": "AFS 488 - Internship Participation in public and private agencies and organizations under the supervision of a faculty sponsor. Students are required to submit progress reports and a final written report on their experiences to the faculty sponsor.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Africana studies major or minor; 15 credits in AFS courses; permission of instructor and program director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8532"
+  },
+  {
+    "id": "AFS 491",
+    "deptCode": "AFS",
+    "deptName": null,
+    "number": "491",
+    "code": "AFS 491",
+    "title": "Interdisciplinary Seminar in Africana Studies",
+    "description": "AFS 491 - Interdisciplinary Seminar in Africana Studies Exposes students to methods of research and writing within history, anthropology, literature, sociology, etc., important to understanding and producing scholarship related to the African heritage. Exploration of the ways in which past and present research and writing have portrayed Africans. The importance of interdisciplinary approaches and methodologies to understanding Africana Studies is emphasized. Students are required to select topics, conduct in-depth library research and present their findings in written and oral formats.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing; six courses in Africana Studies; permission of instructor and department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8533"
+  },
+  {
+    "id": "AMR 101",
+    "deptCode": "AMR",
+    "deptName": null,
+    "number": "101",
+    "code": "AMR 101",
+    "title": "Local and Global: National Boundaries and World-Systems",
+    "description": "AMR 101 - Local and Global: National Boundaries and World-Systems Introduction to the contemporary capitalist world-system as a complex network of unequal power relationships and its inextricable role in our daily lives. Consideration of the ways the Americas have been incorporated into the world-system through colonialism and early capitalist ventures, with emphasis on the 20th century in terms of transnationalism, globalization, and the mobility of capital and labor, especially as this creates racial formations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8538"
+  },
+  {
+    "id": "AMR 102",
+    "deptCode": "AMR",
+    "deptName": null,
+    "number": "102",
+    "code": "AMR 102",
+    "title": "Making American Identities",
+    "description": "AMR 102 - Making American Identities A chronological representation of some of the ways that the peoples living in the current U.S. have identified themselves collectively as Americans and individually as belonging to distinct groups marked by racial, ethnic, gender, and class differences. Readings include texts of various kinds: historical, fictional, and theoretical. A computer (virtual) classroom is part of the coursework.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8539"
+  },
+  {
+    "id": "AMR 301",
+    "deptCode": "AMR",
+    "deptName": null,
+    "number": "301",
+    "code": "AMR 301",
+    "title": "Ethnicity and Race in American History",
+    "description": "AMR 301 - Ethnicity and Race in American History Overview of the role and place of ethnicity and race in the history of North America through investigation of the ways that ethnic belonging and identity have evolved through the 19th and 20th centuries. Readings and discussion consider how ethnicity is forged through engagement with other “outside” as well as “inside” groups toward an understanding of how and why notions of “ethnicity” and “race” have changed over time. Groups that may be considered include African, Arab, Asian, German, Hispanic, Irish, Italian, Jewish, Native, and South Asian Americans.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing;",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8540"
+  },
+  {
+    "id": "AMR 390",
+    "deptCode": "AMR",
+    "deptName": null,
+    "number": "390",
+    "code": "AMR 390",
+    "title": "Humanities Topics in American Studies",
+    "description": "AMR 390 - Humanities Topics in American Studies Selected topics in American studies in the humanities. Topics may include philosophy and drama in the United States, North and South American films, literary trends in the Americas.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8541"
   }
 ]
