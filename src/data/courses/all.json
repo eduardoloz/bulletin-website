@@ -1,106 +1,488 @@
 [
   {
-    "id": "03579c88-4f3c-48eb-a32e-26baf6beef23",
+    "id": "ASC 101",
     "deptCode": "ASC",
     "number": "101",
     "code": "ASC 101",
     "title": "Practicing Engaging Presentations",
-    "description": "An introduction to the basics of public speaking, including how to engage audiences with relevant and engaging resources. Each week, students prepare and give presentations on various topics, and develop skills including using appropriate body language, effectively utilizing audio and visual aids, finding a personal presentation style, and handling the unexpected. Presentation formats addressed include introductory, instructional, and informational. Students receive feedback from instructors and peers, and are expected to build upon this feedback each week.",
+    "description": "ASC 101 - Practicing Engaging Presentations An introduction to the basics of public speaking, including how to engage audiences with relevant and engaging resources. Each week, students prepare and give presentations on various topics, and develop skills including using appropriate body language, effectively utilizing audio and visual aids, finding a personal presentation style, and handling the unexpected. Presentation formats addressed include introductory, instructional, and informational. Students receive feedback from instructors and peers, and are expected to build upon this feedback each week.",
     "credits": 0,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": null,
+    "prerequisites": null,
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8806"
   },
   {
-    "id": "0d9228f9-1e1c-476d-98db-361edfcd82ac",
+    "id": "ACC 210",
     "deptCode": "ACC",
     "number": "210",
     "code": "ACC 210",
     "title": "Financial Accounting",
-    "description": "This course presents an introduction to fundamental financial accounting principles, concentrating on identifying, recording, and communicating the economic events of a business organization. Topics include the accounting cycle, the preparation and presentation of the income statement, retained earnings statement and balance sheet, and an in-depth exploration of the measure and presentation of assets and liabilities.",
+    "description": "ACC 210 - Financial Accounting This course presents an introduction to fundamental financial accounting principles, concentrating on identifying, recording, and communicating the economic events of a business organization. Topics include the accounting cycle, the preparation and presentation of the income statement, retained earnings statement and balance sheet, and an in-depth exploration of the measure and presentation of assets and liabilities.",
     "credits": 3,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": "Business Major or ACC Minor or MTD or ECO or ISE Major or FIN Minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8447"
   },
   {
-    "id": "938a925a-1aa9-4f2e-bc46-8a26f12809fe",
+    "id": "ACC 214",
     "deptCode": "ACC",
     "number": "214",
     "code": "ACC 214",
     "title": "Managerial Cost Analysis and Applications",
-    "description": "A study of cost concepts, and theories as it relates to cost accumulation systems for product, process and activity based costing, as well as the implementation and evaluation of an accounting system as a source of information for decision making, planning, control, and evaluation of the organization by management. Includes cost-volume-profit analysis, overhead rates, budgeting and variance analysis, statement of cash flows and financial statement ratio analysis.",
+    "description": "ACC 214 - Managerial Cost Analysis and Applications A study of cost concepts, and theories as it relates to cost accumulation systems for product, process and activity based costing, as well as the implementation and evaluation of an accounting system as a source of information for decision making, planning, control, and evaluation of the organization by management. Includes cost-volume-profit analysis, overhead rates, budgeting and variance analysis, statement of cash flows and financial statement ratio analysis.",
     "credits": 3,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": "BUS major or ACC minor or FIN minor or ISE major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8448"
   },
   {
-    "id": "684fbab5-d19d-4cdc-8984-24e937a09d62",
+    "id": "ACC 301",
     "deptCode": "ACC",
     "number": "301",
     "code": "ACC 301",
     "title": "Governmental & Not-for-Profit Accounting and Reporting",
-    "description": "This course is designed to introduce the student to the accounting and financial reporting practices of governmental and not-for-profit entities. The course will explore standards issued by the Financial Accounting Standards Board (FASB) and the Governmental Accounting Standards Board (GASB). Students will also familiarize themselves with the various funds and groups of accounts applicable to governmental entities, as well as financial reporting for nonprofit organizations, including colleges, universities and hospitals.",
+    "description": "ACC 301 - Governmental & Not-for-Profit Accounting and Reporting This course is designed to introduce the student to the accounting and financial reporting practices of governmental and not-for-profit entities. The course will explore standards issued by the Financial Accounting Standards Board (FASB) and the Governmental Accounting Standards Board (GASB). Students will also familiarize themselves with the various funds and groups of accounts applicable to governmental entities, as well as financial reporting for nonprofit organizations, including colleges, universities and hospitals.",
     "credits": 3,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": null,
+    "prerequisites": null,
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22748"
   },
   {
-    "id": "57e4578f-63d8-4033-9ee5-027eb1c3b47b",
+    "id": "ACC 310",
     "deptCode": "ACC",
     "number": "310",
     "code": "ACC 310",
     "title": "Intermediate Accounting I",
-    "description": "This course expands upon the basic financial accounting framework and explores the theoretical and analytical applications of Generally Accepted Accounting Principles (GAAP) in a business environment. The student will gain an understanding of financial reporting criteria and the reliance placed upon financial information by external users. Topics include the measurement and reporting of cash, receivables, inventories, and operational assets, revenue recognition and the preparation of financial statements.",
+    "description": "ACC 310 - Intermediate Accounting I This course expands upon the basic financial accounting framework and explores the theoretical and analytical applications of Generally Accepted Accounting Principles (GAAP) in a business environment. The student will gain an understanding of financial reporting criteria and the reliance placed upon financial information by external users. Topics include the measurement and reporting of cash, receivables, inventories, and operational assets, revenue recognition and the preparation of financial statements.",
     "credits": 3,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": "BUS major or ACC minor (incomplete)",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8449"
   },
   {
-    "id": "c8a94cb2-66c6-4dc9-932c-b0dfdea17647",
+    "id": "ACC 311",
     "deptCode": "ACC",
     "number": "311",
     "code": "ACC 311",
     "title": "Federal Income Taxation I",
-    "description": "Introduces and explores fundamental income taxation concepts for individuals. Topics include gross income, exclusions, adjusted gross income, deductions, exemptions, tax computations, and credits. Introductory tax concepts, including cash and accrual methods, property acquisitions and dispositions, like-kind exchanges, and passive loss rules are also reviewed. Additionally, students will familiarize themselves with tax planning concepts, the legislative process, and professional responsibilities in tax practice.",
+    "description": "ACC 311 - Federal Income Taxation I Introduces and explores fundamental income taxation concepts for individuals. Topics include gross income, exclusions, adjusted gross income, deductions, exemptions, tax computations, and credits. Introductory tax concepts, including cash and accrual methods, property acquisitions and dispositions, like-kind exchanges, and passive loss rules are also reviewed. Additionally, students will familiarize themselves with tax planning concepts, the legislative process, and professional responsibilities in tax practice.",
     "credits": 3,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": "BUS major or ACC minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8450"
   },
   {
-    "id": "38478346-148f-447b-8606-4d49b7f6b9e3",
+    "id": "ACC 313",
     "deptCode": "ACC",
     "number": "313",
     "code": "ACC 313",
     "title": "Intermediate Accounting II",
-    "description": "This course is the second in the intermediate accounting sequence. This course continues in the exploration of the financial accounting framework and the theoretical and analytical applications of Generally Accepted Accounting Principles (GAAP). Topics include advanced topics such as accounting for investments, stockholders equity, pensions, leases, income taxes, bonds, and other contemporary financial accounting issues.",
+    "description": "ACC 313 - Intermediate Accounting II This course is the second in the intermediate accounting sequence ( ACC 310 ). This course continues in the exploration of the financial accounting framework and the theoretical and analytical applications of Generally Accepted Accounting Principles (GAAP). Topics the study of advanced topics including accounting for investments, stockholders equity, pensions, leases, income taxes, bonds, and other contemporary financial accounting issues.",
     "credits": 3,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": "BUS major or ACC Minor (incomplete)",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8451"
   },
   {
-    "id": "c3fdbe09-d440-45c6-9842-d574971113d8",
+    "id": "ACC 314",
     "deptCode": "ACC",
     "number": "314",
     "code": "ACC 314",
     "title": "Federal Income Taxation II",
-    "description": "Introduces and explores fundamental income taxation concepts for business entities, with a focus on C corporations, S corporations, and partnerships. Topics include the formation, operation, reorganization and liquidation of C corporations, as well as the formation, operation and liquidation of flow-through entities. Students will also familiarize themselves with specialty topics concerning estates and trusts, transfer taxes and jurisdictional taxation.",
+    "description": "ACC 314 - Federal Income Taxation II Introduces and explores fundamental income taxation concepts for business entities, with a focus on C corporations, S corporations, and partnerships. Topics include the formation, operation, reorganization and liquidation of C corporations, as well as the formation, operation and liquidation of flow-through entities. Students will also familiarize themselves with specialty topics concerning estates and trusts, transfer taxes and jurisdictional taxation.",
     "credits": 3,
     "active": true,
-    "prerequisites": { "kind": "TRUE" },
+    "rawPrerequisites": "BUS Major or ACC Minor (incomplete)",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
     "corequisites": null,
-    "advisorNotes": null
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8452"
+  },
+  {
+    "id": "ACC 320",
+    "deptCode": "ACC",
+    "number": "320",
+    "code": "ACC 320",
+    "title": "Artificial Intelligence in Accounting and Assurance",
+    "description": "ACC 320 - Artificial Intelligence in Accounting and Assurance This course introduces the concepts and applications of AI in modern organizations from the perspective of accounting and auditing. In this context, AI broadly refers to the technologies employed in enterprise accounting, including Machine Learning (ML), Natural Language Processing (NLP), and Robotic Process Automation (RPA). To illustrate the underlying principles and implementations of AI in accounting and auditing, this course also introduces AI tools and demonstrates its applications to analyzing real-world data. Students gain hands-on experience with AI software for accounting and auditing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or ACC minor (incomplete)",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22747"
+  },
+  {
+    "id": "ACC 400",
+    "deptCode": "ACC",
+    "number": "400",
+    "code": "ACC 400",
+    "title": "External Auditing",
+    "description": "ACC 400 - External Auditing The course is designed to introduce and explore basic auditing principles, concepts and applications within the context of the audit of an annual financial statement. This course will review the audit process and cover the following: planning (identification of the risks of material misstatement); application of procedures (reducing audit risk below an acceptable level); assessment (based upon documented audit evidence); and, reporting (in accordance with generally accepted auditing standards) This course will also examine professional ethical standards and their relevance to the audit process. Other topics will include analysis and testing of internal control, substantive testing, and accounting research.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major or ACC minor (incomplete)",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8453"
+  },
+  {
+    "id": "ACC 401",
+    "deptCode": "ACC",
+    "number": "401",
+    "code": "ACC 401",
+    "title": "Intermediate Managerial Accounting & Data Analytics",
+    "description": "ACC 401 - Intermediate Managerial Accounting & Data Analytics The course is designed to build upon the principles and concepts in an introductory managerial accounting course with a focus on applied skills. This course will review business planning, performance evaluation, cost flows, setting and achieving targets in a customer domain, and strategic cost management. This course will also examine the ethics associated with managing a large and complex organization. Lastly, this course will provide an overview of data analytics as it pertains to managerial accounting, auditing, and taxation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business major;",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22749"
+  },
+  {
+    "id": "ACC 402",
+    "deptCode": "ACC",
+    "number": "402",
+    "code": "ACC 402",
+    "title": "Advanced Accounting",
+    "description": "ACC 402 - Advanced Accounting This course provides students with in-depth and up-to-date coverage of accounting for investments, business combinations, consolidated financial statements, segment and interim reporting, foreign currency transactions, and partnerships. The course links theory and practice with consistent emphasis on the logic of procedures.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11666"
+  },
+  {
+    "id": "AIM 100",
+    "deptCode": "AIM",
+    "number": "100",
+    "code": "AIM 100",
+    "title": "EOP Pre-Freshman Summer Academic Bridge",
+    "description": "AIM 100 - EOP Pre-Freshman Summer Academic Bridge The purpose of the EOP Summer Academic Bridge course is to give students a foundation in math, writing, and a science related to their undergraduate goals. The course will build on their current skills with the goal of increasing the likelihood of their academic success in these areas during their first full semester at Stony Brook University. Students will be placed in the appropriate section based on the university placement recommendations in math and writing. The EOP Summer Academic Bridge will be supported through the EOP Transitional Support Bridge course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8534"
+  },
+  {
+    "id": "AIM 101",
+    "deptCode": "AIM",
+    "number": "101",
+    "code": "AIM 101",
+    "title": "EOP Pre-Freshman Summer Support Bridge",
+    "description": "AIM 101 - EOP Pre-Freshman Summer Support Bridge The purpose of the EOP Summer Bridge course is to build a strong, supportive foundation by introducing the necessary support and resources needed to be successful at Stony Brook University. The course will build on their current skills with the goal of increasing the likelihood of the student’s success in acclimating to college and Stony Brook University culture and lifestyle. Additionally, the course goal is to help students navigate the challenges that stem from socioeconomic disadvantage. In addition, this course will support the EOP Academic Bridge course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8535"
+  },
+  {
+    "id": "AIM 102",
+    "deptCode": "AIM",
+    "number": "102",
+    "code": "AIM 102",
+    "title": "Expository Writing",
+    "description": "AIM 102 - Expository Writing The fundamentals of grammar through investigating methods of interpreting various forms of literature with emphasis on the process of writing and re-writing. Does not count toward graduation. A through C/Unsatisfactory grading only. The Pass/No credit option may not be used. Open to EOP/AIM students only.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Placement by writing placement examination",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8536"
+  },
+  {
+    "id": "AIM 104",
+    "deptCode": "AIM",
+    "number": "104",
+    "code": "AIM 104",
+    "title": "Literary Analysis and Critical Reasoning",
+    "description": "AIM 104 - Literary Analysis and Critical Reasoning Introduction to literary analysis and critical reasoning through close examination of selected works. Open to EOP/AIM students only. A through C/Unsatisfactory grading only. The Pass/No credit option may not be used.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Placement by writing placement examination",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8537"
+  },
+  {
+    "id": "ADV 101",
+    "deptCode": "ADV",
+    "number": "101",
+    "code": "ADV 101",
+    "title": "Advising 101 Transfer Seminar",
+    "description": "ADV 101 - Advising 101 Transfer Seminar A seminar intended to integrate transfer students into the University community by sharing information about Stony Brook and creating a forum to develop intellectual, social, writing, and communication skills. The course emphasizes institutional expectations to promote student success. Recommended for first semester transfer students entering with less than 57 earned credits. Required for all first semester international transfer students. Not for credit in addition to ACH 101, GLS 101, HDV 101, ITS 101, LDS 101, LSE 101, SBU 101 , SCH 101 , or SSO 101.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "New transfer student",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8454"
+  },
+  {
+    "id": "ADV 201",
+    "deptCode": "ADV",
+    "number": "201",
+    "code": "ADV 201",
+    "title": "Preparing for Medical School",
+    "description": "ADV 201 - Preparing for Medical School This course provides a broad survey of pre-medical studies, preparation for medical school admission, and the medical profession. The course will review medical school admission requirements and procedures, the academic coursework at both the undergraduate and professional school levels, the residency training of the physician, the typical routines of a medical practice, and other issues affecting the training of a medical doctor in the United States. In addition, the class will provide students opportunities for continual self-evaluation of personal motivations to enter the health profession. The course follows the chronological sequence taken by the traditional student to become a licensed medical doctor, and examines how this sequence of events plays an integral role in the development of a capable physician.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing. Completion of at least one pre-medical science sequence and permission of the instructor.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8455"
+  },
+  {
+    "id": "ADV 202",
+    "deptCode": "ADV",
+    "number": "202",
+    "code": "ADV 202",
+    "title": "Academic Success Seminar",
+    "description": "ADV 202 - Academic Success Seminar Designed to help students develop essential skills needed to become lifelong, self-regulated and self-motivated learners. Through guided journals and assignments, students will use self-reflection to identify possible self sabotaging thoughts and behaviors and discover what may be getting in the way of their academic and personal success. Students will discover how they learn and develop and strengthen their study skills. Topics to be covered include motivation, how memory works, metacognition, critical thinking, decision making, attention and concentration, goal setting, time management and other study skills strategies.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8456"
+  },
+  {
+    "id": "ADV 475",
+    "deptCode": "ADV",
+    "number": "475",
+    "code": "ADV 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "ADV 475 - Undergraduate Teaching Practicum I Work as an assistant with an instructor of an ADV 101 regularly scheduled class or with the coordinator/instructor of ADV 488 . The student is required to attend all classes, keep current with the regularly assigned work, and meet with the instructor at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; permission of",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8457"
+  },
+  {
+    "id": "ADV 476",
+    "deptCode": "ADV",
+    "number": "476",
+    "code": "ADV 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "ADV 476 - Undergraduate Teaching Practicum II Work as an assistant with an instructor of an ADV 101 regularly scheduled class or with the coordinator/instructor of ADV 488 . The student is required to attend all classes, keep current with the regularly assigned work, and meet with the instructor at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course. The student assumes greater responsibility in such areas as leading discussions and researching class-appropriate topics.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8458"
+  },
+  {
+    "id": "ADV 488",
+    "deptCode": "ADV",
+    "number": "488",
+    "code": "ADV 488",
+    "title": "Academic and Transfer Advising Services Internship",
+    "description": "ADV 488 - Academic and Transfer Advising Services Internship This two semester internship offers outstanding juniors and seniors an opportunity to gain advising experience, improve personal and professional skills, and explore career aspirations while providing assistance to others. Responsibilities include a teaching assistantship for a first semester transfer student seminar, provide support to undergraduates on making the academic and personal transition to Stony Brook, conducting oral presentations with other Academic Peer Advisors to students, and serving as a role model and mentor for other Stony Brook undergraduates. Interns are required to attend a weekly Academic Peer Advisor seminar, complete a set number of outreach hours, assist with events across campus and work in the Advising and Transfer Advising Services Center. Repeatable to a maximum of 12 credits.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Students are selected for the course based on an application which may be obtained from the advising office. Students must have earned 45 credits and a 3.0 cumulative GPA by the application date.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8459"
+  },
+  {
+    "id": "AFH 101",
+    "deptCode": "AFH",
+    "number": "101",
+    "code": "AFH 101",
+    "title": "The Wonders of the Black World",
+    "description": "AFH 101 - The Wonders of the Black World This class is an introductory, general education, diversity class in which students are introduced to global issues that directly impact their lives. Starting with the construction of Blackness in the United States at the intersection between historical memories and American indigenous knowledge, the class analyzes what it means to be Back today: in the United States first, using the students own environment and histories, and then across the general landscape of Global Blackness. The goal is to lay the background for an appreciation of the Black world in its diverse manifestations from Africa to the Americas (Latin America, United States, Canada, the Caribbean), from Asia (India, the Middle East) to Europe (Spain, France, England, etc.).",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8460"
+  },
+  {
+    "id": "AFH 205",
+    "deptCode": "AFH",
+    "number": "205",
+    "code": "AFH 205",
+    "title": "Contemporary African Literature",
+    "description": "AFH 205 - Contemporary African Literature Contemporary African Literature is an introductory course on fictional and nonfictional works by canonized African writers from the African continent and the diaspora. Close readings of literature by authors from the 1950s to the present day, such as Chinua Achebe, Ngugi Wa Thiong’o, and Chimamanda Adichie unveil literary traditions, themes, and motifs specific to African writing. An examination of the writers’ attention to topics such as (colonialism, ethnic war, gender oppression, migration, and Afropolitanism) allows for a critical analysis of the historical, social, and political issues on the African continent. The authors’ discussions about globalization and its impact on African nations, particularly in relationship to the global marketplace, highlight the paradoxical nature of Africa’s rich natural resources (oil, diamonds and coltan) against the continent’s economic dependency on global investors. Postcolonialism, Feminism, and Psychoanalytic theory will enrich students’ interpretation and analysis of the texts.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8461"
+  },
+  {
+    "id": "AFH 206",
+    "deptCode": "AFH",
+    "number": "206",
+    "code": "AFH 206",
+    "title": "Great Books of the Black Experience",
+    "description": "AFH 206 - Great Books of the Black Experience An exploration of some of the key writings from autobiographies to novels, etc., important to becoming familiar with central lines of thought and interpretation in the larger Black Experience. Focus and readings vary depending on each semester’s emphasis.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8462"
+  },
+  {
+    "id": "AFH 215",
+    "deptCode": "AFH",
+    "number": "215",
+    "code": "AFH 215",
+    "title": "Hip Hop and the Intellectual Tradition",
+    "description": "AFH 215 - Hip Hop and the Intellectual Tradition Examines the world of hip-hop, by framing it within the fields of intellectual theory and examining the scholarly and artistic contributions of rap artists, writers, and scholars who intellectualize the global and cultural phenomenon of Hip Hop. This course will attempt to complicate the largely historical and non-theoretical treatment of hip hop in mass-mediated portrayals by engaging in a cultural studies critique of youth cultural formations and the rapid global industrialization of hip-hop. The course will also highlight how contemporary issues concerning racial and gender politics, sexual orientation, globalization, and neocolonialism are tackled by the music and culture.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8463"
+  },
+  {
+    "id": "AFH 249",
+    "deptCode": "AFH",
+    "number": "249",
+    "code": "AFH 249",
+    "title": "African-American Literature and Music in the 19th and 20th Centuries",
+    "description": "AFH 249 - African-American Literature and Music in the 19th and 20th Centuries A detailed look at African-American literature and music and their importance for American literature and music of the 19th and 20th centuries. An examination of the literature with attention to the special stylistic devices, tones of literary voice, and characterization that writers use in their efforts to match the music experience with the written word. Selections from the recordings of African-American and African-American inspired musicians – from Bessie Smith and Louis Armstrong to Jimi Henrix and the Rolling Stones.This course is offered as both AFH 249 and EGL 249 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8464"
+  },
+  {
+    "id": "AFH 282",
+    "deptCode": "AFH",
+    "number": "282",
+    "code": "AFH 282",
+    "title": "Contemporary Caribbean Women’s Literature",
+    "description": "AFH 282 - Contemporary Caribbean Women’s Literature Examines the political, social, and historical experiences of women from anglophone francophone, and hispanophone Caribbean nations. The readings, movies, and projects selected for the course highlight reccurent themes in Caribbean literature such as exile, migration, identity, colorism, slavery, sexual oppression, transnational motherhood, and identity politics. Feminist criticism, Postcolonialsm, and critical race theory will be applied to our reading of the texts.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8465"
+  },
+  {
+    "id": "AFH 329",
+    "deptCode": "AFH",
+    "number": "329",
+    "code": "AFH 329",
+    "title": "Pan-African Literature I",
+    "description": "AFH 329 - Pan-African Literature I An examination of the cultural themes of Pan-Africanism and negritude, drawing on a selection of writers from the United States, Africa, and the Caribbean. The course treats the development, diffusion, and significance of these themes. It involves intensive consideration of selected literary works of African and African-American expression.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8466"
+  },
+  {
+    "id": "AFH 330",
+    "deptCode": "AFH",
+    "number": "330",
+    "code": "AFH 330",
+    "title": "Pan-African Literature II",
+    "description": "AFH 330 - Pan-African Literature II An examination of the cultural themes of Pan-Africanism and negritude, drawing on a selection of writers from the United States, Africa, and the Caribbean. The course treats the development, diffusion, and significance of these themes. It involves intensive consideration of selected literary works of African and African-American expression.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8467"
   }
 ]
