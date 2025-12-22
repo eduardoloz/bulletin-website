@@ -1,4 +1,5 @@
 // GraphComponent.js
+import allCourses from '../data/courses/all.json';
 import React, {
   useRef,
   useEffect,
@@ -11,44 +12,49 @@ import {
   buildCourseMap,
   buildCourseCodeMap,
   canTakeCourse,
-  getAllPrerequisites
+  getAllPrerequisites,
+  getPrerequisiteCourseIds
 } from '../utils/courseUtils';
 import { useUserProgress } from '../hooks/useUserProgress';
 
-// Dynamic course data loader
-const loadCourseData = async (major) => {
-  try {
-    switch (major) {
-      case 'CSE':
-        return (await import('../data/courses/cse.json')).default;
-      case 'AMS':
-        return (await import('../data/courses/ams.json')).default;
-      case 'ISE':
-        return (await import('../data/courses/ise.json')).default;
-      case 'EST':
-        return (await import('../data/courses/est.json')).default;
-      case 'MAT':
-        return (await import('../data/courses/mat.json')).default;
-      case 'BIO':
-        return (await import('../data/courses/bio.json')).default;
-      case 'PHY':
-        return (await import('../data/courses/phy.json')).default;
-      case 'CHE':
-        return (await import('../data/courses/che.json')).default;
-      default:
-        return [];
-    }
-  } catch (error) {
-    console.warn(`Course data not found for ${major}`);
-    return [];
-  }
-};
 
 /* ---------- constants ---------- */
 const WIDTH        = 960;
 const HEIGHT       = 800;
 const NODE_RADIUS  = 28;
 const ARROW_SIZE   = 10;
+
+
+
+/**
+ * Build a "major subgraph" that:
+ *  - includes all courses in the selected major
+ *  - PLUS any prerequisite courses they reference (even if outside the major)
+ *
+ * This prevents the graph from becoming nonsense when (for example) CSE depends on MAT/AMS/PHY, etc.
+ * Works regardless of how many courses have been scraped (it will just include what's available).
+ */
+function buildMajorSubgraphCourses(all, selectedMajor) {
+  const byId = new Map(all.map(c => [c.id, c]));
+  const inMajor = all.filter(c => c.deptCode === selectedMajor);
+
+  const includeIds = new Set(inMajor.map(c => c.id));
+  const stack = [...inMajor];
+
+  while (stack.length) {
+    const course = stack.pop();
+    const prereqIds = getPrerequisiteCourseIds(course);
+
+    for (const pid of prereqIds) {
+      if (!includeIds.has(pid) && byId.has(pid)) {
+        includeIds.add(pid);
+        stack.push(byId.get(pid));
+      }
+    }
+  }
+
+  return all.filter(c => includeIds.has(c.id));
+}
 
 /**
  * Renders the prerequisite graph with D3.
@@ -57,21 +63,14 @@ const ARROW_SIZE   = 10;
  */
 export default function CourseGraph({ onNodeClick }) {
   /* ---------- React state ---------- */
-  const [courses, setCourses] = useState([]);
   const [selectedMajor, setSelectedMajor] = useState('CSE');
-  const [loading, setLoading] = useState(true);
+  const [loading] = useState(false);
 
-  /* ---------- Load courses based on selected major ---------- */
-  useEffect(() => {
-    const loadCourses = async () => {
-      setLoading(true);
-      const data = await loadCourseData(selectedMajor);
-      setCourses(data);
-      setLoading(false);
-    };
-
-    loadCourses();
-  }, [selectedMajor]);
+  // Build a major-scoped graph that still includes cross-dept prerequisites.
+  const courses = useMemo(
+    () => buildMajorSubgraphCourses(allCourses, selectedMajor),
+    [selectedMajor]
+  );
 
   /* ---------- one-time graph data (updates when courses change) ---------- */
   const processor   = useMemo(() => courses.length > 0 ? new CourseGraphProcessor(courses) : null, [courses]);
@@ -88,6 +87,12 @@ export default function CourseGraph({ onNodeClick }) {
   const [selectedCourse,   setSelectedCourse]   = useState(null);      // Selected course ID
   const [mode,             setMode]             = useState('view');    // view mode: 'view', 'completed', 'prereqs'
   const [futureMode,       setFutureMode]       = useState(false);     // 2-hop
+
+  // If you switch majors, clear any selection that may not exist in the new subgraph.
+  useEffect(() => {
+    setSelectedCourse(null);
+    setFutureMode(false);
+  }, [selectedMajor]);
 
   // Sync local state with database on load
   useEffect(() => {
