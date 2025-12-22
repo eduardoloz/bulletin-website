@@ -1,34 +1,41 @@
 /**
- * Utility functions for working with course data in the new schema format
+ * Utility functions for working with course data (ReqNode AND/OR trees).
+ * Works even when only some courses are scraped.
  */
 
 /**
- * Recursively extract all course IDs from a prerequisite/corequisite tree
- * @param {ReqNode} node - The requirement node to traverse
- * @returns {string[]} Array of course IDs
+ * Recursively extract all COURSE ids from a ReqNode tree.
+ * Defensive: handles missing/odd shapes without crashing.
+ * @param {any} node
+ * @returns {string[]} array of course UUIDs
  */
 export function extractCourseIds(node) {
-  if (!node) return [];
+  if (!node || typeof node !== "object") return [];
 
   switch (node.kind) {
-    case 'TRUE':
+    case "TRUE":
+    case "STANDING_AT_LEAST":
       return [];
-    case 'COURSE':
-      return [node.courseId];
-    case 'AND':
-    case 'OR':
-      return node.nodes.flatMap(n => extractCourseIds(n));
-    case 'STANDING_AT_LEAST':
-      return [];
+
+    case "COURSE":
+      return node.courseId ? [node.courseId] : [];
+
+    case "AND":
+    case "OR": {
+      const nodes = Array.isArray(node.nodes) ? node.nodes : [];
+      return nodes.flatMap((n) => extractCourseIds(n));
+    }
+
     default:
       return [];
   }
 }
 
 /**
- * Get all direct prerequisite course IDs for a course
- * @param {Course} course - The course object
- * @returns {string[]} Array of prerequisite course IDs
+ * Direct prereq course ids for a course (no coreqs).
+ * IMPORTANT: this is what your graph builder uses.
+ * @param {any} course
+ * @returns {string[]}
  */
 export function getPrerequisiteCourseIds(course) {
   if (!course?.prerequisites) return [];
@@ -36,9 +43,9 @@ export function getPrerequisiteCourseIds(course) {
 }
 
 /**
- * Get all direct corequisite course IDs for a course
- * @param {Course} course - The course object
- * @returns {string[]} Array of corequisite course IDs
+ * Direct coreq course ids for a course.
+ * @param {any} course
+ * @returns {string[]}
  */
 export function getCorequisiteCourseIds(course) {
   if (!course?.corequisites) return [];
@@ -46,53 +53,84 @@ export function getCorequisiteCourseIds(course) {
 }
 
 /**
- * Build a course map from array (id -> course)
- * @param {Course[]} courses - Array of courses
- * @returns {Object} Map of course ID to course object
+ * Build id -> course
+ * @param {any[]} courses
  */
 export function buildCourseMap(courses) {
-  return Object.fromEntries(courses.map(c => [c.id, c]));
+  return Object.fromEntries((courses || []).map((c) => [c.id, c]));
 }
 
 /**
- * Build a course code map from array (code -> course)
- * @param {Course[]} courses - Array of courses
- * @returns {Object} Map of course code to course object
+ * Build code -> course (includes normalized keys so user input matches)
+ * @param {any[]} courses
  */
 export function buildCourseCodeMap(courses) {
-  return Object.fromEntries(courses.map(c => [c.code, c]));
+  const map = {};
+  for (const c of courses || []) {
+    if (!c?.code) continue;
+    const raw = c.code;
+    const norm = raw.trim().replace(/\s+/g, " ").toUpperCase();
+    map[raw] = c;
+    map[norm] = c;
+  }
+  return map;
 }
 
 /**
- * Evaluate a requirement node against a user's completed and current courses
- * @param {ReqNode} node - The requirement node to evaluate
- * @param {Set<string>} completedCourseIds - Set of completed course IDs
- * @param {Set<string>} takingNowIds - Set of course IDs currently being taken
- * @param {number} userStanding - User's current standing (for STANDING_AT_LEAST)
- * @param {string} mode - 'PREREQ' or 'COREQ'
- * @returns {boolean} Whether the requirement is satisfied
+ * Evaluate a requirement node against completed + takingNow + standing.
+ * @param {any} node
+ * @param {Set<string>|string[]} completedCourseIds
+ * @param {Set<string>|string[]} takingNowIds
+ * @param {number} userStanding
+ * @param {"PREREQ"|"COREQ"} mode
  */
-export function evaluateReq(node, completedCourseIds, takingNowIds = new Set(), userStanding = 1, mode = 'PREREQ') {
+export function evaluateReq(
+  node,
+  completedCourseIds,
+  takingNowIds = new Set(),
+  userStanding = 1,
+  mode = "PREREQ"
+) {
   if (!node) return true;
 
+  const completed =
+    completedCourseIds instanceof Set
+      ? completedCourseIds
+      : new Set(completedCourseIds || []);
+
+  const takingNow =
+    takingNowIds instanceof Set ? takingNowIds : new Set(takingNowIds || []);
+
   switch (node.kind) {
-    case 'TRUE':
+    case "TRUE":
       return true;
 
-    case 'COURSE': {
-      const done = completedCourseIds.has(node.courseId);
-      if (mode === 'PREREQ') return done;
-      return done || takingNowIds.has(node.courseId);
+    case "COURSE": {
+      const id = node.courseId;
+      if (!id) return false;
+      const done = completed.has(id);
+      if (mode === "PREREQ") return done;
+      return done || takingNow.has(id);
     }
 
-    case 'STANDING_AT_LEAST':
-      return userStanding >= node.minStanding;
+    case "STANDING_AT_LEAST":
+      return typeof node.minStanding === "number"
+        ? userStanding >= node.minStanding
+        : true;
 
-    case 'AND':
-      return node.nodes.every(n => evaluateReq(n, completedCourseIds, takingNowIds, userStanding, mode));
+    case "AND": {
+      const nodes = Array.isArray(node.nodes) ? node.nodes : [];
+      return nodes.every((n) =>
+        evaluateReq(n, completed, takingNow, userStanding, mode)
+      );
+    }
 
-    case 'OR':
-      return node.nodes.some(n => evaluateReq(n, completedCourseIds, takingNowIds, userStanding, mode));
+    case "OR": {
+      const nodes = Array.isArray(node.nodes) ? node.nodes : [];
+      return nodes.some((n) =>
+        evaluateReq(n, completed, takingNow, userStanding, mode)
+      );
+    }
 
     default:
       return false;
@@ -100,100 +138,69 @@ export function evaluateReq(node, completedCourseIds, takingNowIds = new Set(), 
 }
 
 /**
- * Check if a user can take a course given their completed courses and current enrollment
- * @param {Course} course - The course to check
- * @param {Set<string>} completedCourseIds - Set of completed course IDs
- * @param {Set<string>} takingNowIds - Set of course IDs currently being taken
- * @param {number} userStanding - User's current standing
- * @returns {boolean} Whether the user can take the course
+ * Can the user take `course` given their progress?
+ * Keeps your existing calling style working:
+ *   canTakeCourse(course, completedSet)
+ * and also supports coreqs/takingNow/standing if you later pass them.
  */
-export function canTakeCourse(course, completedCourseIds, takingNowIds = new Set(), userStanding = 1) {
+export function canTakeCourse(
+  course,
+  completedCourseIds,
+  takingNowIds = new Set(),
+  userStanding = 1
+) {
   if (!course?.active) return false;
+
+  const completed =
+    completedCourseIds instanceof Set
+      ? completedCourseIds
+      : new Set(completedCourseIds || []);
+
+  const takingNow =
+    takingNowIds instanceof Set ? takingNowIds : new Set(takingNowIds || []);
 
   const prereqOK = !course.prerequisites
     ? true
-    : evaluateReq(course.prerequisites, completedCourseIds, new Set(), userStanding, 'PREREQ');
+    : evaluateReq(course.prerequisites, completed, new Set(), userStanding, "PREREQ");
 
   const coreqOK = !course.corequisites
     ? true
-    : evaluateReq(course.corequisites, completedCourseIds, takingNowIds, userStanding, 'COREQ');
+    : evaluateReq(course.corequisites, completed, takingNow, userStanding, "COREQ");
 
   return prereqOK && coreqOK;
 }
 
 /**
- * Get all prerequisite course IDs recursively (entire dependency tree)
- * @param {string} courseId - The course ID to start from
- * @param {Object} courseMap - Map of course ID to course object
- * @param {Set<string>} visited - Set to track visited courses (prevents cycles)
- * @returns {Set<string>} Set of all prerequisite course IDs
+ * All prereqs recursively (dependency closure) for highlighting.
  */
 export function getAllPrerequisites(courseId, courseMap, visited = new Set()) {
-  if (visited.has(courseId)) return visited;
+  if (!courseId || visited.has(courseId)) return visited;
   visited.add(courseId);
 
-  const course = courseMap[courseId];
+  const course = courseMap?.[courseId];
   if (!course) return visited;
 
-  const directPrereqs = getPrerequisiteCourseIds(course);
-  directPrereqs.forEach(prereqId => {
-    getAllPrerequisites(prereqId, courseMap, visited);
-  });
-
+  for (const pid of getPrerequisiteCourseIds(course)) {
+    getAllPrerequisites(pid, courseMap, visited);
+  }
   return visited;
 }
 
 /**
- * Build adjacency list for the course graph (prereq -> dependents)
- * @param {Course[]} courses - Array of courses
- * @param {Object} courseMap - Map of course ID to course object
- * @returns {Object} Adjacency list mapping prerequisite IDs to dependent course IDs
+ * prereqId -> [dependentCourseIds]
+ * Used by CourseGraphProcessor.
  */
 export function buildAdjacencyList(courses, courseMap) {
-  const adjList = Object.fromEntries(
-    courses.map(c => [c.id, []])
-  );
+  const adjList = Object.fromEntries((courses || []).map((c) => [c.id, []]));
 
-  courses.forEach(course => {
+  for (const course of courses || []) {
     const prereqIds = getPrerequisiteCourseIds(course);
-    prereqIds.forEach(prereqId => {
-      if (courseMap[prereqId] && adjList[prereqId]) {
+    for (const prereqId of prereqIds) {
+      if (courseMap?.[prereqId] && adjList[prereqId]) {
         adjList[prereqId].push(course.id);
       }
-    });
-  });
+    }
+  }
 
   return adjList;
-}
-
-/**
- * Convert requirement tree to human-readable string
- * @param {ReqNode} node - The requirement node
- * @param {Object} courseCodeMap - Map of course ID to course code
- * @returns {string} Human-readable requirement string
- */
-export function reqToString(node, courseCodeMap) {
-  if (!node) return 'None';
-
-  switch (node.kind) {
-    case 'TRUE':
-      return 'None';
-
-    case 'COURSE': {
-      const course = courseCodeMap[node.courseId];
-      return course ? course.code : node.courseId;
-    }
-
-    case 'STANDING_AT_LEAST':
-      return `Standing ${node.minStanding}+`;
-
-    case 'AND':
-      return `(${node.nodes.map(n => reqToString(n, courseCodeMap)).join(' AND ')})`;
-
-    case 'OR':
-      return `(${node.nodes.map(n => reqToString(n, courseCodeMap)).join(' OR ')})`;
-
-    default:
-      return 'Unknown';
-  }
 }
