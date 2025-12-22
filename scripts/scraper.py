@@ -2,23 +2,18 @@
 """
 scripts/scraper.py — Stony Brook course scraper
 
-Fix for major dropdown labels:
-- Ensures every course record gets a `deptName` (e.g., "Accounting") so your UI
-  can display "ACC - Accounting" for *every* dept in all.json, not just a few.
+What it does:
+- Scrapes course preview pages from the SBU catalog
+- Writes:
+  - <project-root>/src/data/courses/all.json
+  - <project-root>/src/data/courses/all.csv
+- Adds `deptName` to every course (so dropdown can show "CSE - Computer Science")
+- Uses stable IDs: course.id == course.code (so re-scrapes don’t reshuffle IDs)
 
-Why your UI shows only some names right now:
-- Your GraphComponent is using `deptName` found inside the course records.
-- Your previous dept-name scraper only worked when the <option value> was exactly
-  the dept code (ACC/ASC were, many others weren't). This version parses the
-  dept code + name from the OPTION TEXT instead (more reliable).
-
-Output:
-- <project-root>/src/data/courses/all.json
-- <project-root>/src/data/courses/all.csv
-
-Usage:
-  python scripts/scraper.py          # test mode (first 10)
-  python scripts/scraper.py --full   # scrape all pages
+Run:
+  python scripts/scraper.py                 # uses TEST_MODE_DEFAULT
+  python scripts/scraper.py --test --limit 15
+  python scripts/scraper.py --full
 """
 
 from __future__ import annotations
@@ -38,9 +33,9 @@ from bs4.element import NavigableString, Tag
 
 BASE = "https://catalog.stonybrook.edu"
 
-# Defaults (override with CLI args)
-TEST_MODE_DEFAULT = False
-TEST_LIMIT_DEFAULT = 15
+# Defaults (used unless overridden by CLI flags)
+TEST_MODE_DEFAULT = True
+TEST_LIMIT_DEFAULT = 20
 
 PAGE_URL_TEMPLATE = (
     "https://catalog.stonybrook.edu/content.php?"
@@ -51,7 +46,7 @@ PAGE_URL_TEMPLATE = (
 REQUEST_DELAY_SEC = 0.15
 TIMEOUT_SEC = 30
 
-# Matches e.g. "ACC - Accounting" or "ACC – Accounting" or "ACC — Accounting"
+# Matches "ACC - Accounting" (supports -, – , —)
 DEPT_TEXT_RE = re.compile(r"^([A-Z]{2,4})\s*[-–—]\s*(.+)$")
 
 
@@ -141,7 +136,10 @@ def text_of(x: Any) -> Optional[str]:
 
 
 def scrape_dept_name_map() -> dict[str, str]:
-    """Scrape deptCode -> deptName from the listing page dropdown options."""
+    """
+    Scrape deptCode -> deptName from the listing page dropdown option TEXT,
+    e.g., "CSE - Computer Science".
+    """
     html = fetch(PAGE_URL_TEMPLATE.format(page=1))
     soup = BeautifulSoup(html, "html.parser")
 
@@ -153,7 +151,6 @@ def scrape_dept_name_map() -> dict[str, str]:
             continue
         code = m.group(1).strip()
         name = m.group(2).strip()
-        # Keep first seen mapping (avoid accidental overrides)
         dept_map.setdefault(code, name)
 
     return dept_map
@@ -177,6 +174,7 @@ def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
             href_val = a.get("href")
             if not href_val:
                 continue
+            # bs4 typing can treat attributes as list-like; normalize to str
             href = str(href_val[0]) if isinstance(href_val, list) else str(href_val)
             href = href.strip()
             if not href:
@@ -185,6 +183,7 @@ def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
 
         time.sleep(REQUEST_DELAY_SEC)
 
+    # Deduplicate preserving order
     seen: set[str] = set()
     deduped: list[str] = []
     for link in all_links:
@@ -224,6 +223,7 @@ def parse_course_page(url: str, dept_map: dict[str, str]) -> Optional[dict[str, 
         return None
     dept_code, number = dept_match.group(1), dept_match.group(2)
 
+    # Title without leading dash
     title_only = full_title
     if full_title.startswith(course_code):
         rest = full_title[len(course_code):].replace("\u00A0", " ")
@@ -252,6 +252,7 @@ def parse_course_page(url: str, dept_map: dict[str, str]) -> Optional[dict[str, 
         if m:
             credits_num = int(m.group(1))
 
+    # Description = text before the first <strong>
     desc_parts: list[str] = []
     for node in parent_p.contents:
         if isinstance(node, Tag) and node.name == "strong":
@@ -273,7 +274,7 @@ def parse_course_page(url: str, dept_map: dict[str, str]) -> Optional[dict[str, 
     return {
         "id": stable_id,
         "deptCode": dept_code,
-        "deptName": dept_map.get(dept_code),  # <-- key for dropdown label
+        "deptName": dept_map.get(dept_code),
         "number": number,
         "code": course_code,
         "title": title_only,
@@ -296,7 +297,8 @@ def build_reqnode(course: dict[str, Any], code_to_id: dict[str, str]) -> Optiona
         return None
 
     if "(incomplete)" in text:
-        return {"kind": "TRUE"}
+        lead = {"kind": "TRUE"}
+        return lead
 
     codes = extract_course_codes(text)
     nodes: list[dict[str, Any]] = []
@@ -316,6 +318,7 @@ def build_reqnode(course: dict[str, Any], code_to_id: dict[str, str]) -> Optiona
     if " and " in lower and " or " not in lower:
         return nodes[0] if len(nodes) == 1 else {"kind": "AND", "nodes": nodes}
 
+    # Mixed: default AND
     return nodes[0] if len(nodes) == 1 else {"kind": "AND", "nodes": nodes}
 
 
@@ -347,11 +350,19 @@ def save_csv(path: Path, courses: list[dict[str, Any]]) -> None:
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--full", action="store_true", help="Disable test mode (scrape all pages).")
+    ap.add_argument("--full", action="store_true", help="Scrape all pages (disables test mode).")
+    ap.add_argument("--test", action="store_true", help="Force test mode (even if default is full).")
     ap.add_argument("--limit", type=int, default=TEST_LIMIT_DEFAULT, help="Test mode limit.")
     args = ap.parse_args()
 
-    test_mode = not args.full
+    # Default comes from TEST_MODE_DEFAULT, unless overridden by flags
+    if args.full:
+        test_mode = False
+    elif args.test:
+        test_mode = True
+    else:
+        test_mode = TEST_MODE_DEFAULT
+
     test_limit = max(1, args.limit)
 
     script_dir = Path(__file__).resolve().parent
