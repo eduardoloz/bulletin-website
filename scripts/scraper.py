@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
 """
-scripts/scraper.py — Stony Brook course scraper
+scripts/scraper.py — Stony Brook course scraper (catalog.stonybrook.edu)
 
-What it does:
-- Scrapes course preview pages from the SBU catalog
-- Writes:
-  - <project-root>/src/data/courses/all.json
-  - <project-root>/src/data/courses/all.csv
-- Adds `deptName` to every course (so dropdown can show "CSE - Computer Science")
-- Uses stable IDs: course.id == course.code (so re-scrapes don’t reshuffle IDs)
+Fixes:
+- Prerequisites are no longer truncated (e.g. "C or higher in ...").
+  We now collect ALL text after the "Prerequisite:" <strong> until the next <strong>.
+- Test mode vs full mode is unambiguous:
+    * --test uses a limit
+    * --full scrapes all pages
+    * if neither flag is given, it uses TEST_MODE_DEFAULT / TEST_LIMIT_DEFAULT
+- IDs are stable across runs: id == course code (e.g. "CSE 214")
+- Outputs to: <project>/src/data/courses/all.json and all.csv (if project root found)
 
-Run:
-  python scripts/scraper.py                 # uses TEST_MODE_DEFAULT
+Usage:
+  python scripts/scraper.py
   python scripts/scraper.py --test --limit 15
   python scripts/scraper.py --full
 """
@@ -33,37 +35,46 @@ from bs4.element import NavigableString, Tag
 
 BASE = "https://catalog.stonybrook.edu"
 
-# Defaults (used unless overridden by CLI flags)
+# Default behavior if you run without flags:
 TEST_MODE_DEFAULT = False
-TEST_LIMIT_DEFAULT = 20
+TEST_LIMIT_DEFAULT = 10
 
+# Catalog listing page for courses (catoid/navoid may change over time)
 PAGE_URL_TEMPLATE = (
     "https://catalog.stonybrook.edu/content.php?"
     "catoid=8&navoid=484&filter%5Bitem_type%5D=3&"
     "filter%5Bonly_active%5D=1&filter%5B3%5D=1&filter%5Bcpage%5D={page}"
 )
 
+# How many listing pages exist (you can bump if the catalog grows)
+TOTAL_PAGES_DEFAULT = 34
+
 REQUEST_DELAY_SEC = 0.15
 TIMEOUT_SEC = 30
 
-# Matches "ACC - Accounting" (supports -, – , —)
+# Matches "ACC - Accounting" / "ACC – Accounting" / "ACC — Accounting"
 DEPT_TEXT_RE = re.compile(r"^([A-Z]{2,4})\s*[-–—]\s*(.+)$")
 
 
 # ----------------------------- project paths -----------------------------
 
-def find_project_root(start: Path) -> Path:
+def find_project_root(start: Path) -> Optional[Path]:
     cur = start.resolve()
     for _ in range(12):
         if (cur / "package.json").exists() and (cur / "src").exists():
             return cur
         cur = cur.parent
-    return start.resolve().parent
+    return None
 
 
-def output_paths(project_root: Path) -> tuple[Path, Path]:
-    out_dir = project_root / "src" / "data" / "courses"
-    out_dir.mkdir(parents=True, exist_ok=True)
+def output_paths(project_root: Optional[Path]) -> tuple[Path, Path]:
+    if project_root:
+        out_dir = project_root / "src" / "data" / "courses"
+        out_dir.mkdir(parents=True, exist_ok=True)
+        return (out_dir / "all.json", out_dir / "all.csv")
+
+    # fallback: write next to this script
+    out_dir = Path.cwd()
     return (out_dir / "all.json", out_dir / "all.csv")
 
 
@@ -105,15 +116,18 @@ def fetch(url: str, *, retries: int = 2) -> str:
 
 # ----------------------------- parsing helpers -----------------------------
 
+def clean_spaces(s: str) -> str:
+    return re.sub(r"\s+", " ", s.replace("\u00A0", " ")).strip()
+
+
 def clean_prerequisites_text(prereq: Optional[str]) -> Optional[str]:
     if prereq is None:
         return None
-    prereq = prereq.strip()
+    prereq = clean_spaces(prereq)
     if prereq == "":
         return None
     if prereq.endswith("and"):
         prereq = prereq[:-3].rstrip() + " (incomplete)"
-    prereq = re.sub(r"\s+", " ", prereq)
     return prereq
 
 
@@ -126,27 +140,30 @@ def text_of(x: Any) -> Optional[str]:
     if x is None:
         return None
     if isinstance(x, NavigableString):
-        s = str(x).strip()
+        s = str(x)
+        s = clean_spaces(s)
         return s or None
     if isinstance(x, Tag):
         s = x.get_text(" ", strip=True)
+        s = clean_spaces(s)
         return s or None
-    s = str(x).strip()
+    s = clean_spaces(str(x))
     return s or None
 
 
 def scrape_dept_name_map() -> dict[str, str]:
     """
-    Scrape deptCode -> deptName from the listing page dropdown option TEXT,
-    e.g., "CSE - Computer Science".
+    Best-effort deptCode -> deptName.
+    Note: The catalog dropdown may NOT contain names for every department.
     """
     html = fetch(PAGE_URL_TEMPLATE.format(page=1))
     soup = BeautifulSoup(html, "html.parser")
 
     dept_map: dict[str, str] = {}
     for opt in soup.select("option"):
-        text = opt.get_text(" ", strip=True)
-        m = DEPT_TEXT_RE.match(text)
+        txt = opt.get_text(" ", strip=True)
+        txt = clean_spaces(txt)
+        m = DEPT_TEXT_RE.match(txt)
         if not m:
             continue
         code = m.group(1).strip()
@@ -158,14 +175,14 @@ def scrape_dept_name_map() -> dict[str, str]:
 
 # ----------------------------- STEP 1: links -----------------------------
 
-def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
+def get_course_links(*, test_mode: bool, test_limit: int, total_pages: int) -> list[str]:
     all_links: list[str] = []
-    total_pages = 1 if test_mode else 34
+    pages = 1 if test_mode else total_pages
 
-    print(f"[*] Collecting links from {total_pages} page(s)...")
-    for page in range(1, total_pages + 1):
+    print(f"[*] Collecting links from {pages} page(s)...")
+    for page in range(1, pages + 1):
         url = PAGE_URL_TEMPLATE.format(page=page)
-        print(f"  - Fetching page {page}/{total_pages}")
+        print(f"  - Fetching page {page}/{pages}")
 
         html = fetch(url)
         soup = BeautifulSoup(html, "html.parser")
@@ -174,7 +191,6 @@ def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
             href_val = a.get("href")
             if not href_val:
                 continue
-            # bs4 typing can treat attributes as list-like; normalize to str
             href = str(href_val[0]) if isinstance(href_val, list) else str(href_val)
             href = href.strip()
             if not href:
@@ -183,7 +199,7 @@ def get_course_links(*, test_mode: bool, test_limit: int) -> list[str]:
 
         time.sleep(REQUEST_DELAY_SEC)
 
-    # Deduplicate preserving order
+    # dedupe
     seen: set[str] = set()
     deduped: list[str] = []
     for link in all_links:
@@ -208,7 +224,7 @@ def parse_course_page(url: str, dept_map: dict[str, str]) -> Optional[dict[str, 
         print(f"[WARN] Missing title block: {url}")
         return None
 
-    full_title = block.get_text(" ", strip=True)
+    full_title = clean_spaces(block.get_text(" ", strip=True))
 
     code_match = re.match(r"([A-Z]{2,4}\s*\d{2,3})", full_title)
     if not code_match:
@@ -223,10 +239,10 @@ def parse_course_page(url: str, dept_map: dict[str, str]) -> Optional[dict[str, 
         return None
     dept_code, number = dept_match.group(1), dept_match.group(2)
 
-    # Title without leading dash
+    # title (strip "CODE - " prefix)
     title_only = full_title
     if full_title.startswith(course_code):
-        rest = full_title[len(course_code):].replace("\u00A0", " ")
+        rest = clean_spaces(full_title[len(course_code):])
         rest = re.sub(r"^[\-\–\—\s]+", "", rest).strip()
         if rest:
             title_only = rest
@@ -239,37 +255,56 @@ def parse_course_page(url: str, dept_map: dict[str, str]) -> Optional[dict[str, 
     credits_text: Optional[str] = None
     raw_prereq: Optional[str] = None
 
+    # --- Extract credits + prerequisites from <strong> blocks ---
     for s in parent_p.find_all("strong"):
-        label = s.get_text(" ", strip=True).lower()
-        if "credit" in label:
-            credits_text = s.get_text(" ", strip=True)
-        if "prereq" in label:
-            raw_prereq = text_of(s.next_sibling)
+        label = clean_spaces(s.get_text(" ", strip=True)).lower()
 
+        if "credit" in label:
+            credits_text = clean_spaces(s.get_text(" ", strip=True))
+
+        if "prereq" in label:
+            # FIX: collect all text after this <strong> until next <strong>
+            parts: list[str] = []
+            for sib in s.next_siblings:
+                if isinstance(sib, Tag) and sib.name == "strong":
+                    break
+                t = text_of(sib)
+                if t:
+                    parts.append(t)
+            raw_prereq = clean_spaces(" ".join(parts)) if parts else None
+
+    # credits number (handle "3" or "3-4" etc -> take first)
     credits_num = 0
     if credits_text:
         m = re.search(r"(\d+)", credits_text)
         if m:
             credits_num = int(m.group(1))
 
-    # Description = text before the first <strong>
+    # description: take text from parent_p BEFORE first <strong>,
+    # then remove duplicated "CODE - TITLE" if present.
     desc_parts: list[str] = []
     for node in parent_p.contents:
         if isinstance(node, Tag) and node.name == "strong":
             break
-        if isinstance(node, NavigableString):
-            t = str(node).strip()
-            if t:
-                desc_parts.append(t)
-        elif isinstance(node, Tag):
-            t = node.get_text(" ", strip=True)
-            if t:
-                desc_parts.append(t)
-    description = " ".join(desc_parts).strip()
+        t = text_of(node)
+        if t:
+            desc_parts.append(t)
+    description = clean_spaces(" ".join(desc_parts))
+
+    # The catalog often repeats the title in that first chunk; strip it if present.
+    # Examples:
+    #   "CSE 214 - Data Structures An extension of ..."
+    if description.startswith(full_title):
+        description = clean_spaces(description[len(full_title):])
+    elif description.startswith(course_code):
+        # remove leading "CODE - TITLE" or "CODE – TITLE"
+        description = re.sub(rf"^{re.escape(course_code)}\s*[-–—]\s*{re.escape(title_only)}\s*", "", description)
+        description = clean_spaces(description)
 
     raw_prereq_clean = clean_prerequisites_text(raw_prereq)
 
-    stable_id = course_code  # stable across scrapes
+    # stable id across scrapes
+    stable_id = course_code
 
     return {
         "id": stable_id,
@@ -297,8 +332,7 @@ def build_reqnode(course: dict[str, Any], code_to_id: dict[str, str]) -> Optiona
         return None
 
     if "(incomplete)" in text:
-        lead = {"kind": "TRUE"}
-        return lead
+        return {"kind": "TRUE"}
 
     codes = extract_course_codes(text)
     nodes: list[dict[str, Any]] = []
@@ -307,18 +341,17 @@ def build_reqnode(course: dict[str, Any], code_to_id: dict[str, str]) -> Optiona
         if cid:
             nodes.append({"kind": "COURSE", "courseId": cid})
 
+    # If prereq text exists but has no explicit course codes, treat as non-checkable.
     if not nodes:
         return {"kind": "TRUE"}
 
     lower = text.lower()
-
     if " or " in lower and " and " not in lower:
         return nodes[0] if len(nodes) == 1 else {"kind": "OR", "nodes": nodes}
-
     if " and " in lower and " or " not in lower:
         return nodes[0] if len(nodes) == 1 else {"kind": "AND", "nodes": nodes}
 
-    # Mixed: default AND
+    # Mixed "and/or": default to AND (keeps graph conservative)
     return nodes[0] if len(nodes) == 1 else {"kind": "AND", "nodes": nodes}
 
 
@@ -343,40 +376,44 @@ def save_csv(path: Path, courses: list[dict[str, Any]]) -> None:
         w.writeheader()
         for c in courses:
             w.writerow({k: c.get(k) for k in keys})
-    print(f"[+] Wrote CSV:  {path.resolve()}")
+    print(f"[+] Wrote CSV : {path.resolve()}")
 
 
 # ----------------------------- main -----------------------------
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--full", action="store_true", help="Scrape all pages (disables test mode).")
-    ap.add_argument("--test", action="store_true", help="Force test mode (even if default is full).")
-    ap.add_argument("--limit", type=int, default=TEST_LIMIT_DEFAULT, help="Test mode limit.")
+    mode = ap.add_mutually_exclusive_group()
+    mode.add_argument("--test", action="store_true", help="Test mode: scrape 1 listing page and limit courses.")
+    mode.add_argument("--full", action="store_true", help="Full mode: scrape all listing pages.")
+    ap.add_argument("--limit", type=int, default=TEST_LIMIT_DEFAULT, help="Course limit in test mode.")
+    ap.add_argument("--pages", type=int, default=TOTAL_PAGES_DEFAULT, help="How many listing pages exist.")
     args = ap.parse_args()
 
-    # Default comes from TEST_MODE_DEFAULT, unless overridden by flags
-    if args.full:
-        test_mode = False
-    elif args.test:
+    # Decide mode: flags override defaults
+    if args.test:
         test_mode = True
+    elif args.full:
+        test_mode = False
     else:
         test_mode = TEST_MODE_DEFAULT
 
-    test_limit = max(1, args.limit)
+    test_limit = max(1, int(args.limit))
+    total_pages = max(1, int(args.pages))
 
     script_dir = Path(__file__).resolve().parent
     project_root = find_project_root(script_dir)
     json_out, csv_out = output_paths(project_root)
 
-    print(f"[*] Project root: {project_root}")
+    print(f"[*] Project root: {project_root if project_root else '(not found; writing to cwd)'}")
     print(f"[*] Output JSON : {json_out}")
     print(f"[*] Output CSV  : {csv_out}")
+    print(f"[*] Mode       : {'TEST' if test_mode else 'FULL'}")
 
     dept_map = scrape_dept_name_map()
-    print(f"[*] Dept names scraped: {len(dept_map)}")
+    print(f"[*] Dept names scraped (best-effort): {len(dept_map)}")
 
-    links = get_course_links(test_mode=test_mode, test_limit=test_limit)
+    links = get_course_links(test_mode=test_mode, test_limit=test_limit, total_pages=total_pages)
     print(f"[*] Scraping {len(links)} course preview page(s)...")
 
     courses: list[dict[str, Any]] = []
