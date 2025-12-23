@@ -9,7 +9,7 @@ import {
   buildCourseCodeMap,
   canTakeCourse,
   getAllPrerequisites,
-  getPrerequisiteCourseIds
+  getPrerequisiteCourseIds,
 } from '../utils/courseUtils';
 import { useUserProgress } from '../hooks/useUserProgress';
 
@@ -78,10 +78,10 @@ const reactSelectStyles = {
  *  - PLUS any prerequisite courses they reference (even if outside the major)
  */
 function buildMajorSubgraphCourses(all, selectedMajor) {
-  const byId = new Map(all.map(c => [c.id, c]));
-  const inMajor = all.filter(c => c.deptCode === selectedMajor);
+  const byId = new Map(all.map((c) => [c.id, c]));
+  const inMajor = all.filter((c) => c.deptCode === selectedMajor);
 
-  const includeIds = new Set(inMajor.map(c => c.id));
+  const includeIds = new Set(inMajor.map((c) => c.id));
   const stack = [...inMajor];
 
   while (stack.length) {
@@ -96,7 +96,7 @@ function buildMajorSubgraphCourses(all, selectedMajor) {
     }
   }
 
-  return all.filter(c => includeIds.has(c.id));
+  return all.filter((c) => includeIds.has(c.id));
 }
 
 export default function CourseGraph({ onNodeClick }) {
@@ -106,9 +106,9 @@ export default function CourseGraph({ onNodeClick }) {
 
   // Build the list of majors dynamically from your scraped dataset
   const majorOptions = useMemo(() => {
-    const codes = Array.from(new Set(allCourses.map(c => c.deptCode))).filter(Boolean);
+    const codes = Array.from(new Set(allCourses.map((c) => c.deptCode))).filter(Boolean);
     codes.sort((a, b) => a.localeCompare(b));
-    return codes.map(code => ({ value: code, label: majorLabel(code) }));
+    return codes.map((code) => ({ value: code, label: majorLabel(code) }));
   }, []);
 
   /**
@@ -216,7 +216,7 @@ export default function CourseGraph({ onNodeClick }) {
 
   const getExternalCourseIds = () => {
     const ids = new Set();
-    externalCourses.forEach(code => {
+    externalCourses.forEach((code) => {
       const course = courseCodeMap[code];
       if (course) ids.add(course.id);
     });
@@ -235,7 +235,7 @@ export default function CourseGraph({ onNodeClick }) {
 
       if (futureMode) {
         const currentlyAvailable = new Set();
-        Object.values(courseMap).forEach(c => {
+        Object.values(courseMap).forEach((c) => {
           if (!completedCourses.has(c.id) && canTakeCourse(c, allCompletedIds)) {
             currentlyAvailable.add(c.id);
           }
@@ -255,15 +255,17 @@ export default function CourseGraph({ onNodeClick }) {
   };
 
   /* ---------- D3 setup ---------- */
-  const setupSvg = sel =>
-    sel.attr('viewBox', [0, 0, WIDTH, HEIGHT])
+  const setupSvg = (sel) =>
+    sel
+      .attr('viewBox', [0, 0, WIDTH, HEIGHT])
       .style('border', '1px solid #888')
       .style('background', '#f9f9f9');
 
-  const setupDefs = sel => {
+  const setupDefs = (sel) => {
     const defs = sel.append('defs');
 
-    const markerDefault = defs.append('marker')
+    const markerDefault = defs
+      .append('marker')
       .attr('id', 'arrow-default')
       .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE} ${ARROW_SIZE * 2}`)
       .attr('refX', ARROW_SIZE)
@@ -271,11 +273,13 @@ export default function CourseGraph({ onNodeClick }) {
       .attr('markerWidth', ARROW_SIZE)
       .attr('markerHeight', ARROW_SIZE)
       .attr('orient', 'auto');
-    markerDefault.append('path')
+    markerDefault
+      .append('path')
       .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
       .attr('fill', '#999');
 
-    const markerOrange = defs.append('marker')
+    const markerOrange = defs
+      .append('marker')
       .attr('id', 'arrow-orange')
       .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE} ${ARROW_SIZE * 2}`)
       .attr('refX', ARROW_SIZE)
@@ -283,11 +287,13 @@ export default function CourseGraph({ onNodeClick }) {
       .attr('markerWidth', ARROW_SIZE)
       .attr('markerHeight', ARROW_SIZE)
       .attr('orient', 'auto');
-    markerOrange.append('path')
+    markerOrange
+      .append('path')
       .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
       .attr('fill', '#f97316');
 
-    const markerGreen = defs.append('marker')
+    const markerGreen = defs
+      .append('marker')
       .attr('id', 'arrow-green')
       .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE} ${ARROW_SIZE * 2}`)
       .attr('refX', ARROW_SIZE)
@@ -295,11 +301,13 @@ export default function CourseGraph({ onNodeClick }) {
       .attr('markerWidth', ARROW_SIZE)
       .attr('markerHeight', ARROW_SIZE)
       .attr('orient', 'auto');
-    markerGreen.append('path')
+    markerGreen
+      .append('path')
       .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
       .attr('fill', '#34D399');
 
-    const markerBlue = defs.append('marker')
+    const markerBlue = defs
+      .append('marker')
       .attr('id', 'arrow-blue')
       .attr('viewBox', `0 ${-ARROW_SIZE} ${ARROW_SIZE} ${ARROW_SIZE * 2}`)
       .attr('refX', ARROW_SIZE)
@@ -307,44 +315,65 @@ export default function CourseGraph({ onNodeClick }) {
       .attr('markerWidth', ARROW_SIZE)
       .attr('markerHeight', ARROW_SIZE)
       .attr('orient', 'auto');
-    markerBlue.append('path')
+    markerBlue
+      .append('path')
       .attr('d', `M0,${-ARROW_SIZE} L${ARROW_SIZE},0 L0,${ARROW_SIZE} Z`)
       .attr('fill', '#60A5FA');
   };
 
-  const setupZoom = (svgSel, gSel) =>
-    svgSel.call(
-      d3.zoom()
-        .scaleExtent([0.25, 4])
-        .on('zoom', e => gSel.attr('transform', e.transform)),
-    );
+  const setupZoom = (svgSel, gSel) => {
+  const zoom = d3.zoom()
+    .scaleExtent([0.25, 4])
+    .filter((event) => {
+      // Block two-finger scrolling from zooming the graph
+      // Allow pinch-to-zoom (trackpad pinch usually comes through as wheel + ctrlKey)
+      if (event.type === 'wheel') return !!event.ctrlKey;
+
+      // Keep drag pan + touch pinch working
+      return event.type === 'mousedown' || event.type === 'touchstart' || event.type === 'touchmove';
+    })
+    .on('zoom', (e) => gSel.attr('transform', e.transform));
+
+  svgSel.call(zoom);
+};
+
 
   const setupStaticElements = (linkG, nodeG, graphData) => {
-    const nodeEnter = nodeG.selectAll('g.node')
-      .data(graphData.nodes, d => d.id)
+    const nodeEnter = nodeG
+      .selectAll('g.node')
+      .data(graphData.nodes, (d) => d.id)
       .enter()
       .append('g')
       .attr('class', 'node')
-      .call(d3.drag()
-        .on('start', (e, d) => dragstarted(e, d, simRef.current))
-        .on('drag', (e, d) => dragged(e, d))
-        .on('end', (e, d) => dragended(e, d, simRef.current)));
+      .call(
+        d3
+          .drag()
+          .on('start', (e, d) => dragstarted(e, d, simRef.current))
+          .on('drag', (e, d) => dragged(e, d))
+          .on('end', (e, d) => dragended(e, d, simRef.current))
+      );
 
-    nodeEnter.append('circle')
+    nodeEnter
+      .append('circle')
       .attr('r', NODE_RADIUS)
       .attr('stroke', '#333')
       .attr('stroke-width', 1.5);
 
-    nodeEnter.append('text')
+    nodeEnter
+      .append('text')
       .attr('y', 2)
       .attr('text-anchor', 'middle')
       .attr('font-size', 11)
-      .text(d => d.code);
+      .text((d) => d.code);
 
-    linkG.selectAll('line')
+    linkG
+      .selectAll('line')
       .data(
         graphData.links,
-        d => `${typeof d.source === 'object' ? d.source.id : d.source}->${typeof d.target === 'object' ? d.target.id : d.target}`,
+        (d) =>
+          `${typeof d.source === 'object' ? d.source.id : d.source}->${
+            typeof d.target === 'object' ? d.target.id : d.target
+          }`
       )
       .enter()
       .append('line')
@@ -354,12 +383,19 @@ export default function CourseGraph({ onNodeClick }) {
   };
 
   const setupForceSimulation = (graphData, linkG, nodeG) => {
-    graphData.nodes.forEach(d => { d.fx = d.x; d.fy = d.y; });
+    graphData.nodes.forEach((d) => {
+      d.fx = d.x;
+      d.fy = d.y;
+    });
 
-    const sim = d3.forceSimulation(graphData.nodes)
-      .force('x', d3.forceX(d => d.x).strength(1))
-      .force('y', d3.forceY(d => d.y).strength(1))
-      .force('link', d3.forceLink(graphData.links).id(d => d.id).distance(90).strength(0.7))
+    const sim = d3
+      .forceSimulation(graphData.nodes)
+      .force('x', d3.forceX((d) => d.x).strength(1))
+      .force('y', d3.forceY((d) => d.y).strength(1))
+      .force(
+        'link',
+        d3.forceLink(graphData.links).id((d) => d.id).distance(90).strength(0.7)
+      )
       .force('collide', d3.forceCollide(NODE_RADIUS + 4))
       .alpha(1)
       .alphaDecay(0.08)
@@ -369,50 +405,101 @@ export default function CourseGraph({ onNodeClick }) {
   };
 
   const ticked = (linkG, nodeG) => {
-    linkG.selectAll('line')
+    linkG
+      .selectAll('line')
       .each(function (d) {
         const dx = d.target.x - d.source.x;
         const dy = d.target.y - d.source.y;
         const dist = Math.hypot(dx, dy);
-        const nx = dx / dist, ny = dy / dist;
+        const nx = dx / dist,
+          ny = dy / dist;
 
         const tX = d.target.x - nx * NODE_RADIUS;
         const tY = d.target.y - ny * NODE_RADIUS;
 
-        d3.select(this)
-          .attr('x1', d.source.x)
-          .attr('y1', d.source.y)
-          .attr('x2', tX)
-          .attr('y2', tY);
+        d3.select(this).attr('x1', d.source.x).attr('y1', d.source.y).attr('x2', tX).attr('y2', tY);
       });
 
-    nodeG.selectAll('g.node')
-      .attr('transform', d => `translate(${d.x},${d.y})`);
+    nodeG.selectAll('g.node').attr('transform', (d) => `translate(${d.x},${d.y})`);
   };
 
   const dragstarted = (e, d, sim) => {
     if (!e.active) sim.alphaTarget(0.3).restart();
-    d.fx = d.x; d.fy = d.y;
+    d.fx = d.x;
+    d.fy = d.y;
   };
   const dragged = (e, d) => {
-    d.fx = e.x; d.fy = e.y;
+    d.fx = e.x;
+    d.fy = e.y;
   };
   const dragended = (e, d, sim) => {
     if (!e.active) sim.alphaTarget(0);
-    d.fx = d.x; d.fy = d.y;
+    d.fx = d.x;
+    d.fy = d.y;
   };
 
   const updateGraphVisuals = (gSel, colorFn, clickHandler) => {
     if (!gSel) return;
 
-    gSel.selectAll('g.node > circle')
-      .attr('fill', d => colorFn(d.id));
+    // Nodes
+    gSel.selectAll('g.node > circle').attr('fill', (d) => colorFn(d.id));
 
-    gSel.selectAll('g.node')
-      .on('click', (_, d) => clickHandler(d.id));
+    gSel.selectAll('g.node').on('click', (_, d) => clickHandler(d.id));
 
-    gSel.selectAll('.links line')
-      .attr('marker-end', 'url(#arrow-default)');
+    // Links — DO NOT force arrows here
+    gSel
+      .selectAll('.links line')
+      .attr('stroke-opacity', (d) => {
+        if (!selectedCourse) return 0.12; // nothing selected → all faded
+
+        const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+        const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+
+        if (mode === 'prereqs') {
+          const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
+          return prereqIds.has(sourceId) && prereqIds.has(targetId) ? 1 : 0.08;
+        }
+
+        if (mode === 'completed') {
+          return sourceId === selectedCourse || targetId === selectedCourse ? 1 : 0.08;
+        }
+
+        return 0.12;
+      })
+      .attr('stroke-width', (d) => {
+        if (!selectedCourse) return 1;
+
+        const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+        const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+
+        if (mode === 'prereqs') {
+          const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
+          return prereqIds.has(sourceId) && prereqIds.has(targetId) ? 2.5 : 1;
+        }
+
+        if (mode === 'completed') {
+          return sourceId === selectedCourse || targetId === selectedCourse ? 2 : 1;
+        }
+
+        return 1;
+      })
+      .attr('marker-end', (d) => {
+        if (!selectedCourse) return null;
+
+        const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
+        const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+
+        if (mode === 'prereqs') {
+          const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
+          return prereqIds.has(sourceId) && prereqIds.has(targetId) ? 'url(#arrow-orange)' : null;
+        }
+
+        if (mode === 'completed') {
+          return sourceId === selectedCourse || targetId === selectedCourse ? 'url(#arrow-default)' : null;
+        }
+
+        return null;
+      });
   };
 
   /* ---------- D3 lifecycle ---------- */
@@ -440,18 +527,29 @@ export default function CourseGraph({ onNodeClick }) {
     };
   }, [data, loading]);
 
+  // When major changes, clear the description panel under the legend
   useEffect(() => {
-    const handleNodeClick = id => {
+    window.dispatchEvent(new CustomEvent('course:selected', { detail: { course: null } }));
+  }, [selectedMajor]);
+
+  useEffect(() => {
+    const handleNodeClick = (id) => {
+      const course = courseMap[id] || null;
+
+      // Always publish the selected course so Legend can show description under it
+      window.dispatchEvent(new CustomEvent('course:selected', { detail: { course } }));
+
+      // Preserve your existing behavior
       if (mode === 'completed') {
         toggleCompleted(id);
       } else if (mode === 'prereqs') {
         setSelectedCourse(id);
-        const course = courseMap[id];
-        if (onNodeClick && course) onNodeClick(course.code);
       } else if (mode === 'view') {
-        const course = courseMap[id];
-        if (onNodeClick && course) onNodeClick(course.code);
+        // no-op
       }
+
+      // Keep compatibility with whatever parent expects today (course.code string)
+      if (onNodeClick && course) onNodeClick(course.code);
     };
 
     updateGraphVisuals(gRef.current, nodeColor, handleNodeClick);
@@ -480,7 +578,7 @@ export default function CourseGraph({ onNodeClick }) {
               <Select
                 inputId="major-select"
                 instanceId="major-select"
-                value={majorOptions.find(o => o.value === selectedMajor) || null}
+                value={majorOptions.find((o) => o.value === selectedMajor) || null}
                 onChange={(opt) => opt && setSelectedMajor(opt.value)}
                 options={majorOptions}
                 isSearchable
@@ -491,28 +589,50 @@ export default function CourseGraph({ onNodeClick }) {
 
             <div className="flex flex-wrap gap-2">
               <button
-                onClick={() => { setMode('view'); setSelectedCourse(null); setFutureMode(false); }}
-                className={`px-3 py-1 rounded text-white text-sm ${mode === 'view' ? 'bg-red-700' : 'bg-red-500'}`}>
+                onClick={() => {
+                  setMode('view');
+                  setSelectedCourse(null);
+                  setFutureMode(false);
+                }}
+                className={`px-3 py-1 rounded text-white text-sm ${
+                  mode === 'view' ? 'bg-red-700' : 'bg-red-500'
+                }`}
+              >
                 View Mode
               </button>
 
               <button
-                onClick={() => { setMode('completed'); setSelectedCourse(null); }}
-                className={`px-3 py-1 rounded text-white text-sm ${mode === 'completed' ? 'bg-green-700' : 'bg-green-500'}`}>
+                onClick={() => {
+                  setMode('completed');
+                  setSelectedCourse(null);
+                }}
+                className={`px-3 py-1 rounded text-white text-sm ${
+                  mode === 'completed' ? 'bg-green-700' : 'bg-green-500'
+                }`}
+              >
                 Completed Mode
               </button>
 
               {mode === 'completed' && (
                 <button
-                  onClick={() => setFutureMode(f => !f)}
-                  className={`px-3 py-1 rounded text-white text-sm ${futureMode ? 'bg-purple-700' : 'bg-purple-500'}`}>
+                  onClick={() => setFutureMode((f) => !f)}
+                  className={`px-3 py-1 rounded text-white text-sm ${
+                    futureMode ? 'bg-purple-700' : 'bg-purple-500'
+                  }`}
+                >
                   Future Mode
                 </button>
               )}
 
               <button
-                onClick={() => { setMode('prereqs'); setFutureMode(false); }}
-                className={`px-3 py-1 rounded text-white text-sm ${mode === 'prereqs' ? 'bg-orange-700' : 'bg-orange-500'}`}>
+                onClick={() => {
+                  setMode('prereqs');
+                  setFutureMode(false);
+                }}
+                className={`px-3 py-1 rounded text-white text-sm ${
+                  mode === 'prereqs' ? 'bg-orange-700' : 'bg-orange-500'
+                }`}
+              >
                 Prereqs Mode
               </button>
             </div>
@@ -535,7 +655,7 @@ export default function CourseGraph({ onNodeClick }) {
           <div className="mb-2 p-3 bg-gray-100 rounded-lg">
             <h3 className="text-sm font-semibold mb-2">External Courses (AMS, MAT, etc.)</h3>
             <div className="flex flex-wrap gap-2 mb-2">
-              {Array.from(externalCourses).map(course => (
+              {Array.from(externalCourses).map((course) => (
                 <span key={course} className="bg-blue-200 px-2 py-1 rounded text-sm">
                   {course}
                   <button
