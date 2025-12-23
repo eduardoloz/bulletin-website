@@ -34,7 +34,7 @@ from bs4.element import NavigableString, Tag
 BASE = "https://catalog.stonybrook.edu"
 
 # Defaults (used unless overridden by CLI flags)
-TEST_MODE_DEFAULT = True
+TEST_MODE_DEFAULT = False
 TEST_LIMIT_DEFAULT = 20
 
 PAGE_URL_TEMPLATE = (
