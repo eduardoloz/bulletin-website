@@ -1,0 +1,51 @@
+[
+    {
+        "id": "eco-108",
+        "deptCode": "ECO",
+        "number": "108",
+        "code": "ECO 108",
+        "title": "ECO 108: Introduction to Economics"
+    },
+    {
+        "id": "his-103",
+        "deptCode": "HIS",
+        "number": "103",
+        "code": "HIS 103",
+        "title": "HIS 103: American History to 1877"
+    },
+    {
+        "id": "his-104",
+        "deptCode": "HIS",
+        "number": "104",
+        "code": "HIS 104",
+        "title": "HIS 104: United States Since 1877"
+    },
+    {
+        "id": "pol-101",
+        "deptCode": "POL",
+        "number": "101",
+        "code": "POL 101",
+        "title": "POL 101: World Politics"
+    },
+    {
+        "id": "pol-102",
+        "deptCode": "POL",
+        "number": "102",
+        "code": "POL 102",
+        "title": "POL 102: Introduction to American Government"
+    },
+    {
+        "id": "psy-103",
+        "deptCode": "PSY",
+        "number": "103",
+        "code": "PSY 103",
+        "title": "PSY 103: Introduction to Psychology"
+    },
+    {
+        "id": "soc-247",
+        "deptCode": "SOC",
+        "number": "247",
+        "code": "SOC/WST 247",
+        "title": "SOC 247 / WST 247: Sociology of Gender"
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "id": "chi-111",
+        "deptCode": "CHI",
+        "number": "111",
+        "code": "CHI 111",
+        "title": "CHI 111: Elementary Chinese I"
+    },
+    {
+        "id": "chi-112",
+        "deptCode": "CHI",
+        "number": "112",
+        "code": "CHI 112",
+        "title": "CHI 112: Elementary Chinese II"
+    },
+    {
+        "id": "spn-111",
+        "deptCode": "SPN",
+        "number": "111",
+        "code": "SPN 111",
+        "title": "SPN 111: Elementary Spanish I"
+    },
+    {
+        "id": "spn-112",
+        "deptCode": "SPN",
+        "number": "112",
+        "code": "SPN 112",
+        "title": "SPN 112: Elementary Spanish II"
+    },
+    {
+        "id": "kor-111",
+        "deptCode": "KOR",
+        "number": "111",
+        "code": "KOR 111",
+        "title": "KOR 111: Elementary Korean I"
+    },
+    {
+        "id": "kor-112",
+        "deptCode": "KOR",
+        "number": "112",
+        "code": "KOR 112",
+        "title": "KOR 112: Elementary Korean II"
+    },
+    {
+        "id": "frn-111",
+        "deptCode": "FRN",
+        "number": "111",
+        "code": "FRN 111",
+        "title": "FRN 111: Elementary French I"
+    },
+    {
+        "id": "frn-112",
+        "deptCode": "FRN",
+        "number": "112",
+        "code": "FRN 112",
+        "title": "FRN 112: Elementary French II"
+    },
+    {
+        "id": "ger-111",
+        "deptCode": "GER",
+        "number": "111",
+        "code": "GER 111",
+        "title": "GER 111: Elementary German I"
+    },
+    {
+        "id": "ger-112",
+        "deptCode": "GER",
+        "number": "112",
+        "code": "GER 112",
+        "title": "GER 112: Elementary German II"
+    },
+    {
+        "id": "ita-111",
+        "deptCode": "ITA",
+        "number": "111",
+        "code": "ITA 111",
+        "title": "ITA 111: Elementary Italian I"
+    },
+    {
+        "id": "ita-112",
+        "deptCode": "ITA",
+        "number": "112",
+        "code": "ITA 112",
+        "title": "ITA 112: Elementary Italian II"
+    },
+    {
+        "id": "jpn-111",
+        "deptCode": "JPN",
+        "number": "111",
+        "code": "JPN 111",
+        "title": "JPN 111: Elementary Japanese I"
+    },
+    {
+        "id": "jpn-112",
+        "deptCode": "JPN",
+        "number": "112",
+        "code": "JPN 112",
+        "title": "JPN 112: Elementary Japanese II"
+    }
+]
