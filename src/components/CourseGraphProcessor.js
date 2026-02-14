@@ -1,4 +1,10 @@
 // CourseGraphProcessor.js
+import {
+  buildCourseMap,
+  buildAdjacencyList,
+  getPrerequisiteCourseIds
+} from '../utils/courseUtils';
+
 export default class CourseGraphProcessor {
   constructor(
     courses,
@@ -9,93 +15,109 @@ export default class CourseGraphProcessor {
     this.horizontalSpacing = horizontalSpacing;
 
     /* ----- build helper maps ----- */
-    this.courseMap = Object.fromEntries(
-      courses.map(c => [c.title.split(':')[0].trim(), c])
-    );
+    // Map by course ID (uuid)
+    this.courseMap = buildCourseMap(courses);
 
-    // adjacency list: prereq → dependants
-    this.adjList = Object.fromEntries(
-      Object.keys(this.courseMap).map(c => [c, []])
-    );
-    courses.forEach(({ title, prerequisite }) => {
-      const code = title.split(':')[0].trim();
-      prerequisite.forEach(p => {
-        const pCode = p.trim();
-        if (this.courseMap[pCode]) this.adjList[pCode].push(code);
-      });
-    });
+    // Adjacency list: prerequisite ID → dependent course IDs
+    this.adjList = buildAdjacencyList(courses, this.courseMap);
   }
 
   processGraph() {
-    /* ---------- topo‐sort to find each course’s depth ---------- */
+    /* ---------- topological sort to find each course's depth ---------- */
     const inDeg = Object.fromEntries(
-      Object.keys(this.courseMap).map(c => [c, 0])
-    );
-    Object.values(this.adjList).forEach(list =>
-      list.forEach(t => (inDeg[t] += 1))
+      this.courses.map(c => [c.id, 0])
     );
 
-    const q = [];
+    // Count incoming edges
+    Object.values(this.adjList).forEach(dependents =>
+      dependents.forEach(depId => (inDeg[depId] = (inDeg[depId] || 0) + 1))
+    );
+
+    const queue = [];
     const level = {};
-    Object.entries(inDeg).forEach(([c, d]) => {
-      if (d === 0) {
-        q.push(c);
-        level[c] = 0;
+
+    // Start with courses that have no prerequisites
+    Object.entries(inDeg).forEach(([courseId, degree]) => {
+      if (degree === 0) {
+        queue.push(courseId);
+        level[courseId] = 0;
       }
     });
 
-    while (q.length) {
-      const v = q.shift();
-      this.adjList[v].forEach(w => {
-        inDeg[w] -= 1;
-        level[w] = Math.max(level[w] ?? 0, (level[v] ?? 0) + 1);
-        if (inDeg[w] === 0) q.push(w);
+    // Process queue
+    while (queue.length) {
+      const courseId = queue.shift();
+      this.adjList[courseId].forEach(dependentId => {
+        inDeg[dependentId] -= 1;
+        level[dependentId] = Math.max(
+          level[dependentId] ?? 0,
+          (level[courseId] ?? 0) + 1
+        );
+        if (inDeg[dependentId] === 0) queue.push(dependentId);
       });
     }
 
-    /* ---------- gather nodes by level (isolated row 0) ---------- */
-    const iso = [];
+    /* ---------- separate isolated courses from tree ---------- */
+    const isolated = [];
     const tree = [];
-    Object.keys(this.courseMap).forEach(c => {
-      if (
-        this.courseMap[c].prerequisite.length === 0 &&
-        this.adjList[c].length === 0
-      )
-        iso.push(c);
-      else tree.push(c);
+
+    this.courses.forEach(course => {
+      const prereqIds = getPrerequisiteCourseIds(course);
+      const dependents = this.adjList[course.id] || [];
+
+      if (prereqIds.length === 0 && dependents.length === 0) {
+        isolated.push(course.id);
+      } else {
+        tree.push(course.id);
+      }
     });
 
-    tree.forEach(c => (level[c] += 1)); // shift tree rows down
+    // Shift tree courses down by 1 level to make room for isolated courses
+    tree.forEach(courseId => {
+      level[courseId] = (level[courseId] ?? 0) + 1;
+    });
 
+    /* ---------- group courses by level ---------- */
     const levelNodes = {};
-    if (iso.length) levelNodes[0] = iso;
-    tree.forEach(c => {
-      levelNodes[level[c]] = (levelNodes[level[c]] || []).concat(c);
+    if (isolated.length) levelNodes[0] = isolated;
+
+    tree.forEach(courseId => {
+      const lvl = level[courseId];
+      if (!levelNodes[lvl]) levelNodes[lvl] = [];
+      levelNodes[lvl].push(courseId);
     });
 
     /* ---------- compute grid coordinates ---------- */
-    const maxNodes = Math.max(...Object.values(levelNodes).map(a => a.length));
-    const maxRowW  = (maxNodes - 1) * this.horizontalSpacing;
+    const maxNodes = Math.max(...Object.values(levelNodes).map(arr => arr.length));
+    const maxRowWidth = (maxNodes - 1) * this.horizontalSpacing;
 
     const nodes = [];
-    Object.entries(levelNodes).forEach(([lvlStr, codes]) => {
-      const lvl      = +lvlStr;
-      const rowW     = (codes.length - 1) * this.horizontalSpacing;
-      const startX   = (maxRowW - rowW) / 2;          // centre row
-      const y        = lvl * this.verticalSpacing;
+    Object.entries(levelNodes).forEach(([levelStr, courseIds]) => {
+      const lvl = parseInt(levelStr);
+      const rowWidth = (courseIds.length - 1) * this.horizontalSpacing;
+      const startX = (maxRowWidth - rowWidth) / 2; // center the row
+      const y = lvl * this.verticalSpacing;
 
-      codes.forEach((code, i) =>
-        nodes.push({ id: code, x: startX + i * this.horizontalSpacing, y })
-      );
+      courseIds.forEach((courseId, i) => {
+        const course = this.courseMap[courseId];
+        nodes.push({
+          id: courseId,
+          code: course.code,
+          name: course.code,
+          x: startX + i * this.horizontalSpacing,
+          y
+        });
+      });
     });
 
     /* ---------- build links ---------- */
     const links = [];
-    this.courses.forEach(({ title, prerequisite }) => {
-      const tgt = title.split(':')[0].trim();
-      prerequisite.forEach(p => {
-        const src = p.trim();
-        if (this.courseMap[src]) links.push({ source: src, target: tgt });
+    this.courses.forEach(course => {
+      const prereqIds = getPrerequisiteCourseIds(course);
+      prereqIds.forEach(prereqId => {
+        if (this.courseMap[prereqId]) {
+          links.push({ source: prereqId, target: course.id });
+        }
       });
     });
 
@@ -103,50 +125,52 @@ export default class CourseGraphProcessor {
   }
 
   processRadialGraph() {
-    /* ---------- Simple radial layout based on prerequisite depth ---------- */
-    const courseMap = this.courseMap;
-
-    // Calculate depth for each course (how many prerequisites deep)
+    /* ---------- Calculate depth for radial layout ---------- */
     const depths = {};
     const visited = new Set();
+    const courseMap = this.courseMap;
 
     const calculateDepth = (courseId) => {
       if (visited.has(courseId)) return depths[courseId] || 0;
       visited.add(courseId);
 
       const course = courseMap[courseId];
-      if (!course || course.prerequisite.length === 0) {
-        // Only put truly entry-level courses in the center (CSE 101, 102, 110, 113, 114)
-        const entryLevelCourses = ['CSE 101', 'CSE 102', 'CSE 110', 'CSE 113', 'CSE 114'];
-        if (entryLevelCourses.includes(courseId)) {
+      if (!course) return 0;
+
+      const prereqIds = getPrerequisiteCourseIds(course);
+
+      // Entry-level courses (no prerequisites)
+      if (prereqIds.length === 0) {
+        // Put true entry-level CSE courses in the center
+        const entryLevelNumbers = ['101', '102', '110', '113', '114', '130', '150'];
+        if (course.deptCode === 'CSE' && entryLevelNumbers.includes(course.number)) {
           depths[courseId] = 0;
           return 0;
         } else {
-          // Other courses with no prerequisites go to depth 1
+          // Other courses with no prereqs go to depth 1
           depths[courseId] = 1;
           return 1;
         }
       }
 
       // Filter out prerequisites that don't exist in courseMap
-      const validPrereqs = course.prerequisite.filter(prereq =>
-        courseMap[prereq.trim()]
-      );
+      const validPrereqIds = prereqIds.filter(prereqId => courseMap[prereqId]);
 
-      if (validPrereqs.length === 0) {
+      if (validPrereqIds.length === 0) {
         depths[courseId] = 1;
         return 1;
       }
 
-      const maxPrereqDepth = Math.max(...validPrereqs.map(prereq =>
-        calculateDepth(prereq.trim())
+      // Depth is max prereq depth + 1
+      const maxPrereqDepth = Math.max(...validPrereqIds.map(prereqId =>
+        calculateDepth(prereqId)
       ));
       depths[courseId] = maxPrereqDepth + 1;
       return depths[courseId];
     };
 
     // Calculate depths for all courses
-    Object.keys(courseMap).forEach(courseId => calculateDepth(courseId));
+    this.courses.forEach(course => calculateDepth(course.id));
 
     // Group courses by depth
     const coursesByDepth = {};
@@ -155,7 +179,6 @@ export default class CourseGraphProcessor {
       coursesByDepth[depth].push(courseId);
     });
 
-    const maxDepth = Math.max(...Object.keys(coursesByDepth).map(Number));
     const radiusStep = 120; // Distance between rings
     const centerX = 0;
     const centerY = 0;
@@ -171,34 +194,30 @@ export default class CourseGraphProcessor {
 
       courseIds.forEach((courseId, index) => {
         const course = courseMap[courseId];
-        if (!course) {
-          return; // Skip if course doesn't exist
-        }
+        if (!course) return;
 
         const angle = index * angleStep - Math.PI / 2; // Start at top
         const x = centerX + radius * Math.cos(angle);
         const y = centerY + radius * Math.sin(angle);
 
-        const node = {
+        nodes.push({
           id: courseId,
+          code: course.code,
+          name: course.code,
           x: x,
           y: y,
           depth: depth,
-          name: course.title.split(':')[0].trim(),
           fullName: course.title
-        };
-
-        nodes.push(node);
+        });
       });
     });
 
     /* ---------- Create links ---------- */
-    this.courses.forEach(({ title, prerequisite }) => {
-      const targetId = title.split(':')[0].trim();
-      prerequisite.forEach(prereq => {
-        const sourceId = prereq.trim();
-        if (courseMap[sourceId]) {
-          links.push({ source: sourceId, target: targetId });
+    this.courses.forEach(course => {
+      const prereqIds = getPrerequisiteCourseIds(course);
+      prereqIds.forEach(prereqId => {
+        if (courseMap[prereqId]) {
+          links.push({ source: prereqId, target: course.id });
         }
       });
     });

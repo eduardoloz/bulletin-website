@@ -6,21 +6,38 @@ import { useAuth } from '../hooks/useAuth';
 const Navbar = () => {
   const { user, loading: authLoading, signOut, signingOut } = useAuth();
 
-  // Dev log to confirm this Navbar file is the one being used by the running app
-  if (process.env.NODE_ENV === 'development') {
-    console.debug('[Navbar] render', { user: user ? user.email : null });
-  }
-
   return (
     <nav className="bg-blue-600 text-white p-4 shadow-lg">
       <div className="container mx-auto flex justify-between items-center">
-        <div className="text-lg font-semibold">
-          <a href="/" className="hover:text-gray-200">Home</a>
+        <div className="flex items-center space-x-6">
+          <div className="text-lg font-semibold">
+            <a href="/" className="hover:text-gray-200">Home</a>
+          </div>
+
+          {/* Auth Status - Inline with Home */}
+          {!authLoading && user && (
+            <div className="flex items-center gap-3 bg-white/10 px-4 py-2 rounded-lg">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 bg-green-400 rounded-full"></div>
+                <span className="text-sm font-medium">
+                  {user.email}
+                </span>
+              </div>
+              <button
+                onClick={signOut}
+                disabled={signingOut}
+                className="text-xs px-3 py-1 bg-red-500 text-white rounded hover:bg-red-600 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+              >
+                {signingOut ? 'Signing out...' : 'Sign Out'}
+              </button>
+            </div>
+          )}
         </div>
+
         <div className="space-x-4">
           <Link to="/about" className="hover:text-gray-200">About Us</Link>
           <Link to="/degree-progress" className="hover:text-gray-200">Degree Progress</Link>
-          <Link to="/degree-progress-panel" className="hover:text-gray-200">Degree Panel</Link>
+          {/* <Link to="/degree-progress-panel" className="hover:text-gray-200">Degree Panel</Link> */}
           <Link to="/cat" className="hover:text-gray-200">CatPage</Link>
         </div>
       </div>

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import wrtData from "../data/SBCS/WRT.json";
 import artsData from "../data/SBCS/ARTS.json";
 import gloData from "../data/SBCS/GLO.json";
@@ -64,7 +64,7 @@ export default function DegreeProgress1() {
   const [userCourses, setUserCourses] = useState(new Set());
 
   // SBCS datasets mapping (categories may be missing; default to empty)
-  const sbcsMap = {
+  const sbcsMap = useMemo(() => ({
     ARTS: artsCourses,
     GLO: gloCourses,
     HUM: humCourses,
@@ -75,17 +75,17 @@ export default function DegreeProgress1() {
     SNW: snwCourses,
     TECH: techCourses,
     USA: usaCourses,
-  };
+  }), [artsCourses, gloCourses, humCourses, wrtCourses, langCourses, qpsCourses, sbsCourses, snwCourses, techCourses, usaCourses]);
 
   const requiredCategories = ["ARTS", "GLO", "HUM", "LANG", "QPS", "SBS", "SNW", "TECH", "USA", "WRT"];
 
-  const exemptionMajors = [
+  const exemptionMajors = useMemo(() => [
     'CEAS',
     'Athletic Training',
     'Respiratory Care',
     'Clinical Laboratory Sciences',
     'Social Work'
-  ];
+  ], []);
 
   // Normalize code strings for comparison
   const normalizeCode = (s) => (s || '').trim().toUpperCase();
@@ -126,7 +126,7 @@ export default function DegreeProgress1() {
 
       return { ...r, completed: matched, status: matched ? 'Fulfilled' : 'In Progress' };
     }));
-  }, [userCourses, selectedMajorForCheck]);
+  }, [userCourses, selectedMajorForCheck, exemptionMajors, sbcsMap]);
 
   const [selectedCategory, setSelectedCategory] = useState(null);
 

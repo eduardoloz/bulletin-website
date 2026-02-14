@@ -1,5 +1,4 @@
 import React from 'react';
-import { GoogleOAuthProvider } from '@react-oauth/google';
 import './App.css';
 import Navbar from './components/navbar';
 //import CourseGraph from './components/GraphComponent';
@@ -9,10 +8,8 @@ import About from './pages/About';
 import LoginPage from './pages/LoginPAGE';
 import Home from './pages/Home';
 import CatPage from './pages/CatPage';
-import DegreeProgress1 from './components/DegreeProgress1';
 import DegreeProgressPage from './pages/DegreeProgressPage';
 import DegreeProgressPanel from './pages/DegreeProgressPanel';
-import { useAuth } from './hooks/useAuth';
 
 
 function App() {
@@ -33,3 +30,5 @@ function App() {
 }
 
 export default App;
+
+

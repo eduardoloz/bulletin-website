@@ -1,0 +1,4 @@
+[
+  { "id": "cse", "label": "CSE - Computer Science and Engineering", "data": "classes/cse.json" },
+  { "id": "ams", "label": "AMS - Applied Mathematics and Statistics", "data": "classes/ams.json" }
+]
