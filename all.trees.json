@@ -199,6 +199,10 @@
       "nodes": [
         {
           "kind": "COURSE",
+          "courseId": "BUS 215"
+        },
+        {
+          "kind": "COURSE",
           "courseId": "ACC 214"
         },
         {
@@ -402,19 +406,24 @@
     "active": true,
     "rawPrerequisites": "ADV 475 ; permission of ADV 101 or ADV 488 coordinator and director of the Academic & Transfer Advising Services Center",
     "prerequisites": {
-      "kind": "OR",
+      "kind": "AND",
       "nodes": [
         {
           "kind": "COURSE",
           "courseId": "ADV 475"
         },
         {
-          "kind": "COURSE",
-          "courseId": "ADV 101"
-        },
-        {
-          "kind": "COURSE",
-          "courseId": "ADV 488"
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ADV 101"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ADV 488"
+            }
+          ]
         }
       ]
     },
@@ -737,7 +746,17 @@
     "active": true,
     "rawPrerequisites": "FRN 395 , FRN 396 or Permission of the Instructor.",
     "prerequisites": {
-      "kind": "TRUE"
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "FRN 395"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "FRN 396"
+        }
+      ]
     },
     "corequisites": null,
     "advisorNotes": null,
@@ -755,7 +774,8 @@
     "active": true,
     "rawPrerequisites": "WRT 102 or equivalent; permission of the instructor and approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
     "prerequisites": {
-      "kind": "TRUE"
+      "kind": "COURSE",
+      "courseId": "WRT 102"
     },
     "corequisites": null,
     "advisorNotes": null,
@@ -810,7 +830,8 @@
     "active": true,
     "rawPrerequisites": "AFS 475 ; permission of instructor",
     "prerequisites": {
-      "kind": "TRUE"
+      "kind": "COURSE",
+      "courseId": "AFS 475"
     },
     "corequisites": null,
     "advisorNotes": null,
