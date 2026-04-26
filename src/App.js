@@ -6,40 +6,44 @@ import About from './pages/About';
 import LoginPage from './pages/LoginPAGE';
 import Home from './pages/Home';
 import CatPage from './pages/CatPage';
+import ChatBotPage from './pages/ChatBotPage';
 import { useAuth } from './hooks/useAuth';
 
 
 function App() {
   const { user, loading } = useAuth();
 
-  // Loading state - checking authentication
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
-        <div className="text-center">
-          <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"></div>
-          <p className="text-gray-600">Loading...</p>
-        </div>
-      </div>
-    );
-  }
-
-  // Not authenticated - show login page only
-  if (!user) {
-    return <LoginPage />;
-  }
-
-  // Authenticated - show full app
+  // TEMPORARY: Allow /chatbot route without authentication for testing
+  // You can remove this later when you set up Google OAuth
   return (
     <BrowserRouter>
-      <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/cat" element={<CatPage />} />
-        </Routes>
-      </div>
+      <Routes>
+        {/* Chatbot route - accessible without login */}
+        <Route path="/chatbot" element={<ChatBotPage />} />
+
+        {/* All other routes require authentication */}
+        <Route path="*" element={
+          loading ? (
+            <div className="min-h-screen flex items-center justify-center bg-gray-50">
+              <div className="text-center">
+                <div className="inline-block animate-spin rounded-full h-12 w-12 border-b-2 border-blue-600 mb-4"></div>
+                <p className="text-gray-600">Loading...</p>
+              </div>
+            </div>
+          ) : !user ? (
+            <LoginPage />
+          ) : (
+            <div className="App">
+              <Navbar />
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/about" element={<About />} />
+                <Route path="/cat" element={<CatPage />} />
+              </Routes>
+            </div>
+          )
+        } />
+      </Routes>
     </BrowserRouter>
   );
 }
