@@ -8,6 +8,7 @@ import React, {
 import * as d3 from 'd3';
 import courses from '../data/sbu_cse_courses_new_schema.json';
 import CourseGraphProcessor from './CourseGraphProcessor';
+import CompletedCoursesPanel from './CompletedCoursesPanel';
 import {
   buildCourseMap,
   buildCourseCodeMap,
@@ -477,6 +478,14 @@ export default function RadialGraphComponent({ onNodeClick }) {
           <div className="text-sm text-gray-600 mb-4">
             Green = Completed | Blue = Available | Gray = Locked. Click to view details without modifying state.
           </div>}
+
+        <CompletedCoursesPanel
+          courseMap={courseMap}
+          courseCodeMap={courseCodeMap}
+          completedCourses={completedCourses}
+          mode={mode}
+          onRemoveCourse={toggleCompleted}
+        />
 
         {/* ---------- External Courses Management ---------- */}
         {mode === 'completed' && (

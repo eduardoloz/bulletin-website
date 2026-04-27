@@ -22,6 +22,7 @@ import CourseGraphProcessor from './CourseGraphProcessor';
 import SpecializationSelector, {
   highlightedCoursesFor,
 } from './SpecializationSelector';
+import CompletedCoursesPanel from './CompletedCoursesPanel';
 import {
   buildCourseMap,
   buildCourseCodeMap,
@@ -191,6 +192,20 @@ export default function CourseGraph({ onNodeClick }) {
     () => highlightedCoursesFor(selectedMajor, selectedSpecSlugs),
     [selectedMajor, selectedSpecSlugs]
   );
+
+  const completedCourseCodes = useMemo(() => {
+    const codes = Array.from(completedCourses).map((value) => {
+      const byId = courseMap[value];
+      if (byId?.code) return byId.code;
+
+      const byCode = courseCodeMap[value];
+      if (byCode?.code) return byCode.code;
+
+      return value;
+    });
+    externalCourses.forEach((code) => codes.push(code));
+    return new Set(codes);
+  }, [completedCourses, externalCourses, courseMap, courseCodeMap]);
 
   useEffect(() => {
     if (progress) {
@@ -498,28 +513,47 @@ export default function CourseGraph({ onNodeClick }) {
 
   const updateGraphVisuals = (gSel, colorFn, clickHandler) => {
     if (!gSel) return;
+    const hasSpecHighlight = highlightedCodes.size > 0;
 
     // Nodes
+    gSel
+      .selectAll('g.node')
+      .attr('opacity', (d) =>
+        !hasSpecHighlight || highlightedCodes.has(d.code) ? 1 : 0.42
+      )
+      .on('click', (_, d) => clickHandler(d.id));
+
     gSel
       .selectAll('g.node > circle')
       .attr('fill', (d) => colorFn(d.id))
       .attr('stroke', (d) =>
-        highlightedCodes.has(d.code) ? '#f59e0b' : '#333'
+        highlightedCodes.has(d.code) ? '#3b82f6' : '#333'
       )
       .attr('stroke-width', (d) =>
-        highlightedCodes.has(d.code) ? 4 : 1.5
+        highlightedCodes.has(d.code) ? 4.5 : 1.5
+      )
+      .attr('filter', (d) =>
+        highlightedCodes.has(d.code) ? 'drop-shadow(0 0 8px rgba(59, 130, 246, 0.35))' : null
       );
-
-    gSel.selectAll('g.node').on('click', (_, d) => clickHandler(d.id));
 
     // Links — DO NOT force arrows here
     gSel
       .selectAll('.links line')
       .attr('stroke-opacity', (d) => {
-        if (!selectedCourse) return 0.12; // nothing selected → all faded
-
         const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
         const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+        const sourceCode = courseMap[sourceId]?.code;
+        const targetCode = courseMap[targetId]?.code;
+
+        if (hasSpecHighlight && !selectedCourse) {
+          return sourceCode && targetCode &&
+            highlightedCodes.has(sourceCode) &&
+            highlightedCodes.has(targetCode)
+            ? 0.55
+            : 0.06;
+        }
+
+        if (!selectedCourse) return 0.12; // nothing selected → all faded
 
         if (mode === 'prereqs') {
           const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
@@ -533,10 +567,20 @@ export default function CourseGraph({ onNodeClick }) {
         return 0.12;
       })
       .attr('stroke-width', (d) => {
-        if (!selectedCourse) return 1;
-
         const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
         const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+        const sourceCode = courseMap[sourceId]?.code;
+        const targetCode = courseMap[targetId]?.code;
+
+        if (hasSpecHighlight && !selectedCourse) {
+          return sourceCode && targetCode &&
+            highlightedCodes.has(sourceCode) &&
+            highlightedCodes.has(targetCode)
+            ? 2
+            : 1;
+        }
+
+        if (!selectedCourse) return 1;
 
         if (mode === 'prereqs') {
           const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
@@ -550,10 +594,20 @@ export default function CourseGraph({ onNodeClick }) {
         return 1;
       })
       .attr('marker-end', (d) => {
-        if (!selectedCourse) return null;
-
         const sourceId = typeof d.source === 'object' ? d.source.id : d.source;
         const targetId = typeof d.target === 'object' ? d.target.id : d.target;
+        const sourceCode = courseMap[sourceId]?.code;
+        const targetCode = courseMap[targetId]?.code;
+
+        if (hasSpecHighlight && !selectedCourse) {
+          return sourceCode && targetCode &&
+            highlightedCodes.has(sourceCode) &&
+            highlightedCodes.has(targetCode)
+            ? 'url(#arrow-blue)'
+            : null;
+        }
+
+        if (!selectedCourse) return null;
 
         if (mode === 'prereqs') {
           const prereqIds = getAllPrerequisites(selectedCourse, courseMap);
@@ -719,6 +773,14 @@ export default function CourseGraph({ onNodeClick }) {
           </div>
         )}
 
+        <CompletedCoursesPanel
+          courseMap={courseMap}
+          courseCodeMap={courseCodeMap}
+          completedCourses={completedCourses}
+          mode={mode}
+          onRemoveCourse={toggleCompleted}
+        />
+
         {mode === 'completed' && (
           <div className="mb-2 p-3 bg-gray-100 rounded-lg">
             <h3 className="text-sm font-semibold mb-2">External Courses (AMS, MAT, etc.)</h3>
@@ -768,8 +830,7 @@ export default function CourseGraph({ onNodeClick }) {
           deptCode={selectedMajor}
           selectedSlugs={selectedSpecSlugs}
           onChange={setSelectedSpecSlugs}
-          completedCourses={completedCourses}
-          externalCourses={externalCourses}
+          completedCourseCodes={completedCourseCodes}
         />
 
         {loading ? (
