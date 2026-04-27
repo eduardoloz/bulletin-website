@@ -23,6 +23,61 @@ export default function SpecializationDetailsPanel() {
         </p>
       </div>
 
+      {specialization.description && (
+        <div className="mb-3 rounded-lg border border-emerald-100 bg-emerald-50/60 p-2.5">
+          <div className="text-[11px] font-semibold uppercase tracking-wide text-emerald-700 mb-1">
+            About
+          </div>
+          <p className="text-xs leading-relaxed text-slate-700">
+            {specialization.description}
+          </p>
+        </div>
+      )}
+
+      {specialization.rules && (
+        <div className="mb-3 rounded-lg border border-slate-200 bg-white p-2.5">
+          <div className="text-[11px] font-semibold uppercase tracking-wide text-slate-500 mb-2">
+            Requirements
+          </div>
+          <div className="flex flex-wrap gap-1.5 mb-2">
+            {specialization.rules.totalCourses != null && (
+              <span className="rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-medium text-slate-700">
+                {specialization.rules.totalCourses} courses total
+              </span>
+            )}
+            {specialization.rules.coreMin != null && (
+              <span className="rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-medium text-slate-700">
+                ≥ {specialization.rules.coreMin} core
+              </span>
+            )}
+            {specialization.rules.declarationCoreMin != null && (
+              <span className="rounded-full bg-slate-100 px-2.5 py-1 text-[11px] font-medium text-slate-700">
+                Declare after {specialization.rules.declarationCoreMin} core
+              </span>
+            )}
+          </div>
+
+          {specialization.rules.declarationCoreMin != null && (() => {
+            const need = specialization.rules.declarationCoreMin;
+            const have = specialization.coreCompleted || 0;
+            const eligible = have >= need;
+            return (
+              <div
+                className={`rounded-md px-2.5 py-1.5 text-[11px] font-medium ${
+                  eligible
+                    ? 'bg-green-100 text-green-900 border border-green-300'
+                    : 'bg-amber-50 text-amber-900 border border-amber-200'
+                }`}
+              >
+                {eligible
+                  ? `Eligible to declare — ${have}/${need} core courses tracked.`
+                  : `${have}/${need} core courses tracked — ${need - have} more to declare.`}
+              </div>
+            );
+          })()}
+        </div>
+      )}
+
       <div className="grid gap-2 mb-3">
         <div className="rounded-lg border border-slate-200 bg-slate-50 p-2.5">
           <div className="text-[11px] font-semibold uppercase tracking-wide text-slate-500">Overview</div>
