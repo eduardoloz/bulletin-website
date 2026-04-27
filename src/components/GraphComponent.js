@@ -591,6 +591,7 @@ export default function CourseGraph({ onNodeClick }) {
       sim.stop();
       svg.selectAll('*').remove();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [data, loading]);
 
   // When major changes, clear the description panel under the legend
@@ -619,6 +620,7 @@ export default function CourseGraph({ onNodeClick }) {
     };
 
     updateGraphVisuals(gRef.current, nodeColor, handleNodeClick);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [completedCourses, externalCourses, selectedCourse, mode, futureMode, data, onNodeClick, courseMap, highlightedCodes]);
 
   /* ---------- UI ---------- */
