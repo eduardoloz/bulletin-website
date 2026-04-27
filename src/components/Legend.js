@@ -1,26 +1,7 @@
 // Legend.js
-import React, { useEffect, useState } from 'react';
-import NodeInfo from './NodeInfo';
+import React from 'react';
 
 export default function Legend() {
-  const [selectedCourse, setSelectedCourse] = useState(null);
-
-  useEffect(() => {
-    const handler = (e) => setSelectedCourse(e?.detail?.course ?? null);
-    window.addEventListener('course:selected', handler);
-    return () => window.removeEventListener('course:selected', handler);
-  }, []);
-
-  // ✅ lower + slightly left (more centered in the whitespace)
-  const wrapperStyle = {
-    width: '450px',
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '12px',
-    marginTop: '305px',
-    marginLeft: '-30px',  
-  };
-
   const boxStyle = {
     backgroundColor: '#ffffffff',
     color: 'black',
@@ -28,8 +9,7 @@ export default function Legend() {
     borderRadius: '20px',
     boxShadow: '0 10px 20px rgba(224, 221, 221, 0.3)',
     fontFamily: 'sans-serif',
-    width: '450px',
-    height: '220px',
+    width: '100%',
     border: '2px solid #000000ff',
   };
 
@@ -58,7 +38,7 @@ export default function Legend() {
   const textStyle = { fontSize: '14px', marginBottom: '8px' };
 
   return (
-    <div style={wrapperStyle}>
+    <div style={{ marginTop: '278px' }}>
       <div style={boxStyle}>
         <h1 style={{ fontSize: '18px', marginBottom: '8px' }}>Legend</h1>
         <h2 style={{ fontSize: '16px', marginBottom: '8px' }}>Node Colors</h2>
@@ -72,11 +52,9 @@ export default function Legend() {
           <span style={circleStyle('#60A5FA')}></span> Unlocked Course (you can take the course now)
         </h3>
         <h3 style={textStyle}>
-          <span style={ringStyle('#f59e0b')}></span> In Selected Specialization
+          <span style={ringStyle('#3b82f6')}></span> In Selected Specialization
         </h3>
       </div>
-
-      <NodeInfo course={selectedCourse} />
     </div>
   );
 }

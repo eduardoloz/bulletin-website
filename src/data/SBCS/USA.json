@@ -1,0 +1,79 @@
+[
+    {
+        "id": "his-215",
+        "deptCode": "HIS",
+        "number": "215",
+        "code": "HIS 215",
+        "title": "HIS 215: Long Island History"
+    },
+    {
+        "id": "his-261",
+        "deptCode": "HIS",
+        "number": "261",
+        "code": "HIS 261",
+        "title": "HIS 261: Change and Reform in the United States, 1877-1919"
+    },
+    {
+        "id": "his-262",
+        "deptCode": "HIS",
+        "number": "262",
+        "code": "HIS 262",
+        "title": "HIS 262: American Colonial Society"
+    },
+    {
+        "id": "his-263",
+        "deptCode": "HIS",
+        "number": "263",
+        "code": "HIS 263",
+        "title": "HIS 263: Age of the American Revolution"
+    },
+    {
+        "id": "his-264",
+        "deptCode": "HIS",
+        "number": "264",
+        "code": "HIS 264",
+        "title": "HIS 264: The Early Republic"
+    },
+    {
+        "id": "his-265",
+        "deptCode": "HIS",
+        "number": "265",
+        "code": "HIS 265",
+        "title": "HIS 265: Civil War and Reconstruction"
+    },
+    {
+        "id": "his-266",
+        "deptCode": "HIS",
+        "number": "266",
+        "code": "HIS 266",
+        "title": "HIS 266: History of the United States West"
+    },
+    {
+        "id": "his-273",
+        "deptCode": "HIS",
+        "number": "273",
+        "code": "HIS 273",
+        "title": "HIS 273: U.S. History, 1900-1945"
+    },
+    {
+        "id": "his-277",
+        "deptCode": "HIS",
+        "number": "277",
+        "code": "HIS 277",
+        "title": "HIS 277: The Modern Color Line"
+    },
+    {
+        "id": "pol-102",
+        "deptCode": "POL",
+        "number": "102",
+        "code": "POL 102",
+        "title": "POL 102: Introduction to American Government"
+    },
+    {
+        "id": "com-208",
+        "deptCode": "COM",
+        "number": "208",
+        "code": "COM 208",
+        "title": "COM 208: History of Mass Communication"
+    }
+]

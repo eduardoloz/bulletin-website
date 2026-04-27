@@ -1,0 +1,51 @@
+[
+    {
+        "id": "bio-103",
+        "deptCode": "BIO",
+        "number": "103",
+        "code": "BIO 103",
+        "title": "BIO 103: Introduction to Biotechnology"
+    },
+    {
+        "id": "bio-113",
+        "deptCode": "BIO",
+        "number": "113",
+        "code": "BIO 113",
+        "title": "BIO 113: General Ecology"
+    },
+    {
+        "id": "bio-114",
+        "deptCode": "BIO",
+        "number": "114",
+        "code": "BIO 114",
+        "title": "BIO 114: Dinosaur Paleontology"
+    },
+    {
+        "id": "bio-201",
+        "deptCode": "BIO",
+        "number": "201",
+        "code": "BIO 201",
+        "title": "BIO 201: Fundamentals of Biology: Organisms to Ecosystems"
+    },
+    {
+        "id": "che-115",
+        "deptCode": "CHE",
+        "number": "115",
+        "code": "CHE 115",
+        "title": "CHE 115: Chemistry, Life, and Environment"
+    },
+    {
+        "id": "che-129",
+        "deptCode": "CHE",
+        "number": "129",
+        "code": "CHE 129",
+        "title": "CHE 129: General Chemistry I"
+    },
+    {
+        "id": "che-132",
+        "deptCode": "CHE",
+        "number": "132",
+        "code": "CHE 132",
+        "title": "CHE 132: General Chemistry II"
+    }
+]

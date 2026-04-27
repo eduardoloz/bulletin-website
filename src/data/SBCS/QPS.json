@@ -1,0 +1,72 @@
+[
+    {
+        "id": "ams-102",
+        "deptCode": "AMS",
+        "number": "102",
+        "code": "AMS 102",
+        "title": "AMS 102: Elements of Statistics"
+    },
+    {
+        "id": "ams-110",
+        "deptCode": "AMS",
+        "number": "110",
+        "code": "AMS 110",
+        "title": "AMS 110: Probability and Statistics in the Life Sciences"
+    },
+    {
+        "id": "ams-151",
+        "deptCode": "AMS",
+        "number": "151",
+        "code": "AMS 151",
+        "title": "AMS 151: Applied Calculus I"
+    },
+    {
+        "id": "ams-161",
+        "deptCode": "AMS",
+        "number": "161",
+        "code": "AMS 161",
+        "title": "AMS 161: Applied Calculus II"
+    },
+    {
+        "id": "mat-123",
+        "deptCode": "MAT",
+        "number": "123",
+        "code": "MAT 123",
+        "title": "MAT 123: Precalculus Mathematics"
+    },
+    {
+        "id": "mat-125",
+        "deptCode": "MAT",
+        "number": "125",
+        "code": "MAT 125",
+        "title": "MAT 125: Calculus A"
+    },
+    {
+        "id": "mat-126",
+        "deptCode": "MAT",
+        "number": "126",
+        "code": "MAT 126",
+        "title": "MAT 126: Calculus B"
+    },
+    {
+        "id": "mat-130",
+        "deptCode": "MAT",
+        "number": "130",
+        "code": "MAT 130",
+        "title": "MAT 130: Calculus with Applications"
+    },
+    {
+        "id": "mat-131",
+        "deptCode": "MAT",
+        "number": "131",
+        "code": "MAT 131",
+        "title": "MAT 131: Calculus I"
+    },
+    {
+        "id": "mat-132",
+        "deptCode": "MAT",
+        "number": "132",
+        "code": "MAT 132",
+        "title": "MAT 132: Calculus II"
+    }
+]

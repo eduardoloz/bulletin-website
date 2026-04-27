@@ -17,31 +17,73 @@
 import { useState, useEffect } from 'react';
 import { supabase } from '../supabaseClient';
 
+const AUTH_INIT_TIMEOUT_MS = 7000;
+
 export function useAuth() {
   const [user, setUser] = useState(null);
   const [session, setSession] = useState(null);
   const [loading, setLoading] = useState(true);
   const [signingOut, setSigningOut] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Get initial session on mount
-    supabase.auth.getSession().then(({ data: { session } }) => {
-      setSession(session);
-      setUser(session?.user ?? null);
+    let isMounted = true;
+
+    const timeoutId = window.setTimeout(() => {
+      if (!isMounted) return;
+      console.warn('Supabase auth initialization timed out. Continuing without a session.');
       setLoading(false);
-    });
+    }, AUTH_INIT_TIMEOUT_MS);
+
+    async function initializeSession() {
+      try {
+        const {
+          data: { session },
+          error: sessionError,
+        } = await supabase.auth.getSession();
+
+        if (sessionError) {
+          throw sessionError;
+        }
+
+        if (!isMounted) return;
+        setSession(session);
+        setUser(session?.user ?? null);
+        setError(null);
+      } catch (authError) {
+        if (!isMounted) return;
+        console.error('Failed to initialize auth session:', authError);
+        setSession(null);
+        setUser(null);
+        setError(authError);
+      } finally {
+        window.clearTimeout(timeoutId);
+        if (isMounted) {
+          setLoading(false);
+        }
+      }
+    }
+
+    initializeSession();
 
     // Listen for auth state changes (login, logout, token refresh)
     const {
       data: { subscription },
     } = supabase.auth.onAuthStateChange((_event, session) => {
+      if (!isMounted) return;
+      window.clearTimeout(timeoutId);
       setSession(session);
       setUser(session?.user ?? null);
+      setError(null);
       setLoading(false);
     });
 
     // Cleanup subscription on unmount
-    return () => subscription.unsubscribe();
+    return () => {
+      isMounted = false;
+      window.clearTimeout(timeoutId);
+      subscription.unsubscribe();
+    };
   }, []);
 
   // Sign out helper
@@ -75,6 +117,7 @@ export function useAuth() {
     user,
     session,
     loading,
+    error,
     signOut,
     signingOut,
   };

@@ -7,6 +7,7 @@ import LoginPage from './pages/LoginPAGE';
 import Home from './pages/Home';
 import CatPage from './pages/CatPage';
 import ChatBotPage from './pages/ChatBotPage';
+import DegreeProgressPage from './pages/DegreeProgressPage';
 import { useAuth } from './hooks/useAuth';
 
 
@@ -37,6 +38,7 @@ function App() {
               <Navbar />
               <Routes>
                 <Route path="/" element={<Home />} />
+                <Route path="/degree-progress" element={<DegreeProgressPage />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/cat" element={<CatPage />} />
               </Routes>

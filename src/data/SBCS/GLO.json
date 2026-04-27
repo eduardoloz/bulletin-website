@@ -1,0 +1,205 @@
+[
+    {
+        "id": "aas-102",
+        "deptCode": "AAS",
+        "number": "102",
+        "code": "AAS 102",
+        "title": "AAS 102: Eastern Religions"
+    },
+    {
+        "id": "aas-201",
+        "deptCode": "AAS",
+        "number": "201",
+        "code": "AAS 201",
+        "title": "AAS 201: Introduction to the Civilization of the Indian Subcontinent"
+    },
+    {
+        "id": "aas-216",
+        "deptCode": "AAS",
+        "number": "216",
+        "code": "AAS 216",
+        "title": "AAS 216: Introduction to Japanese Studies"
+    },
+    {
+        "id": "aas-217",
+        "deptCode": "AAS",
+        "number": "217",
+        "code": "AAS 217",
+        "title": "AAS 217: Introduction to Korean Culture"
+    },
+    {
+        "id": "aas-218",
+        "deptCode": "AAS",
+        "number": "218",
+        "code": "AAS 218",
+        "title": "AAS 218: Ancient, Medieval, & Early Modern South Asia"
+    },
+    {
+        "id": "aas-219",
+        "deptCode": "AAS",
+        "number": "219",
+        "code": "AAS 219",
+        "title": "AAS 219: Japan in the Age of Courtier and Samurai"
+    },
+    {
+        "id": "aas-220",
+        "deptCode": "AAS",
+        "number": "220",
+        "code": "AAS 220",
+        "title": "AAS 220: China: Language and Culture"
+    },
+    {
+        "id": "aas-222",
+        "deptCode": "AAS",
+        "number": "222",
+        "code": "AAS 222",
+        "title": "AAS 222: Indian Cinemas and Cultures"
+    },
+    {
+        "id": "aas-223",
+        "deptCode": "AAS",
+        "number": "223",
+        "code": "AAS 223",
+        "title": "AAS 223: China: Society and Civilization"
+    },
+    {
+        "id": "aas-228",
+        "deptCode": "AAS",
+        "number": "228",
+        "code": "AAS 228",
+        "title": "AAS 228: China: History and Geography"
+    },
+    {
+        "id": "aas-236",
+        "deptCode": "AAS",
+        "number": "236",
+        "code": "AAS 236",
+        "title": "AAS 236: Korean Religions"
+    },
+    {
+        "id": "aas-240",
+        "deptCode": "AAS",
+        "number": "240",
+        "code": "AAS 240",
+        "title": "AAS 240: Confucianism and Daoism"
+    },
+    {
+        "id": "aas-247",
+        "deptCode": "AAS",
+        "number": "247",
+        "code": "AAS 247",
+        "title": "AAS 247: Modern Korea through Visual Culture"
+    },
+    {
+        "id": "aas-256",
+        "deptCode": "AAS",
+        "number": "256",
+        "code": "AAS 256",
+        "title": "AAS 256: Hinduism"
+    },
+    {
+        "id": "aas-260",
+        "deptCode": "AAS",
+        "number": "260",
+        "code": "AAS 260",
+        "title": "AAS 260: Buddhism"
+    },
+    {
+        "id": "aas-280",
+        "deptCode": "AAS",
+        "number": "280",
+        "code": "AAS 280",
+        "title": "AAS 280: Islam"
+    },
+    {
+        "id": "aas-287",
+        "deptCode": "AAS",
+        "number": "287",
+        "code": "AAS 287",
+        "title": "AAS 287: Islam in China"
+    },
+    {
+        "id": "fh-101",
+        "deptCode": "FH",
+        "number": "101",
+        "code": "FH 101",
+        "title": "FH 101: The Wonders of the Black World"
+    },
+    {
+        "id": "afh-205",
+        "deptCode": "AFH",
+        "number": "205",
+        "code": "AFH 205",
+        "title": "AFH 205: Contemporary African Literature"
+    },
+    {
+        "id": "afh-282",
+        "deptCode": "AFH",
+        "number": "282",
+        "code": "AFH 282",
+        "title": "AFH 282: Contemporary Caribbean Women's Literature"
+    },
+    {
+        "id": "afs-223",
+        "deptCode": "AFS",
+        "number": "223",
+        "code": "AFS 223",
+        "title": "AFS 223: Regional History of Africa"
+    },
+    {
+        "id": "amr-101",
+        "deptCode": "AMR",
+        "number": "101",
+        "code": "AMR 101",
+        "title": "AMR 101: Local and Global: National Boundaries and World-Systems"
+    },
+    {
+        "id": "ant-102",
+        "deptCode": "ANT",
+        "number": "102",
+        "code": "ANT 102",
+        "title": "ANT 102: What Makes Us Human?"
+    },
+    {
+        "id": "ant-103",
+        "deptCode": "ANT",
+        "number": "103",
+        "code": "ANT 103",
+        "title": "ANT 103: Archaeology for a Better World"
+    },
+    {
+        "id": "ant-200",
+        "deptCode": "ANT",
+        "number": "200",
+        "code": "ANT 200",
+        "title": "ANT 200: Contemporary and Historical Perspectives on Insular Southeast Asia"
+    },
+    {
+        "id": "arh-201",
+        "deptCode": "ARH",
+        "number": "201",
+        "code": "ARH 201",
+        "title": "ARH 201: Arts of Africa"
+    },
+    {
+        "id": "arh-203",
+        "deptCode": "ARH",
+        "number": "203",
+        "code": "ARH 203",
+        "title": "ARH 203: Arts of Asia"
+    },
+    {
+        "id": "ccs-203",
+        "deptCode": "CCS",
+        "number": "203",
+        "code": "CCS 203",
+        "title": "CCS 203: Cinema History"
+    },
+    {
+        "id": "chi-120",
+        "deptCode": "CHI",
+        "number": "120",
+        "code": "CHI 120",
+        "title": "CHI 120: Elementary Chinese for Heritage Speakers"
+    }
+]

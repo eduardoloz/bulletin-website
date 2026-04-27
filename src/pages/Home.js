@@ -3,6 +3,7 @@ import NodeInfo from '../components/NodeInfo'; // previously ProfessorInfo
 import CourseGraph from '../components/GraphComponent';
 import Legend from '../components/Legend';
 import RadialGraphComponent from '../components/RadialGraphComponent';
+import SpecializationDetailsPanel from '../components/SpecializationDetailsPanel';
 import courses from '../data/sbu_cse_courses_new_schema.json';
 
 function Home() {
@@ -52,8 +53,9 @@ function Home() {
         </div>
 
         <div className="col-span-1 bg-white rounded-lg p-3">
-          <NodeInfo course={selectedCourse} />
           <Legend />
+          <SpecializationDetailsPanel />
+          <NodeInfo course={selectedCourse} />
         </div>
 
       </div>

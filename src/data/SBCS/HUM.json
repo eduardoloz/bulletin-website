@@ -1,0 +1,93 @@
+[
+    {
+        "id": "aas-102",
+        "deptCode": "AAS",
+        "number": "102",
+        "code": "AAS 102",
+        "title": "AAS 102: Eastern Religions"
+    },
+    {
+        "id": "aas-212",
+        "deptCode": "AAS",
+        "number": "212",
+        "code": "AAS 212",
+        "title": "AAS 212: Asian and Asian American Studies Topics in the Humanities"
+    },
+    {
+        "id": "aas-217",
+        "deptCode": "AAS",
+        "number": "217",
+        "code": "AAS 217",
+        "title": "AAS 217: Introduction to Korean Culture"
+    },
+    {
+        "id": "aas-218",
+        "deptCode": "AAS",
+        "number": "218",
+        "code": "AAS 218",
+        "title": "AAS 218: Ancient, Medieval, & Early Modern South Asia"
+    },
+    {
+        "id": "aas-232",
+        "deptCode": "AAS",
+        "number": "232",
+        "code": "AAS 232",
+        "title": "AAS 232: Introduction to Asian American Fiction and Film"
+    },
+    {
+        "id": "aas-236",
+        "deptCode": "AAS",
+        "number": "236",
+        "code": "AAS 236",
+        "title": "AAS 236: Korean Religions"
+    },
+    {
+        "id": "aas-237",
+        "deptCode": "AAS",
+        "number": "237",
+        "code": "AAS 237",
+        "title": "AAS 237: Introduction to Japanese Literature"
+    },
+    {
+        "id": "aas-240",
+        "deptCode": "AAS",
+        "number": "240",
+        "code": "AAS 240",
+        "title": "AAS 240: Confucianism and Daoism"
+    },
+    {
+        "id": "aas-256",
+        "deptCode": "AAS",
+        "number": "256",
+        "code": "AAS 256",
+        "title": "AAS 256: Hinduism"
+    },
+    {
+        "id": "aas-260",
+        "deptCode": "AAS",
+        "number": "260",
+        "code": "AAS 260",
+        "title": "AAS 260: Buddhism"
+    },
+    {
+        "id": "aas-280",
+        "deptCode": "AAS",
+        "number": "280",
+        "code": "AAS 280",
+        "title": "AAS 280: Islam"
+    },
+    {
+        "id": "aas-287",
+        "deptCode": "AAS",
+        "number": "287",
+        "code": "AAS 287",
+        "title": "AAS 287: Islam in China"
+    },
+    {
+        "id": "afh-205",
+        "deptCode": "AFH",
+        "number": "205",
+        "code": "AFH 205",
+        "title": "AFH 205: Contemporary African Literature"
+    }
+]
