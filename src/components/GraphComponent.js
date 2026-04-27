@@ -768,6 +768,8 @@ export default function CourseGraph({ onNodeClick }) {
           deptCode={selectedMajor}
           selectedSlugs={selectedSpecSlugs}
           onChange={setSelectedSpecSlugs}
+          completedCourses={completedCourses}
+          externalCourses={externalCourses}
         />
 
         {loading ? (
