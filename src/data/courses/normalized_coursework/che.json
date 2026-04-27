@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "CHE 115",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "115",
+    "code": "CHE 115",
+    "title": "Chemistry, Life, and Environment",
+    "description": "This survey course introduces chemical principles by emphasizing the role chemistry plays in everyday life, the natural environment, the built environment, energy production, and in processes leading to environmental degradation. In addition, the role of chemistry in the development of alternative energy sources, remediation technologies, and eco-friendly products is discussed. This course for non-science majors introduces chemical principles using mostly qualitative approaches rather than quantitative approaches. Interactive tools and interactive visualization tools are extensively used to illustrate concepts, reactions, and processes. May not be taken by students with credit for CHE 129 , CHE 131 , or CHE 152 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9072",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 129",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "129",
+    "code": "CHE 129",
+    "title": "General Chemistry IA",
+    "description": "This is the initial course of the four-semester General-Chemistry/Organic-Chemistry sequence CHE 129/132/321/322. This sequence provides the necessary foundation for students who wish to pursue further coursework in chemistry. The General Chemistry Courses provide a broad introduction to the fundamental principles of chemistry, including substantial illustrative material drawn from the chemistry of inorganic, organic, and biochemical systems. The emphasis is on basic concepts, problem-solving, and factual material. Students will be placed into CHE 129 based on their performance in the Online Chemistry Placement and Preparation (OCPP) process. Specifically, CHE 129 is for students with chemistry knowledge above the required OCPP minimum but who do not meet the math corequisite of CHE 131. The level and content of CHE 129 match that of CHE 131, but since the corequisite differs, students must also attend a CHE 130 session each week. CHE 130 builds essential skills in information processing, critical and analytical thinking, quantitative reasoning, and problem solving. The CHE 129 four-semester sequence is inappropriate for students who satisfy the corequisites of CHE 131. It is also inappropriate for students who have completed an AP course in chemistry and received a score of 4 or 5; such students must enroll in CHE 152. Course may not be taken with MAT 119. Three lecture hours, one 80-minute workshop, and one CHE 130 session per week. CHE 129 may not be taken for credit in addition to CHE 131 or CHE 152. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "Math Placement score of 3; Online Chemistry Placement and Preparation (OCPP) Process. For information on the OCPP, copy and paste the following link into your browser. go.stonybrook.edu/ocpp",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9073",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 130",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "130",
+    "code": "CHE 130",
+    "title": "Problem Solving in General Chemistry",
+    "description": "This course provides a structured environment for completing CHE 129 homework assignments and helping students develop the quantitative reasoning and problem solving skills needed in General Chemistry. Satisfactory/Unsatifactory grading only. Grading is based on attendance and participation. Required for students taking CHE 129 along with MAT 123 .",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9074",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 131",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "131",
+    "code": "CHE 131",
+    "title": "General Chemistry IB",
+    "description": "This is the initial course in the four-semester General-Chemistry/Organic-Chemistry sequence CHE 131/ CHE 132 / CHE 321 / CHE 322 . This sequence provides the necessary foundation for students who wish to pursue further coursework in Chemistry. The General Chemistry courses provide a broad introduction to the fundamental principles of chemistry, including substantial illustrative material drawn from the chemistry of inorganic, organic, and biochemical systems. The emphasis is on basic concepts, problem-solving, and factual material. The principal topics covered are stoichiometry, the states of matter, chemical equilibrium and introductory thermodynamics, electrochemistry, chemical kinetics, electron structure and chemical bonding, and chemical periodicity. Students will be placed into CHE 131 based on their performance in an Online Chemistry Placement and Preparation (OCPP) process. The four-semester sequence is inappropriate for students who have completed an AP course in chemistry and received a score of 4 or 5; these students are placed into CHE 152 . Three lecture hours and one 80-minute workshop per week. May not be taken for credit in addition to CHE 129 or CHE 152 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "Online Chemistry Placement and Preparation (OCPP) Process. For information on the OCPP, copy and paste the following link into your browser. go.stonybrook.edu/ocpp",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9075",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 132",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "132",
+    "code": "CHE 132",
+    "title": "General Chemistry II",
+    "description": "A continuation of either CHE 129 or CHE 131 , introducing the fundamental principles of chemistry, including substantial illustrative material drawn from the chemistry of inorganic, organic, and biochemical systems. The principal topics covered are stoichiometry, the states of matter, chemical equilibrium and introductory thermodynamics, electrochemistry, chemical kinetics, electron structure and chemical bonding, and chemical periodicity. The sequence emphasizes basic concepts, problem solving, and factual material. It provides the necessary foundation for students who wish to pursue further coursework in chemistry. Three lecture hours and one 80-minute workshop per week. May not be taken for credit in addition to CHE 152 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 129 or CHE 131 . Pre/Corequisites: MAT 125 for those who took CHE 129 or CHE 130 or BA BIO majors; all others MAT 126 or higher",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 129"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 131"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 125"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "CHE 129"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 130"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 126"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9076",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 133",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "133",
+    "code": "CHE 133",
+    "title": "General Chemistry Laboratory I",
+    "description": "Designed to familiarize students with (1) some chemical and physical properties of substances, (2) techniques of quantitative chemistry, and (3) scientific methodology. Three hours of laboratory or related activity per week. CHE 133 and CHE 134 may not be taken for credit in addition to CHE 154 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9077",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 134",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "134",
+    "code": "CHE 134",
+    "title": "General Chemistry Laboratory II",
+    "description": "Designed to familiarize students with (1) some chemical and physical properties of substances, (2) techniques of quantitative chemistry, and (3) scientific methodology. Three hours of laboratory or related activity per week. CHE 133 and CHE 134 may not be taken for credit in addition to CHE 154 .",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "CHE 133",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 133"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9078",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 152",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "152",
+    "code": "CHE 152",
+    "title": "Molecular Science I",
+    "description": "This is the initial course of the three-semester Molecular Science sequence CHE 152/ CHE 331 / CHE 332 . The topics covered in CHE 152 include atomic and molecular structure, chemical bonding, thermodynamics, equilibrium and aqueous chemistry, electrochemistry, kinetics and basics of organic chemistry. Students will be placed into CHE 152 based on their performance in the Online Chemistry Placement and Preparation (OCPP) process or upon receipt of a score of 4 or 5 in AP chemistry. (Such students cannot enroll in any of the courses CHE 129 / CHE 130 , CHE 131 , or CHE 132 ). May not be taken for credit in addition to CHE 129 , CHE 131 , or CHE 132 . Three lecture hours and one 80-minute workshop per week.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "AP Chem score of 4-5 & satisfactory score on the Online Chemistry Placement & Prep Process (OCPP) or satisfactory score on the OCPP ( http://go.stonybrook.edu/ocpp ); co-registration in MAT 131 (preferred), MAT 125 , AMS 151 or higher calculus",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9079",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 154",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "154",
+    "code": "CHE 154",
+    "title": "Molecular Science Laboratory I",
+    "description": "Designed to familiarize students with chemical and physical properties of substances, techniques of quantitative chemistry, and aspects of scientific methodology. Four hours of lab per week. CHE 154 may not be taken for credit in addition to CHE 134 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9080",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 301",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "301",
+    "code": "CHE 301",
+    "title": "Physical Chemistry I",
+    "description": "This course is the first half of a two-semester overview of modern physical chemistry, introducing students to the quantitative study of chemical systems. The fundamentals of thermodynamics from both macroscopic and microscopic standpoints are covered, with applications to chemical problems. May not be taken for credit by students who have completed CHE 312 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "CHE 132 or CHE 152 ; MAT 132 or 142 or MAT 127 or 171 or AMS 161",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 152"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9081",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 302",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "302",
+    "code": "CHE 302",
+    "title": "Physical Chemistry II",
+    "description": "Introduction to quantum theory and its application to the study of chemical bonding, molecular spectroscopy, statistical thermodynamics, chemical kinetics and molecular reaction dynamics.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "CHE 301 ; MAT 203 or MAT 211 or AMS 210 or AMS 261",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 301"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9082",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 303",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "303",
+    "code": "CHE 303",
+    "title": "Solution Chemistry Laboratory",
+    "description": "Quantitative techniques of solution chemistry. Measurement: accuracy and precision, analysis, computation, and reporting. Spectrophotometry. Solution equilibria and kinetics. Use of computers is introduced. Six hours of laboratory and discussion.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "CHE 134 or CHE 154",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 134"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 154"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9083",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 304",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "304",
+    "code": "CHE 304",
+    "title": "Chemical Instrumentation Laboratory",
+    "description": "Electrochemical and thermochemical measurements. Electronics in chemical instrumentation. Vacuum techniques. Electrical and magnetic properties of materials. Data-handling methods. Six hours of laboratory and discussion.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "CHE 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9084",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 310",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "310",
+    "code": "CHE 310",
+    "title": "Chemistry in Technology and the Environment",
+    "description": "Use of chemical principles in understanding processes that occur in the modern technological world and in the natural environment. Certain ecological problems of a chemical nature are analyzed. Methods of controlling these problems are discussed. Not for credit in addition to ENV 320 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 132 or CHE 152",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 152"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9085",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 311",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "311",
+    "code": "CHE 311",
+    "title": "Environmental Chemistry Lab",
+    "description": "This laboratory course illustrates some of the principles, processes, and reactions presented in CHE 310 / ENV 320 . The course focuses on the techniques and instrumentation (including UV-visible spectroscopy, ion chromatography, X-ray fluorescence spectroscopy, and atomic absorption spectroscopy) used in the analysis of water, soil, and biomass. The project phase of the course focuses on the application of these analyses. Not to be taken for additional credit if previously completed ENV 321.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "CHE 133 or CHE 154",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 133"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 154"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9639",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 312",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "312",
+    "code": "CHE 312",
+    "title": "Physical Chemistry for the Life Sciences",
+    "description": "A one-semester treatment of fundamental concepts of physical chemistry, intended primarily for students of the biological sciences desiring an introduction to physical chemistry. Topics include equations of state; classical thermodynamics and its application to chemical equilibrium in reaction systems, multiphase systems, and electrochemical cells; kinetic theory of gases; transport properties; chemical kinetics. May not be taken for credit by students who have completed CHE 301 . Not for credit toward the chemistry major.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 132 or CHE 152 ; MAT 132 or 142 or MAT 127 or 171 or AMS 161",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 152"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9086",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 321",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "321",
+    "code": "CHE 321",
+    "title": "Organic Chemistry I",
+    "description": "An introduction to the structure, reactivity, and properties of organic compounds is presented using modern views of chemical bonding. These fundamental ideas are applied to topics ranging from synthetic chemistry to complex functional structures such as lipid bilayers. CHE 321 may not be taken for credit in addition to CHE 331 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 132",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 132"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9087",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 322",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "322",
+    "code": "CHE 322",
+    "title": "Organic Chemistry IIA",
+    "description": "Discussion of the structure, reactivity, and properties of organic compounds introduced in CHE 321 is continued. The chemistry of substances important in biology, medicine, and technology is emphasized. CHE 322 may not be taken for credit in addition to CHE 332 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 321",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 321"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9088",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 327",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "327",
+    "code": "CHE 327",
+    "title": "Organic Chemistry Laboratory",
+    "description": "Techniques of isolating and handling organic substances, including biological materials. A one-semester course that provides a basic organic laboratory experience. It is recommended that students take CHE 327 at the same time as CHE 321 or CHE 322 . Four laboratory hours and one lecture hour per week. Not for credit in addition to CHE 383 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "CHE 134",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 134"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9089",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 328",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "328",
+    "code": "CHE 328",
+    "title": "Synthetic and Spectroscopic Laboratory Techniques",
+    "description": "Application of fundamental laboratory techniques to organic and inorganic problems including multistep syntheses and structural and mechanistic determinations. Lectures cover material pertaining to the experimental work, with an emphasis on spectroscopy. Not for credit in addition to CHE 384 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 327",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 327"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9090",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 331",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "331",
+    "code": "CHE 331",
+    "title": "Molecular Science II",
+    "description": "Topics include the structural, mechanistic and synthetic aspects of organic chemistry, transition metal chemistry, catalysis, supramolecular chemistry, and polymer chemistry. This is the second course in a three semester sequence. Students with a strong background prior to entering the University can take the 152-331-332 sequence, which covers the same material as 131-132-321-322. Three lecture hours and one 80-minute workshop per week. The laboratory component, CHE 383 , must be taken the same semester as the CHE 331 lecture. May not be taken for credit in addition to CHE 321 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 152",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 152"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9091",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 332",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "332",
+    "code": "CHE 332",
+    "title": "Molecular Science III",
+    "description": "Topics include advanced structural, mechanistic and synthetic aspects of organic chemistry, the organic chemistry of biological pathways and biosynthesis. This is the final course in a three semester sequence. Students with a strong background prior to entering the University can take the 152-331-332 sequence, which covers the same material as 131-132-321-322. Three lecture hours and one 80-minute workshop per week. May not be taken for credit in addition to CHE 322 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 331",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 331"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9092",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 345",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "345",
+    "code": "CHE 345",
+    "title": "Structure and Reactivity in Organic Chemistry",
+    "description": "Electronic and stereochemical theories relating to organic structure and reactions. Topics such as bonding, strain, aromaticity, MO theory, molecular rearrangements, pericyclic reactions, and photochemistry are covered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 322 or CHE 332",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 322"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 332"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9093",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 346",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "346",
+    "code": "CHE 346",
+    "title": "Biomolecular Structure and Reactivity",
+    "description": "The reactivity and physiological function of biological macromolecules and their monomeric constituents are described at the chemical level. The course reflects the most recent advances at the interface of organic chemistry and biochemistry. Specific topics include catalysis, biomimicry, protein and DNA modification, binding and target recognition, and correlation between three-dimensional structure and reactivity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9094",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 348",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "348",
+    "code": "CHE 348",
+    "title": "Reaction Mechanisms in Organic Chemistry",
+    "description": "Important classes of mechanisms of reactions useful in synthesis are explored. The kinetics and thermodynamics of these reactions are analyzed using modern structural theories. Examples of reaction types are substitutions, rearrangements, additions, eliminations, and selected organometallic reactions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 322 or CHE 332",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 322"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 332"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9095",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 351",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "351",
+    "code": "CHE 351",
+    "title": "Quantum Chemistry",
+    "description": "Concepts of quantum theory, Schrodinger wave mechanics, and related mathematical techniques illustrated by application to systems of chemical bonding, spectroscopy, molecular structure, and molecular collision phenomena.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 302 ; MAT 203 or 205",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 302"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 203"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9096",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 353",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "353",
+    "code": "CHE 353",
+    "title": "Chemical Thermodynamics",
+    "description": "A rigorous development of thermodynamics and its application to systems of interest to chemists, including electrochemical cells, gases, polymers, and homogeneous and heterogeneous equilibrium. An introduction to statistical mechanics is included.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 302 ; CHE 321",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 302"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 321"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9097",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 357",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "357",
+    "code": "CHE 357",
+    "title": "Molecular Structure and Spectroscopy Laboratory",
+    "description": "Optical and magnetic resonance spectroscopy are used to investigate the structural, dynamic, and quantum mechanical properties of some basic chemical systems. Emphasis is on the quantitative measurement of molecular parameters and transformations.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "CHE 304 ; CHE 327 or CHE 383",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 304"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 327"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 383"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9098",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 358",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "358",
+    "code": "CHE 358",
+    "title": "Computing in Chemistry",
+    "description": "The basic elements of scripting, design of computer programs, and numerical analysis are discussed within the framework of solving a variety of exciting problems chosen from all areas of chemistry. Topics include automation of repetitive tasks, fitting of data, numerical integration of rate equations, signal and image analysis, and quantum chemistry. No previous knowledge of computer programming is assumed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 302 and CHE 304",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 302"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 304"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9099",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 361",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "361",
+    "code": "CHE 361",
+    "title": "Nuclear Chemistry",
+    "description": "Properties of radioactive substances and their use in the study of chemical problems, nuclear stability and structure, nuclear reactions, radioactive decay, interactions of radiation with matter, nuclear medicine, isotope applications, and environmental control.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Four semesters of chemistry; PHY 126 and PHY 127 , or PHY 132 / PHY 134 or PHY 142 or 171; AMS 161 or MAT 127 or MAT 132 or 142; permission of department through application by January 30; permission of instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 126"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 127"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 132"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 142"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9100",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 362",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "362",
+    "code": "CHE 362",
+    "title": "Nuclear Chemistry Laboratory",
+    "description": "Detection and measurement of radiation, electronic instrumentation, radiation safety, and application of radioactivity to chemical problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9101",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 375",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "375",
+    "code": "CHE 375",
+    "title": "Inorganic Chemistry I",
+    "description": "A survey of inorganic chemistry covering various classes of inorganic compounds and reactions with emphasis on the structural aspects. Wherever possible, the subject is treated on the basis of modern concepts of chemical bonding. Thermodynamic and kinetic aspects of inorganic reactions are included.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 322 or CHE 332",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 322"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 332"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9102",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 376",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "376",
+    "code": "CHE 376",
+    "title": "Inorganic Chemistry II",
+    "description": "The chemistry of the elements with an emphasis on the transition metals. Reaction mechanisms, synthesis, and structure are covered. Specific areas of concern include coordination chemistry, organometallic chemistry, bioinorganic chemistry, and selected topics from solid-state and non-transition metal chemistry.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 375",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 375"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9103",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 377",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "377",
+    "code": "CHE 377",
+    "title": "Inorganic Chemistry Laboratory",
+    "description": "The synthesis of inorganic materials and their characterization using a variety of physical techniques. This laboratory course will emphasize both the synthesis of inorganic compounds and the study of their physical properties. Laboratory exercises will introduce synthetic techniques. Molecular and solid-state compounds will be characterized by UV-visible absorption, infrared, and multinuclear NMR spectroscopies, and x-ray diffraction. Measurements of electrochemical behavior, magnetic susceptibility, and chemical reactivity will be performed. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 303 and CHE 328 or CHE 384",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 303"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 328"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 384"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11669",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 378",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "378",
+    "code": "CHE 378",
+    "title": "Materials Chemistry",
+    "description": "Our high-technology world is driven forward by advances in materials chemistry. This class will discuss some of the materials that underpin these technologies, as well as some of the novel classes of materials that are being developed for future applications. The course will cover the synthesis, structures, and properties of advanced materials, focusing on a range of topics with current societal importance (e.g. energy, computers, nanoscience, etc.). Specific topics may include batteries, fuel cells, catalysts, metals, semiconductors, superconductors, magnetism, and polymers.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 322 or CHE 332 or ESG 332",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 322"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 332"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESG 332"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9104",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 379",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "379",
+    "code": "CHE 379",
+    "title": "Electrochemistry and Electrochemical Materials Science",
+    "description": "This course will survey electrochemistry and electrochemical materials science. Topics will include fundamental measurements in electrochemistry, galvanostatic and potentiostatic methods, the electrochemical double layer, corrosion and passivation. Relevant applications such as fuel cells, batteries, and supercapacitors will be discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 132 or CHE 152",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 152"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9105",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 383",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "383",
+    "code": "CHE 383",
+    "title": "Introductory Synthetic and Spectroscopic Laboratory Techniques",
+    "description": "Fundamental laboratory techniques including methods of separation, purification, synthesis, and analysis. Emphasis is on organic with an introduction to inorganic problems. For students in the Molecular Sciences sequence. Not for credit in addition to CHE 327 . Three lecture hours and one 80-minute workshop per week. The lecture component, CHE 331 , must be taken the same semester as the CHE 383 laboratory.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "CHE 154",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 154"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9106",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 384",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "384",
+    "code": "CHE 384",
+    "title": "Intermediate Synthetic and Spectroscopic Laboratory Techniques",
+    "description": "Application of fundamental laboratory techniques to organic and inorganic problems including multistep syntheses and structural and mechanistic determinations. Lectures cover material pertaining to the experimental work, with an emphasis on spectroscopy. Not for credit in addition to CHE 328 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 383",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 383"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9107",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 385",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "385",
+    "code": "CHE 385",
+    "title": "Tools of Chemistry",
+    "description": "A seminar course covering topics common to all areas of chemistry: scientific ethics; diversity, equity, and inclusion in the chemical sciences; chemical literature and information retrieval; scientific writing; and oral presentation.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9108",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 444",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "444",
+    "code": "CHE 444",
+    "title": "Experiential Learning",
+    "description": "This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent; permission of the instructor and approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9109",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 459",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "459",
+    "code": "CHE 459",
+    "title": "Write Effectively in Chemistry",
+    "description": "A zero credit course that may be taken in conjunction with any 300- or 400-level CHE course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9110",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 461",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "461",
+    "code": "CHE 461",
+    "title": "Selected Topics in Chemistry",
+    "description": "Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Varying with topic",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9111",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 475",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "475",
+    "code": "CHE 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course. Students may participate only in courses in which they have excelled.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9112",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 476",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "476",
+    "code": "CHE 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students may participate only in courses in which they have excelled. The course in which the student is permitted to work as a teaching assistant must be different from the course in which he or she previously served.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9113",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 477",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "477",
+    "code": "CHE 477",
+    "title": "Undergraduate Teaching Practicum III",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. Students may participate only in courses in which they have excelled.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "CHE 476 ; permission of instructor and department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CHE 476"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9114",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 487",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "487",
+    "code": "CHE 487",
+    "title": "Research in Chemistry",
+    "description": "Students pursue research or tutorial study in specialized areas of chemistry.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor and department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9115",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 488",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "488",
+    "code": "CHE 488",
+    "title": "Internship",
+    "description": "Research participation in off-campus laboratories. Students are required to submit to the department a proposal at the time of registration and a research report at the end of the semester.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "CHE 328 or CHE 384 ; permission of instructor and department",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 328"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 384"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9116",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 495",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "495",
+    "code": "CHE 495",
+    "title": "Senior Research",
+    "description": "First course of a two-semester research program to be carried out under the supervision of a staff member. The results of this work are to be submitted to the department in the form of a senior research report. The student is given an oral examination in May by a faculty committee consisting of the student’s supervisor and three other faculty members. Students receive only one grade upon completion of the sequence CHE 495- CHE 496 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing; permission of instructor and department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9117",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CHE 496",
+    "deptCode": "CHE",
+    "deptName": null,
+    "number": "496",
+    "code": "CHE 496",
+    "title": "Senior Research",
+    "description": "Second course of a two-semester research program to be carried out under the supervision of a staff member. The results of this work are to be submitted to the department in the form of a senior research report. The student is given an oral examination in May by a faculty committee consisting of the student’s supervisor and three other faculty members. Students receive only one grade upon completion of the sequence CHE 495 -496.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing; permission of instructor and department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9118",
+    "rawCorequisites": null
+  }
+]

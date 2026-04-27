@@ -1,9 +1,27 @@
 // GraphComponent.js
-import allCourses from '../data/courses/all.json';
+import cseCourses from '../data/courses/normalized_coursework/cse.json';
+import matCourses from '../data/courses/normalized_coursework/mat.json';
+import amsCourses from '../data/courses/normalized_coursework/ams.json';
+import bioCourses from '../data/courses/normalized_coursework/bio.json';
+import cheCourses from '../data/courses/normalized_coursework/che.json';
+import phyCourses from '../data/courses/normalized_coursework/phy.json';
+import eseCourses from '../data/courses/normalized_coursework/ese.json';
+import mecCourses from '../data/courses/normalized_coursework/mec.json';
+import bmeCourses from '../data/courses/normalized_coursework/bme.json';
+import iseCourses from '../data/courses/normalized_coursework/ise.json';
+import ecoCourses from '../data/courses/normalized_coursework/eco.json';
+import psyCourses from '../data/courses/normalized_coursework/psy.json';
+import polCourses from '../data/courses/normalized_coursework/pol.json';
+import busCourses from '../data/courses/normalized_coursework/bus.json';
+import estCourses from '../data/courses/normalized_coursework/est.json';
+import oldSchemaCourses from '../data/sbu_cse_courses_new_schema.json';
 import React, { useRef, useEffect, useState, useMemo } from 'react';
 import * as d3 from 'd3';
 import Select from 'react-select';
 import CourseGraphProcessor from './CourseGraphProcessor';
+import SpecializationSelector, {
+  highlightedCoursesFor,
+} from './SpecializationSelector';
 import {
   buildCourseMap,
   buildCourseCodeMap,
@@ -12,6 +30,22 @@ import {
   getPrerequisiteCourseIds,
 } from '../utils/courseUtils';
 import { useUserProgress } from '../hooks/useUserProgress';
+
+// Combine all normalized major data into one array
+const allCourses = [
+  ...cseCourses, ...matCourses, ...amsCourses, ...bioCourses, ...cheCourses,
+  ...phyCourses, ...eseCourses, ...mecCourses, ...bmeCourses,
+  ...iseCourses, ...ecoCourses, ...psyCourses, ...polCourses,
+  ...busCourses, ...estCourses,
+];
+
+// Build a lookup from old UUID -> course code so we can translate DB progress
+const uuidToCode = Object.fromEntries(
+  oldSchemaCourses.map((c) => [c.id, c.code])
+);
+const codeToUuid = Object.fromEntries(
+  oldSchemaCourses.map((c) => [c.code, c.id])
+);
 
 /* ---------- constants ---------- */
 const WIDTH = 960;
@@ -24,16 +58,21 @@ const ARROW_SIZE = 10;
  * If a dept code isn't in this map yet, we'll display just the code.
  */
 const MAJOR_NAME_MAP = {
-  ACC: 'Accounting',
-  ASC: 'Academic Success & Completion',
-  AMS: 'Applied Math & Statistics',
+  AMS: 'Applied Mathematics and Statistics',
   BIO: 'Biology',
+  BME: 'Biomedical Engineering',
+  BUS: 'Business Management',
   CHE: 'Chemistry',
   CSE: 'Computer Science',
-  EST: 'Engineering Science',
+  ECO: 'Economics',
+  ESE: 'Electrical Engineering',
+  EST: 'Technological Systems Management',
   ISE: 'Information Systems',
   MAT: 'Mathematics',
+  MEC: 'Mechanical Engineering',
   PHY: 'Physics',
+  POL: 'Political Science',
+  PSY: 'Psychology',
 };
 
 const majorLabel = (code) => {
@@ -126,8 +165,8 @@ export default function CourseGraph({ onNodeClick }) {
     [courses]
   );
   const data = useMemo(
-    () => (processor ? processor.processGraph() : { nodes: [], links: [] }),
-    [processor]
+    () => (processor ? processor.processGraph(selectedMajor) : { nodes: [], links: [] }),
+    [processor, selectedMajor]
   );
   const courseMap = useMemo(() => buildCourseMap(courses), [courses]);
   const courseCodeMap = useMemo(() => buildCourseCodeMap(courses), [courses]);
@@ -141,10 +180,25 @@ export default function CourseGraph({ onNodeClick }) {
   const [selectedCourse, setSelectedCourse] = useState(null);
   const [mode, setMode] = useState('view');
   const [futureMode, setFutureMode] = useState(false);
+  const [selectedSpecSlugs, setSelectedSpecSlugs] = useState(new Set());
+
+  // Reset spec selection whenever the user switches majors
+  useEffect(() => {
+    setSelectedSpecSlugs(new Set());
+  }, [selectedMajor]);
+
+  const highlightedCodes = useMemo(
+    () => highlightedCoursesFor(selectedMajor, selectedSpecSlugs),
+    [selectedMajor, selectedSpecSlugs]
+  );
 
   useEffect(() => {
     if (progress) {
-      setCompletedCourses(new Set(progress.completed_courses || []));
+      // Translate UUIDs from DB to course codes used in normalized data
+      const translated = (progress.completed_courses || []).map(
+        (id) => uuidToCode[id] || id
+      );
+      setCompletedCourses(new Set(translated));
       setExternalCourses(new Set(progress.external_courses || []));
     }
   }, [progress]);
@@ -162,8 +216,12 @@ export default function CourseGraph({ onNodeClick }) {
 
     if (isAuthenticated) {
       try {
+        // Convert course codes back to UUIDs for DB storage (keeps radial view in sync)
+        const asUuids = Array.from(newCompleted).map(
+          (code) => codeToUuid[code] || code
+        );
         await save({
-          completedCourses: Array.from(newCompleted),
+          completedCourses: asUuids,
           externalCourses: Array.from(externalCourses),
           standing: progress?.standing || 1,
           majorId: progress?.major_id || null,
@@ -442,7 +500,15 @@ export default function CourseGraph({ onNodeClick }) {
     if (!gSel) return;
 
     // Nodes
-    gSel.selectAll('g.node > circle').attr('fill', (d) => colorFn(d.id));
+    gSel
+      .selectAll('g.node > circle')
+      .attr('fill', (d) => colorFn(d.id))
+      .attr('stroke', (d) =>
+        highlightedCodes.has(d.code) ? '#f59e0b' : '#333'
+      )
+      .attr('stroke-width', (d) =>
+        highlightedCodes.has(d.code) ? 4 : 1.5
+      );
 
     gSel.selectAll('g.node').on('click', (_, d) => clickHandler(d.id));
 
@@ -553,7 +619,7 @@ export default function CourseGraph({ onNodeClick }) {
     };
 
     updateGraphVisuals(gRef.current, nodeColor, handleNodeClick);
-  }, [completedCourses, externalCourses, selectedCourse, mode, futureMode, data, onNodeClick, courseMap]);
+  }, [completedCourses, externalCourses, selectedCourse, mode, futureMode, data, onNodeClick, courseMap, highlightedCodes]);
 
   /* ---------- UI ---------- */
   return (
@@ -695,6 +761,12 @@ export default function CourseGraph({ onNodeClick }) {
             </p>
           </div>
         )}
+
+        <SpecializationSelector
+          deptCode={selectedMajor}
+          selectedSlugs={selectedSpecSlugs}
+          onChange={setSelectedSpecSlugs}
+        />
 
         {loading ? (
           <div className="flex items-center justify-center" style={{ height: HEIGHT }}>

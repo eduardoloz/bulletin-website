@@ -1,0 +1,2153 @@
+[
+  {
+    "id": "CSE 101",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "101",
+    "code": "CSE 101",
+    "title": "Computer Science Principles",
+    "description": "Introduces central ideas of computing and computer science, instills practices of algorithmic and computational thinking, and engages students in the creative aspects of the field. Also introduces appropriate computing technology as a means for solving computational problems and exploring creative endeavors. Includes weekly computer programming assignments, but assumes no previous programming experience. Not for credit in addition to CSE 103 . May not be taken by students with credit for CSE 114 or CSE 160 . 4 credits Prerequisite(s): Level 2+ or higher on the mathematics placement examination Anti-requisite: May not be taken by students with credit for CSE 114 or CSE 160 SBC: TECH",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "Level 2+ or higher on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9290",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 102",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "102",
+    "code": "CSE 102",
+    "title": "Introduction to Web Design and Programming",
+    "description": "An introduction to the design of Web pages, specifically the development of browser and device independent HTML, with an emphasis on the XHTML standards. Includes the use of style sheets (CSS) and tools for page layout and verification. HTML is presented as a mark-up language, exploring the rules of HTML elements and attributes. Students learn the separation of page viewing information from the HTML through CSS style sheets as well as the use of block layout without using HTML tables. Addresses HTML display properties including text, color, image, and graphic elements as well as approaches to HTML validation and techniques.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9291",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 103",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "103",
+    "code": "CSE 103",
+    "title": "Data Science Principles",
+    "description": "An introduction to the fundamental principles and practices of computer programming and data science. Students use modern computing technology to explore, analyze, and visualize real-world datasets chosen from a variety of sources. Includes weekly computer programming assignments and labs. Intended for students with no prior programming experience. Not for credit in addition to CSE 101 . May not be taken by students with credit for CSE 114 or CSE 160 . 4 credits Prerequisite(s): Level 3 or higher on the mathematics placement examination Anti-requisite : May not be taken by students with credit for CSE 114 or CSE 160 SBC: TECH",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "Level 3 or higher on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11676",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 110",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "110",
+    "code": "CSE 110",
+    "title": "Introduction to Computer Science",
+    "description": "An introduction to fundamentals of computer science. Topics covered include algorithmic design, problem-solving techniques for computer programming, fundamentals of digital logic and computer organization, the role of the operating system, introductory programming methodology including variables, assignment statements, control statements and subroutines (methods), programming paradigms, the compilation process, theoretical limits of computation, social and ethical issues. Intended for students who have not taken any college-level computer science course containing programming assignments in a high-level programming language.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 3 or higher on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9292",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 113",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "113",
+    "code": "CSE 113",
+    "title": "Foundations of Computer Science I",
+    "description": "Introduction to the mathematical foundations of computer science. Topics include logic (propositional and predicate); proof techniques (induction/recursion, contradiction, and others); and key concepts of mathematical structures (sequences, sets, functions, relations, and graphs). Not for credit in addition to CSE 215 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "AMS 151 or MAT 125 or MAT 131 or level 6 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9293",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 114",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "114",
+    "code": "CSE 114",
+    "title": "Introduction to Object-Oriented Programming",
+    "description": "An introduction to procedural and object-oriented programming methodology. Topics include program structure, conditional and iterative programming, procedures, arrays and records, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, and exceptions. Includes required laboratory. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "Level 5 or higher on the math placement exam",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9294",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 130",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "130",
+    "code": "CSE 130",
+    "title": "Introduction to Programming in C",
+    "description": "Introduces programming concepts using the C language. Variables, data types, and expressions. Conditional and iterative statements, functions, and structures. Pointers, arrays, and strings. Scope of variables and program organization. Includes programming projects of an interdisciplinary nature. Suitable as an introductory programming course for non-CSE majors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 3 or higher on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9295",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 150",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "150",
+    "code": "CSE 150",
+    "title": "Foundations of Computer Science: Honors",
+    "description": "Introduction to the logical and mathematical foundations of computer science for computer science honors students. Topics include functions, relations, and sets; recursion and functional programming; basic logic; and mathematical induction and other proof techniques.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "one MAT course that satisfies D.E.C. C or QPS or score of level 4 on the math placement exam; admission to Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars or Simons STEM Scholars Program.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9296",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 160",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "160",
+    "code": "CSE 160",
+    "title": "Computer Science A: Honors",
+    "description": "First part of a two-semester sequence, CSE 160 and CSE 260 . An introduction to procedural and object-oriented programming methodology and basic data structures. Topics include program structure, conditional and iterative programming, procedures, arrays, object classes, encapsulation, information hiding, inheritance, polymorphism, file I/O, exceptions and simple data structures, such as lists, queues and stacks.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars or the Simons STEM Scholars Program.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9297",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 161",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "161",
+    "code": "CSE 161",
+    "title": "Laboratory for Computer Science A: Honors",
+    "description": "Must be taken concurrently with lecture component, CSE 160 ; a common grade for both courses will be assigned. Laboratory sessions will focus on development of pragmatic programming skills and use of programming environments and tools in a supervised setting.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9298",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 190",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "190",
+    "code": "CSE 190",
+    "title": "Special Topics in Practice and Applications of Computer Science",
+    "description": "A lecture course on a current topic in the practice and application of computer science.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9299",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 191",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "191",
+    "code": "CSE 191",
+    "title": "Special Topics in Practice and Applications for Computer Science",
+    "description": "A lecture course on a current topic in the practice and application of computer science.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9300",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 192",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "192",
+    "code": "CSE 192",
+    "title": "Special Topics in Practice and Applications for Computer Science",
+    "description": "A lecture course on a current topic in the practice and application of computer science.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9301",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 213",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "213",
+    "code": "CSE 213",
+    "title": "Foundations of Computer Science II",
+    "description": "A continuation of CSE 113 covering the mathematical foundations of computer science. Topics include counting techniques, graph theory, and finite automata.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "CSE 113 or CSE 215 or CSE 150 ; CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 113"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 215"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 150"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11722",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 214",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "214",
+    "code": "CSE 214",
+    "title": "Data Structures",
+    "description": "An extension of programming methodology to data storage and manipulation on complex data sets. Topics include: programming and applications of data structures; stacks, queues, lists, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CSE 114",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 114"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9302",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 215",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "215",
+    "code": "CSE 215",
+    "title": "Foundations of Computer Science",
+    "description": "Introduction to the logical and mathematical foundations of computer science. Topics include functions, relations, and sets; recursion; elementary logic; and mathematical induction and other proof techniques. Not for credit in addition to CSE 113 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "AMS 151 or MAT 125 or MAT 131",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9303",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 216",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "216",
+    "code": "CSE 216",
+    "title": "Programming Abstractions",
+    "description": "Intermediate-level programming concepts and paradigms, including functional programming, object-orientation, basics of type systems, memory management, program and data abstractions, parameter passing, modularity, and parallel programming. Includes weekly recitations, which provide students with experience in the practice of programming in a variety of high-level languages.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CSE 214 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 214"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9304",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 220",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "220",
+    "code": "CSE 220",
+    "title": "Systems Fundamentals I",
+    "description": "Introduces systems-level programming concepts using the C language and assembly language, and explores the correspondence of programming constructs in these languages. Topics include internal data representation, basic instructions and control structures, bitwise operations, arithmetic operations, memory management, pointers, function calls and parameter passing, linking and loading. Included is an overview of foundational topics in computer architecture, organization and networks.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in CSE 214 or co-requisite CSE 260 and CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9305",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 230",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "230",
+    "code": "CSE 230",
+    "title": "Intermediate Programming in C and C++",
+    "description": "Intermediate programming concepts using the C language in a UNIX environment. Files, systems calls, stream I/O, the C preprocessor, bitwise operations, the use of makefiles, advanced formatting of input and output, conversions. Introduction to object-oriented programming using C++; classes, objects, inheritance, aggregation, and overloading. Suitable for all majors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 130 or CSE 220 or ESE 124 or ESG 111 or BME 120 or MEC 102",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 130"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 124"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESG 111"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 120"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9306",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 260",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "260",
+    "code": "CSE 260",
+    "title": "Computer Science B: Honors",
+    "description": "Second part of a two-semester sequence, CSE 160 and CSE 260. Applies object-oriented programming methodology to data storage and manipulation on complex data sets, such as, binary trees, heaps, priority queues, balanced trees and graphs. Recursive programming is heavily utilized. Fundamental sorting and searching algorithms are examined along with informal efficiency comparisons. Intermediate-level programming language concepts and paradigms, including functional programming, basics of type systems, program and data abstractions, and modularity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 160",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 160"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9307",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 261",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "261",
+    "code": "CSE 261",
+    "title": "Laboratory for Computer Science B: Honors",
+    "description": "Must be taken concurrently with lecture component, CSE 260 ; a common grade for both courses will be assigned. Weekly laboratories provide students with experience in the practice of programming in a variety of high-level languages such as Java, Scala, Haskell, Python or Javascript.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9308",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 300",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "300",
+    "code": "CSE 300",
+    "title": "Technical Communications",
+    "description": "Principles of professional technical communications for Computer Science and Information Systems majors. Topics include writing business communications, user manuals, press releases, literature reviews, and research abstracts. Persuasive oral communications and effective presentation techniques, to address a range of audiences, will also be covered. This course satisfies the upper-division writing requirement for CSE and ISE majors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; CSE or ISE or DAS major; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9309",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 301",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "301",
+    "code": "CSE 301",
+    "title": "History of Computing",
+    "description": "A study of the history of computational devices from the early ages through the end of the 20th century. Topics include needs for computation in ancient times, development of computational models and devices through the 1800’s and early 1900’s, World War II and the development of the first modern computer, and early uses in business. Creation of programming languages and the microchip. Societal changes in computer usage due to the microcomputer, emergence of the Internet, the World Wide Web, and mobile computing. Legal and social impacts of modern computing. Cannot be used as a technical elective for the CSE major or minor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 standing or higher",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9310",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 303",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "303",
+    "code": "CSE 303",
+    "title": "Introduction to the Theory of Computation",
+    "description": "An introduction to the abstract notions encountered in machine computation. Topics include finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Questions relating to what can and cannot be done by machines are covered by considering various models of computation, including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 350 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 160 or CSE 214 ; CSE 150 or CSE 213 ; CSE major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 160"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 150"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 213"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9311",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 304",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "304",
+    "code": "CSE 304",
+    "title": "Compiler Design",
+    "description": "Topics studied include formal description of programming languages, lexical analysis, syntax analysis, symbol tables and memory allocation, code generation, and interpreters. Students undertake a semester project that includes the design and implementation of a compiler for a language chosen by the instructor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 213 or CSE 350 ; CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 213"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 350"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 220"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9312",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 305",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "305",
+    "code": "CSE 305",
+    "title": "Principles of Database Systems",
+    "description": "The design of database management systems to obtain consistency, integrity, and availability of data. Conceptual models and schemas of data: relational, hierarchical, and network. Students undertake a semester project that includes the design and implementation of a database system.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 214 , CSE 216 or CSE 260 ; CSE or DAS major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 216"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9313",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 306",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "306",
+    "code": "CSE 306",
+    "title": "Operating Systems",
+    "description": "Students are introduced to the structure of modern operating systems. Topics include virtual memory, resource allocation strategies, concurrency, and protection. The design and implementation of a simple operating system are performed. This course focuses on teaching the skills required to design and build modules of an operating system kernel. It covers key algorithms and architectures. A companion course, CSE 320 , teaches complementary skills from the application programmer’s point of view.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 320 or ESE 280 ; CSE Major or ECE major.",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 320"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9314",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 307",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "307",
+    "code": "CSE 307",
+    "title": "Principles of Programming Languages",
+    "description": "An introduction to programming languages paradigms, including functional and logic programming, and the suitability of various languages for particular programming tasks. Students write sample programs in the studied languages. The languages are used to illustrate programming language constructs such as scoping and binding, type systems, storage management and operating environments. This illustration is accompanied by an introduction to the implementation of programming languages, such as parsing, semantic analysis, symbol tables, memory allocation and code generation. Students complete a series of assignments to implement a language chosen by the instructor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 214 , CSE 216 or CSE 260 ; CSE or DAS major.",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 216"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9315",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 310",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "310",
+    "code": "CSE 310",
+    "title": "Computer Networks",
+    "description": "Overview of computer networks and the Internet. Concept of end systems, access networks, clients and servers. Connection-oriented and connectionless services. Circuit switching and packet switching. Description of Internet protocol layers, including application layer, transport layer, network layer and link layer. Architecture of the current Internet and the World-Wide Web. TCP/IP protocol stack. Internet routing and addressing. Local area network protocols, Ethernet hubs and switches. Wireless LANs. Multimedia networking. May not be taken by students with credit for ESE 346 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 214 or CSE 260 ; CSE 220 or ISE 218 ; CSE major or ISE major.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 220"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ISE 218"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9316",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 311",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "311",
+    "code": "CSE 311",
+    "title": "Systems Administration",
+    "description": "This course covers practical techniques to manage information systems, also known as IT Systems Administration. Students will learn how to install computers for assorted hardware and software platforms (Windows, Unix/Linux, OS-X). Install networking equipment and configure it. Install server software on several systems (e.g. web, database, mail) and configure it. Secure the network, hosts, and services, and apply system patches. Set up redundant computing services, virtual machines/services, and hardware so that services can survive some hardware/software failures. Evaluate the performance, reliability, and security of the overall system.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 230 or CSE 260 or ISE 208 ; ISE or CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9317",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 312",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "312",
+    "code": "CSE 312",
+    "title": "Social, Legal, and Ethical Issues in Computing",
+    "description": "This course deals with the impact of computers on us as individuals and on our society. Rapid changes in computing technology and in our use of that technology have changed the ways we work, play, and interact with other people. These changes have created a flood of new social, legal and ethical issues that demand critical examination.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE, ISE or DAS major; U3 or U4 standing; one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9318",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 316",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "316",
+    "code": "CSE 316",
+    "title": "Fundamentals of Software Development",
+    "description": "Introduction to systematic design, development and testing of software systems, including event-driven programming, information management, databases, principles and practices for secure computing, and version control. Students apply these skills in the construction of large, robust programs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in CSE 216 or CSE 260 or CSE 307 ; CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 216"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 307"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9319",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 320",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "320",
+    "code": "CSE 320",
+    "title": "Systems Fundamentals II",
+    "description": "This course introduces essential concepts of operating systems, compilers, concurrency, and performance analysis, focused around several cross-cutting examples, such as memory management, error handling, and threaded programming. In this course, operating systems concepts are considered from the point of view of the application programmer, and the focus is on APIs for interacting with an operating system. A companion course, CSE 306 , considers operating systems from the point of view of the OS kernel implementer.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 220 and CSE major.",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9320",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 323",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "323",
+    "code": "CSE 323",
+    "title": "Human-Computer Interaction",
+    "description": "A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice. Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor’s discretion. Course is cross-listed as CSE 323, EST 323 and ISE 323 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 230 or CSE 260 or ISE 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9321",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 325",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "325",
+    "code": "CSE 325",
+    "title": "Computers and Sculpture",
+    "description": "This multidisciplinary class surveys how computer science and computer technology are used in sculpture. Case studies with slides, videos, and software demonstrations illustrate a range of approaches of sculptors incorporating computers in their creative process. Various state-of-the art fabrication technologies are studied (with site visits if available on campus). Mathematical foundations are emphasized so students can recognize them when analyzing sculpture and choose the right tool when designing. In the weekly laboratory, these ideas are reinforced with projects using a range of available software and inexpensive construction materials, e.g., paper, cardboard, and foamcore.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 110 or CSE 101 or CSE 114",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 110"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 101"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 114"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9322",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 327",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "327",
+    "code": "CSE 327",
+    "title": "Fundamentals of Computer Vision",
+    "description": "Introduces fundamental concepts, algorithms, and techniques in visual information processing. Covers image formation, binary image processing, image features, model fitting, optics, illumination, texture, motion, segmentation, and object recognition.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 230 or CSE 260 ; AMS 210 or MAT 211 ; CSE or ISE or DAS major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 230"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9323",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 328",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "328",
+    "code": "CSE 328",
+    "title": "Fundamentals of Computer Graphics",
+    "description": "An introduction to computer graphics including graphics application programming; data structures for graphics; representing and specifying color; fundamental hardware and software concepts for calligraphic and raster displays; two-dimensional, geometric transformations; introduction to three-dimensional graphics; graphics standards; and input devices, interaction handling, and user-computer interface.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9324",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 331",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "331",
+    "code": "CSE 331",
+    "title": "Computer Security Fundamentals",
+    "description": "Introduces the basic concepts and terminology of computer security. Covers basic security topics such as cryptography, operating systems security, network security, and language-based security.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9325",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 332",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "332",
+    "code": "CSE 332",
+    "title": "Introduction to Visualization",
+    "description": "This course is an introduction to both the foundations and applications of visualization and visual analytics, for the purpose of understanding complex data in science, medicine, business, finance, and many others. It will begin with the basics - visual perception, cognition, human-computer interaction, the sense-making process, data mining, computer graphics, and information visualization. It will then move to discuss how these elementary techniques are coupled into an effective visual analytics pipeline that allows humans to interactively think with data and gain insight. Students will get hands-on experience via several programming projects, using popular public-domain statistics and visualization libraries and APIs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; MAT 211 or AMS 210 ; AMS 110 or AMS 310 ; CSE or ISE or DAS major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 110"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9326",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 333",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "333",
+    "code": "CSE 333",
+    "title": "User Interface Development",
+    "description": "Survey of user interface systems, with emphasis on responsive and adaptive strategies to accommodate cross-platform deployment across multiple devices such as desktops and mobile devices. Demonstration of the use of tool kits for designing user interfaces. Additional topics include human factors, design standards, and visual languages. Students participate in a project involving the design and implementation of user interface systems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; CSE or ISE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9327",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 334",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "334",
+    "code": "CSE 334",
+    "title": "Introduction to Multimedia Systems",
+    "description": "Survey of technologies available for user interfaces. Discussion of hypertext; voice, music, and video together with tools and models for capturing, editing, presenting, and combining them. Capabilities and characteristics of a range of peripheral devices including devices based on posture, gesture, head movement, and touch. Case studies of academic and commercial multimedia systems including virtual reality systems. Students participate in laboratory exercises and build a multimedia project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2, U3 or U4 standing; CSE or ISE major",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9328",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 336",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "336",
+    "code": "CSE 336",
+    "title": "Internet Programming",
+    "description": "Introduces the design and development of software for Internet commerce. Topics include extended markup language, servlets, cookies, sessions, Internet media types, Web protocols, digital signatures, certificates, encryption, and the wireless Internet.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in CSE 214 or CSE 260 ; CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9329",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 337",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "337",
+    "code": "CSE 337",
+    "title": "Scripting Languages",
+    "description": "Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; CSE or ISE or DAS major; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9330",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 350",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "350",
+    "code": "CSE 350",
+    "title": "Theory of Computation: Honors",
+    "description": "Introduces the abstract notions of machine computation for honors students. Includes finite automata, regular expressions, and formal languages, with emphasis on regular and context-free grammars. Explores what can and cannot be computed by considering various models of computation including Turing machines, recursive functions, and universal machines. Not for credit in addition to CSE 303 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "CSE 113 or CSE 150 or CSE 215 ; AMS 210 or MAT 211 ; Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars or the Simons STEM Scholars Program.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 113"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 150"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 215"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9331",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 351",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "351",
+    "code": "CSE 351",
+    "title": "Introduction to Data Science",
+    "description": "This multidisciplinary course introduces both theoretical concepts and practical approaches to extract knowledge from data. Topics include linear algebra, probability, statistics, machine learning, and programming. Using large data sets collected from real-world problems in areas of science, technology, and medicine, we introduce how to preprocess data, identify the best model that describes the data, make predictions, evaluate the results, and finally report the results using proper visualization methods. This course also teaches state-of-the art tools for data analysis, such as Python and its scientific libraries.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; AMS 310 ; CSE or DAS major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 310"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9332",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 352",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "352",
+    "code": "CSE 352",
+    "title": "Artificial Intelligence",
+    "description": "Topics covered include critique of artificial intelligence research; state-space problem representations and search algorithms; game-playing programs; theorem-proving programs; programs for the study and simulation of cognitive processes and pattern recognition. Further topics in current research as time permits.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 316 or CSE 351 ; CSE or DAS major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 316"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 351"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9333",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 353",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "353",
+    "code": "CSE 353",
+    "title": "Machine Learning",
+    "description": "Covers fundamental concepts for intelligent systems that autonomously learn to perform a task and improve with experience, including problem formulations (e.g., selecting input features and outputs) and learning frameworks (e.g., supervised vs. unsupervised), standard models, methods, computational tools, algorithms and modern techniques, as well as methodologies to evaluate learning ability and to automatically select optimal models. Applications to areas such as computer vision (e.g., character and digit recognition), natural-language processing (e.g., spam filtering) and robotics (e.g., navigating complex environments) will motivate the coursework and material.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 316 or CSE 351 ; CSE or DAS major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 316"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 351"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9334",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 354",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "354",
+    "code": "CSE 354",
+    "title": "Natural Language Processing",
+    "description": "Natural language processing techniques power many intelligent language based applications. This course will introduce basic language analysis tasks such as language modeling and syntactic analysis, as well as core applications such as text classification, information extraction, question answering, and machine translation. The course will cover relevant algorithms, machine learning solutions, and evaluation methodologies.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 316 or CSE 351 ; CSE or DAS major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 316"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 351"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9335",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 355",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "355",
+    "code": "CSE 355",
+    "title": "Computational Geometry",
+    "description": "The design and analysis of efficient algorithms to solve geometric problems that arise in computer graphics, robotics, geographical information systems, manufacturing, and optimization. Topics include convex hulls, triangulation, Voronoi diagrams, visibility, intersection, robot motion planning, and arrangements.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 301 ; programming knowledge of C or C++ or Java",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 301"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9336",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 356",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "356",
+    "code": "CSE 356",
+    "title": "Cloud Computing",
+    "description": "Creating online services capable of handling millions of users requires a different mindset compared to traditional software development and deployment. Rather than building monolithic software packages from the ground up, bringing up modern online services calls for architecting systems by gluing together mature existing technologies deployed across many unreliable servers, working in concert to provide high-availability robust services. In this course, students will be exposed to the concepts and technologies behind deploying and scaling online services on the computing resources available in modern datacenters.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 316 ; CSE 320 ; CSE major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 316"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 320"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9337",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 357",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "357",
+    "code": "CSE 357",
+    "title": "Statistical Methods for Data Science",
+    "description": "This interdisciplinary course introduces the mathematical concepts required to interpret results and subsequently draw conclusions from data in an applied manner. The course presents different techniques for applied statistical inference and data analysis, including their implementation in Python, such as parameter and distribution estimators, hypothesis testing, Bayesian inference, and likelihood.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in CSE 214 or CSE 260 ; AMS 310 ; CSE or DAS major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 310"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9338",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 360",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "360",
+    "code": "CSE 360",
+    "title": "Software Security",
+    "description": "This course will describe the principles and practice of securing software systems. Topics will include: software vulnerabilities; static and dynamic analysis techniques for vulnerability detection; exploit detection and prevention; secure software development techniques and defensive programming; malware detection and analysis; security policies and sandboxing; information flow.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9339",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 361",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "361",
+    "code": "CSE 361",
+    "title": "Web Security",
+    "description": "This course will cover all aspects of web security, including browser security, web server security, and web application security. Topics include: SOP and JavaScript; application and protocol vulnerabilities; probing, surveillance, and tracking; penetration testing; modern social engineering techniques; monetary incentives and monetization.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9340",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 362",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "362",
+    "code": "CSE 362",
+    "title": "Mobile Security",
+    "description": "The course covers the latest security technologies for mobile platforms (e.g., Android and iOS). It first introduces the security issues plaguing mobile apps and discusses defensive mechanisms, such as code signing, app permissions, and sandbox. It then peeks into mobile OS, explaining how jailbreaking/rooting works and the internals of iOS/Android security designs. Finally, it surveys modern hardware-level security features, such as secure booting, TrustZone, and biometrics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9341",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 363",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "363",
+    "code": "CSE 363",
+    "title": "Offensive Security",
+    "description": "Hands-on course with the goal of understanding various security problems in depth, through a more adversarial way of thinking. By focusing on finding and exploiting vulnerabilities, the course will cover a broad range of topics, including the ethics of offensive security, reverse engineering, software vulnerability discovery and exploitation, malicious code analysis, network traffic interception and manipulation, reconnaissance and information gathering, physical security, and social engineering. All topics will be covered from a highly practical perspective, following a hands-on approach and tutorial-like sessions, along with programming assignments.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9342",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 364",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "364",
+    "code": "CSE 364",
+    "title": "Advanced Multimedia Techniques",
+    "description": "Digital media production techniques for high-bandwidth applications such as electronic magazine illustration, broadcast television, and motion picture special effects. Students explore techniques such as 3D modeling and character animation, video compositing, and high-resolution image processing in a state-of-the art multimedia computing laboratory. High-capacity mutlimedia storage, high-speed networks, and new technologies such as DVD, HDTV, and broadband will be reviewed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 334 / ISE 334",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 334"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 334"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9343",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 366",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "366",
+    "code": "CSE 366",
+    "title": "Introduction to Virtual Reality",
+    "description": "An introduction to the practical issues in the design and implementation of virtual environments. Topics covered include the fundamentals of systems requirements, transformations, user-interaction models, human vision models, tracking systems, input/output devices and techniques, and augmented reality. The topics covered are explained through the use of real-life applications of virtual-reality systems in engineering, science, and medicine.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; MAT 211 or AMS 210 ; CSE or ISE major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9344",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 370",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "370",
+    "code": "CSE 370",
+    "title": "Wireless and Mobile Networking",
+    "description": "The fundamentals of wireless communication. Link, network and transcript layer protocols for wireless and mobile networking. Cellular networks. Wireless LANs. Wireless multihop networks. Mobile applications.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 310 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 310"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9345",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 371",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "371",
+    "code": "CSE 371",
+    "title": "Logic",
+    "description": "A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel’s incompleteness theorem.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 113 or CSE 150 or CSE 215 or MAT 200 or MAT 250",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 113"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 150"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 215"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 200"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 250"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9346",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 373",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "373",
+    "code": "CSE 373",
+    "title": "Analysis of Algorithms",
+    "description": "Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in: CSE 113 or CSE 150 or CSE 215 or MAT 200 or MAT 250 ; MAT 211 or AMS 210 ; CSE 214 or CSE 260 ; CSE or MAT or DAS major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 113"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 150"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 215"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9347",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 376",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "376",
+    "code": "CSE 376",
+    "title": "Advanced Systems Programming in UNIX/C",
+    "description": "Focuses on several aspects of producing commercial-grade system software: reliability, portability, security, and survivability. Uses Unix and C, heavily used in industry when developing systems and embedded systems code. Emphasizes techniques and tools to produce reliable, secure, and highly portable code. Requires substantial programming as well as a course project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: CSE 320 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 320"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9348",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 377",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "377",
+    "code": "CSE 377",
+    "title": "Introduction to Medical Imaging",
+    "description": "An introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. Covers fundamentals of X-ray computer tomography, ultrasonic imaging, nuclear imaging, and magnetic resonance imaging (MRI), as well as more general concepts required for these, such as linear systems theory and the Fourier transform. Popular techniques for the visualization, segmentation, and analysis of medical image data are discussed, as well as applications of medical imaging, such as image-guided intervention. The course is appropriate for computer science, biomedical engineering, and electrical engineering majors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 127 or MAT 132 ; AMS 210 or MAT 211 or MAT 307",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9349",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 378",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "378",
+    "code": "CSE 378",
+    "title": "Introduction to Robotics",
+    "description": "Introduces basic concepts in robotics including coordinate transformation, kinematics, dynamics, Laplace transforms, equations of motion, feedback and feedforward control, and trajectory planning. Covers simple and complex sensors (such as cameras), hybrid and behavior based control and path planning. Concepts are illustrated through laboratories using the LEGO Robot Kit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 127 or MAT 132 ; AMS 210 or MAT 211 or MEC 262",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 262"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9350",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 380",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "380",
+    "code": "CSE 380",
+    "title": "2D Game Programming",
+    "description": "An introduction to the fundamental concepts of computer game programming. Students design and develop original games for PCs applying proven game design and software engineering principles.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9351",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 381",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "381",
+    "code": "CSE 381",
+    "title": "3D Game Programming",
+    "description": "This course explores the concepts and technologies behind making 3D, networked games. This will include the examination of game engine creation as well as the use of middleware to build graphically sophisticated game systems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 220 ; CSE major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 220"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9352",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 385",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "385",
+    "code": "CSE 385",
+    "title": "Analysis of Algorithms: Honors",
+    "description": "Algorithmic design and analysis for Computer Science Honors students. Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower-bound, and average-case analysis. Randomization. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms. Not for credit in addition to CSE 373 / MAT 373 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "CSE 113 or CSE 150 or CSE 215 or MAT 200 or MAT 250 ; AMS 210 or MAT 211 ; CSE 214 or CSE 260 ; Honors in Computer Science or the Honors College or the WISE Honors Program or University Scholars or Simons STEM Scholars.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 113"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 150"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 215"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9353",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 390",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "390",
+    "code": "CSE 390",
+    "title": "Special Topics in Computer Science",
+    "description": "A lecture or seminar course on a current topic in computer science.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; CSE or ISE Major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9354",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 416",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "416",
+    "code": "CSE 416",
+    "title": "Software Engineering",
+    "description": "Introduces the basic concepts and modern tools and techniques of software engineering. Emphasizes the development of reliable and maintainable software via system requirements and specifications, software design methodologies including object-oriented design, implementation, integration, and testing; software project management; life-cycle documentation; software maintenance; and consideration of human factor issues.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in CSE 316 ; U4 standing; CSE major.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 316"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9359",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 475",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "475",
+    "code": "CSE 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist faculty in teaching by conducting a recitation or laboratory section that supplements a lecture course. The student receives regularly scheduled supervision from the faculty instructor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing as an undergraduate CEAS major; a minimum g.p.a. of 3.00 in all Stony Brook courses; grade of B or better in the course in which the student is to assist and permission of department.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9360",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 487",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "487",
+    "code": "CSE 487",
+    "title": "Research in Computer Science",
+    "description": "A research project carried out under the supervision of a computer science faculty member. Only three credits of research electives ( AMS 487 , CSE 487, BME 499 , ESE 499 , ESM 499 , ISE 487 , and MEC 499 ) may be counted toward technical elective requirements. May not be taken for more than six credits.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor and department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9361",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 488",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "488",
+    "code": "CSE 488",
+    "title": "Internship in Computer Science",
+    "description": "Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the courses, students are required to submit proof that the work is related to their studies and the work will include a minimum of 180 hours during the semester. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE major, U3 or U4 standing; permission of department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9362",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 495",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "495",
+    "code": "CSE 495",
+    "title": "Senior Honors Research Project I",
+    "description": "A two-semester research project carried out under the supervision of a computer science faculty member. Students who enroll in CSE 495 must complete CSE 496 in the subsequent semester and receive only one grade upon completion of the sequence.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Admission to Honors in Computer Science; permission of instructor and department.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9363",
+    "rawCorequisites": null
+  },
+  {
+    "id": "CSE 496",
+    "deptCode": "CSE",
+    "deptName": null,
+    "number": "496",
+    "code": "CSE 496",
+    "title": "Senior Honors Research Project II",
+    "description": "A two-semester research project carried out under the supervision of a computer science faculty member. Students must submit a written project report and make a presentation to the department at the year-end Honors Project Colloquium.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 495 ; permission of instructor and department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 495"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9364",
+    "rawCorequisites": null
+  }
+]

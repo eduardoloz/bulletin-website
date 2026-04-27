@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "MEC 100",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "100",
+    "code": "MEC 100",
+    "title": "Introduction to Mechanical Engineering",
+    "description": "Introduction to the engineering experience in general and mechanical engineering in particular through lectures by faculty and invited speakers from industry, field trips, films and laboratory demonstrations. Lectures cover creative thinking and problem-solving, design team work, computer utilization, engineering ethics and legal issues, use of libraries and other sources of information, career opportunities in mechanical engineering and related fields, emerging technologies and the cross-disciplinary nature of engineering.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10784",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 101",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "101",
+    "code": "MEC 101",
+    "title": "Freshman Design Innovation",
+    "description": "This course presents an overview of the mechanical engineering profession, engineering ethics, basics of computation via correct usage of dimensions, units, and significant digits, and engineering documentation. Furthermore, this course introduces the students to the process of engineering design and provides a project-based design experience wherein the students design, build, and program a microcontroller driven autonomous mechatronic device. In doing so, they are provided an early exposure to the systematic approach to engineering problem solving that brings together fundamental concepts of forces, motions, energy, materials, manufacturing processes, and machines and mechanisms from mechanical engineering and basic electronics, sensing, actuation, and computer programming.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10785",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 102",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "102",
+    "code": "MEC 102",
+    "title": "Engineering Computing and Problem Solving",
+    "description": "Introduction to programming with MATLAB. Control structures, arrays and matrix operations, functions, object-oriented programming, interfacing MATLAB with other languages. Projects include applications in solid mechanics, fluid mechanics, thermodynamics and heat transfer, control theory, and basic design concepts. Emphasizes the interpretation of previous analysis in terms of generating results, making quantitative comparisons, and assessing changes that optimize or otherwise maximize the usefulness of the result.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "Level 3 or higher on the mathematics placement examination; MEC, GME, CIV or GCV major or permission of the department.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10786",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 104",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "104",
+    "code": "MEC 104",
+    "title": "Practical Science of Things",
+    "description": "A practical introduction to the science and engineering of objects and phenomena in everyday life. The basic principles that underlie the operation common to modern devices such as rollercoasters, balloons, vacuum cleaners, airplanes, bicycles, thermostats, air conditioners and automobiles are developed by investigating how they work. The scientific method, engineering design methodology, safety, and environmental impacts are discussed in the context of these practical applications.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10787",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 105",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "105",
+    "code": "MEC 105",
+    "title": "Everyday Science and Engineering",
+    "description": "A practical introduction to the science and engineering of objects and phenomena in everyday life. The basic principles that underlie the operation common to modern devices such as xerographic copiers, tape recorders, computers, microwaves, lasers, CDs, plastics, nuclear weapons, and magnetic resonance imaging (MRI) are developed by investigating how they work. The scientific method, engineering design methodology, safety, and environmental impacts are discussed in the context of these practical applications.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10788",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 203",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "203",
+    "code": "MEC 203",
+    "title": "Engineering Graphics and CAD",
+    "description": "Introduces engineering graphics and its role in design process. Includes the principles of engineering drawing and sketching for mechanical design, the use of computer graphics and solid modeling in design representation of 3D objects, assembly and simulation as well as ASME standards on geometric dimensioning and tolerances. Includes hands-on experience in the use of CAD software packages for engineering design. Engineering ethics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10789",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 220",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "220",
+    "code": "MEC 220",
+    "title": "Practical Electronics for Mechanical Engineers",
+    "description": "An overview of basic electronics at the practical level. The course provides mechanical engineering students with the fundamentals to perform basic electronics work needed in laboratories, subsequent courses and their professional careers. Topics include both passive and active components, AC and DC circuits, and a focus on operational amplifier and transistor driven circuits needed for instrumentation and control. Hands-on work in each area complements theoretical analysis, and ensures that students can implement these circuits and devices practically; students will analyze and build circuits both from circuit diagrams, as well as from product datasheets.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 127 , PHY 132 , or PHY 142",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 132"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 142"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10790",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 225",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "225",
+    "code": "MEC 225",
+    "title": "Fundamentals of Machining Practices",
+    "description": "Hands-on experience in the fundamentals of machining including metrology tools and devices, saw, sheet metal working, drilling, reaming, taping, turning, boring, milling, and welding. Not for credit in addition to MEC 226 .",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "MEC major or permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10791",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 226",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "226",
+    "code": "MEC 226",
+    "title": "Modern Machining Practices",
+    "description": "Hands-on experience in automated machining including additive and subtractive processes, such as fused deposition modeling (FDM) rapid prototyping, and computer numerical control (CNC) multi-axis machining. Not for credit in addition to MEC 225 .",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "MEC major or permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10792",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 260",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "260",
+    "code": "MEC 260",
+    "title": "Engineering Statics",
+    "description": "A review of vector algebra. Concept of force. Equilibrium of particles. Moments about points and lines, couples and equivalent force systems. Equilibrium of rigid bodies. Analysis of simple structures such as trusses, frames, and beams. Centroids, centers of gravity, and moments of inertia. Dry friction with applications to wedges, screws, and belts. Method of virtual work, potential energy, and stability.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 131 or PHY 141 or PHY 125",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 141"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 125"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10793",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 262",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "262",
+    "code": "MEC 262",
+    "title": "Engineering Dynamics",
+    "description": "Vectorial kinematics of particles in space, orthogonal coordinate systems. Relative and constrained motions of particles. Dynamics of particles and the systems of particles, equations of motion, energy and momentum methods. Collisions. Two- and three-dimensional kinematics and dynamics of rigid bodies. Moving frames and relative motion. Free, forced, and damped vibrations of particles and rigid bodies.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "A grade of “C” or better in MEC 260",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 260"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10794",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 280",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "280",
+    "code": "MEC 280",
+    "title": "Pollution and Human Health",
+    "description": "An examination of major environmental pollution problems such electromagnetic radiation, ozone layer depletion, and global warming, with a specific focus on the resulting effects on human health. Assessment of health risks in relation to the formulation of environmental and workplace regulations is also considered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10795",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 300",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "300",
+    "code": "MEC 300",
+    "title": "Professional Conduct for Engineers",
+    "description": "This course delves into the ethical principles, professional responsibilities, and standards that shape engineering practice, with a strong emphasis on effective technical communication and workplace professionalism. Through the analysis of case studies, students will explore ethical dilemmas and assess the broader impact of engineering decisions on society, the environment, and public safety. Additionally, the course will cover essential interpersonal and soft skills needed in the workplace. Students will also gain an understanding of Intellectual Property, including topics related to patents and patent infringement.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; MEC Major; U3 or U4",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10796",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 301",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "301",
+    "code": "MEC 301",
+    "title": "Thermodynamics",
+    "description": "Variables that describe the thermodynamic state of a system or control volume, including absolute temperature, internal energy, enthalpy, and entropy are introduced, and basic principles governing the transformations of energy, especially heat and work, are developed. Underlying principles are used to analyze and solve problems related to thermodynamic systems and to determine the changes in properties of the systems and surroundings implied by changes in inputs, configuration, or constraints.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 261 or MAT 203 ; PHY 125 or PHY 131 or PHY 141 ; CHE 131 ; MEC Major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 125"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 131"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 141"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10797",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 305",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "305",
+    "code": "MEC 305",
+    "title": "Heat and Mass Transfer",
+    "description": "The fundamental laws of momentum, heat and mass transfer, and the corresponding transport coefficients. Principles of steady-state and transient heat conduction in solids are investigated. Laminar and turbulent boundary layer flows are treated, as well as thermal radiation, and radiation heat transfer between surfaces. Applications to heat transfer equipment are covered throughout the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 301 and MEC 364 ; MEC 102 , or ESG 111, or ESE 124 , or CSE 114 or CSE 130 or BME 120",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 301"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 364"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 102"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESG 111"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 124"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 114"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 130"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BME 120"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10798",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 310",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "310",
+    "code": "MEC 310",
+    "title": "Introduction to Machine Design",
+    "description": "Application of graphical and analytical methods to the analysis and synthesis of mechanism. Covers concepts of degrees of freedom, graphical and analytical linkage synthesis, position, velocity, acceleration, and force analysis of linkage mechanisms. Introduces principles behind the operation of various machine elements such as gears and gear trains, cams, flywheels and their design, and analysis techniques.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 102 or CSE 114 or CSE 130 or ESG 111 or BME 120 or ESE 124 ; C or better in MEC 262 (or BME 260 for BME majors)",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 102"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 114"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 130"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESG 111"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BME 120"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 124"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 262"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BME 260"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10799",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 316",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "316",
+    "code": "MEC 316",
+    "title": "Instrumentation and Solid Mechanics Laboratory",
+    "description": "Hands-on experience in solid mechanics and instrumentation with focus on the concept of static and dynamic response. Students learn to operate instruments for measuring displacement, angle, acceleration, and strain. Student groups perform a series of experiments to probe the spatial and temporal resolution of modern instrumentation and sensors in relation with fundamental material properties. Lectures at the beginning of the course provide background information and theories of experimentation. Not to be taken in the same semester as MEC 317 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "MEC major; C or better in MEC 363 ; PHY 134",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 363"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 134"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10800",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 317",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "317",
+    "code": "MEC 317",
+    "title": "Thermal Sciences and Fluid Mechanics Laboratory",
+    "description": "Hands-on experience in fluid mechanics, heat transfer, and thermodynamics. Introduction to a variety of sensors and instruments commonly used in mechanical engineering with focus on temperature, pressure, and flow velocity measurements. Student groups perform a series of experiments with emphasis on the understanding of fundamental principles as well as familiarity with modern experimentation. Lectures at the beginning of the course provide background information and theories of experimentation. Not to be taken in the same semester as MEC 316 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "MEC major; PHY 134 ; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 134"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10801",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 320",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "320",
+    "code": "MEC 320",
+    "title": "Numerical Methods in Engineering Design and Analysis",
+    "description": "This course emphasizes the implementation of numerical methods for computer-aided solutions to the problems that arise in engineering design and analysis. Methods include interpolation, extrapolation, curve fitting, and integration and techniques solving non-linear equations, systems of linear equations, and differential equations. Optimization in engineering design is covered from the formulation of design specifications and criteria, to analyzable models, through to numerical implementation. May not be taken for credit in addition to AMS 326 or CIV 350 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 102 or CSE 114 or CSE 130 or ESG 111 or ESE 124 or BME 120 ; AMS 261 or MAT 203 ; AMS 361 or MAT 303",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 102"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 114"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 130"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESG 111"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 124"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BME 120"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10802",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 325",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "325",
+    "code": "MEC 325",
+    "title": "Manufacturing Processes",
+    "description": "Introduces traditional and modern manufacturing processes, their capabilities, and limitations. The properties of engineering materials are discussed in the context of manufacturing applications. Examples of topics to be discussed include additive processes (casting, 3D printing, etc.), subtractive processes (milling, turning, etc.), forming processes (forging, bending, extrusion, etc.), and joining processes (welding, mechanical fastening , etc.). Hands-on experience with manufacturing machines and processes is included.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 363 ; MEC major or permission of the department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 363"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10803",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 363",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "363",
+    "code": "MEC 363",
+    "title": "Mechanics of Solids",
+    "description": "Stress and deformation of engineering structures and the influence of the mechanical behavior of materials. Concepts of stress and strain, constitutive relations, analysis of statically indeterminate systems, study of simple bars and beams, and stability conditions. Emphasis on force equilibrium, elastic response of materials, geometric compatibility, Mohr’s circle, stresses and deflections in beams, and torsion and buckling of rods. Design for bending, shear, and combined states of stress.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "A grade of “C” or better in MEC 260 or BME 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10804",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 364",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "364",
+    "code": "MEC 364",
+    "title": "Introduction to Fluid Mechanics",
+    "description": "Fundamental properties of fluids and their conservation laws with applications to the design and evaluation of flows of engineering interest. Topics include hydrostatics, surface tension, dimensional analysis and dynamic similitude, Euler’s equation, rotating coordinate systems, boundary layers, lubrication, drag on immersed bodies, open channel and pipe flows, and turbomachinery.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 126 or PHY 131 ; MEC 262 ; MEC Major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 126"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 131"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 262"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10805",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 393",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "393",
+    "code": "MEC 393",
+    "title": "Engineering Fluid Mechanics",
+    "description": "The application of the principles of fluid mechanics to important areas of engineering practice such as turbomachinery, hydraulics, and wave propagation. Prepares students for advanced coursework in fluid dynamics. Extends the study of viscous effects, compressibility, and inertia begun in MEC 364 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 364",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 364"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10806",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 398",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "398",
+    "code": "MEC 398",
+    "title": "Thermodynamics II",
+    "description": "Psychrometrics and psychrometric charts. Thermodynamic considerations for the design and performance of cooling towers, humidifiers, and dehumidifiers. Reacting mixtures, combustion, and chemical equilibrium. Thermodynamics of fluid flow, simple compression, and expansion processes. Analysis and design of gas and vapor power cycles. Cycles with reheat, intercooling, and cogeneration plants. Refrigeration cycles.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 301 and MEC 364",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 301"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 364"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10807",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 402",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "402",
+    "code": "MEC 402",
+    "title": "Mechanical Vibrations",
+    "description": "Modeling, analysis and design for mechanical vibrations. Fundamentals of free vibration, harmonically excited vibration and vibration under general forcing conditions are considered for one degree, two degree and multidegree of freedom systems; continuous systems; vibration design strategies including isolation and absorbers.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 262 and MEC 363",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 262"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 363"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10808",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 410",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "410",
+    "code": "MEC 410",
+    "title": "Design of Machine Elements",
+    "description": "Application of analytical methods, material science, and mechanics to problems in design and analysis of machine components. Includes the design of mechanical components such as bearings, gears, shafting, springs, fasteners, belts, clutches, and brakes, and takes into consideration factors such as manufacturability and reliability. Design projects with open-ended and interactive problems are assigned to integrate several machine elements in a system.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 310 and MEC 363",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 310"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 363"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10809",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 411",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "411",
+    "code": "MEC 411",
+    "title": "Control System Analysis and Design",
+    "description": "Analysis and design of feedback control systems. Topics include system modeling; transfer function; block diagram and signal-flow graph; sensors, actuators, and control circuit design; control system characteristics and performance; stability analysis; root locus method; Bode diagram; PID and lead-lag compensator design.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "MEC 220 ; MEC 262 ; AMS 361 or MAT 303",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 262"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10810",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 422",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "422",
+    "code": "MEC 422",
+    "title": "Thermal System Design",
+    "description": "Device design and system design. Quantitative data for system design including operating characteristics of compressors, turbines, heat exchangers, piping systems, internal combustion engines, and other component equipment. Component matching and system simulation. Optimization including thermoeconomic evaluation and energy analysis. Case studies: refrigeration and air conditioning systems, combined cycles, steam-injected gas turbines.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10811",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 423",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "423",
+    "code": "MEC 423",
+    "title": "Internal Combustion Engines",
+    "description": "Introduction to internal combustion engines and their operation. Analytical approach to the engineering problem and performance analysis of internal combustion engines. Topics include thermodynamics fundamentals; fuel-air cycle analysis; engine combustion; emission formation and control strategies. Includes both the relevant fundamental concepts and the extensive practical knowledge base on which engine research, development, and design depend. Not for credit in addition to MEC 523.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10812",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 440",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "440",
+    "code": "MEC 440",
+    "title": "Mechanical Engineering Design I",
+    "description": "Part I of the two-semester capstone design project sequence. Senior students select a project with multiple realistic constraints, develop the necessary technical background, and write a proposal, progress reports, and a preliminary design report. Includes an oral presentation on the development and progress of the project. Not counted as a technical elective. The final grade will be assigned at the end of the two course sequence MEC 440- MEC 441 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 225 or MEC 226 ; MEC 320 and MEC 325 ; MEC 410 ; MEC major; U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 225"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 226"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 320"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 325"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 410"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10813",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 441",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "441",
+    "code": "MEC 441",
+    "title": "Mechanical Engineering Design II",
+    "description": "Part II of the two-semester capstone design project sequence. Students complete the project design, incorporating engineering standards, build and test a prototype, write a mid-term report and a final design report, and give an oral presentation. Not counted as a technical elective.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 440",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 440"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10814",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 442",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "442",
+    "code": "MEC 442",
+    "title": "Introduction to Experimental Stress Analysis",
+    "description": "The concepts of three-dimensional stress and strain, their transformation laws, and their mutual relationships are discussed in detail. Results from theory of elasticity as pertinent to experimental stress analysis are also presented. Experimental techniques studied include two-dimensional photoelasticity, resistance strain gauge, moire method, brittle coating, and analog methods. The application of different techniques to the measurement of stress and strain in models as well as actual structures is demonstrated. Students form small groups and each group is assigned different laboratory projects to gain experience in various experimental stress analysis methods.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 363",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 363"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10815",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 450",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "450",
+    "code": "MEC 450",
+    "title": "Mechatronics",
+    "description": "An introduction to the design, modeling, analysis, and control of mechatronic systems (smart systems comprising mechanical, electrical, and software components). Fundamentals of the basic components needed for the design and control of mechatronic systems, including sensors, actuators, data acquisition systems, microprocessors, programmable logic controllers, and I/O systems, are covered. Hands-on experience in designing and building practical mechatronic systems is provided through integrated lab activities.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 310 ; MEC 316",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 310"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 316"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10816",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 455",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "455",
+    "code": "MEC 455",
+    "title": "Applied Stress Analysis",
+    "description": "A study of linear elastic solids with emphasis on internal stress analysis. Simple boundary value problems at plane structures are analyzed with various solution techniques. Major topics are stress and strain tensors, linear elasticity, principle of virtual work, torsion, stress functions, stress concentration, elementary fracture, and plasticity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 363",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 363"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10817",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 456",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "456",
+    "code": "MEC 456",
+    "title": "Introduction to Engineering Mechanics of Composites",
+    "description": "Introduction to the engineering mechanics of fiber reinforced composites. Brief history of the development of fiber composites, their properties, advantages, limitations and applications. Overview of the different types of composites but with focus on long fiber reinforced composites; particularly, lamina and laminate concepts characteristics and configurations. Topics covered include: elastic properties of unidirectional lamina, strength of unidirectional lamina, elastic behavior of multidirectional laminates and stress and failure of multidirectional laminates. Design methodologies and considerations for structural composite materials.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 363",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 363"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10818",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 457",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "457",
+    "code": "MEC 457",
+    "title": "Engineering Composites Fabrication and Characterization",
+    "description": "Overview of fiber reinforced composites, applications and mechanical properties. Introduction to fiber composites fabrication methods as well as experimental characterization methods used in acquiring their relevant mechanical properties. Fabrication topics include: impregnation of fibers; prepregs; stacking; curing; vacuum bagging; autoclave technology; out-of-autoclave manufacturing processes; molding; processing; cutting and joining. Topics in mechanical characterization include: experimental methods; characterization of the elastic properties and failure strengths of unidirectional lamina; characterization of the elastic properties and failure strengths of multidirectional laminates. Course is divided into in-class lectures and laboratory sessions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 363",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MEC 363"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10819",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 464",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "464",
+    "code": "MEC 464",
+    "title": "Fundamentals of Aerodynamics",
+    "description": "Kinematics and dynamics of incompressible irrotational flow; stream function and the potential function; Euler and Bernoulli equations. Thin-foil theory; lift and moment for symmetric and cambered airfoils. Finite-wing theory; induced drag. Compressible flow, small-disturbance theory; thin wings at subsonic and supersonic speeds.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 305 ; MEC 310 ; MEC 364",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 305"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 310"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 364"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10820",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 465",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "465",
+    "code": "MEC 465",
+    "title": "Aerospace Propulsion",
+    "description": "Fundamentals of propulsion; performance parameters, thermodynamic cycles. Introduction to combustion and combustors. Performance and cycle analysis of various flight propulsion systems: turbojets, turbofans, turboprops, ramjets, scramjets, rockets and propellors. Design of supersonic inlet nozzles, component matching and map.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 305 ; MEC 310 ; MEC 364",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 305"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 310"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 364"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10821",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 470",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "470",
+    "code": "MEC 470",
+    "title": "Introduction to Tribology",
+    "description": "Focus is on the fundamentals of tribology, the science of surfaces in relative motion, with an introduction to friction, lubrication, and wear. The basics of tribology science: engineering surfaces, contact mechanics, lubrication theory, wear processes and modeling, wear properties of materials, and tribology test methods will be covered. Analysis of tribological aspects of machine components and bearings. Industrial case studies will be presented to place the topics in context to industry and society.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MEC 363 and MEC 364",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 363"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 364"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10822",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 475",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "475",
+    "code": "MEC 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing; a minimum g.p.a. of 3.00 in all Stony Brook courses and the grade of B or better in the course in which the student is to assist; permission of department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10823",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 488",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "488",
+    "code": "MEC 488",
+    "title": "Mechanical Engineering Internship",
+    "description": "Participation in off-campus engineering practice. Students are required to submit a proposal to the department at the time of registration and two term reports before the end of the semester.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of undergraduate program director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10824",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 491",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "491",
+    "code": "MEC 491",
+    "title": "Topics in Mechanical Engineering",
+    "description": "Treatment of an area of mechanical engineering that expands upon the undergraduate curriculum. Topics may include advanced material in a specialty, development of a specialized experimental technique, or a specific area of design. Topics may vary from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing in a B.E. degree major; permission of department (course prerequisites vary with topic)",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10825",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 492",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "492",
+    "code": "MEC 492",
+    "title": "Topics in Mechanical Engineering",
+    "description": "Treatment of an area of mechanical engineering that expands upon the undergraduate curriculum. Topics may include advanced material in a specialty, development of a specialized experimental technique, or a specific area of design. Topics may vary from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing in a B.E. degree major; permission of department (course prerequisites vary with topic)",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10826",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 495",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "495",
+    "code": "MEC 495",
+    "title": "Professional Engineering Seminar",
+    "description": "Prepares the student to enter the workplace as a practicing engineer. Topics include professional ethics, professional activities, professional engineering licensing, patents, seeking entry-level employment, and exposure to the engineering work environment. Aids in preparation for the EIT/FE exam. Includes speakers from a variety of disciplines, within the College and from industry.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "CEAS major; U4 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10827",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MEC 499",
+    "deptCode": "MEC",
+    "deptName": null,
+    "number": "499",
+    "code": "MEC 499",
+    "title": "Research in Mechanical Engineering",
+    "description": "An independent research project under the supervision of a mechanical engineering faculty member. Permission to register requires the agreement of the faculty member to supervise the research and submission of a one-page research proposal.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; permission of department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10828",
+    "rawCorequisites": null
+  }
+]

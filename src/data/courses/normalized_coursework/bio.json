@@ -1,0 +1,2056 @@
+[
+  {
+    "id": "BIO 103",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "103",
+    "code": "BIO 103",
+    "title": "Introduction to Biotechnology",
+    "description": "Gene therapy, genetic modification, cloning, stem cells, and vaccines are covered in this course. Lectures and four supplemental laboratory activities use modern equipment and techniques to illustrate core concepts which class discussions relate to health, society, and public policy. Not for Biology major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8865",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 113",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "113",
+    "code": "BIO 113",
+    "title": "General Ecology",
+    "description": "A survey of the principles of ecology in the context of finding solutions to local, national, and global environmental problems. Not for Biology major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8866",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 114",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "114",
+    "code": "BIO 114",
+    "title": "Dinosaur Paleontology",
+    "description": "A study of paleontology that includes the evolution of dinosaurs, their classification system, a study of the important dinosaur families, dinosaur behavior, ecology, current controversies, hot topics and the KT extinction. Dinosaur paleontology will also cover the excavation of dinosaurs and the colorful history of the ‘dinosaur hunters.’ This course will emphasize the science and research involved in studying dinosaurs. Using dinosaurs as a vehicle, students will be exposed to the scientific method of inquiry and will leave this course with a better understanding on how to evaluate science in the real world. Not for Biology major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8867",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 115",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "115",
+    "code": "BIO 115",
+    "title": "Evolution and Society",
+    "description": "An introduction to the historical and theoretical aspects of evolutionary biology, and also considers the implications of evolution for current social and public issues. The course examines both the original Darwinian and Modern Synthetic arguments for evolution by natural selection, how to differentiate scientific and non-scientific theories, and how historical sciences are practiced by scientists. Evolution is the key to understanding much of biology and influences a number of issues that we as citizens will have to consider in coming years. In particular, the evolutionary perspective and its implications for the development of humans and other social systems, the advent of agriculture, and its integral role in human health are considered. Not for Biology major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8868",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 201",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "201",
+    "code": "BIO 201",
+    "title": "Fundamentals of Biology: Organisms to Ecosystems",
+    "description": "An introduction to the major concepts in evolution, ecology, and biodiversity at the genetic, organismal, community, and ecosystem levels. Topics are presented in relation to five overall themes: Nature and Process of Science, Evolution, Information Flow, Systems, and Structure-Function. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 4 or higher on the mathematics placement examination or",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8869",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 202",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "202",
+    "code": "BIO 202",
+    "title": "Fundamentals of Biology: Molecular and Cellular Biology",
+    "description": "The fundamentals of cell biology, biochemistry, and genetics. The biochemical and molecular bases of cell structure, energy metabolism, gene regulation, heredity, and development in living organisms from bacteria to man are discussed. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 129 or CHE 131 or",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 129"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8870",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 203",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "203",
+    "code": "BIO 203",
+    "title": "Fundamentals of Biology: Cellular and Organ Physiology",
+    "description": "The fundamentals of cell and organ physiology in mammalian and non-mammalian organisms. The structure and function of cell membranes and the physiology of cell to cell signaling, cellular respiration, and homeostasis of organs and organisms are examined with an emphasis on the comparative physiology of vertebrates and invertebrates. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 129 or CHE 131 or",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 129"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8871",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 204",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "204",
+    "code": "BIO 204",
+    "title": "Fundamentals of Scientific Inquiry in the Biological Sciences I",
+    "description": "First course in the foundational laboratory sequence for all biology students and students in related fields. Students will experience the laboratory process, research process, a wide range of laboratory tools, methods, skills, learn to read and write scientific presentations, and collaborate in formal inquiry. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "C or higher in CHE 129 , CHE 131 , or",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 129"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8872",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 205",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "205",
+    "code": "BIO 205",
+    "title": "Fundamentals of Scientific Inquiry in the Biological Sciences IIA",
+    "description": "Second course in the foundational laboratory sequence for all biology students, and students in related fields. Students will experience the laboratory process, research process, a wide range of laboratory tools, methods, skills, learn to read and write scientific presentations, and collaborate in formal inquiry. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. Not for credit in addition to BIO 207 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 204",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 204"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8873",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 207",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "207",
+    "code": "BIO 207",
+    "title": "Fundamentals of Scientific Inquiry in the Biological Sciences IIB",
+    "description": "An alternative to BIO 205 , this course focuses on a relatively narrow range of current research topics but in greater depth. BIO 207 is the second course in the foundational laboratory sequence for all biology majors and students in related fields. Students will experience the laboratory process, research process, a wide range of laboratory tools, methods, and skills, learn to read and write scientific works, and collaborate in formal inquiry. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. Not for credit in addition to BIO 205 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 204",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 204"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8874",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 208",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "208",
+    "code": "BIO 208",
+    "title": "Cells, Brains, Minds",
+    "description": "An interdisciplinary exploration and critique of neuroscience. The course will present biological, anthropological and philosophical perspectives on how nervous systems work and how brains evolve, develop and give rise to human and other minds. Not for Biology major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8875",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 209",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "209",
+    "code": "BIO 209",
+    "title": "Fundamentals of Scientific Inquiry in the Biological Sciences IIC",
+    "description": "An alternative to BIO 205 , this course focuses on disciplinary core ideas and science practices foundational to empirical and theoretical inquiry in the fields of ecology, evolutionary biology, and cognate biological disciplines. BIO 209 is the second course in the foundational laboratory sequence for all biology majors and students in related fields. Students will experience the laboratory process, research process, a wide range of laboratory tools, methods, and skills, learn to read and write scientific works, and collaborate in formal inquiry. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. Not for credit in addition to BIO 205 or BIO 207 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "BIO 201",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11731",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 211",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "211",
+    "code": "BIO 211",
+    "title": "Statistics and Data Analysis: A Conceptual Approach",
+    "description": "A conceptually-focused introduction to probability and data analysis emphasizing statistical literacy and critical thinking. Topics will include probability, t-tests, chi-squared tests, correlation, regression, and Analysis of Variance, as well as special topics of interest to undergraduate Biology majors such as case-control studies and meta-analysis. This course includes a one-hour recitation in which students will do hands-on activities, discuss papers from the primary literature, and gain experience with data analysis. May not be taken by students with credit for AMS 110 , AMS 310 , AMS 311 , AMS 412 , EBH 230 , or ECO 320 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8876",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 231",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "231",
+    "code": "BIO 231",
+    "title": "Cannabis: History, Culture, Science & Medicinal Uses",
+    "description": "Provides a sound background in all aspects of cannabis, including the history of use worldwide, cannabis plant biology, the chemistry of cannabinoids and endocannabinoids, and the relationship to political, legal, and racism issues throughout history to the present. The purpose of this broad familiarization is to prepare students to contribute knowledgeably to the discussion and debate regarding the present and future uses of cannabis.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8877",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 299",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "299",
+    "code": "BIO 299",
+    "title": "Advanced Microbiology for Nursing and Allied Health",
+    "description": "This hybrid course will include synchronous online lectures and in-person laboratory sessions focused on fundamental clinical microbiology techniques. The lectures will cover Bacteria, Helminths, and medically important Protozoans. In the laboratory, students will learn basic and applied clinical microbiology methods, including microscopy; staining and quantitative analysis of bacteria; analysis of throat and urine cultures; and determination of bacterial sensitivity to various antimicrobial agents. This course will be limited to allied health, pre-nursing, and pre-veterinary students. This course cannot be used by biology majors for credit towards their biology major requirements. This course has an associated fee. Please see www.stonybrook.edu/coursefees for more information. Formerly offered as BIO 266; not for credit in addition to BIO 266.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202 and C or higher in BIO 204",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 204"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8878",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 310",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "310",
+    "code": "BIO 310",
+    "title": "Cell Biology",
+    "description": "The cell is studied as the unit of structure, biochemical activity, genetic control, and differentiation. The principles of biochemistry and genetics are applied to an understanding of nutrition, growth, and development.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202 ; and C or higher in BIO 203 ; and CHE 321 or CHE 331 or CHE 341",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 321"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 331"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 341"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8879",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 312",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "312",
+    "code": "BIO 312",
+    "title": "Bioinformatics and Computational Biology",
+    "description": "This course uses computational methods to analyze current problems and solutions in molecular biology research. Students are exposed to algorithms and tools available for both single gene and larger scale genome research. Emphasis is on practical application. Laboratories allow students to apply their knowledge to real-life molecular biology problems. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 312.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202 ; and C or higher in BIO 204 ; and MAT 125 or higher or AMS 151 or higher",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 204"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 125"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 151"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8880",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 314",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "314",
+    "code": "BIO 314",
+    "title": "Cancer Biology",
+    "description": "An examination of the biology of cancer. Emphasis is on molecular and cellular events, such as regulation of gene expression, genome maintenance, cell growth and death, differentiation, cell-cell recognition, signaling and homeostasis that are frequently disrupted in cancer. Recent advances in diagnosis and therapy will also be discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 202"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8881",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 315",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "315",
+    "code": "BIO 315",
+    "title": "Microbiology",
+    "description": "The organization, structure, energetics, and reproduction of microorganisms. Interactions of bacteria and viruses are discussed. This course does not include a laboratory component. Not for credit in addition to HBM 320 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 202"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8882",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 316",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "316",
+    "code": "BIO 316",
+    "title": "Molecular Immunology",
+    "description": "Structure, function, and organization of the immune response at the molecular and cellular levels. Molecular mechanisms of immunological responses to microorganisms and various disease states are explored.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202 and C or higher in BIO 203",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8883",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 317",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "317",
+    "code": "BIO 317",
+    "title": "Principles of Cellular Signaling",
+    "description": "Basic principles of cellular signaling and maintenance of cellular and organismic homeostasis through intra- and intercellular signaling mechanisms. The roles of membrane and nuclear receptors, second-messenger pathways and gene regulation in controlling diverse mammalian systems such as sensory physiology, organic metabolism, growth control, and neuronal development are discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 202"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8884",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 319",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "319",
+    "code": "BIO 319",
+    "title": "Landscape Ecology Laboratory",
+    "description": "A computer lab course focusing on spatial concepts, methods, and tools for addressing ecological and environmental problems. The course will be based on fundamental concepts in ecology and environmental science and extend that knowledge, as well as teaching technical skills, including the use of geographic information systems (GIS) software, image processing, spatially explicit modeling, and spatial statistics. The lab exercises will introduce a variety of spatial approaches addressing problems in environmental protection, ecotoxicology, natural resource management, conservation biology, and wildlife management.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8885",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 320",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "320",
+    "code": "BIO 320",
+    "title": "General Genetics",
+    "description": "Integrates classical and molecular approaches to the transmission and expression of biological information. Topics include: Mendelian and non-Mendelian inheritance; linkage analysis; population genetics; DNA replication, mutation and recombination; gene expression and its regulation; current genetic technology; developmental and cancer genetics, quantitative and complex traits, and relevant ethical issues. Cannot be taken for major credit with BIO 321 (applies to Biology majors Only). This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 320.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202 ; and C or higher in MAT 125 or AMS 151 , or completion of MAT 126 or higher, or MPE score of 6+",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 125"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 151"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 126"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8886",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 321",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "321",
+    "code": "BIO 321",
+    "title": "Ecological Genetics",
+    "description": "An introduction to the concepts, research questions, and methods involved in modern ecological genetics. The goal of the course is to provide a broad conceptual framework and an introduction to basic quantitative methods for students planning to engage in empirical work in conservation, management, ecology, and evolutionary biology. The course will cover basic Mendelian genetics, meiosis, and mating systems, standard population genetics methods for describing variation within and between populations, basic quantitative genetics, methods for molecular marker genotyping, informatic and genomic concepts, and organism-specific methods and case studies. Cannot be taken for major credit with BIO 320 (applies to Biology majors only). This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 321.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 and C or higher in BIO 202",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8887",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 325",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "325",
+    "code": "BIO 325",
+    "title": "Animal Development",
+    "description": "An overview of animal embryonic development, emphasizing molecular mechanisms regulating embryonic growth and differentiation. General areas to be discussed include the molecular basis of human birth defects, stem cells, identification of developmental genes, establishing polarity in Drosophila and vertebrates, regulation of cell differentiation, morphogenesis and organ development, and the development of cancer.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 202"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8888",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 327",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "327",
+    "code": "BIO 327",
+    "title": "Developmental Genetics Laboratory",
+    "description": "Exploration of the fundamental concepts in developmental biology and genetics through a combination of classical and modern molecular genetic approaches. Experiments are conducted using Drosophila and Nematostella, two important animal models for research in developmental biology and genetics. Students gain hands-on experience with the approaches used to investigate processes that control embryonic development on these two model systems, including the use of modern molecular methods for examining the regulation of gene expression during development. Exposure to the genetic approaches that are available in the Drosophila system will include participation in a genetic screen. This course includes assignments that can be used to satisfy the SBC: objective SPK if co-registered for BIO 458 . This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 327.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 325 ; and C or higher in BIO 205 or BIO 207",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 325"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 205"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 207"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8889",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 328",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "328",
+    "code": "BIO 328",
+    "title": "Mammalian Physiology",
+    "description": "A continuation of the fundamental principles of cellular and organ physiology introduced in BIO 203 . The subject matter includes advanced topics covering the origins of membrane potentials, describing properties of synaptic transmission, identifying the genetics and consequences of channelopathies in cellular and organ cardiac physiology, and advanced treatment of selected topics in endocrine, cardiac, respiratory, renal and nervous system physiology. The focus is on mammals in general and humans more particularly. May not be taken for credit in addition to HBY 350 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 203 and C or higher in CHE 132 or CHE 152 or CHE 331",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 152"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 331"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8890",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 332",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "332",
+    "code": "BIO 332",
+    "title": "Computational Modeling of Physiological Systems",
+    "description": "Introduces students to the fundamental principles underlying computational modeling of complex physiological systems. A major focus of the course will be on the process by which a model of a biological system is developed. Students will be introduced to the mathematical methods required for the modeling of complex systems (including stochastic processes and both temporal and spatial dynamics) as well as to tools for computational simulation. Roughly one half of the class will focus on models for general cellular physiology, while the remaining half will focus on the development of higher-level models of a particular physiological system (for example, the neurobiological systems underlying learning).",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 127 or MAT 132 or AMS 161 or MPE level 9 and any one of the following: BIO 202 or BIO 203 or CHE 132 or CHE 331 or PHY 127 or PHY 132",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 331"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 132"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8891",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 333",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "333",
+    "code": "BIO 333",
+    "title": "Neurotechnology",
+    "description": "This course offers a comprehensive exploration of diverse research techniques employed in contemporary neurobiology. Through interactive lectures, and discussions, students will gain a critical understanding of the theoretical foundations, practical applications, and limitations of various methodologies used to study the nervous system at all levels.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or better in BIO 203",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 203"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11687",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 334",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "334",
+    "code": "BIO 334",
+    "title": "Principles of Neurobiology",
+    "description": "The ionic basis of nerve potentials, the physiology of synapses, sense organs and effectors, and the integrative action of the nervous system are discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 203",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 203"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8892",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 335",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "335",
+    "code": "BIO 335",
+    "title": "Neurobiology Laboratory",
+    "description": "A laboratory course in physiology with a focus on neuromuscular function. Topics include acquisition and analysis of electrophysiological data; ion channels, electrical excitability and action potentials; synaptic transmission and muscular contraction; development of physiological functions; central control of movement; sensory function and behavior; cardiac function and regulation; and ethical and political issues of physiological relevance. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 335.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 203 ; and C or higher in BIO 205 or BIO 207 ; and C or higher in PHY 122 or PHY 127 or PHY 132",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 205"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 207"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 122"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 132"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8893",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 336",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "336",
+    "code": "BIO 336",
+    "title": "Conservation Biology",
+    "description": "Society and individual lives are increasingly affected by environmental degradation at different scales. From the decline of local fisheries to global climate change, multiple crises threaten the biodiversity and ecosystems that sustain us humans. This course introduces the scientific foundations of conservation biology, along with examples from real-world conservation. The course reviews the biological concepts that underlie conservation including habitat requirements, population dynamics, biogeography, and population genetics. Analysis of case studies on the effects of human activities on biological diversity and ecosystem services will be used to explore the interdisciplinary nature of the practice of conservation. This course will prepare students for careers in environmental sciences and ecology. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 336.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8894",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 337",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "337",
+    "code": "BIO 337",
+    "title": "Neurotransmission and Neuromodulation: Implications for Brain Function",
+    "description": "Exploration of fundamental concepts of neurotransmission and neuromodulation of synaptic transmission. The subject matter includes an overview of the basic principles of neurotransmission and of the neuromodulatory systems in the brain. The involvement of these systems in behavior and neurological disorders is emphasized. We will discuss how specific neurological disorders can be investigated experimentally and how experimental results can contribute to understanding and treating these disorders.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 203",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 203"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8895",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 338",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "338",
+    "code": "BIO 338",
+    "title": "From Synapse to Circuit: Self-organization of the Brain",
+    "description": "Exploration of basic neural and synaptic mechanisms and the operation of representative brain circuits, using both theoretical approaches and experimental evidence. Particular attention is given to Hebb’s Rule, its cellular basis, its consequences for circuit self-organization, and its limits. A solid background in a mathematical, physical, or biological science is desirable, but most relevant background material is covered in the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Instructor permission and BIO 203 or CHE 132 or CHE 331 or PHY 122",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 331"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 122"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8896",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 339",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "339",
+    "code": "BIO 339",
+    "title": "Neurobiology of Disease",
+    "description": "An introduction to the molecular events that underlie the normal function of the nervous system, with a focus on the origins of neuronal diseases including neurodevelopmental disorders (e.g. autism, intellectual disability), neurodegenerative diseases (e.g. Parkinson’s, Alzheimer’s) and neuro-immune disorders (e.g. Multiple sclerosis). Molecular and genetic approaches for the study of these disorders as well as therapeutic approaches and ethical aspects are discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202 or C or higher in BIO 203",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8897",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 341",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "341",
+    "code": "BIO 341",
+    "title": "Plant Diversity",
+    "description": "An introduction to the study of plants, especially green plants, including the origin and evolution of land plants. Topics include cellular structure and function, photosynthesis and respiration, gross anatomy, taxonomy and the diversity of organisms, plant ecology and agriculture. Three hours of lecture and one three-hour laboratory per week.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in the following: BIO 201 ; and BIO 202 ; and BIO 204",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 204"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8898",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 342",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "342",
+    "code": "BIO 342",
+    "title": "Invertebrate Zoology",
+    "description": "Aspects of the diversity, comparative and functional morphology, natural history, evolution, and water-land transitions of invertebrate animals. Three hours of lecture per week. Must be taken concurrently with the Invertebrate Zoology Laboratory, BIO 343 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 or MAR 104",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAR 104"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8899",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 343",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "343",
+    "code": "BIO 343",
+    "title": "Invertebrate Zoology Laboratory",
+    "description": "Aspects of the diversity, comparative and functional morphology, natural history, evolution, and water-land transitions of invertebrate animals. One three-and-one-half hour laboratory per week plus a recitation. Must be taken concurrently with the Invertebrate Zoology lecture, BIO 342 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 or MAR 104",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAR 104"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8900",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 344",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "344",
+    "code": "BIO 344",
+    "title": "Chordate Zoology",
+    "description": "Introduction to the diversity, natural history, and evolution of chordates, emphasizing the living vertebrates. Three hours of lecture or discussion and one three-hour laboratory per week. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 344.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8901",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 347",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "347",
+    "code": "BIO 347",
+    "title": "Introduction to Neural Computation",
+    "description": "A broad introduction to neural computation. This course will discuss what counts as ‘computation’ and in what sense the brain computes, how it computes, and whether those computations look anything like those performed by digital computers. These ideas and concepts will be introduced through examples of computation in the brain, including the neural bases of sensory perception, decision making, learning and memory, and motor control. Students will learn through in-class demonstrations and activities, as well as homework assignments that give students the opportunity to analyze real neural recordings relevant to each of the topic modules.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 126 , MAT 132 , AMS 161 , or higher; and BIO 211 , or AMS 110 , or AMS 310 ; and any one of BIO 202 , BIO 203 , CHE 132 , CHE 331 , PHY 127 or PHY 132 . It is recommended that students take MAT 127 .",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 126"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 110"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 202"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 203"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "CHE 132"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "CHE 331"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 127"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 132"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8902",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 348",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "348",
+    "code": "BIO 348",
+    "title": "Herpetology",
+    "description": "This course provides a biodiversity survey that integrates lecture and lab to provide a comprehensive overview of herpetology, the study of amphibians and reptiles. Students will explore the evolutionary biology, taxonomy, physiology, ecology, and conservation of this fascinating group of organisms. The course will be global in scope, but with additional focus on local species. Lectures will cover both a current and deep time view of global herpetofauna, encompassing their evolutionary history, ecology and biogeography. Lab sessions will combine physical and digital media with computational data analysis in R, allowing students to gain practical understanding of key distinguishing characteristics of major groups and engage in hands-on research applications.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8903",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 351",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "351",
+    "code": "BIO 351",
+    "title": "Ecology",
+    "description": "An examination of the interactions of living organisms with their physical and biological environments. Attention is given to population dynamics, the interactions among organisms, the structure and function of biological communities, the evolution of organisms and their interactions, spatial relationships and scale, and patterns and explanations for biodiversity and its loss.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8904",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 352",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "352",
+    "code": "BIO 352",
+    "title": "Ecology Laboratory",
+    "description": "Stresses the collection, analysis, and interpretation of ecological data, mostly in terrestrial settings. Laboratory and field exercises demonstrate the operation of general ecological principles in specific populations and communities. One lecture, one three-hour field trip or laboratory, and one hour of recitation per week. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology major. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 352.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 205 or BIO 207",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 205"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 207"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8905",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 353",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "353",
+    "code": "BIO 353",
+    "title": "Marine Ecology",
+    "description": "A survey of biotic responses to ecological challenges in different marine realms. Controls of diversity and trophic structure in the marine ecosystem, historical aspects of marine realms, productivity in the oceans, plankton, soft-bottom communities, intertidal habitats, coral reefs, deep-sea environments, and effects of pollution in the ocean are discussed. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 353.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 or MAR 104",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAR 104"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8906",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 354",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "354",
+    "code": "BIO 354",
+    "title": "Evolution",
+    "description": "A detailed discussion of the mechanisms of evolution, focusing on the ways in which genetic changes in populations lead to adaptation, speciation, and historical patterns of evolutionary change. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 354.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 and C or higher in BIO 202",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8907",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 356",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "356",
+    "code": "BIO 356",
+    "title": "Population and Community Ecology Computer Laboratory",
+    "description": "A computer laboratory course where population and community ecology concepts are applied to real-world datasets and simulated data. Laboratories are based on free interactive software. Techniques for data wrangling and computer simulation of ecological models are emphasized.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 , or C or higher in BIO 202 , or C or higher in BIO 203 ; and C or higher in BIO 204 ; and MAT 126 or higher",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 201"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 202"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 203"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 204"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 126"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8908",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 358",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "358",
+    "code": "BIO 358",
+    "title": "Biology and Human Social and Sexual Behavior",
+    "description": "Major features of human social and sexual behavior are examined from a biological perspective. Insights from ethology, evolutionary biology, and neurobiology are synthesized into a picture of human nature and behavior. Implications of this picture for human sexual and social behavior are considered. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; and one of the following: ANT 101 , BIO 115 , BIO 201 , BIO 202 , or BIO 203",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "ANT 101"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 115"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 201"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 202"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 203"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8909",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 361",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "361",
+    "code": "BIO 361",
+    "title": "Biochemistry I",
+    "description": "First course of an advanced two-semester study of the major chemical constituents of the cell, including carbohydrates, lipids, and proteins. Emphasis is on enzyme structure, enzyme kinetics, reaction mechanisms, and metabolic pathways.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 202 and C or higher in CHE 322 or CHE 332 or 326",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 322"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 332"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8910",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 362",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "362",
+    "code": "BIO 362",
+    "title": "Biochemistry II",
+    "description": "Second course of an advanced two-semester study of biochemistry. BIO 362 is the Molecular Biochemistry section that treats nucleic acid structure, replication, and transcription, both in vivo and in vitro. The machinery and regulation of prokaryotic and eukaryotic protein synthesis is also covered, including amino acid activation; transfer RNA; ribosomes; the genetic code; and peptide chain initiation, elongation, and termination.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 361 or CHE 346",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 361"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 346"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8911",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 364",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "364",
+    "code": "BIO 364",
+    "title": "Laboratory Techniques in Cancer Biology",
+    "description": "This course will introduce contemporary concepts of cancer initiation, progression, metastasis and therapy. The lectures and recitations will include discussions of appropriate review articles, textbook readings and research articles. In the laboratory, students will be introduced to and recapitulate key techniques used in the selected research articles. This course will require significant work on computers outside of class time (more than 3 hours per week). This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 364.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 205 or BIO 207",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 205"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 207"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8912",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 365",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "365",
+    "code": "BIO 365",
+    "title": "Biochemistry Laboratory",
+    "description": "This course consists of lecture and laboratory components. In the lecture portion of the course, students are introduced to modern technologies used to study proteins, nucleic acids, and other macromolecules as well as the application of these methods in contemporary research. Scientists at Stony Brook University will be invited to present and discuss with students the application of these methods in their current research and in assigned primary publications. The laboratory component is divided into four modules designed to teach basic biochemistry techniques as well as develop the skills of problem solving and analytical thinking. The laboratory modules include: (1) classical biochemistry techniques to extract and quantify cellular constituents such as chlorophyll, DNA, RNA and proteins from Euglena gracilis, (2) characterize bovine catalase enzyme kinetics and design experiments to measure student’s blood catalase levels, (3) purification of a His-tagged protein and the evaluation of its purity using SDS gel electrophoresis and western blot analysis, and (4) students will amplify and sequence their mitochondrial control region DNA and compare their sequence to known sequences dating back to the earliest hominids. For each set of experiments the students will need to write a lab report describing their own work and discuss their results in the light of previously published research. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 365.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 205 or BIO 207",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 205"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 207"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8913",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 366",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "366",
+    "code": "BIO 366",
+    "title": "Molecular Microbiology Laboratory",
+    "description": "This course will include both lectures as well laboratory sessions focused on conventional and contemporary Molecular Microbiological techniques. The lectures will cover a variety of microorganisms; Bacteria, Fungi, Viruses, and Protozoans based on textbook readings and current research articles. In the laboratory, students will learn fundamental and applied microbiological methods, biochemical and DNA profiling of microorganisms, and the molecular basis of physiological processes used for the identification of unknown bacteria. This course will serve as an upper-division elective for BIO majors. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 366. The course has an associated fee. Please see www.stonybrook.edu/coursefees for more information.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "BIO major; and C or higher in BIO 205 or BIO 207 ; and C or higher in BIO 315",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 205"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 207"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 315"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8914",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 367",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "367",
+    "code": "BIO 367",
+    "title": "Molecular Diversity Laboratory",
+    "description": "Hands-on experience with methods to detect and analyze molecular (DNA, RNA, protein) variation to study ecology, adaptation, and evolutionary history using natural populations of Drosophila, plankton, and other locally available species. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 367.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 ; and C or higher in BIO 202 ; and C or higher in BIO 205 or BIO 207",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 205"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 207"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8915",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 368",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "368",
+    "code": "BIO 368",
+    "title": "Food Microbiology",
+    "description": "This course is designed to give students an understanding of the subtle relationship between food borne microorganisms and human health. The course will cover various topics focused on microorganisms involved in food processing, preservation, spoilage, and methods to control their growth in food items. The lectures will be presented based on textbook readings and current research articles and cover in depth the role of foodborne microorganisms in illness as well health promotion. This course will serve as an upper-division elective for BIO majors.",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 315",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 315"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8916",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 369",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "369",
+    "code": "BIO 369",
+    "title": "Animal Nutrition",
+    "description": "Nutrient classes, requirements, use, and sources will be explored. Gastrointestinal anatomy and feeding standards for small, large, and exotic animal species during reproduction, growth, maintenance, and in disease are evaluated in the context of mechanisms underlying differences in nutritional requirements. Finally, laws, labeling, and marketing of animal feed will be examined. This course satisfies the prerequisite of an upper division animal nutrition course for AVMA-accredited veterinary schools.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or better in BIO 201 and BIO 202",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8917",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 371",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "371",
+    "code": "BIO 371",
+    "title": "Restoration of Aquatic Ecosystems",
+    "description": "A field and laboratory course designed to introduce students to field methods in assessing the long-term effects of pollution and restoration of aquatic and marsh systems. Students will work in teams to collaborate on measuring exchange of pollutants between a restored Superfund site and adjacent areas, the long-term effects of ecological restoration, habitat assessment, aquatic community structure in restored and adjacent systems, and long-term evolutionary effects on aquatic pollutants. Other restoration systems will be compared.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 ; and C or higher in BIO 202 ; and C or higher in BIO 204",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 204"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8918",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 383",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "383",
+    "code": "BIO 383",
+    "title": "Paleobiology",
+    "description": "Fossils are a fundamental component of the rock record and provide the only direct evidence of past life on Earth. They provide basic information for both geologists and biologists on topics like climate change, tectonic plate motion, the evolution of biological novelty, the nature of mass extinction, and the history of biodiversity. They are also increasingly used to establish natural baselines to inform modern conservation efforts. This course represents a process and systems-based study of the marine and terrestrial fossil record. The course will focus on preservation and taphonomy, macroevolution, biomechanics, paleoecology, ecomorphology, biogeography, and the extinction of biotas in the context of the environmental history of Earth. The course format consists of a mix of lecture, discussion, and lab activities. This course will additionally take advantage of connections with the Turkana Basin Institute here at Stony Brook University, where researchers play an important role in understanding the evolution and paleoecology of East African ecosystems, including that of our own ancestors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8919",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 384",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "384",
+    "code": "BIO 384",
+    "title": "Intermediate Statistics",
+    "description": "This is an intermediate-level course in biostatistics, emphasizing the use of statistics as a tool to answer scientific questions in ecology and other biological disciplines. Topics from introductory statistics courses will be explored in greater depth using the R software package. Additional advanced topics will include experimental design, meta-analysis, general linear models, complex regression, multifactor analysis of variance, and multivariate analyses. Within each topic, the assumptions of statistical tests will be examined, as well as methods to cope with violations of those assumptions. Students will develop skills in graphical display of quantitative data, exploratory data analysis, and critical evaluation of published statistical analyses. Students will use R software throughout the course to develop their coding skills.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BIO 211 , AMS 110 , or EBH 230 ; and BIO 201 , BIO 202 , or BIO 203",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 211"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "AMS 110"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "EBH 230"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 201"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "BIO 202"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 203"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8920",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 385",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "385",
+    "code": "BIO 385",
+    "title": "Plant Ecology",
+    "description": "Basic ecological principles as applied to the biology of individual plants, plant populations, communities, and ecosystems in relation to their environments. Examples from Long Island pine barrens, tropical rain forests, beaches, deserts, and other plant communities are studied. Examination of the connections between human societies and plant communities, which are rapidly being altered or destroyed worldwide. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 385.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8921",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 386",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "386",
+    "code": "BIO 386",
+    "title": "Ecosystem Ecology and the Global Environment",
+    "description": "Ecosystem ecology with an emphasis on biogeochemical cycling in oceans and on land, as well as on biosphere-atmosphere interactions. Topics include earth system processes such as climate and atmospheric composition, the hydrological cycle, cycling of chemicals such as nutrients and metals in the oceans, the soil cycle, and the fate and transport of materials in the atmosphere. Natural and perturbed systems are discussed. This course routinely offers an opportunity to satisfy the Stony Brook Curriculum WRTD and Upper Division Writing Requirements for the Biology and Biochemistry majors. Students who intend to use the writing assignment in this course to satisfy these requirements must register for BIO 459 when they register for BIO 386.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in BIO 201 ; and CHE 129 or CHE 131 or CHE 141 or CHE 152",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 201"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 129"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 131"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 141"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CHE 152"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8922",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 444",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "444",
+    "code": "BIO 444",
+    "title": "Experiential Learning",
+    "description": "This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent; Permission of Instructor; Approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8923",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 446",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "446",
+    "code": "BIO 446",
+    "title": "Readings in Neurobiology and Physiology",
+    "description": "Tutorial readings in the biological sciences.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Undergraduate Biology program approval and permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8924",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 447",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "447",
+    "code": "BIO 447",
+    "title": "Readings in Molecular, Cellular, and Developmental Biology",
+    "description": "Tutorial readings in the biological sciences.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Undergraduate Biology program approval and permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8925",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 449",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "449",
+    "code": "BIO 449",
+    "title": "Readings in Ecology and Evolution",
+    "description": "Tutorial readings in the biological sciences.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Undergraduate Biology program approval and permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8926",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 458",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "458",
+    "code": "BIO 458",
+    "title": "Speak Effectively Before an Audience",
+    "description": "A zero-credit course that may be taken in conjunction with any BIO course that provides an opportunity to achieve the learning outcomes of the Stony Brook Curriculum’s SPK learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8927",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 459",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "459",
+    "code": "BIO 459",
+    "title": "Write Effectively in Biology",
+    "description": "A zero-credit course that is taken in the same semester as a 300- or 400-level BIO course that provides an opportunity to achieve the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective. For information on approved co-requisite courses and the registration form for Biology and Biochemistry majors see: https://www.stonybrook.edu/commcms/biology/advising/BIO-459.php",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8928",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 475",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "475",
+    "code": "BIO 475",
+    "title": "Undergraduate Teaching Practicum in College Biology I",
+    "description": "Study of the literature, resources, and teaching strategies in a field of biology, coordinated with a supervised clinical experience in instruction. Not for major credit. Students may not serve as teaching assistants in the same course twice.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor; and Undergraduate Biology Program approval",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8929",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 476",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "476",
+    "code": "BIO 476",
+    "title": "Undergraduate Teaching Practicum in College Biology II",
+    "description": "Study of the literature, resources, and teaching strategies in a field of biology, coordinated with a supervised clinical experience in instruction. The student should have different and/or greater responsibilities as a Teaching Assistant if the course is not different from a prior teaching practicum experience. Not for BIO major or minor credit.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "BIO 475 ; and permission of instructor; and Undergraduate Biology Program Approval",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BIO 475"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8930",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 477",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "477",
+    "code": "BIO 477",
+    "title": "Undergraduate Teaching Practicum in College Biology III",
+    "description": "Study of the literature, resources, and teaching strategies in a field of biology, coordinated with a supervised practical experience in instruction. In the practical instructional experience, the Undergraduate Teaching Assistant works with guidance from a faculty sponsor to provide support to students in labs, recitations, conferences, tutorials, or demonstrations associated with a course being taught by the sponsor. The student should have different and/or greater responsibilities as a Teaching Assistant if the course is not different from a prior teaching practicum experience. Not for BIO major or minor credit.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8931",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 484",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "484",
+    "code": "BIO 484",
+    "title": "Research in Biology and Society",
+    "description": "Students work under the supervision of a faculty member in developing an individual project that makes use of the knowledge and techniques acquired in previous courses. The student reports on the project in a format agreed upon with their faculty sponsor that allows reflection on learning outcomes. This course may be repeated, but no more than four credits of research may be used for Biology major requirements. With prior permission from the faculty sponsor, this course could include assignments that can be used to satisfy the SBC: objective SPK if co-registered for BIO 458 , and/or the SBC: objective WRTD if co-registered for BIO 459 .",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor; and Undergraduate Biology Program approval",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8932",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 486",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "486",
+    "code": "BIO 486",
+    "title": "Research in Neurobiology and Physiology",
+    "description": "Students work under the supervision of a faculty member in developing an individual project that makes use of the knowledge and techniques acquired in previous courses. The student reports on the project in a format agreed upon with their faculty sponsor that allows reflection on learning outcomes. This course may be repeated, but no more than four credits of research may be used for Biology major requirements. With prior permission from the faculty sponsor, this course could include assignments that can be used to satisfy the SBC: objective SPK if co-registered for BIO 458 and/or the SBC: objective WRTD if co-registered for BIO 459 .",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor; and Undergraduate Biology Program approval",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8933",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 487",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "487",
+    "code": "BIO 487",
+    "title": "Research in Molecular, Cellular, and Developmental Biology",
+    "description": "Students work under the supervision of a faculty member in developing an individual project that makes use of the knowledge and techniques acquired in previous courses. The student reports on the project in a format agreed upon with their faculty sponsor that allows reflection on learning outcomes. This course may be repeated, but no more than four credits of research may be used for Biology major requirements. With prior permission from the faculty sponsor, this course could include assignments that can be used to satisfy the SBC: objective SPK if co-registered for BIO 458 and/or the SBC: objective WRTD if co-registered for BIO 459 .",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Undergraduate Biology program approval and permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8934",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 488",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "488",
+    "code": "BIO 488",
+    "title": "Internship in Biological Sciences",
+    "description": "Students work under the supervision of a faculty member or approved professional sponsor to obtain a career-related experience in the life sciences. The student reports on the project in a format agreed upon with their sponsor that allows reflection on learning outcomes. Students must be accepted into an internship program before registering for credit.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Undergraduate Biology Program approval and permission of sponsor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8935",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BIO 489",
+    "deptCode": "BIO",
+    "deptName": null,
+    "number": "489",
+    "code": "BIO 489",
+    "title": "Research in Ecology and Evolution",
+    "description": "Students work under the supervision of a faculty member in developing an individual project that makes use of the knowledge and techniques acquired in previous courses. The student reports on the project in a format agreed upon with their faculty sponsor that allows reflection on learning outcomes. With prior permission from the faculty sponsor, this course could include assignments that can be used to satisfy the SBC: objective SPK if co-registered for BIO 458 and/or the SBC: objective WRTD if co-registered for BIO 459 .",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor; and Undergraduate Biology Program approval",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8936",
+    "rawCorequisites": null
+  }
+]

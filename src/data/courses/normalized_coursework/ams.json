@@ -1,0 +1,1184 @@
+[
+  {
+    "id": "AMS 102",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "102",
+    "code": "AMS 102",
+    "title": "Elements of Statistics",
+    "description": "The use and misuse of statistics in real life situations; basic statistical measures of central tendency and of dispersion, frequency distributions, elements of probability, binomial and normal distributions, small and large sample hypothesis testing, confidence intervals, chi square test, and regression. May not be taken by students with credit for AMS 110 , AMS 310 , AMS 311 , AMS 412 ; ECO 320 ; POL 201 ; PSY 201 ; or SOC 202 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. 3 credits Prerequisite(s): Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS; Non AMS majors only Anti-requisite: May not be taken by students with credit for AMS 110 or AMS 310. DEC: C SBC: QPS",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS; Non AMS majors only",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8554",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 103",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "103",
+    "code": "AMS 103",
+    "title": "Applied Mathematics in Modern Technology",
+    "description": "Technologies that drive our modern world rely critically on applied mathematics. This course explores “How does it work?” for selected technologies that rely on mathematics and statistics, e.g., internet search, social networking, financial markets, online auctions, cell phones, DNA sequencing, GPS, Wii, Google maps, and more.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 3 or higher on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8555",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 104",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "104",
+    "code": "AMS 104",
+    "title": "Spreadsheet Technology and Applications",
+    "description": "Spreadsheets are a critically important tool in many careers, particularly in quantitative fields. This course explores how to use spreadsheets and how to use them to model real-world situations, such as project management, optimization, budgeting, finance, and more.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 2+ or higher on the mathematics placement examination or MAT 123 or higher",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8556",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 110",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "110",
+    "code": "AMS 110",
+    "title": "Probability and Statistics in the Life Sciences",
+    "description": "A survey of probability theory and statistical techniques with applications to biological and biomedical situations. Topics covered include Markov chain models; binomial, Poisson, normal, exponential, and chi square random variables; tests of hypotheses; confidence intervals; tests; and analysis of variance, regression, and contingency tables. May not be taken for credit in addition to AMS 310 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so. 3 credits Prerequisite(s): AMS 151 or MAT 125 or MAT 131 . Anti-requisite : May not be taken by students with credit for AMS 102 or AMS 310 SBC: QPS",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 151 or MAT 125 or MAT 131 .",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8557",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 151",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "151",
+    "code": "AMS 151",
+    "title": "Applied Calculus I",
+    "description": "A review of functions and their applications; analytic methods of differentiation; interpretations and applications of differentiation; introduction to integration. Intended for CEAS majors. Not for credit in addition to MAT 125 or MAT 126 or MAT 131 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "B or higher in MAT 123 or level 5 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8558",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 161",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "161",
+    "code": "AMS 161",
+    "title": "Applied Calculus II",
+    "description": "Analytic and numerical methods of integration; interpretations and applications of integration; differential equations models and elementary solution techniques; phase planes; Taylor series and Fourier series. Intended for CEAS majors. Not for credit in addition to MAT 127 , MAT 132 , MAT 142, or MAT 171. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 151 or MAT 131 , or level 7 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8559",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 210",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "210",
+    "code": "AMS 210",
+    "title": "Applied Linear Algebra",
+    "description": "An introduction to the theory and use of vectors and matrices. Matrix theory including systems of linear equations. Theory of Euclidean and abstract vector spaces. Eigenvectors and eigenvalues. Linear transformations. May not be taken for credit in addition to MAT 211 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 151 or MAT 131 or corequisite MAT 126 or level 7 or higher on the mathematics placement exam",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 126"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8560",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 261",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "261",
+    "code": "AMS 261",
+    "title": "Applied Calculus III",
+    "description": "Vector algebra and analytic geometry in two and three dimensions; multivariable differential calculus and tangent planes; multivariable integral calculus; optimization and Lagrange multipliers; vector calculus including Green’s and Stokes’s theorems. May not be taken for credit in addition to MAT 203 or 205.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 161 or MAT 127 or MAT 132 or MPE level 9",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8561",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 300",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "300",
+    "code": "AMS 300",
+    "title": "Writing in Applied Mathematics",
+    "description": "See Requirements for the Major in Applied Mathematics and Statistics , Upper Division Writing Requirement.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; AMS major; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8562",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 301",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "301",
+    "code": "AMS 301",
+    "title": "Finite Mathematical Structures",
+    "description": "An introduction to graph theory and combinatorial analysis. The emphasis is on solving applied problems rather than on theorems and proofs. Techniques used in problem solving include generating functions, recurrence relations, and network flows. This course develops the type of mathematical thinking that is fundamental to computer science and operations research.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 210 or MAT 211 or AMS 361 or MAT 303",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 210"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 211"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 361"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 303"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8563",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 303",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "303",
+    "code": "AMS 303",
+    "title": "Graph Theory",
+    "description": "Paths and circuits, trees and tree based algorithms, graph coloring, digraphs, network flows, matching theory, matroids, and games with graphs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 301",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 301"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8564",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 310",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "310",
+    "code": "AMS 310",
+    "title": "Survey of Probability and Statistics",
+    "description": "A survey of data analysis, probability theory, and statistics. Stem and leaf displays, box plots, schematic plots, fitting straight line relationships, discrete and continuous probability distributions, conditional distributions, binomial distribution, normal and t distributions, confidence intervals, and significance tests. May not be taken for credit in addition to ECO 320 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 132 or MAT 127",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8565",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 311",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "311",
+    "code": "AMS 311",
+    "title": "Probability Theory",
+    "description": "Probability spaces, random variables, moment generating functions, algebra of expectations, conditional and marginal distributions, multivariate distributions, order statistics, law of large numbers.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 301 and AMS 310",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 301"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 310"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8566",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 313",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "313",
+    "code": "AMS 313",
+    "title": "Communicating with Data",
+    "description": "This course explores the principles and practices of effective data communication, emphasizing clarity, accuracy, and audience-tailored design. Students will gain hands-on experience with common visualization software while learning to critique and select appropriate visualization techniques for different datasets. The course will also focus on applying ethical standards in data representation and on storytelling techniques to present data in coherent narratives. By the end of the course, students will be equipped to create impactful visualizations and to communicate data clearly and responsibly in professional settings.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 310 ; AMS major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 310"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11724",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 315",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "315",
+    "code": "AMS 315",
+    "title": "Data Analysis",
+    "description": "A continuation of AMS 310 that covers two sample t-tests, contingency table methods, the one-way analysis of variance, and regression analysis with one and multiple independent variables. Student projects analyze data provided by the instructor and require the use of a statistical computing package such as SAS or SPSS. An introduction to ethical and professional standards of conduct for statisticians will be provided.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 310",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 310"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8567",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 316",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "316",
+    "code": "AMS 316",
+    "title": "Introduction to Time Series Analysis",
+    "description": "Trend and seasonal components of time series models, autoregressive and moving average (ARMA) models, Box-Jenkins methodology, Portmanteau test, unit-root, generalized autoregressive conditionally heteroskedasticity (GARCH) models, exponential GARCH, stochastic volatility models.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 311 and AMS 315",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 311"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 315"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8568",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 317",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "317",
+    "code": "AMS 317",
+    "title": "Introduction to Linear Regression Analysis",
+    "description": "Basic inference procedures and linear regression, model adequacy checking, transformations and weighted least squares, handling with influential observations and outliers, polynomial regression modeling, use of indicator variables, multicollinearity, variable selection, introduction of logistic regression, conventional and less common uses of linear regression in today’s cutting-edge scientific research. Understanding of the basic principles for applied regression model-building techniques in various fields of study, including engineering, management and the health sciences.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 315 ; AMS 210 or MAT 211",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 315"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8569",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 318",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "318",
+    "code": "AMS 318",
+    "title": "Financial Mathematics",
+    "description": "This course will focus on accumulation functions, yield rates, annuities, loan repayment, term structure of interest rates/spot rates/forward rates, options, duration/convexity. This course follows the syllabus for the Financial Mathematics (FM) Exam of the Society of Actuaries and prepares students to pass the FM Exam.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 310",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 310"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8570",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 320",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "320",
+    "code": "AMS 320",
+    "title": "Introduction to Quantitative Finance",
+    "description": "The course introduces the main classes of financial securities, the mathematical tools employed to model their prices, and common models for risk and investment management. Building realistic models relies on having a working knowledge of the empirical properties of financial asset returns which is another focus of the course. R is used as an environment for modeling.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 311",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 311"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8571",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 325",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "325",
+    "code": "AMS 325",
+    "title": "Computing and Programming Fundamentals in Applied Mathematics and Statistics",
+    "description": "Introduction to programming in MATLAB and Python, including scripting, basic data structures, algorithms, scientific computing, and software engineering. Homework projects will focus on using computation to solve linear algebra, data analysis, and other mathematical problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 210 or MAT 211 ; AMS major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 210"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 211"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8572",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 326",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "326",
+    "code": "AMS 326",
+    "title": "Numerical Analysis",
+    "description": "Direct and indirect methods for the solution of linear and nonlinear equations. Computation of eigenvalues and eigenvectors of matrices. Quadrature, differentiation, and curve fitting. Numerical solution of ordinary and partial differential equations. May not be taken for credit in addition to CIV 350 or MEC 320 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 101 ; AMS 161 ; basic skills in using a high-level programming language (C, C++, or Java).",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 101"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8573",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 332",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "332",
+    "code": "AMS 332",
+    "title": "Computational Modeling of Physiological Systems",
+    "description": "Introduces students to the fundamental principles underlying computational modeling of complex physiological systems. A major focus of the course will be on the process by which a model of a biological system is developed. Students will be introduced to the mathematical methods required for the modeling of complex systems (including stochastic processes and both temporal and spatial dynamics) as well as to tools for computational simulation. Roughly one half of the class will focus on models for general cellular physiology, while the remaining half will focus on the development of higher-level models of a particular physiological system (for example, the neurobiological systems underlying learning).",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 127 or MAT 132 or AMS 161 or MPE level 9 and any one of the following: BIO 202 or BIO 203 or CHE 132 or CHE 331 or PHY 127 or PHY 132",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 331"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 132"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8574",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 333",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "333",
+    "code": "AMS 333",
+    "title": "Mathematical Biology",
+    "description": "This course introduces the use of mathematics and computer simulation to study a wide range of problems in biology. Topics include the modeling of populations, the dynamics of signal transduction and gene-regulatory networks, and simulation of protein structure and dynamics. A computer laboratory component allows students to apply their knowledge to real-world problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 132 ; U3 or U4 standing; or permission of the instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8575",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 335",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "335",
+    "code": "AMS 335",
+    "title": "Game Theory",
+    "description": "Introduction to game theory fundamentals with special emphasis on problems from economics and political science. Topics include strategic games and Nash equilibrium, games in coalitional form and the core, bargaining theory, measuring power in voting systems, problems of fair division, and optimal and stable matching.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 126 or MAT 131 or AMS 151 ; C or higher in ECO 303",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 126"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 131"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 151"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8576",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 341",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "341",
+    "code": "AMS 341",
+    "title": "Operations Research I: Deterministic Models",
+    "description": "Linear programming with a view toward its uses in economics and systems analysis. Linear algebra and geometric foundations of linear programming; simplex method and its variations; primal dual programs; formulation and interpretation of linear programming models, including practical problems in transportation and production control. Optional computer projects. AMS 341 and AMS 342 may be taken in either order, though it is recommended that AMS 341 be taken first. Not for credit in addition to EST 342 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 210 or MAT 211 or MAT 307 and MAT 308",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 210"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 211"
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 308"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8577",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 342",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "342",
+    "code": "AMS 342",
+    "title": "Operations Research II: Stochastic Models",
+    "description": "Methods and techniques for stochastic modeling and optimization, with applications to queueing theory, Markov chains, inventory theory, games, and decisions. AMS 341 and 342 may be taken in either order, though it is recommended that AMS 341 be taken first.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 210 or MAT 211 ; AMS 311",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 311"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8578",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 345",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "345",
+    "code": "AMS 345",
+    "title": "Computational Geometry",
+    "description": "The design and analysis of efficient algorithms to solve geometric problems that arise in computer graphics, robotics, geographical information systems, manufacturing, and optimization. Topics include convex hulls, triangulation, Voronoi diagrams, visibility, intersection, robot motion planning, and arrangements.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 301 ; programming knowledge of C or C++ or Java",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 301"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8579",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 351",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "351",
+    "code": "AMS 351",
+    "title": "Applied Algebra",
+    "description": "Topics in algebra: groups, informal set theory, relations, homomorphisms. Applications: error correcting codes, Burnside’s theorem, computational complexity, Chinese remainder theorem.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 210 or MAT 211 or MAT 220 or MAT 308",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 210"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 211"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 308"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8580",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 361",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "361",
+    "code": "AMS 361",
+    "title": "Applied Calculus IV: Differential Equations",
+    "description": "Homogeneous and inhomogeneous linear differential equations; systems of linear differential equations; solution with power series and Laplace transforms; partial differential equations and Fourier series. May not be taken for credit in addition to the equivalent MAT 303 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 161 or MAT 127 or MAT 132 or MPE level 9",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8581",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 380",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "380",
+    "code": "AMS 380",
+    "title": "Data Mining",
+    "description": "This course will teach the basic ingredients of classical and contemporary statistical data mining methods, including dimension reduction, model selection, pattern recognition, and predictive modeling using traditional general linear models and generalized linear models, and modern statistical learning methods, such as decision trees, random forests, neural networks, etc. This course will teach how to employ these methods with the programming language Python.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 210 or MAT 211 or MAT 307 ; AMS 311",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 311"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8582",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 394",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "394",
+    "code": "AMS 394",
+    "title": "Statistical Laboratory",
+    "description": "Designed for students interested in statistics and their applications. Basic statistical techniques including sampling, design, regression, and analysis of variance are introduced. Includes the use of statistical packages such as SAS and R. Students translate realistic research problems into a statistical context and perform the analysis.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 310 or AMS 315",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 310"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 315"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8583",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 410",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "410",
+    "code": "AMS 410",
+    "title": "Actuarial Mathematics",
+    "description": "Integrates calculus and probability with risk assessment and insurance in a quantitative manner to prepare students for the first actuarial examination.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 261 or MAT 203 ; AMS 310 ; AMS 311 or AMS 315",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 310"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 311"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 315"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8584",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 412",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "412",
+    "code": "AMS 412",
+    "title": "Mathematical Statistics",
+    "description": "Estimation, confidence intervals, Neyman Pearson lemma, likelihood ratio test, hypothesis testing, chi square test, regression, analysis of variance, nonparametric methods.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 311",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 311"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8585",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 420",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "420",
+    "code": "AMS 420",
+    "title": "Investment Science Foundations",
+    "description": "This course focuses on fundamental principles of financial engineering and investment science such as cash flow streams, arbitrage, risk aversion, pricing of finance instruments, interest rate term structure, fixed income instruments duration, bond portfolio immunization, Markowitz mean-variance portfolio theory, Capital Asset Pricing Model and fixed proportion investment strategy.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "B or better in AMS 311",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "AMS 311"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8586",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 441",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "441",
+    "code": "AMS 441",
+    "title": "Business Enterprise",
+    "description": "Explores the strategy and technology of business enterprises. Integrates the practice of engineering and quantitative methods with the operations of a business in today’s globalized environment, whether in product development, financial management, or e-commerce.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Junior or Senior Standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8587",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 458",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "458",
+    "code": "AMS 458",
+    "title": "Speak Effectively Before an Audience",
+    "description": "A zero credit course that may be taken in conjunction with AMS 475 course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum’s SPK learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8588",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 459",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "459",
+    "code": "AMS 459",
+    "title": "Write Effectively in Applied Mathematics",
+    "description": "A zero credit course that may be taken in conjunction with AMS 487 , with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8589",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 475",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "475",
+    "code": "AMS 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty advisor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing as an undergraduate major within the college; a minimum g.p.a. of 3.00 in all Stony Brook courses and the grade of B or better in the course in which the student is to assist; permission of department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8590",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 476",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "476",
+    "code": "AMS 476",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty advisor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing as an undergraduate major within the college; a minimum g.p.a. of 3.00 in all Stony Brook courses and the grade of B or better in the course in which the student is to assist; permission of department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8591",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 487",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "487",
+    "code": "AMS 487",
+    "title": "Research in Applied Mathematics",
+    "description": "An independent research project with faculty supervision. Permission to register requires a B average and the agreement of a faculty member to supervise the research.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "AMS major or minor; permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8592",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 488",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "488",
+    "code": "AMS 488",
+    "title": "Internship in Applied Mathematics and Statistics",
+    "description": "Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the course, students are required to submit proof that the work is related to their studies. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Prerequisite: AMS major or minor; permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11677",
+    "rawCorequisites": null
+  },
+  {
+    "id": "AMS 492",
+    "deptCode": "AMS",
+    "deptName": "Applied Mathematics and Statistics",
+    "number": "492",
+    "code": "AMS 492",
+    "title": "Topics in Applied Mathematics",
+    "description": "Treatment of an area of applied mathematics that expands upon the undergraduate curriculum. Topics may include applied mathematics, statistics, or operations research and change from semester to semester. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8593",
+    "rawCorequisites": null
+  }
+]

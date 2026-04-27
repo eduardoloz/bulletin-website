@@ -30,3 +30,4 @@ yarn-error.log*
 /scripts/venv/
 # Scraper output
 /scripts/courses.csv
+.vercel

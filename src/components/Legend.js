@@ -29,7 +29,7 @@ export default function Legend() {
     boxShadow: '0 10px 20px rgba(224, 221, 221, 0.3)',
     fontFamily: 'sans-serif',
     width: '450px',
-    height: '190px',
+    height: '220px',
     border: '2px solid #000000ff',
   };
 
@@ -39,6 +39,18 @@ export default function Legend() {
     height: '14px',
     borderRadius: '50%',
     backgroundColor: color,
+    marginRight: '8px',
+    verticalAlign: 'middle',
+  });
+
+  const ringStyle = (ringColor) => ({
+    display: 'inline-block',
+    width: '14px',
+    height: '14px',
+    borderRadius: '50%',
+    backgroundColor: '#CBD5E1',
+    border: `3px solid ${ringColor}`,
+    boxSizing: 'border-box',
     marginRight: '8px',
     verticalAlign: 'middle',
   });
@@ -58,6 +70,9 @@ export default function Legend() {
         </h3>
         <h3 style={textStyle}>
           <span style={circleStyle('#60A5FA')}></span> Unlocked Course (you can take the course now)
+        </h3>
+        <h3 style={textStyle}>
+          <span style={ringStyle('#f59e0b')}></span> In Selected Specialization
         </h3>
       </div>
 

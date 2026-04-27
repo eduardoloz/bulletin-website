@@ -49,7 +49,7 @@ PAGE_URL_TEMPLATE = (
 # How many listing pages exist (you can bump if the catalog grows)
 TOTAL_PAGES_DEFAULT = 34
 
-REQUEST_DELAY_SEC = 0.15
+REQUEST_DELAY_SEC = 0.4
 TIMEOUT_SEC = 30
 
 # Matches "ACC - Accounting" / "ACC – Accounting" / "ACC — Accounting"
@@ -96,22 +96,30 @@ SESSION.headers.update(
 )
 
 
-def fetch(url: str, *, retries: int = 2) -> str:
+def fetch(url: str, *, retries: int = 5) -> str:
     last_err: Optional[Exception] = None
     for attempt in range(retries + 1):
         try:
             r = SESSION.get(url, timeout=TIMEOUT_SEC)
+            if r.status_code == 202 or "awsWafCookieDomainList" in (r.text or "")[:500]:
+                # AWS WAF rate-limit challenge — back off and retry
+                wait = min(30, 3 * (2 ** attempt))
+                print(f"  [WAF] Rate-limited (HTTP {r.status_code}), waiting {wait}s (attempt {attempt+1}/{retries+1})...")
+                time.sleep(wait)
+                continue
             if r.status_code != 200:
                 snippet = (r.text or "")[:350].replace("\n", " ")
                 raise RuntimeError(f"HTTP {r.status_code} for {url}\nBody starts: {snippet}")
             return r.text
+        except RuntimeError:
+            raise
         except Exception as e:
             last_err = e
             if attempt < retries:
                 time.sleep(0.6 * (attempt + 1))
             else:
                 raise RuntimeError(str(last_err)) from last_err
-    raise RuntimeError(str(last_err))
+    raise RuntimeError(f"Failed after {retries+1} attempts (WAF rate-limit) for {url}")
 
 
 # ----------------------------- parsing helpers -----------------------------
@@ -388,6 +396,7 @@ def main() -> None:
     mode.add_argument("--full", action="store_true", help="Full mode: scrape all listing pages.")
     ap.add_argument("--limit", type=int, default=TEST_LIMIT_DEFAULT, help="Course limit in test mode.")
     ap.add_argument("--pages", type=int, default=TOTAL_PAGES_DEFAULT, help="How many listing pages exist.")
+    ap.add_argument("--start-from", type=int, default=1, help="Resume from this course number (1-indexed).")
     args = ap.parse_args()
 
     # Decide mode: flags override defaults
@@ -416,13 +425,37 @@ def main() -> None:
     links = get_course_links(test_mode=test_mode, test_limit=test_limit, total_pages=total_pages)
     print(f"[*] Scraping {len(links)} course preview page(s)...")
 
+    start_from = max(1, args.start_from)
+
+    # If resuming, load previously scraped data
     courses: list[dict[str, Any]] = []
+    if start_from > 1 and json_out.exists():
+        try:
+            with json_out.open("r", encoding="utf-8") as f:
+                courses = json.load(f)
+            print(f"[*] Resuming from course {start_from}, loaded {len(courses)} existing courses")
+        except Exception as e:
+            print(f"[!] Could not load existing data: {e}, starting fresh")
+            courses = []
+
+    failed: list[str] = []
     for i, link in enumerate(links, 1):
+        if i < start_from:
+            continue
         print(f"  - ({i}/{len(links)}) {link}")
-        c = parse_course_page(link, dept_map)
-        if c:
-            courses.append(c)
+        try:
+            c = parse_course_page(link, dept_map)
+            if c:
+                courses.append(c)
+        except Exception as e:
+            print(f"  [!] FAILED: {e}")
+            failed.append(link)
         time.sleep(REQUEST_DELAY_SEC)
+
+        # Save progress every 200 courses
+        if len(courses) % 200 == 0 and len(courses) > 0:
+            print(f"  [*] Checkpoint: saving {len(courses)} courses...")
+            save_json(json_out, courses)
 
     code_to_id = {c["code"]: c["id"] for c in courses}
     for c in courses:
@@ -431,6 +464,8 @@ def main() -> None:
     save_json(json_out, courses)
     save_csv(csv_out, courses)
     print(f"[+] Done! Extracted {len(courses)} courses.")
+    if failed:
+        print(f"[!] Failed to scrape {len(failed)} course(s)")
 
 
 if __name__ == "__main__":

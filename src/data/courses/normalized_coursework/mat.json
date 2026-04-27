@@ -1,0 +1,1662 @@
+[
+  {
+    "id": "MAT 118",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "118",
+    "code": "MAT 118",
+    "title": "Mathematical Thinking",
+    "description": "Development of quantitative thinking and problem solving abilities through a selection of mathematical topics: logic and reasoning; numbers, functions, and modeling; combinatorics and probability; growth and change. Other topics may include geometry, statistics, game theory, and graph theory. Through their engagement in problem solving, students develop an appreciation of the intellectual scope of mathematics and its connections with other disciplines. 3 credits Prerequisite(s): C or better in MAP 103 or level 2+ or higher on the mathematics placement examination (Prerequisite must be met within one year of beginning this course.) DEC: C SBC: QPS",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or better in MAP 103 or level 2+ or higher on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAP 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10734",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 119",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "119",
+    "code": "MAT 119",
+    "title": "Foundations for Precalculus",
+    "description": "This course is a companion to MAT 123 : Precalculus, providing a structured environment where students can refresh the algebra skills which are necessary for success in precalculus. These topics include understanding of exponents (especially fractional and negative exponents), manipulating mathemematical expressions, solving equations, and modeling/word problems. Course may not be taken with CHE 129 .",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "2+ on placement or permission of MAT 123 instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10735",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 122",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "122",
+    "code": "MAT 122",
+    "title": "Overview of Calculus with Applications",
+    "description": "The basics of calculus in a self-contained, one-semester course. Properties and applications of polynomial, exponential, and logarithmic functions. Derivatives: slopes, rates of change, optimization, integrals, area, cumulative change, and average. The fundamental theorem of calculus. Emphasis on modeling examples from economics. Students who subsequently wish to enroll in MAT 125 or MAT 131 will be required to score level 4 on the mathematics placement examination before taking either course. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or better in MAP 103 or level 3 on the mathematics placement exam",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAP 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10736",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 123",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "123",
+    "code": "MAT 123",
+    "title": "Precalculus",
+    "description": "Comprehensive preparation for the regular calculus sequences. Careful development of rational, exponential, logarithmic, and trigonometric functions, and their applications. Asymptotics and curve sketching. General modeling examples. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or better in MAP 103 or level 3 on the mathematics placement exam or corequisite MAT 119 (Prerequisite must be met within one year prior to beginning the course.)",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAP 103"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 119"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10737",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 125",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "125",
+    "code": "MAT 125",
+    "title": "Calculus A",
+    "description": "Differential calculus, emphasizing conceptual understanding, computations and applications, for students who have the necessary background from 12th-year high school mathematics. Limits and continuous functions. Differentiation of elementary algebraic, trigonometric, exponential and logarithmic functions; graphing; modeling; and maximization. L’Hospital’s rule. May not be taken for credit in addition to MAT 131 or 141 or AMS 151 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 123 ; or level 4 on the mathematics placement examination; or",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10738",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 126",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "126",
+    "code": "MAT 126",
+    "title": "Calculus B",
+    "description": "A continuation of MAT 125 , covering integral calculus: Riemann sums, the fundamental theorem, symbolic and numeric methods of integration, area under a curve, volume, applications such as work and probability, improper integrals. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 125 or MAT 131 or 141 or AMS 151 or level 6 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10739",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 127",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "127",
+    "code": "MAT 127",
+    "title": "Calculus C",
+    "description": "A continuation of MAT 126 , covering: sequences, series, Taylor series, differential equations and modeling. May not be taken for credit in addition to MAT 132 , MAT 142, MAT 171, or AMS 161 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 126 or level 8 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 126"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10740",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 130",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "130",
+    "code": "MAT 130",
+    "title": "Trigonometry and Logarithms",
+    "description": "Inverse functions, exponential and logarithmic functions, radian measure of angles and trigonometric functions. Taught as a companion to MAT 125 .",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "MAT 122 with a grade of C or better, or level 3+ or higher on the placement exam, or permission of instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 122"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10741",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 131",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "131",
+    "code": "MAT 131",
+    "title": "Calculus I",
+    "description": "The differential calculus and integral calculus, emphasizing conceptual understanding, computations and applications, for students who have the necessary background from 12th-year high school mathematics. Differentiation of elementary algebraic; trigonometric, exponential, and logarithmic functions; graphing; modelling and maximization; L’Hospital’s rule; the Riemann integral; and the Fundamental Theorem of Calculus. May not be taken for credit in addition to MAT 125 or 141 or AMS 151 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "B or higher in MAT 123 or level 5 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10742",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 132",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "132",
+    "code": "MAT 132",
+    "title": "Calculus II",
+    "description": "A continuation of MAT 131 , covering symbolic and numeric methods of integration; area under a curve; volume; applications such as work and probability; sequences; series; Taylor series; differential equations; and modelling. May not be taken for credit in addition to MAT 127 , MAT 142, MAT 171, or AMS 161 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 151 or MAT 131 or 141, or level 7 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10743",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 200",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "200",
+    "code": "MAT 200",
+    "title": "Logic, Language and Proof",
+    "description": "A basic course in the logic of mathematics, the construction of proofs and the writing of proofs. The mathematical content is primarily logic and proofs, set theory, combinatorics, functions and relations. There is considerable focus on writing. May not be taken for credit in addition to MAT 250 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 4 on the mathematics placement examination or equivalent course or permission of the instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10744",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 203",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "203",
+    "code": "MAT 203",
+    "title": "Calculus III with Applications",
+    "description": "Vector algebra in two and three dimensions, multivariate differential and integral calculus, optimization, vector calculus including the theorems of Green, Gauss, and Stokes. Applications to economics, engineering, and all sciences, with emphasis on numerical and graphical solutions; use of graphing calculators or computers. May not be taken for credit in addition to AMS 261 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 127 or MAT 132 or 142 or AMS 161 or level 9 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10745",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 211",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "211",
+    "code": "MAT 211",
+    "title": "Introduction to Linear Algebra",
+    "description": "Introduction to the theory of linear algebra with some applications; vectors, vector spaces, bases and dimension, applications to geometry, linear transformations and rank, eigenvalues and eigenvectors, determinants and inner products. May not be taken for credit in addition to AMS 210 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 151 or MAT 131 or 141 or coregistration in MAT 126 or level 7 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 126"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10746",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 250",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "250",
+    "code": "MAT 250",
+    "title": "Introduction to Advanced Mathematics",
+    "description": "An introduction to the Advanced Track mathematics program. Provides the core of basic of propositional logic, quantifiers, proofs, sets, functions, cardinality, relations, equivalence relations and quotient sets, order relations, combinatorics. Number systems: natural numbers, integers, rational, real and complex numbers. MAT 250 is primarily intended for students in the Advanced Track program. It serves as an alternative to MAT 200 and may not be taken for credit in addition to MAT 200 . Students wishing to enroll in MAT 250 should instead enroll in a corresponding section of MAT 200 . In approximately the 3rd week, an assessment will be held and qualified students will be offered the option of moving to MAT 250. Formerly offered as MAT 150; not for credit in addition to MAT 150.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "MAT 131 or an equivalent course or level 7 or higher on mathematics placement examination",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 131"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10747",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 260",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "260",
+    "code": "MAT 260",
+    "title": "Problem Solving in Mathematics",
+    "description": "Students actively solve challenging problems in plane geometry, basic number theory, and calculus, and write precise arguments. Relevant preparation for problem-solving is provided in the course.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10748",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 303",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "303",
+    "code": "MAT 303",
+    "title": "Calculus IV with Applications",
+    "description": "Homogeneous and inhomogeneous linear differential equations; systems of linear differential equations; series solutions; Laplace transforms; Fourier series. Applications to economics, engineering, and all sciences with emphasis on numerical and graphical solutions; use of computers. May not be taken for credit in addition to AMS 361 or MAT 308 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 127 or MAT 132 or 142 or AMS 161 or level 9 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10749",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 307",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "307",
+    "code": "MAT 307",
+    "title": "Multivariable Calculus with Linear Algebra",
+    "description": "Introduction to linear algebra: vectors, matrices, systems of linear equations, bases and dimension, dot product, determinants. Multivariate differential and integral calculus, divergence and curl, line and surface integrals, theorems of Green, Gauss, and Stokes. More theoretical and intensive than MAT 203 , this course is primarily intended for math majors. Together with MAT 308 , it forms a 2-semester sequence covering the same material as the 3-semester sequence of MAT 203 , MAT 211 and MAT 303 . May not be taken for credit in addition to MAT 203 or AMS 261 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "MAT 127 or MAT 132",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10750",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 308",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "308",
+    "code": "MAT 308",
+    "title": "Differential Equations with Linear Algebra",
+    "description": "Linear algebra: determinants, eigenvalues and eigenvectors, diagonalization. Differential equations; existence and uniqueness of solutions. First- and second-order equations; linear versus nonlinear equations. Systems of linear equations. Laplace transform. Applications to physics. More theoretical and intensive than MAT 303 , this course is primarily intended for math majors. Together with MAT 307 , it forms a 2-semester sequence covering the same material as the 3-semester sequence of MAT 205, MAT 211 and MAT 305. May not be taken for credit in addition to MAT 303 or AMS 361 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "MAT 307 ; or MAT 203 and MAT 211 ; or MAT 132 and MAT 220; or permission of instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 307"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 211"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 220"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10751",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 310",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "310",
+    "code": "MAT 310",
+    "title": "Linear Algebra",
+    "description": "Finite dimensional vector spaces, linear maps, dual spaces, bilinear functions, inner products. Additional topics such as canonical forms, multilinear algebra, numerical linear algebra.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 211 or MAT 308 or AMS 210 or MAT 220; C or higher in MAT 200 or MAT 250 or permission of instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 308"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 220"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10752",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 311",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "311",
+    "code": "MAT 311",
+    "title": "Number Theory",
+    "description": "Congruences, quadratic residues, quadratic forms, continued fractions, Diophantine equations, number-theoretical functions, and properties of prime numbers.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 312 or 313; C or higher in MAT 200 or MAT 250 or permission of instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 312"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10753",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 312",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "312",
+    "code": "MAT 312",
+    "title": "Applied Algebra",
+    "description": "Topics in algebra: groups, informal set theory, relations, homomorphisms. Applications: error correcting codes, Burnside’s theorem, computational complexity, Chinese remainder theorem.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 210 or MAT 211 or MAT 220 or MAT 308",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 210"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 211"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 308"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10754",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 313",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "313",
+    "code": "MAT 313",
+    "title": "Abstract Algebra",
+    "description": "Groups and rings together with their homomorphisms and quotient structures. Unique factorization, polynomials, and fields.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 310 or MAT 312 or MAT 315 ; C or higher in MAT 200 or MAT 250 or permission of instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 310"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 312"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 315"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10755",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 314",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "314",
+    "code": "MAT 314",
+    "title": "Abstract Algebra II",
+    "description": "This course is a continuation of MAT 313 , Abstract algebra. It covers modules over rings, including structure theorem for modules over PID, theory of fields and field extensions and introduction to Galois theory.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 313 or permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 313"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10756",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 315",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "315",
+    "code": "MAT 315",
+    "title": "Advanced Linear Algebra",
+    "description": "Finite dimensional vector spaces over a field, linear maps, isomorphisms, dual spaces, quotient vector spaces, bilinear and quadratic functions, inner products, canonical forms of linear operators, multilinear algebra, tensors. This course serves as an alternative to MAT 310 . It is an intensive course, primarily intended for math majors in Advanced Track program. Students wishing to enroll in MAT 315 should instead enroll in MAT 310 . In approximately the 4th week, an assessment will be held and qualified students will be offered the option of moving to MAT 315.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "B or higher in MAT 200 or MAT 250 ; B or higher in MAT 211 , AMS 219, MAT 308 , or MAT 220; or permission of the instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 211"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "AMS 219"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 308"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 220"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10757",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 319",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "319",
+    "code": "MAT 319",
+    "title": "Foundations of Analysis",
+    "description": "A careful study of the theory underlying topics in one-variable calculus, with an emphasis on those topics arising in high school calculus. The real number system. Limits of functions and sequences. Differentiations, integration, and the fundamental theorem. Infinite series.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 200 or MAT 250 or permission of instructor; C or higher in one of the following: MAT 203 , MAT 211 , 220, MAT 307 , AMS 261 , or A- or higher in MAT 127 , MAT 132 , 142, or AMS 161",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 203"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 211"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 307"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "AMS 261"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 127"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 132"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10758",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 320",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "320",
+    "code": "MAT 320",
+    "title": "Introduction to Analysis",
+    "description": "A careful study of the theory underlying calculus. The real number system. Basic properties of functions of one real variable. Differentiation, integration, and the inverse theorem. Infinite sequences of functions and uniform convergence. Infinite series. Metric spaces and compactness. This course is a more demanding alternative of MAT 319 , suitable for students who are comfortable with rigorous proofs. Students wishing to enroll in MAT 320 should instead enroll in MAT 319 . In approximately the 6th week, an assessment will be held and qualified students will be offered the option of moving to MAT 320.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "B or higher in MAT 200 or MAT 250 or permission of instructor; C or higher in one of the following: MAT 203 , MAT 211 , 220, MAT 307 , AMS 261 , or A- or higher in MAT 127 , MAT 132 , 142, or AMS 161",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 203"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 211"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 307"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "AMS 261"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 127"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 132"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10759",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 322",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "322",
+    "code": "MAT 322",
+    "title": "Analysis in Several Dimensions",
+    "description": "Continuity, differentiation, and integration in Euclidean n-space. Differentiable maps. Implicit and inverse function theorems. Differential forms and the general Stokes’s theorem.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 203 , MAT 220, MAT 307 , or AMS 261 ; C or higher in MAT 310 or MAT 315 ; B or higher in MAT 320",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 203"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 220"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MAT 307"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 310"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 315"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 320"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10760",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 324",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "324",
+    "code": "MAT 324",
+    "title": "Real Analysis",
+    "description": "Introduction to Lebesgue measure and integration. Aspects of Fourier series, function spaces, Hilbert spaces, Banach spaces.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "B or higher in MAT 320",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 320"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10761",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 331",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "331",
+    "code": "MAT 331",
+    "title": "Computer-Assisted Mathematical Problem Solving",
+    "description": "Exploration of the use of the computer as a tool to gain insight into complex mathematical problems through a project-oriented approach. Students learn both the relevant mathematical concepts and ways that the computer can be used (and sometimes misused) to understand them. The particular problems may vary by semester; past topics have included cryptography, fractals and recursion, modeling the flight of a glider, curve fitting, the Brachistochrone, and computer graphics. No previous experience with computers is required.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 203 or 205 or MAT 307 or AMS 261",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 307"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 261"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10762",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 336",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "336",
+    "code": "MAT 336",
+    "title": "History of Mathematics",
+    "description": "A survey of the history of mathematics from the beginnings through the 19th century, with special attention to primary sources and to the interactions between culture and mathematics. Emphasis on topics germane to the high school curriculum. Mesopotamian, Egyptian, and Greek mathematics; non-European mathematics; early Renaissance mathematics; the birth and flowering of calculus; the beginnings of probability theory; and the origin of non-Euclidean geometries and the modern concept of number.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 200 or MAT 203 or or MAT 250 or MAT 307 or AMS 261",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 200"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 307"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 261"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10763",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 341",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "341",
+    "code": "MAT 341",
+    "title": "Applied Real Analysis",
+    "description": "Partial differential equations of mathematical physics: the heat, wave, and Laplace equations. Solutions by techniques such as separation of variables using orthogonal functions (e.g., Fourier series, Bessel functions, Legendre polynomials). D’Alembert solution of the wave equation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in the following: MAT 203 or 220 or MAT 307 or AMS 261 ; MAT 303 or 305 or MAT 308 or AMS 361",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 308"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10764",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 342",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "342",
+    "code": "MAT 342",
+    "title": "Applied Complex Analysis",
+    "description": "Complex numbers, analytic functions, the Cauchy-Riemann and Laplace equations, the Cauchy integral formula and applications. Fundamental Theorem of Algebra and the Maximum Principle. The Cauchy residue theorem and applications to evaluating real integrals. Conformal mappings.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in the following: MAT 203 or MAT 220 or MAT 307 or AMS 261",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 307"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 261"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10765",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 344",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "344",
+    "code": "MAT 344",
+    "title": "Complex Analysis",
+    "description": "Analytic functions and the Cauchy-Riemann equations, calculus of residues including evaluation of real integrals, power and Laurent series, conformal mappings and the Riemann mapping theorem, the Dirichlet and Neumann problems, functions of bounded order and product expansions, the Riemann zeta function, elliptic functions. This is a more rigorous version of MAT 342 intended for math majors, in particular math majors in advanced track program.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22718",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 351",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "351",
+    "code": "MAT 351",
+    "title": "Differential Equations: Dynamics and Chaos",
+    "description": "A study of the long-term behavior of solutions to ordinary differential equations or of iterated mappings, emphasizing the distinction between stability on the one hand and sensitive dependence and chaotic behavior on the other. The course describes examples of chaotic behavior and of fractal attractors, and develops some mathematical tools for understanding them.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in the following: MAT 203 or MAT 220 or MAT 307 or AMS 261 ; MAT 303 or MAT 308 or AMS 361 ; MAT 200 or MAT 250 or permission of instructor",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 220"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 308"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10766",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 355",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "355",
+    "code": "MAT 355",
+    "title": "Markov Chains and Mixing Times",
+    "description": "The main topics covered in this course include combinatorial probability, discrete and time Markov chains, random walks on graphs, card shuffling, mixing times and Poisson processes.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 310 or AMS 311",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 310"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 311"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22719",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 360",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "360",
+    "code": "MAT 360",
+    "title": "Geometric Structures",
+    "description": "Formal geometries and models. Topics selected from projective, affine, Euclidean, and non-Euclidean geometries.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10767",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 362",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "362",
+    "code": "MAT 362",
+    "title": "Differential Geometry of Surfaces",
+    "description": "The local and global geometry of surfaces: geodesics, parallel transport, curvature, isometries, the Gauss map, the Gauss-Bonnet theorem.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 319 or MAT 320 or MAT 364 ; MAT 203 or MAT 307 or MAT 322",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 319"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 320"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 364"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 322"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10768",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 364",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "364",
+    "code": "MAT 364",
+    "title": "Topology and Geometry",
+    "description": "A broadly based introduction to topology and geometry, the mathematical theories of shape, form, and rigid structure. Topics include intuitive knot theory, lattices and tilings, non-Euclidean geometry, smooth curves and surfaces in Euclidean 3-space, open sets and continuity, combinatorial and algebraic invariants of spaces, higher dimensional spaces.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 203 or 220 or MAT 307 or AMS 261 ; MAT 200 or MAT 250",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10769",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 371",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "371",
+    "code": "MAT 371",
+    "title": "Logic",
+    "description": "A survey of the logical foundations of mathematics: development of propositional calculus and quantification theory, the notions of a proof and of a model, the completeness theorem, Goedel’s incompleteness theorem.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 113 or CSE 150 or CSE 215 or MAT 200 or MAT 250",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 113"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 150"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 215"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 200"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 250"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10770",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 373",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "373",
+    "code": "MAT 373",
+    "title": "Analysis of Algorithms",
+    "description": "Mathematical analysis of a variety of computer algorithms including searching, sorting, matrix multiplication, fast Fourier transform, and graph algorithms. Time and space complexity. Upper-bound, lower- bound, and average-case analysis. Introduction to NP completeness. Some machine computation is required for the implementation and comparison of algorithms.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in: CSE 113 or CSE 150 or CSE 215 or MAT 200 or MAT 250 ; MAT 211 or AMS 210 ; CSE 214 or CSE 260 ; CSE or MAT or DAS major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 113"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 150"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 215"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 200"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 250"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10771",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 401",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "401",
+    "code": "MAT 401",
+    "title": "Seminar in Mathematics",
+    "description": "Discussions of a specific area of interest in mathematics. The work of each semester covers a different area of mathematics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3/U4; permission of department or instructor; additional prerequisites announced with topic",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10772",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 402",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "402",
+    "code": "MAT 402",
+    "title": "Seminar in Mathematics",
+    "description": "Discussions of a specific area of interest in mathematics. The work of each semester covers a different area of mathematics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3/U4; permission of department or instructor; additional prerequisites announced with topic",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10773",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 444",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "444",
+    "code": "MAT 444",
+    "title": "Experiential Learning",
+    "description": "This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent; permission of the instructor and approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10774",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 458",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "458",
+    "code": "MAT 458",
+    "title": "Speak Effectively Before an Audience",
+    "description": "A zero credit course that may be taken in conjunction with any MAT course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum’s SPK learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10775",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 459",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "459",
+    "code": "MAT 459",
+    "title": "Write Effectively in Mathematics",
+    "description": "A zero credit course that may be taken in conjunction with any 300- or 400-level MAT course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10776",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 464",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "464",
+    "code": "MAT 464",
+    "title": "Foundations of Topology",
+    "description": "Rigorous foundations of point set topology: topological spaces, continuous maps. Metric spaces. Connectedness, compactness, countability and separation axioms. Product topology, quotient topology. Introduction to algebraic topology: fundamental group, the notion of a covering space, van Kampen theorem, computations and applications. The course provides foundations for graduate study in topology, geometry, and analysis and is recommended for advanced math majors. Students seeking an introductory elective in topology should enroll in MAT 364 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "B or higher in MAT 320 , or A in MAT 319 and permission of instructor",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 320"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 319"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22725",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 475",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "475",
+    "code": "MAT 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Each student assists in teaching a lower-division mathematics course or works in the Mathematics Learning Center. The student’s work is regularly supervised by a faculty member. In addition, a weekly seminar is conducted. Responsibilities may include preparation of materials for student use and discussions, helping students with problems, and involvement in “alternative” teaching projects. Intended for upper-division students who have excelled in the calculus sequence. May not be used for major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of the director of undergraduate studies",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10777",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 487",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "487",
+    "code": "MAT 487",
+    "title": "Independent Study in Special Topics",
+    "description": "A reading course for juniors and seniors. The topics may be chosen by the student with the approval of a supervising member of the faculty, who also takes responsibility for evaluation. A topic that is covered in a course regularly offered by the department is not appropriate for independent study.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of the director of undergraduate studies",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10778",
+    "rawCorequisites": null
+  },
+  {
+    "id": "MAT 495",
+    "deptCode": "MAT",
+    "deptName": null,
+    "number": "495",
+    "code": "MAT 495",
+    "title": "Honors Thesis",
+    "description": "The student and a supervising faculty member together choose a topic in mathematics, and the student writes a substantial paper expounding the topic in a new way.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of the director of undergraduate studies",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10779",
+    "rawCorequisites": null
+  }
+]

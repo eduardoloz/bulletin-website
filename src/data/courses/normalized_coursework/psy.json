@@ -1,0 +1,1194 @@
+[
+  {
+    "id": "PSY 103",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "103",
+    "code": "PSY 103",
+    "title": "Introduction to Psychology",
+    "description": "An introduction to research and theory in psychology in such areas as learning, perception, cognition, biopsychology, development, personality, and abnormal and social psychology. As part of the course, students must participate in experiments and/or a library research project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11159",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 201",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "201",
+    "code": "PSY 201",
+    "title": "Statistical Methods in Psychology",
+    "description": "The use and interpretation of elementary statistical techniques in research, emphasizing descriptive statistics, correlational analysis, and inferential statistics, including chi-square, t-tests, and an introduction to the Analysis of Variance. May not be taken for credit after AMS 102 , BIO 211 , POL 201 , or SOC 202 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 103 ; satisfaction completion of QPS or Level 2+ or higher on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11160",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 220",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "220",
+    "code": "PSY 220",
+    "title": "Survey in Developmental Psychology",
+    "description": "A study of growth and change in humans. Psychological, physical, social, and cognitive changes will be considered and the role of environmental and genetic influences on development will be examined.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 103",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11161",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 230",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "230",
+    "code": "PSY 230",
+    "title": "Survey in Abnormal and Clinical Psychology",
+    "description": "Examines the description, etiology, course, and treatment of psychological disorders. Current theory and research are emphasized.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 103",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11162",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 240",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "240",
+    "code": "PSY 240",
+    "title": "Survey in Social Psychology",
+    "description": "A presentation of various topics in social psychology including interpersonal processes, obedience to authority, social perception, attitude change, attraction and liking, and aggression and violence, especially as applied to national and international issues.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 103",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11163",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 250",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "250",
+    "code": "PSY 250",
+    "title": "Survey in Biopsychology",
+    "description": "Introduction to the neural basis of sensory processes, motor control, attention, emotion, and learning.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 103 or ANT 101 or BIO 203",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 103"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ANT 101"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11164",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 260",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "260",
+    "code": "PSY 260",
+    "title": "Survey in Cognition and Perception",
+    "description": "A survey of theoretical and empirical work on human cognition and perception including pattern recognition, memory, attention, language comprehension, decision making, and problem solving.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 103",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11165",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 273",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "273",
+    "code": "PSY 273",
+    "title": "Supervised Research in Psychology",
+    "description": "Initial training and participation in techniques or duties related to a specific laboratory or field research experience under the direct supervision of a faculty member or advanced graduate student in the Department of Psychology. Students may take two sections in a single semester, but no more than three credits may be applied to a section. May not be taken for more than six credits per faculty advisor during the student’s career.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11166",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 283",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "283",
+    "code": "PSY 283",
+    "title": "Applications and Community Service",
+    "description": "Designed to provide opportunities for students to study and apply psychological principles outside the classroom (e.g., in settings such as hospitals and schools). Specific programs vary from semester to semester. General information is available in the Psychology Undergraduate Office.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11167",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 301",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "301",
+    "code": "PSY 301",
+    "title": "Advanced Statistics",
+    "description": "Survey of probability and sampling theory, descriptive and inferential statistics, and introduction to experimental design.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 201 or any other course satisfying the department’s statistics requirement",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 201"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11168",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 310",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "310",
+    "code": "PSY 310",
+    "title": "Research and Writing in Psychology",
+    "description": "An introduction to and critical analysis of the methodology of psychological research. In addition to attending lectures taught by faculty, students work closely with a graduate instructor and peers in small breakout sections to prepare a research proposal. Not for credit in addition to the discontinued PSY 300. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "Psychology major; PSY 103 ; C or better in PSY 201 or any other course satisfying the department’s statistics requirement",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 103"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 201"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11169",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 327",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "327",
+    "code": "PSY 327",
+    "title": "Human Growth and Development in the Educational Context",
+    "description": "The biological and psychological development of childhood and adolescence that affects teaching and curriculum development for diverse learners. Additional topics include childhood and adolescent psychiatric disorders, special education programs, drug and alcohol use and abuse, and societal issues. Formerly SSE 327 and SSI 327. Not for credit in addition to SSE 327 or SSI 327.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "permission of the instructor or admission to the teacher education program",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11172",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 333",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "333",
+    "code": "PSY 333",
+    "title": "Mood Disorders",
+    "description": "The mood disorders include bipolar (manic-depressive) and depressive disorders. They are among the most common psychological disorders, and are a tremendous personal, social, and economic burden. This course will provide an introduction to current theory and research on the mood disorders, including their classification, epidemiology, course, etiology, pathogenesis, and treatment. Not for credit in addition to PSY 339 with topic of “Mood Disorders.”",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 230",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 230"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11174",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 334",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "334",
+    "code": "PSY 334",
+    "title": "Autism Spectrum Disorders",
+    "description": "This course will provide information on history and current research into the causes (etiology), types (nosology), characteristics (symptomatology), prevalence, and treatment of autism spectrum disorders (ASDs). Topics to be dealt with include: etiology, assessment, family roles, social development, cognitive development, sensory and motor development, comorbidities, long-term outcomes, public policy legal issues, and future directions for research and practice.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 230",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 230"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11175",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 338",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "338",
+    "code": "PSY 338",
+    "title": "Abnormal Child Psychology",
+    "description": "Development and modification of behavioral deviations in children; application of principles derived from experimental analysis of behavior to problems of children.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11176",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 339",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "339",
+    "code": "PSY 339",
+    "title": "Special Topics in Clinical Psychology",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11177",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 341",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "341",
+    "code": "PSY 341",
+    "title": "Psychology of Prejudice",
+    "description": "An overview of theoretical perspectives, research methods, empirical findings, and practical applications of psychological research on prejudice. Topics include the development of prejudice among children; the role of cognitive, social, personality, and motivational factors in maintaining prejudice and stigma; the psychological consequences of prejudice and stigma; and strategies for reducing prejudice, stigma, and intergroup conflict.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240 or PSY 250 or PSY 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11178",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 342",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "342",
+    "code": "PSY 342",
+    "title": "Psychology of Women’s Health",
+    "description": "An investigation of psychological aspects of women’s health and gender differences in health through readings, lectures, films, guest speakers and presentations, class discussions, a writing assignment, and other educational activities.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11179",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 345",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "345",
+    "code": "PSY 345",
+    "title": "Theories of Personality",
+    "description": "The study of the ways in which people differ. Examines traditional and current thinking and research about the nature and causes of the individual patterns of behavior, emotion, and thinking that we call personality.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11180",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 346",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "346",
+    "code": "PSY 346",
+    "title": "Health Psychology",
+    "description": "The role of psychological factors in the maintenance of health or in coping with illness. Topics include health behaviors such as exercise, sleep, eating, and substance use; the relationship of stress and illness; and coping with chronic and terminal illnesses.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 103",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 103"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11181",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 347",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "347",
+    "code": "PSY 347",
+    "title": "Psychology of Women",
+    "description": "The psychological impact of important physiological and sociological events and epochs in the lives of women; menstruation, female sexuality, marriage, childbirth, and menopause; women and mental health, mental illness and psychotherapy; the role of women in the field of psychology.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WST major or minor; or one of the following: WST 102 , WST 103 , PSY 103 , WST 247 / SOC 247",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "WST 102"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WST 103"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 103"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WST 247"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "SOC 247"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11182",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 348",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "348",
+    "code": "PSY 348",
+    "title": "Special Topics in Social Psychology",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11183",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 349",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "349",
+    "code": "PSY 349",
+    "title": "Special Topics in Social Psychology",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11184",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 354",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "354",
+    "code": "PSY 354",
+    "title": "Neurobiology of Learning and Memory",
+    "description": "Our ability to be shaped by our experiences and our sense of personal identity require that our brain encode and store information as one of its fundamental functions. In this course we will look in detail at how neurons and neural circuits respond and change when an organism learns something new or recalls something learned in the past. The focus will be on integrating current work in basic cellular and molecular neurobiology with the experimental psychology of learning and memory. Not for credit in addition to PSY 358 with topic of “Learning and Memory.”",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or BIO 202 or BIO 203 or BIO 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11185",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 355",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "355",
+    "code": "PSY 355",
+    "title": "Human Brain Function",
+    "description": "The functional organization of the human brain, including dysfunctions resulting from various types of brain pathology. Neuroanatomical, neuropsychological, neurophysiological, and experimental psychological approaches are described.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or BIO 208 or BIO 338",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 208"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 338"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11186",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 356",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "356",
+    "code": "PSY 356",
+    "title": "Physiological Psychology",
+    "description": "An advanced survey of the neurobiological bases of complex behavior. A review of basic neurophysiology, neuroanatomy, and neurochemistry is followed by considerations of the circuitry and neural processing supporting perception, motion, emotion, sleep, attention, learning, language, and higher cognitive mechanisms.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or BIO 202 or BIO 203 or BIO 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11187",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 358",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "358",
+    "code": "PSY 358",
+    "title": "Special Topics in Biopsychology",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or BIO 202 or BIO 203 or BIO 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11189",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 359",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "359",
+    "code": "PSY 359",
+    "title": "Special Topics in Biopsychology",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or BIO 202 or BIO 203 or BIO 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 203"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11190",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 364",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "364",
+    "code": "PSY 364",
+    "title": "Judgment and Decision Making",
+    "description": "An exploration of the psychological factors that influence judgment and decision making. Topics include how judgments and decisions ought to be made (e.g., rational decision making), systematic flaws in people’s actual performance, and the neural systems that underlie decisions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or PSY 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11191",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 365",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "365",
+    "code": "PSY 365",
+    "title": "The Psychology of Language",
+    "description": "Examination of theories and research concerning the processes and representations that underlie language comprehension, production, and acquisition.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or PSY 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11192",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 367",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "367",
+    "code": "PSY 367",
+    "title": "Memory",
+    "description": "A review of classic and current theories of memory and empirical research on memory in memory-intact and memory-impaired populations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or PSY 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11194",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 368",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "368",
+    "code": "PSY 368",
+    "title": "Sensation and Perception",
+    "description": "An examination of both the basic mechanisms and the organizational processes of visual and auditory perception. Topics include the perception of color, depth, movement, pitch, loudness, speech, and music.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11195",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 369",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "369",
+    "code": "PSY 369",
+    "title": "Special Topics in Cognition and Perception",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 250 or PSY 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11196",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 375",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "375",
+    "code": "PSY 375",
+    "title": "History and Systems of Psychology",
+    "description": "History of psychology presented either as a development and testing of theories that emerge from a long philosophical tradition, or as a set of practices that serve particular social functions and respond to pressures from the socioeconomic context.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PSY 220 or PSY 230 or PSY 240 or PSY 250 or PSY 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 220"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 240"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 250"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11197",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 380",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "380",
+    "code": "PSY 380",
+    "title": "Research Lab: Human Cognition",
+    "description": "Techniques and experimental methods to conduct research in cognition on a selection of topics such as perception and sensation, language, attention, or memory. Hands-on learning of research and reporting of research.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "PSY 103 ; C or higher in PSY 201 , AMS 110 , or any other course satisfying the department’s statistics requirement",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 103"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 110"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11198",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 382",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "382",
+    "code": "PSY 382",
+    "title": "Research Lab: Social Psychology",
+    "description": "Techniques and experimental problems in social psychology, including natural observation, surveys, and experimental design. Three hours of lecture and two hours of field or laboratory research per week.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "PSY 103 ; C or higher in PSY 201 , AMS 110 , or any other course satisfying the department’s statistics requirement",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 103"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PSY 201"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 110"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11199",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 444",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "444",
+    "code": "PSY 444",
+    "title": "Experiential Learning",
+    "description": "This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent; permission of the instructor and approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11202",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 447",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "447",
+    "code": "PSY 447",
+    "title": "Readings in Psychology",
+    "description": "Directed readings under the guidance of a faculty member.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11203",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 459",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "459",
+    "code": "PSY 459",
+    "title": "Write Effectively in Psychology",
+    "description": "A zero credit course that may be taken in conjunction with any 300- or 400-level PSY course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11204",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 475",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "475",
+    "code": "PSY 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. The student is required to attend all the classes, do all the regularly assigned work, and meet with the faculty member at regularly assigned times to discuss the intellectual and pedagogical matters relating to the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11205",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 476",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "476",
+    "code": "PSY 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students may not serve as teaching assistants in the same course twice.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11206",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 487",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "487",
+    "code": "PSY 487",
+    "title": "Independent Research in Psychology",
+    "description": "Upper-division students interested in carrying out independent research projects under the auspices of a faculty member in the Department of Psychology may do so in this course. The student must propose and carry out the research project and must analyze and write up the results in a form acceptable to the sponsor. Written agreement by the faculty sponsor to undertake this responsibility and an outline of the project goals are filed with the Undergraduate Psychology Office. These become part of the student’s departmental file.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "PSY 273 ; permission of instructor and department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 273"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11207",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 488",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "488",
+    "code": "PSY 488",
+    "title": "Internship",
+    "description": "Participation in public and private agencies and organizations. Students are required to submit written progress reports and a final written report on their experience to the faculty sponsor and department.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "permission of the supervising faculty member and undergraduate director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11208",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 495",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "495",
+    "code": "PSY 495",
+    "title": "Senior Honors Seminar",
+    "description": "First course of a two-semester directed-research activity employing methods and theories of psychological research. Students are expected to design and execute a research project and submit a thesis under the supervision of appropriate faculty sponsorship. Students enrolled in PSY 495 are obliged to complete PSY 496 . Students receive only one grade upon completion of the sequence.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11211",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PSY 496",
+    "deptCode": "PSY",
+    "deptName": null,
+    "number": "496",
+    "code": "PSY 496",
+    "title": "Senior Honors Seminar",
+    "description": "Second course of a two-semester directed-research activity employing methods and theories of psychological research. Students are expected to design and execute a research project and submit a thesis under the supervision of appropriate faculty sponsorship. Students enrolled in PSY 495 are obliged to complete PSY 496. Students receive only one grade upon completion of the sequence.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "PSY 495 ; permission of department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PSY 495"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11212",
+    "rawCorequisites": null
+  }
+]

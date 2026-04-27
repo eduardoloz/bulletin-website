@@ -1,0 +1,1144 @@
+[
+  {
+    "id": "BME 100",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "100",
+    "code": "BME 100",
+    "title": "Introduction to Biomedical Engineering",
+    "description": "A rigorous introduction to biomedical engineering that provides the historical and social context of BME though contemporary emerging areas within BME. Specific areas covered in depth include: bioelectricity and biosensors (action potentials to signal processing), bioimaging (invasive and non-invasive), genetic engineering (with ethical discussions), and biostatistics. Hands-on computational modeling introduces the physiological concept of positive and negative feedback loops in the body. Emphasis is placed on ways engineers view the living system by using design based approaches and computation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME major or BNG minor or departmental consent",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8937",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 120",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "120",
+    "code": "BME 120",
+    "title": "Programming Fundamentals in Biomedical Engineering",
+    "description": "This course will introduce the theory and fundamentals of computer programming specifically designed for the applications in biomedical engineering. Students will learn the basic computer architecture and the interaction between the computer hardware, operating system and application software. The course focus will be on the programming control logic and style critical to all programming languages including C and MATLAB. several core and elective courses in biomedical engineering use MATLAB as a key programming language, and therefore MATLAB will be the primary language used to teach the above mentioned programming principles. This course will also serve as the foundation where the students can pursue further advanced programming skills.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME Major or BNG Minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8938",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 200",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "200",
+    "code": "BME 200",
+    "title": "Bioengineering in Extreme Environments",
+    "description": "Technology at the human-engineering interface that enables human life in harsh environments, including high temperatures, high altitude, deep sea and outer space. Emphasis on the technical design requirements of the bio-engineering interface that will enable life to thrive. Physiological limits to survival will be examined within the context of when the bio-engineering technology is required. This course may not be taken for major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8939",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 203",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "203",
+    "code": "BME 203",
+    "title": "Emergent Biodesign",
+    "description": "This course is designed to provide students with early team-based design experience. Students will learn CAD, 3D printing, microcontroller programming and have hands-on experience in prototyping to solve bite-sized real engineering problems. Students will engage in teamwork, and be exposed to clinical settings to learn how to identify clinical needs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME major; U2 or higher",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8940",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 205",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "205",
+    "code": "BME 205",
+    "title": "Clinical Challenges of the 21st Century",
+    "description": "Technology used by current medical practice, focusing on weekly topics associated with a specific disease state. Technology used to diagnose and treat these disease states will be rigorously examined. Weekly topics will include: cancer, cardiovascular disease, Alzheimer’s, obesity, diabetes, osteoporosis, osteoarthritis, and organ transplant. Key disease states will be presented in physiological and cellular depth. This course may not be taken for major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8941",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 206",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "206",
+    "code": "BME 206",
+    "title": "Science Fiction or Inclusive Bioengineering Solutions",
+    "description": "Our world is constantly changing with new biomedical technology and innovation driven by history specific problems (e.g., COVID-19), new technology opportunities and discrete events. As scientists, engineers, entrepreneurs/corporate and policy makers work together to make science fiction come to life, it is important to not only understand the technology (TECH) involved but also respect diversity and foster inclusiveness (DIV). Using multimedia (e.g., books, movies and shows), students will explore what science fiction means to us and healthcare in the near future. Students will learn from the TECH and the DIV sides to critically think about what we could do cautiously going forward. We will cover examples including, but not limited to, genetic engineering (cloning, CRISPR-CAS9), bioinformatics, neuroscience, machine learning/AI, tissue engineering, computer-brain interface, bioprinting, augmented reality, wearable health technology and so on. Also, students will learn about how the review and approval process of the Institutional Review Board (IRB), FDA and patent play a crucial role in these issues.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11725",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 210",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "210",
+    "code": "BME 210",
+    "title": "Applied Biostatistics",
+    "description": "Students will learn an array of biostatistical techniques to correctly describe and analyze experimental data. The emphasis will be on how to select and apply statistical methods for common statistical tasks encountered in biomedical engineering, rather than on the math underlying individual methods. Statistical software will be heavily used for active learning. Not for credit in addition to AMS 102 , AMS 110 , POL 201 , PSY 201 and SOC 202 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 100 ; BME Major; U2 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 100"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8942",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 212",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "212",
+    "code": "BME 212",
+    "title": "Biomedical Engineering Research Fundamentals",
+    "description": "Introduction to data collection and analysis in the context of biophysical measurements commonly used by bioengineers. Statistical measures, hypothesis testing, linear regression, and analysis of variance are introduced in an application-oriented manner. Data collection methods using various instruments, A/D boards, and PCs as well as LabView, a powerful data collection computer package.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME major; BME 100",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 100"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8943",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 260",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "260",
+    "code": "BME 260",
+    "title": "Statics and Dynamics in Biological Systems",
+    "description": "Fundamentals of engineering statics and dynamics on biological systems will be covered using vector methods. Covered topics will include free body diagrams, equilibrium of systems, rectilinear kinetics and kinematics, angular kinetics and kinematics, work, energy and momentum of biological systems. In parallel, the necessary anatomy and physiology of the organ systems including the musculoskeletal system, the nervous system and the cardiovascular system will be covered. This material will lead to a discussion on kinesiology.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "BME 100 ; AMS 161 ; PHY 125 or PHY 131 or PHY 141",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 100"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 125"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 131"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 141"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8944",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 271",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "271",
+    "code": "BME 271",
+    "title": "Introduction to Electric Circuits and Bioelectricity",
+    "description": "As an introductory course to circuit design, we begin with fundamental theory of circuit analysis, including lumped time-invariant models of resistors, capacitors, inductors, Ohm’s Law, Kirchoff’s Laws, nodal and mesh analysis techniques, two-port equivalent circuits, and steady-state AC circuits. The applications of basic circuit analysis techniques in biomedical instrumentation and biological circuitry will be discussed throughout the entire class. In the final part of the course, the principles of cell electrophysiology, bio-potentials and electrical interactions with tissue will be studied. Not for credit in addition to ESE 271 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 127 or MAT 132 ; PHY 127 / PHY 134 or PHY 132 / PHY 134 or PHY 142",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 127"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 132"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 142"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8945",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 300",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "300",
+    "code": "BME 300",
+    "title": "Writing in Biomedical Engineering",
+    "description": "See Requirements for the Major in Biomedical Engineering, Upper-Division Writing Requirement.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; U3 or U4 standing; BME major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8946",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 301",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "301",
+    "code": "BME 301",
+    "title": "Bioelectricity",
+    "description": "In this course, we will study how electrical signals are generated and propagated in biological tissue. From the basics of Ohm’s Law, as well as the laws that govern diffusion and electric field theory, we will develop mathematical models of bioelectric processes as well as perform simulations of these processes using Matlab. Understanding these signals at the cell and membrane level will provide a foundation for understanding proper nerve, cardiac and muscle function, as well as disease conditions. Using this understanding, we will examine state-of-the-art applications in current literature.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 120 ; BME 271 or ESE 271 ; BIO 202",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 120"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BME 271"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 271"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8947",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 303",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "303",
+    "code": "BME 303",
+    "title": "Biomechanics",
+    "description": "Illuminates the principles of mechanics and dynamics that apply to living organisms, from cells to humans to Sequoia trees. The behavior of organisms is examined to observe how they are constrained by the physical properties of biological materials. Locomotion strategies (or the lack thereof) are investigated for the forces and range of motions required and energy expenditures. Includes the relationship between form and function to illustrate how form dominates behavior. Presents the physiological effects of mechanical stresses on organs, pathologies that develop from abnormal stress, and how biological growth and adaptation arise as a natural response to the mechanics of living.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 260 or MEC 260",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8948",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 304",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "304",
+    "code": "BME 304",
+    "title": "Genetic Engineering",
+    "description": "An introduction to the realm of molecular bioengineering with a focus on genetic engineering. Includes the structure and function of DNA, the flow of genetic information in a cell, genetic mechanisms, the methodology involved in recombinant DNA technology and its application in society in terms of cloning and genetic modification of plants and animals (transgenics), biotechnology (pharmaceutics, genomics), bioprocessing (production and process engineering focusing on the production of genetically engineered products.), and gene therapy. Production factors such as time, rate, cost, efficiency, safety, and desired product quality are also covered. Considers societal issues involving ethical and moral considerations, consequences of regulation, as well as risks and benefits of genetic engineering.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 100 ; BIO 202 or BIO 203",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 100"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 202"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 203"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8949",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 305",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "305",
+    "code": "BME 305",
+    "title": "Biofluids",
+    "description": "The fundamentals of heat transfer, mass transfer, and fluid mechanics in the context of physiological systems. Techniques for formulating and solving biofluid and mass transfer problems with emphasis on the special features and the different scales encountered in physiological systems, from the organ and the tissue level down to the molecular transport level.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 261 or MAT 203 ; AMS 361 (or MAT 303 or MAT 305); BME 260 (or MEC 260 and MEC 262 )",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 305"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BME 260"
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "MEC 260"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "MEC 262"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8950",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 310",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "310",
+    "code": "BME 310",
+    "title": "Introduction to Biomedical Optics and Ultrasound",
+    "description": "The course will introduce fundamental concepts of tissue optics and ultrasound, light/ultrasound tissue interaction, and optical/ultrasound instrumentation, as well as current preclinical and clinical applications of light and ultrasound for diagnosis and therapy in biomedicine.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 271",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 271"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8951",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 311",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "311",
+    "code": "BME 311",
+    "title": "Fundamentals of Macro to Molecular Bioimaging",
+    "description": "This course will cover the fundamentals of modern imaging technologies, including techniques and applications within medicine and biomedical research. The course will also introduce concepts in molecular imaging with the emphasis on the relations between imaging technologies and the design of target specific probes as well as unique challenges in the design of probes of each modality: specificity, delivery, and amplification strategies. The course includes visits to clinical sites.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 212",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 212"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8952",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 312",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "312",
+    "code": "BME 312",
+    "title": "LabVIEW Programming in Engineering",
+    "description": "LabVIEW is the leading software development platform that enables engineers and scientists to create and deploy powerful measurement and control applications and prototypes with minimal time. This course will systematically teach LabVIEW programming with the focus on the data flow model. The highlighted course topics are basic programming logics, graphic user interface design and parallel programming. It will also teach hardware integration using LabVIEW built-in functions for data acquisition, instrument control, measurement analysis and data presentation. Hands-on projects and demonstrations will be implemented throughout the course to enhance the knowledge learned in classroom. At the end of the course, students will be offered the free exam for Certified LabVIEW Associated Developer provided by National Instruments for future career development.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8953",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 313",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "313",
+    "code": "BME 313",
+    "title": "Bioinstrumentation",
+    "description": "The course teaches the fundamental principles of medical device with the emphasis on system integration. It has four major modules, i.e. sensor, signal conditioning (analog amplifier and filter), data acquisition, and data analysis and display. The first two modules introduce the mechanism of sensors such as strain gauge and thermal couple, and the basic circuits of amplifiers and filters. The last two modules introduce the Nyquist theory of data acquisition and the data analysis tools such as spectrum analysis and digital filter with the help LabVIEW, the software platform for measurement, control and system integration. Topics of the biopotential, blood pressure and blood flow measurements are also discussed. The course concludes with the final project of electrocardiograph where the students will build the ECG amplifier and the application for a complete electrocardiograph with the ECG analysis. After completion of the course, students will master the principles and build experiences of the design of medical devices.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 271 or ESE 271",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 271"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 271"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8954",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 314",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "314",
+    "code": "BME 314",
+    "title": "Embedded Technologies in Medical Devices",
+    "description": "The course is directed to the essential technologies commonly used in embedded and wearable medical devices. There are two major modules, the digital circuit design and microcontroller. Hands-on projects will be done throughout the course to enhance learning. The digital circuit design module will teach the basics of combinational logic circuits and sequential logic circuits. The course will use myRIO platform to teach the students to design logic circuits and implement them on a Field Programmable Gate Array (FPGA). The microcontroller module will teach the architecture of microcontrollers and their peripheral interfaces. Focus will be on the UART, I2C and SPI buses and the knowledge will be reinforced through projects using the myRIO embedded system kit. The course will also teach Bluetooth technology widely used in wearable devices. At the end of the course, the student will master the knowledge of embedded technologies for the applications in medical devices.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 313",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 313"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11721",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 340",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "340",
+    "code": "BME 340",
+    "title": "Clinical Insights for Healthcare Device Innovation & Entrepreneurship",
+    "description": "This course will (1) establish a common language for healthcare device innovation by introducing a conceptual framework for the innovation and entrepreneurship process, (2) provide a relatable explanation of the resources and processes involved in healthcare device innovation, and (3) reinforce these concepts with real-world examples from current Stony Brook clinician innovators. Students will demonstrate their understanding of the concepts of healthcare device innovation & entrepreneurship by way of participating in discussions of case studies and during follow up interdisciplinary team projects designed to encourage student synthesis of the session’s concept.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 203 or permission of instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 203"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22735",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 353",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "353",
+    "code": "BME 353",
+    "title": "Introduction to Biomaterials",
+    "description": "This course provides an introduction to materials, including metals, ceramics, polymers, composites, coatings, and adhesives that are used in the human body. It emphasizes the physiochemical properties of materials that are considered important to meet the criteria specified for the implant and device applications (e.g. strength, modulus, fatigue and corrosion resistance, conductivity), and to be compatible with the biological environment (e.g. nontoxic, noncarcinogenic, etc.). Not for credit in addition to CME 371 / ESM 453 or BME 504.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 100 and BME 212",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 100"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 212"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8955",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 354",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "354",
+    "code": "BME 354",
+    "title": "Advanced Biomaterials",
+    "description": "This course is an overview of the applications of biomaterials. Here the emphasis is on the unique challenges in the design, fabrication, and evaluation of biomaterials for a particular application/field. Since biomaterials applications entail their direct or indirect contact with humans, the various practical aspects associated with biomaterials such as sterilization, packaging, evaluating device failures as well as regulatory guidelines will be covered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 353 or ESM 453",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 353"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESM 453"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8956",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 361",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "361",
+    "code": "BME 361",
+    "title": "Data Science with Python",
+    "description": "This course will introduce the basics of Python programming and how to address real-world data analysis challenges by programming. It provides an overview of standard library and coding techniques with functions, loops, classes and objectives, strings, lists, tuples, and also introduces a few advanced packages to process biomedical data and images. Students will learn this object-oriented programming language to address practical problems in the class. Both lectures and laboratories are provided for this course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 120 and MAT 125 / MAT 126 or AMS 151 or MAT 131",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BME 120"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 125"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 126"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8957",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 371",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "371",
+    "code": "BME 371",
+    "title": "Biological Microfluidics",
+    "description": "This one semester course will outline theory and applications of special fluid handling conditions associated with living systems. Microfluids will be examined with respect to aquaporin channels (single file molecular water movement), intercellular fluid transport mechanisms, microvascular convective fluid movement (2 phase flow), and transvascular fluid movement (3 pore theory) with reference to the similarity of each to flow in fabricated microchannels.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8958",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 381",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "381",
+    "code": "BME 381",
+    "title": "Nanofabrication in Biomedical Applications",
+    "description": "Theory and applications of nanofabrication. Reviews aspects of nanomachines in nature with special attention to the role of self-lubrication, intracellular or interstitial viscosity, and protein-guided adhesion. Discusses current nanofabricated machines to perform the same tasks and considers the problems of lubrication, compliance, and adhesion. Self-assembly mechanisms of nanofabrication with emphasis on cutting-edge discovery to overcome current challenges associated with nanofabricated machines.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CHE 132 ; BME 100",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 100"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8959",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 402",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "402",
+    "code": "BME 402",
+    "title": "Contemporary Biotechnology",
+    "description": "This course will provide an introduction into the realm of modern biotechnology and its applications. This course introduces the historical development of biotechnology and its contemporary applications, including, bioproducts and biofuels, microbial fermentation/bioprocessing, aerobic bioreactors, modeling and simulation, metabolism and enzyme kinetics, metabolic engineering, bioremediation and environmental sustainability and human medicine. Further, societal issues involving ethical and moral implications, perceptions and fears, intellectual property, safety, risks and regulatory issues, as well as economics of biotechnology will be discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 304",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 304"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8960",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 404",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "404",
+    "code": "BME 404",
+    "title": "Essentials of Tissue Engineering",
+    "description": "Topics covered are: developmental biology (nature’s tissue engineering), mechanisms of cel-cell and cell-matrix interactions, biomaterial formulation, characterization of biomaterial properties, evaluation of cell interactions with biomaterials, principles of designing an engineered tissue. Considers manufacturing parameters such as time, rate, cost, efficiency, safety and desired product quality as well as regulatory issues.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BIO 202 or BIO 203 ; CHE 132",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 202"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 203"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 132"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8961",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 420",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "420",
+    "code": "BME 420",
+    "title": "Computational Biomechanics",
+    "description": "Introduces the concepts of skeletal biology; mechanics of bone, ligament, and tendon; and linear and nonlinear properties of biological tissues. Principles of finite differences method (FDM) and finite elements method (FEM) to solve biological problems. Both FDM and FEM are applied to solve equations and problems in solid and porous media. Requires knowledge of Fortran or C programming.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8962",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 430",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "430",
+    "code": "BME 430",
+    "title": "Quantitative Human Physiology",
+    "description": "This course will provide an introduction to the study of quantitative physiology. This course will introduce the physical, chemical and mathematical foundation of physiology. That knowledge will then be applied to membranes, transport, metabolisms, excitable cells and various organ systems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BIO 202 and AMS 261 or MAT 203",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BIO 202"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 203"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8963",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 440",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "440",
+    "code": "BME 440",
+    "title": "Biomedical Engineering Design",
+    "description": "Introduction to product development from the perspective of solving biomedical, biotechnological, environmental, and ergonomic problems incorporating appropriate engineering standards and multiple realistic constraints. Teamwork in design, establishing customer needs, writing specifications, and legal and financial issues are covered in the context of design as a decision-based process. A semester-long team design project follows and provides the opportunity to apply concepts covered in class.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME major; U4 standing; BME 301 and BME 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 301"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8964",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 441",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "441",
+    "code": "BME 441",
+    "title": "Senior Design Project in Biomedical Engineering",
+    "description": "Formulation of optimal design problems in biomedical and physiological settings. Introduces optimization techniques for engineering design and modeling for compact and rapid optimization of realistic biomedical engineering problems. Necessary conditions for constrained local optimum with special consideration for the multiple realistic constraints in which the product designed should function in terms of the settings (corporal, ex-corporal, biological, etc.), the engineering standards, and the safety considerations involved which are unique to biomedical engineering. Students carry out the detailed design of projects chosen early in the semester. A final design report is required.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 440",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 440"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8965",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 444",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "444",
+    "code": "BME 444",
+    "title": "Experiential Learning",
+    "description": "This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent; permission of the instructor and approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8966",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 461",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "461",
+    "code": "BME 461",
+    "title": "Biosystems Analysis",
+    "description": "Fundamentals of the linear time series analyses framework for modeling and mining biological data. Applications range from cardiorespiratory; renal blood pressure, flow, and sequence; to gene expression data. Tools of data analysis include Laplace and Z transforms, convolution, correlation, Fourier transform, transfer function, coherence function, various filtering techniques, and time-invariant and time-varying spectral techniques.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 212 and BME 301",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 212"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BME 301"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8967",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 475",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "475",
+    "code": "BME 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision by the faculty instructor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME major; U4 standing; a minimum g.p.a. of 3.00 in all Stony Brook courses and a grade of B or better in the course in which the student is to assist; or permission of the department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8968",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 476",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "476",
+    "code": "BME 476",
+    "title": "Undergrad Teaching Practicum II",
+    "description": "Students assist the faculty in teaching and learn independent teaching skills while observed by the instructor. May be used as an open elective.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME major; U4 standing; a minimum g.p.a. of 3.00 in all Stony Brook courses and a grade of B or better in the course in which the student is to assist; instructor and departmental approval.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8969",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 481",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "481",
+    "code": "BME 481",
+    "title": "Biosensors",
+    "description": "A comprehensive introduction to the basic features of biosensors. Discusses types of most common biological agents (e.g. chromophores, fluorescence dyes) and the ways in which they can be connected to a variety of transducers to create complete biosensors for biomedical applications. Focus on optical biosensors and systems (e.g. fluorescence spectroscopy, microscopy), and fiberoptically-based biosensing techniques . New technologies such as molecular beacons, -Qdots, bioMEMs, confocal microscopy and multiphoton microscopy, and OCT will be referenced.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BIO 202 ; BME 271 or ESE 271",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BIO 202"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BME 271"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 271"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8970",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 488",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "488",
+    "code": "BME 488",
+    "title": "Biomedical Engineering Internship",
+    "description": "Participation in off-campus biomedical engineering practice. Students are required to submit a proposal to the undergraduate program director at the time of registration that includes the location, immediate supervisor, nature of the project, and hours per week for the project. One mid-semester report and one end of semester report are required.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 212 and permission of undergraduate program director",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 212"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8971",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 494",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "494",
+    "code": "BME 494",
+    "title": "Honors Seminar on Research",
+    "description": "The course outlines components of biomedical research vs design that includes experimental design, data recording, analysis and presentation at scientific meetings, as well as engineering design schematics, patents, and presentations to angel investors. The course culminates with an Honors Thesis Proposal that follows either a research (hypothesis testing) or design (prototype construction) pathway.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "U3 standing and acceptance into the BME Honors program.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8972",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 495",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "495",
+    "code": "BME 495",
+    "title": "Honors Independent Research",
+    "description": "The course involves research (hypothesis testing) or engineering design (prototype construction) that the student completes under the supervision of the faculty member. The course culminates with an Honors Thesis draft (Fall semester) or Honors Thesis that is orally defended (Spring semester). Both BME 494 and BME 495 must be taken to qualify to graduate with Honors in BME.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 494",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BME 494"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8973",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BME 499",
+    "deptCode": "BME",
+    "deptName": null,
+    "number": "499",
+    "code": "BME 499",
+    "title": "Research in Biomedical Engineering",
+    "description": "An independent research project with faculty supervision.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8974",
+    "rawCorequisites": null
+  }
+]

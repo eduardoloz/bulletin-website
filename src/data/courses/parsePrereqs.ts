@@ -502,13 +502,27 @@ async function main() {
   const folder = path.resolve(process.cwd(), "src/data/courses");
   const inputPath = path.resolve(folder, "all.json");
 
-  // ✅ output in SAME folder as this parser
-  const outPath = path.resolve(folder, "all.withTrees.json");
+  // Parse CLI args: optional department codes (e.g. "CSE", "AMS", "MAT")
+  const args = process.argv.slice(2).map((a) => a.toUpperCase());
+  const deptFilter = args.filter((a) => /^[A-Z]{2,6}$/.test(a));
 
-  const courses: CourseRow[] = JSON.parse(fs.readFileSync(inputPath, "utf8"));
-  const codeToId = buildCodeToIdMap(courses);
+  const allCourses: CourseRow[] = JSON.parse(fs.readFileSync(inputPath, "utf8"));
 
-  for (const course of courses) {
+  // Always build codeToId from ALL courses so cross-department prereqs resolve
+  const codeToId = buildCodeToIdMap(allCourses);
+
+  // Filter to requested departments, or use all if none specified
+  const coursesToProcess = deptFilter.length > 0
+    ? allCourses.filter((c) => c.deptCode && deptFilter.includes(c.deptCode.toUpperCase()))
+    : allCourses;
+
+  if (deptFilter.length > 0) {
+    console.log(`[*] Filtering to departments: ${deptFilter.join(", ")} (${coursesToProcess.length} courses)`);
+  } else {
+    console.log(`[*] Processing all ${coursesToProcess.length} courses`);
+  }
+
+  for (const course of coursesToProcess) {
     // --- prerequisites ---
     const rawP = course.rawPrerequisites;
     if (rawP == null || normalizeRaw(String(rawP)).length === 0) {
@@ -541,9 +555,27 @@ async function main() {
     }
   }
 
-  fs.writeFileSync(outPath, JSON.stringify(courses, null, 2), "utf8");
+  // Write per-department files if departments were specified, otherwise write all
+  const normalizedDir = path.resolve(folder, "normalized_coursework");
+  fs.mkdirSync(normalizedDir, { recursive: true });
+
+  if (deptFilter.length > 0) {
+    for (const dept of deptFilter) {
+      const deptCourses = coursesToProcess.filter(
+        (c) => c.deptCode && c.deptCode.toUpperCase() === dept
+      );
+      const deptOutPath = path.resolve(normalizedDir, `${dept.toLowerCase()}.json`);
+      fs.writeFileSync(deptOutPath, JSON.stringify(deptCourses, null, 2), "utf8");
+      console.log(`[+] Wrote ${deptCourses.length} courses -> ${deptOutPath}`);
+    }
+  } else {
+    const outPath = path.resolve(normalizedDir, "all.withTrees.json");
+    fs.writeFileSync(outPath, JSON.stringify(allCourses, null, 2), "utf8");
+    console.log(`[+] Wrote ${allCourses.length} courses -> ${outPath}`);
+  }
+
   console.log(
-    `✅ Done. Output: ${outPath} (USE_AI=${USE_AI ? "1" : "0"}, CLEAN_RAW_WITH_AI=${CLEAN_RAW_WITH_AI ? "1" : "0"})`
+    `Done. (USE_AI=${USE_AI ? "1" : "0"}, CLEAN_RAW_WITH_AI=${CLEAN_RAW_WITH_AI ? "1" : "0"})`
   );
 }
 

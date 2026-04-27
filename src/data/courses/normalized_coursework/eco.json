@@ -1,0 +1,1187 @@
+[
+  {
+    "id": "ECO 108",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "108",
+    "code": "ECO 108",
+    "title": "Introduction to Economics",
+    "description": "An introduction to economic analysis. Microeconomics (the study of individual, firm, industry, and market behavior) and macroeconomics (the study of the determination of national income, employment, and inflation). This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 122 or MAT 123 or AMS 151 or level 4 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 122"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 123"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9437",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 110",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "110",
+    "code": "ECO 110",
+    "title": "Introduction to Microeconomics",
+    "description": "This course is an introduction to how economists think about the world with an emphasis on the behaviors of agents. It is recommended for students that wish to take a single course of economics and it is required for students that will major in economics, and it is part of the introductory sequence along with ECO 111 . Any other course you take in economics will build upon the knowledge and skills you develop in ECO110 and the companion ECO 111 . Hence, some fundamental concepts will be covered with some degree of complexity, even though this is an introductory course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 122 or MAT 123 or AMS 151 or level 4 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 122"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 123"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9438",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 111",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "111",
+    "code": "ECO 111",
+    "title": "Introduction to Macroeconomics",
+    "description": "This course is an introduction to how economists, in particular macroeconomists, think about the world. It is required for students that will major in economics and recommended along with ECO 110 to those who want an overview of economics. Any other course you take in economics will build in part upon the knowledge and skills you develop in ECO111, along with ECO 110 . Hence, some fundamental concepts will be covered with some degree of complexity, even though this is an introductory course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 122 or MAT 123 or AMS 151 or level 4 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 122"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 123"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9439",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 303",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "303",
+    "code": "ECO 303",
+    "title": "Intermediate Microeconomic Theory",
+    "description": "Analytical study of the behavior of fundamental economic units (consumer and the firm) and its implications for the production and distribution of goods and services. Emphasis on the use of economic theory to provide explanations of observed phenomena, including the analytical derivation of empirically verifiable propositions. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 110 ; C or higher in MAT 125 or AMS 151 or placement level 6 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 110"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 125"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 151"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9440",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 305",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "305",
+    "code": "ECO 305",
+    "title": "Intermediate Macroeconomic Theory",
+    "description": "The theory of national income determination, employment, distribution, price levels, inflation, and growth. Keynesian and classical models of the different implications of monetary and fiscal policy. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 111 ; C or higher in MAT 125 or AMS 151 or placement level 6 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 111"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 125"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 151"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9441",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 310",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "310",
+    "code": "ECO 310",
+    "title": "Basic Computational Methods in Economics",
+    "description": "A first course in the computational and graphical techniques for finding numerical solutions to a small set of economic models (such as the Edgeworth Box) based on concepts and constructs presented in the intermediate microeconomics course. Includes the foundations of programming (using a symbolic algebra language), and finding maxima of functions, finding equilibria of markets, and exploring and fitting functions graphically. Emphasis is put on understanding the connections between the concepts, the algebra, the computation, and the graphical presentation of economic models and on using the numerical models to perform experiments.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9442",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 320",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "320",
+    "code": "ECO 320",
+    "title": "Mathematical Statistics",
+    "description": "An introduction to statistical methods and their properties that are useful in analysis of economic data. Topics include elements of probability theory and its empirical application, univariate and multivariate distributions, sampling distributions, limiting distributions, and point and interval estimation. Regular problem sets and occasional projects are required. Not for credit in addition to AMS 310 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 125 or AMS 151 or placement level 6 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9443",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 321",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "321",
+    "code": "ECO 321",
+    "title": "Econometrics",
+    "description": "The application of mathematical and statistical methods to economic theory. Topics include the concept of an explanatory economic model, multiple regression, hypothesis testing, simultaneous equation models, and estimating techniques. Emphasis is placed on the application of econometric studies.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 320 or AMS 310 ; C or higher in ECO 110 and ECO 111",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ECO 320"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 110"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 111"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9444",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 322",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "322",
+    "code": "ECO 322",
+    "title": "Data Science and Machine Learning in Economics",
+    "description": "A rigorous introduction to the data-science techniques, including machine learning and GIS mapping, that are being applied in economics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 320 or AMS 310 ; C or higher in ECO 321",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ECO 320"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 321"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9445",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 323",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "323",
+    "code": "ECO 323",
+    "title": "Applied Microeconomics",
+    "description": "Exploration of the connection between economic theory and its applications, with a special emphasis on the use of econometric techniques. Real-life examples are used to examine how computer software and the internet allow us to better understand a problem, analyze a question, or find an answer. Computers are used intensively to learn about financial and business decisions, economic models, and econometric methodology. Models of inter-temporal choice, investment, investment under uncertainty, migration, retirement, housing decisions, economics of regulation, education, financial options, and many others are explored with real examples, often with real data and econometric tools. Students are expected to consult many sources and think analytically for problem sets, exams, and in class.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 ; C or higher in ECO 320 or AMS 310 ; C or higher in ECO 321",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ECO 320"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 321"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9446",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 324",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "324",
+    "code": "ECO 324",
+    "title": "Empirical Industrial Organization",
+    "description": "This course provides students with a rigorous introduction to the topics and methods of Empirical Industrial Organization (IO). It covers topics related to the empirical analysis of how markets work, how firms compete or collude with each other, and how these interactions determine profits and consumer welfare. This course emphasizes the importance of combining good data, reasonable economic models, and appropriate econometric techniques to answer empirical questions in Industrial Organization and in Economics in general.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 320 and ECO 321",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 320"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 321"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9447",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 325",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "325",
+    "code": "ECO 325",
+    "title": "International Trade",
+    "description": "International trade of goods and services, the global integration of production, multinational enterprises, specialization and increasing returns, market power and pricing-to-market, trade policy, and the welfare consequences of policy reforms. Formerly offered as ECO 325 International Economics. Not for credit in addition to ECO 325 International Economics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9448",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 326",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "326",
+    "code": "ECO 326",
+    "title": "Industrial Organization",
+    "description": "A study of the structure of firms and markets and interactions between them. Price theory, strategic theory and transaction costs analysis are used to illuminate the sources of and limitations on market power of firms. Some empirical evidence, drawn primarily from the U.S. economy, is explored. A brief introduction to antitrust policy and regulatory policy is included.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ECO 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9449",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 327",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "327",
+    "code": "ECO 327",
+    "title": "Health Economics",
+    "description": "An application of microeconomics to the health sector of the economy. Topics include the demand for health care; the roles of hospitals, physicians, and HMOs in the supply of health care; the role of the government in the provision of health care; and the detriments of health care costs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9450",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 329",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "329",
+    "code": "ECO 329",
+    "title": "Urban Economics",
+    "description": "Construction of models to explain aspects of cities, including existence, dynamics, and land use patterns. Concepts include Lorenz Curve, externalities, tipping points, bid-rent curves, and separation of economic activities. Uses algebra, pre-calculus, graphing, and calculus. Computer spreadsheets and scientific hand calculators used.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9451",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 334",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "334",
+    "code": "ECO 334",
+    "title": "Demographic Economics of Developing Countries",
+    "description": "Problems related to both economics and demography. In scope, the material deals with both contemporary and historical situations in developing countries. Microeconomic aspects of the course concern fertility, marriage, divorce, and migration; macroeconomic aspects concern the implications for growth and development of various patterns of population increase.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 320 or AMS 310 ; C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ECO 320"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9452",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 335",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "335",
+    "code": "ECO 335",
+    "title": "Economic Development",
+    "description": "An examination of problems and aspects facing developing countries in the transition from traditional, predominantly rural economic systems to modern, largely urban-oriented economies. Theories of economic growth and development are presented in the light of the actual experience of developing countries.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9453",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 337",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "337",
+    "code": "ECO 337",
+    "title": "Labor Theory",
+    "description": "Microeconomic theory is used to investigate specific topics in the field of labor economics. Areas to be covered include the household’s decision-making process and the supply of labor, investments in human capital and discrimination in the marketplace, the effect of market structure on the demand for labor, and the distribution of income.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ECO 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9454",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 348",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "348",
+    "code": "ECO 348",
+    "title": "Analysis for Managerial Decision Making",
+    "description": "Development of analytical techniques (such as linear programming and statistical decision theory) for making economic decisions, both in public and private enterprises. The student makes decisions on large-scale and detailed cases in realistic managerial situations and is introduced to the use of the computer. May not be taken for credit after BUS 249. Not for credit in addition to the discontinued BUS 349.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ECO 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9455",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 351",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "351",
+    "code": "ECO 351",
+    "title": "Special Topics in Economics",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ECO 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9456",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 352",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "352",
+    "code": "ECO 352",
+    "title": "Special Topics in Economics",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9457",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 354",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "354",
+    "code": "ECO 354",
+    "title": "Special Topics in Economics",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9458",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 355",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "355",
+    "code": "ECO 355",
+    "title": "Game Theory",
+    "description": "Introduction to game theory fundamentals with special emphasis on problems from economics and political science. Topics include strategic games and Nash equilibrium, games in coalitional form and the core, bargaining theory, measuring power in voting systems, problems of fair division, and optimal and stable matching.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 126 or MAT 131 or AMS 151 ; C or higher in ECO 303",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 126"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 131"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 151"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9459",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 356",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "356",
+    "code": "ECO 356",
+    "title": "Special Topics in Economics",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9460",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 357",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "357",
+    "code": "ECO 357",
+    "title": "Special Topics in Economics",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9461",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 359",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "359",
+    "code": "ECO 359",
+    "title": "Reading and Writing in Economics",
+    "description": "Provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305 ; WRT 102 ; U4 standing; ECO major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9462",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 360",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "360",
+    "code": "ECO 360",
+    "title": "Money and Banking",
+    "description": "An introduction to modern monetary institutions and mechanisms, their relationship to the economy, and governmental policies in this area.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ECO 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9463",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 362",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "362",
+    "code": "ECO 362",
+    "title": "Financial Economics",
+    "description": "An analysis of financial decision making inside the corporation, covering topics such as the choice of the dividend policy, the choice between equity and debt and the interaction between financing and investment decisions. We will also look at how market imperfections, in particular the existence of informational differences between managers and investors, influence the performance of corporations. Finally, we study the optimal policies to cope with market imperfections.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305 ; C or higher in ECO 320 or AMS 310",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ECO 320"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9464",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 364",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "364",
+    "code": "ECO 364",
+    "title": "Thinking Strategically",
+    "description": "A focus on the strategic interaction between several decision makers. Topics include: optimal decisions of firms interacting in markets with imperfect competition, the value of information under strategic conflict, optimal bidding strategies for various auction mechanisms (including online auctions), optimal networking design, Blackjack and others.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 125 or AMS 151 or placement level 6 on the math placement",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9465",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 373",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "373",
+    "code": "ECO 373",
+    "title": "Economics of Environment and Natural Resources",
+    "description": "Analysis of economic policies designed to deal with environmental problems. Issues involving the management of renewable and exhaustible resources such as timber and oil as well as the advantage of market-based solutions over the conventional demand approach are discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9466",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 383",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "383",
+    "code": "ECO 383",
+    "title": "Public Finance",
+    "description": "Theories of taxation and the satisfaction of public wants; the nature of public goods; theory of public expenditure; effects of taxes on resource allocation and welfare; theories of tax incidence; fiscal and equity implications of alternative tax schemes; fiscal dynamics and growth; intergovernmental fiscal relations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9467",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 385",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "385",
+    "code": "ECO 385",
+    "title": "U.S. Economic History",
+    "description": "The application of economic theory and statistical methods to analyze historical topics and themes. Topics may include the economic causes of the Revolutionary War; the economics of slavery; share cropping and debt peonage in the South after the Civil War; the economics of the resumption of the gold standard; the “cross of gold”, the causes of the Great Depression, post World War II economic growth, and the causes and consequences of the Great Recession. Themes include an analysis of the American economic growth from the 1820’s through today; the government’s role in economic development; and the contributions of natural increase and migration to U.S. labor force and population increase.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 110 and ECO 111",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 110"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 111"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9468",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 386",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "386",
+    "code": "ECO 386",
+    "title": "International Finance",
+    "description": "International capital flows, prices, and quantities, including the determination of the Current Account, exchange rates, interest rates, arbitrage, open macroeconomics, and the international monetary system.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9469",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 389",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "389",
+    "code": "ECO 389",
+    "title": "Corporate Finance",
+    "description": "Introduction to the main concepts and problems confronted by financial managers in the corporate world. Development and application of tools and methods for financial decision-making and analysis, including: discounting and present value; asset valuation; investment criteria; risk and return; risk management; cost of capital; debt and dividend policies; international financial management.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ECO 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9470",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 444",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "444",
+    "code": "ECO 444",
+    "title": "Experiential Learning",
+    "description": "This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent; permission of the instructor and approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9471",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 459",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "459",
+    "code": "ECO 459",
+    "title": "Write Effectively in Economics",
+    "description": "A zero credit course that may be taken in conjunction with any 300- or 400-level ECO course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9472",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 475",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "475",
+    "code": "ECO 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. The student is required to attend all the classes, do all the regularly assigned work and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor and department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9473",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 476",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "476",
+    "code": "ECO 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. Students may not serve as teaching assistants in the same course twice.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 475 ; permission of instructor and department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ECO 475"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9474",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 487",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "487",
+    "code": "ECO 487",
+    "title": "Independent Research in Economics",
+    "description": "An independent project, developed out of advanced coursework in economics, designed in consultation with and supervised by a faculty member. The project should be formulated before the start of the semester in which the research will be done and should culminate in a substantial written paper of at least 15 pages.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305 ; at least one upper-division ECO course that forms the basis of research; permission of a supervising faculty member",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9475",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ECO 488",
+    "deptCode": "ECO",
+    "deptName": null,
+    "number": "488",
+    "code": "ECO 488",
+    "title": "Internship in Economics",
+    "description": "An independent research project undertaken in the context of a work environment that provides students with access to data, people, and experience that make possible the study of a particular economic issue. Related readings, a daily journal, and an analytical paper under the supervision of a faculty member are required. Permission must be obtained before the start of the semester in which the student enrolls in ECO 488.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "C or higher in ECO 303 and ECO 305 ; permission of supervising faculty member, Career Center Internship Manager, and sponsoring employing agency",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9476",
+    "rawCorequisites": null
+  }
+]

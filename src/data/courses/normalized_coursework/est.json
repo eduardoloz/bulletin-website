@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "EST 100",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "100",
+    "code": "EST 100",
+    "title": "The Digital Generation: Mastering Multimedia Tools That Shape Our World",
+    "description": "This course equips students with the essential skills to excel in the digital era through practical experience leveraging accessible computer applications and multimedia tools. Participants will explore digital media creation and adapt their projects for various digital platforms. The curriculum is designed to enhance information presentation skills using a range of web and app-based tools. Focusing on digital and multimedia literacy, the course develops competencies in design and presentation, culminating in the creation and showcase of a detailed portfolio of multimedia projects. This course aims to empower students to actively navigate and influence the digital world.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9734",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 102",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "102",
+    "code": "EST 102",
+    "title": "Weather and Climate",
+    "description": "Introduces the nature and causes of common meteorological phenomena, severe weather occurrences, and climatic patterns. Topics include formation and movement of air masses and large-scale storms; techniques for weather prediction; weather satellites; hurricanes, tornadoes, and thunderstorms; cloud and precipitation types; the climatic history of the earth; and actual and potential effect of human activities on weather and climate, and of weather and climate on humans.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9735",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 104",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "104",
+    "code": "EST 104",
+    "title": "Projects in Technology and Society",
+    "description": "Introduces students to technological issues in society. A new topic is presented each semester. Explores underlying scientific and engineering concepts, ethical issues, and technological risks. Students complete a project with faculty supervision.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "CSTEP student",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9736",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 105",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "105",
+    "code": "EST 105",
+    "title": "The Digital Generation: Leveraging Technology to Build 21st Century Skills",
+    "description": "Students today face many challenges keeping up with technology trends and the skills necessary to be successful in the digital world. In this course students will develop the 21st century skills necessary to become effective lifelong learners leading to a successful career. We will explore a number of topics including information literacy, digital citizenship, understanding social media, collaborative environments and cloud based applications as we as organizing your digital world. The culminating activity for this course is the creation of a personal technology learning and management plan showcasing the tools and skills learned throughout the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9737",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 106",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "106",
+    "code": "EST 106",
+    "title": "The Digital Generation: Creating a Professional Web Presence",
+    "description": "Creating a positive digital profile can be a challenging task for the 21st century student. In this course, learn how to utilize the power of the Internet and social media to enhance your web presence and digital profile. We will explore a number of topics including building a strong web presence, leveraging social media, creating and uploading video content, blended and distance learning as well as mobile devices as a learning tool. The culminating activity for this course is the creation of a positive and sustainable web presence and digital profile.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9738",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 110",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "110",
+    "code": "EST 110",
+    "title": "The Digital Generation: Investigating AI Ethics, Social Impact and Real-World Applications",
+    "description": "This course offers a comprehensive exploration of Artificial Intelligence (AI), covering its ethical implications, societal influence, technical foundations, and real-world applications. Through engaging discussions, case studies, and hands-on projects, you will develop a deeper understanding of AI’s transformative power, honing critical thinking and practical skills essential for navigating this evolving field. Whether considering a career in technology or simply seeking to be informed about this rapidly advancing field, this course provides a solid foundation for understanding AI’s potential and challenges.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9739",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 192",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "192",
+    "code": "EST 192",
+    "title": "Introduction to Modern Engineering",
+    "description": "Familiarizes students with systems and decision-making concepts of modern engineering and technology. The conceptual areas to be studied include an engineering approach to problem solving and design, modeling of dynamic systems, and technology assessment. The artificial heart program, solar energy technology, and building access for the handicapped are some of the socio-technological case studies that are used.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Course is for students without prior engineering experience, permission of the department required",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9740",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 194",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "194",
+    "code": "EST 194",
+    "title": "Decision-making",
+    "description": "Reviews common justifications for decisions through quantitative, algorithmic processes and reducing multiple criteria to one variable. Covers basic concepts in cost-benefit analysis, risk assessment, decision trees, expected monetary value, and the analytical hierarchy process. Discussions include uncertainties associated with translating qualitative criteria into quantified variables and assigning values to probabilistic events.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "TSM major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9741",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 200",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "200",
+    "code": "EST 200",
+    "title": "Cultural Technologies and Society",
+    "description": "This course will explore how cultural technologies influence and change many aspects of society including religious views, politics, war, economic development, science, art, music and other dimensions of the world’s civilization. We will examine human history punctuated by major breakthroughs in cultural technologies including ideographic/syllabic writing, alphabetic writing, printing, photography, telegraph, telephone, sound recording, motion pictures, radio, television, computers, the internet, smart phones, robotics and beyond. The culminating activity for this course is a project designed to showcase how current and future technology is likely changing our global civilization in one of the thematic societal areas discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "One DEC E or SNW course; WRT 102",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9742",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 201",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "201",
+    "code": "EST 201",
+    "title": "Technological Trends in Society",
+    "description": "Explores the impact of technology and engineering design on society past, present, and future. The main themes as they relate to changing technology are: industry and the economy; the environment; social, educational, and psychological implications of computers; energy and society; warfare; and 21st-century emerging technologies.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9743",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 202",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "202",
+    "code": "EST 202",
+    "title": "Introduction to Science, Technology, and Society Studies",
+    "description": "The dynamics of the relations among modern science, the development and use of technology through engineering, and social concerns. Introduces basic concepts for science-technology studies. Ethical and policy issues that affect the management of science and engineering as expressed in technology are covered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "TSM major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9744",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 203",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "203",
+    "code": "EST 203",
+    "title": "Technology in the City",
+    "description": "This course covers the intersection of technology and society. Topics include, how different technologies play an essential element of urban society such as transportation systems, energy, and financial systems. It examines the changes in technology which causes changes in society.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9745",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 204",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "204",
+    "code": "EST 204",
+    "title": "Modern Digital Technology and Innovation",
+    "description": "This course helps students develop an understanding of innovation, digital technology and design through the use of social networks, innovation, software, and new technology. Visualization tools such as Virtual Reality and Augmented Reality as well as other techniques will be discussed to understand how they are used to evaluate the goals. Students will learn to assess the value of these systems and improve organizations productivity related to innovation and customer engagement, all focused on a cross discipline approach to a team. Students will analyze and build a technological project from idea to creation to ensure they understand all aspects.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9746",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 205",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "205",
+    "code": "EST 205",
+    "title": "Introduction to Technological Design: Innovation and Design Thinking",
+    "description": "Using a design thinking approach to solve real world problems with technology, broadly defined. Design is treated as a universal human activity comprised of learnable principles, processes and skills. Students will identify a need (through empathy), define a problem, and work in a team on a technological solution, using prototyping and testing to refine their design. Over the semester, students will create and work on a collaborative website for their project. They will also learn two online technologies (one for 3D modeling, the other for app development) which they may use to prototype their design.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9747",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 207",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "207",
+    "code": "EST 207",
+    "title": "Interaction Design",
+    "description": "The design of interactive user experiences. Human perception, motivations, and how people interact with devices. User-centered design. Rapid prototyping and iterative design/development with digital toolsets.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9748",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 208",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "208",
+    "code": "EST 208",
+    "title": "Technology, Policy, and Society: AI’s Role in Global Challenges Intro to Artificial Intelligence",
+    "description": "Today’s radically changing landscape will require collaboration across boundaries on how we use and manage AI in this new technological age. Students will examine the intersection of AI, public policy, and societal impacts, focusing on how AI addresses global challenges such as inequality, security, and sustainability while raising ethical, political, and cultural concerns. With the proliferation of AI technologies are changing the fundamentals by which human beings interact, understand each other and collaborate; creating many opportunities but also posing major challenges especially when it comes to effective collaboration across boundaries. In this course students will learn how to overcome barriers AI may present and become exceptional collaborators (and leaders) enhancing their competitiveness in the job market as well as other life situations. Leveraging the strong foundations of AI - a current tool that is being used by millions worldwide to enhance collaboration across industry, government, non-profits. Students will get hands-on experience on understanding and utilizing these new methods.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9749",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 209",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "209",
+    "code": "EST 209",
+    "title": "Introduction to Italian Design: Theory and Practice",
+    "description": "Italian material and aesthetic culture as a source for design and technology. Lectures and design in CAD practice especially for engineering students. The work of the American, global and Italian design practitioners, in a study abroad class in Rome. This is a series of practices in traditional, modern, and transmedia Italian design with the focus on automobile design as a capstone. The student will apply the aesthetic and engineering concepts from the Italian national culture and use written essay, hand drawing, and CAD drawing in open source software, in order to understand the links between the application of any design technology and the general aesthetics of the Italian culture. The student will synthesize quantitative and/or technical information in the design of products, and auto design and make informed judgments about the origin and reciprocal relationship between the technology of commodities, design in general, and the Italian humanities.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9750",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 210",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "210",
+    "code": "EST 210",
+    "title": "Emerging Technologies in Atypical Operations",
+    "description": "This course will cover topics surrounding the current operations, and future outlooks of technological impact in modern society and unconventional uses of such. A unique part of this course is the practical applications of leading-edge operational technologies will be introduced such as IoT Devices, AI, as well as functional uses of drone technology in society today. Students will gain an understanding of the foundations of “thinking outside the box”, emergency preparedness, and the surrounding core values of ethics, planning, and decision making.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9751",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 221",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "221",
+    "code": "EST 221",
+    "title": "Multimedia for Online Content Platforms",
+    "description": "So you want to be an online content creator? Looking to dive into the world of YouTube, Instagram, TikTok, Reddit, etc? EST 221 builds on the multimedia asset building skills introduced in EST 100 . Combine your photographic editing, graphic/logo design, and animation skills into a complete piece of online content for posting to online web content sites like YouTube, Instagram, and Reddit. Students will continue their exploration of the Adobe Creative Suite by developing their own videos (Adobe Premiere), audio samples/tracks (Adobe Audition), and graphics (Adobe Photoshop/Illustrator) to assemble content to post online. Learn to use the tools that some of the most popular YouTubers and online influencers use today and be limited only by your creativity and unique ideas.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9752",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 230",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "230",
+    "code": "EST 230",
+    "title": "Information and Communications Technology for Sustainable Development",
+    "description": "The Internet is the largest engineered construction project in human history and it is generating sweeping social, political and economic change. Coinciding with this digital network revolution is a growing awareness of the challenge of environmental sustainability. Although the digital transformation is still in its early stages, the shape of certain technological tools and skills required for the hyper connected digital era are already apparent. The overarching theme of this course is to introduce the relationship of the emerging digital communication ecosystem, on the one hand, and possibilities for global environmental sustainability on the other. In the process, it introduces students to key digital literacies and technological skills.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9753",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 240",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "240",
+    "code": "EST 240",
+    "title": "Visual Rhetoric and Information Technology",
+    "description": "Seeing comes before words. The focus of this survey course is on the visual communication code, and on implementation of effective presentation design. Students will explore the theories of information visualization as well as the underlying scientific phenomena. We will examine and discuss the impact of such technologies as photography, cinema, Internet, mobile, and virtual reality on democratization of visual culture. Students will learn and apply the skills, techniques, and resources of the course in order to create a state-of-the-art term project presentation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9754",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 280",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "280",
+    "code": "EST 280",
+    "title": "Fundamentals of Industrial Engineering",
+    "description": "This course will cover Fundamental Industrial Engineering concepts and practices.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in AMS 151 or MAT 131 , or level 7 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9755",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 291",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "291",
+    "code": "EST 291",
+    "title": "Energy, Environment, and People",
+    "description": "Case studies selected from topics such as radioactive wastes; Long Island’s toxic wastes; Shoreham, Chernobyl, and nuclear safety; agriculture and the environment; and global resources. The course emphasizes the interplay between scientific and engineering considerations and human values and institutions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one D.E.C. E or SNW course (except those designated ANP); any AMS or MAT course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9756",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 304",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "304",
+    "code": "EST 304",
+    "title": "Communication for Engineers and Scientists",
+    "description": "In today’s society, it is essential for educated people to be able to present technical information to a range of audiences using various communication methods and styles. In EST 304, students learn how to communicate technical concepts that make sense not only to other scientists and engineers, but also to audiences ranging from students to technical consumers in the world marketplace. Course content emphasizes: writing clearly, concisely, and persuasively; creating effective visuals; presenting research verbally during oral presentations; providing and receiving feedback on assignments; and working collaboratively in groups. Written, verbal and visual communication styles are examined.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; TSM major",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9757",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 305",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "305",
+    "code": "EST 305",
+    "title": "Applications Software for Information Management",
+    "description": "Introduction to the role of applications software in various types of organizations with emphasis on methods of formulating the requisite information flows to engender adequate communications, operation, and control. The importance of audit ability, maintainability, and recoverability in systems design is stressed. Provides students with knowledge of basic techniques and elementary skills in representing system structure with application of the principles in practical case studies using spreadsheet and database software. Extensive interaction with applications software reinforces concepts presented.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "EST 100 or CSE 101",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "EST 100"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 101"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9758",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 306",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "306",
+    "code": "EST 306",
+    "title": "Cloud Computing Applications",
+    "description": "This course will examine the applications of cloud computing. It covers the introduction of cloud computing and its applications, cloud computing security, assessment of cloud computing, BPM, Scrum methodology, Big Data and business transformation, and IBM Smartcloud. It also includes a survey of applications or business models in cloud applications such as Facebook and Amazon.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "EST 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "EST 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9759",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 310",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "310",
+    "code": "EST 310",
+    "title": "Design of Computer Games",
+    "description": "Fundamental ideas underlying the design of games, which occurs before the programming stage. How games function to create experiences, including rule design, play mechanics, game balancing, social game interaction and the integration of visual, audio, tactile and textual elements into the total game experience. Game design documentation and play testing. Students will design their own game during the semester.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "TSM or ISE major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9760",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 320",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "320",
+    "code": "EST 320",
+    "title": "Communication Technology Systems",
+    "description": "Emphasizes basic science and engineering concepts underlying design and usage of modern telecommunications systems. Considers effects of human factors and societal constraints on design and development of nascent technological systems. Includes the electromagnetic spectrum, analog and digital signals and resonance as well as societal considerations of government regulations, international competition, and environment.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 123 ; one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9761",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 323",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "323",
+    "code": "EST 323",
+    "title": "Human-Computer Interaction",
+    "description": "A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice. Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor’s discretion. Course is cross-listed as CSE 323 , EST 323 and ISE 323 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 230 or CSE 260 or ISE 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9762",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 325",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "325",
+    "code": "EST 325",
+    "title": "Technology in the Workplace",
+    "description": "A study of automation and information technologies in both manufacturing and service industries. Considers how technology is changing the work and lives of everyone from production workers to executives. Case studies are used to understand how technology can improve quality and productivity and how incorrect use produces disappointing results.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one D.E.C. category E or SNW course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9763",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 326",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "326",
+    "code": "EST 326",
+    "title": "Management for Engineers",
+    "description": "This course will introduce all the principals and theories in the area of operation management and quality control. The important issues relating to management of innovation and project management will also be included.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9764",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 327",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "327",
+    "code": "EST 327",
+    "title": "Systems Engineering Management, Elements of Product Design and Development",
+    "description": "This course serves as an introduction to the process of product design and development as it relates to a Systems Engineering approach. This course will familiarize students with technical product design and development systems, as well as engineering research methods. This Systems Engineering course also includes the advantages and limitations of creative product design, effective and efficient paths to successful implementations, technical reviews, and technical risks associated with cost, scheduling and performance goals. This course introduces the Agile system development process, emphasizing a design process that uses continuous input by customers/end users to define user needs of the initial design specifications.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 127 or MAT 132 ; WRT 102 ; CEAS major or permission of the department.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9765",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 330",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "330",
+    "code": "EST 330",
+    "title": "AI and Climate Change: Technologies for a Sustainable Future",
+    "description": "Students will explore the role of artificial intelligence in mitigating climate change, promoting sustainability, and addressing environmental challenges through innovative AI technologies. The use of AI technology use in the study of climate change and sustainability will be investigated and studied as an enhanced method to improve the technology support of managing climate change.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9766",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 331",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "331",
+    "code": "EST 331",
+    "title": "Ethics in Engineering and AI Technologies",
+    "description": "Individuals and organizations must make ethical decisions during scientific and engineering endeavors. Various concepts have been developed related to moral conduct, character, ideals, and relationships between people, organizations, and societies, and these concepts relate to how we resolve our ethical issues. Formal frameworks for ethical decision making will be presented and tested through careful examination of case studies drawn from engineering and industry. Responsible AI development along with AI policy and governance will also be discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; U3 or U4 standing; TSM major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9767",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 339",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "339",
+    "code": "EST 339",
+    "title": "Benevolent Computing",
+    "description": "This course explores the recent phenomenon of software applications that leverage social networks and mobile and cloud computing to solve local and global problems. The course uses case studies to document the process of developing civically-oriented applications. Students work in teams to identify campus causes (or off-campus non-profit organizations); and to design and develop applications (mobile or web-based) that will help those organizations achieve their goals. The course material synthesizes some of the department’s offerings in software engineering, human computer interaction, and ethics, but provides a practical focus and test bed for those concepts. Emphasis is on System Design, not on specific programming languages or development environments.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; ISE or TSM major",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9768",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 341",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "341",
+    "code": "EST 341",
+    "title": "Waste Treatment Technologies",
+    "description": "Anthropogenic impacts can be mitigated by treating wastes prior to their discharge to the environment. Human health should also be protected from the impacts of waste disposal. This course will examine technologies such as wastewater management, solid waste practices, and drinking water treatments that minimize the effects of human wastes through a close examination of a public health controversy in Baltimore using “active learner” principles. Field trips (4) and group work are essential elements of the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "EST 202 or MAT 123 and one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "EST 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 123"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9769",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 342",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "342",
+    "code": "EST 342",
+    "title": "Industrial Engineering, Intro to Operations Research I",
+    "description": "This course is intended to be an introduction to operations research models and applications within industrial engineering. This course will introduce models in operations research. The student will learn to formulate, analyze, and solve mathematical models that represent real-world problems. The course will cover linear programming and the simplex algorithm, and related analytical topics. It will also cover transportation problems, networks, integer, and non-linear models and models that handle randomness inherent in most real systems. Topics such as queuing models are included. Upon completion of this course the student will be capable of identifying problems in which operations research models can be utilized, as well as the ability to solve such problems using these models. Not for credit in addition to AMS 341 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in MAT 127 or MAT 132 or AMS 161 or level 9 on the mathematics placement examination",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9770",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 344",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "344",
+    "code": "EST 344",
+    "title": "Technical Writing",
+    "description": "This course introduces students to some of the specialized forms of writing used in technical environments. Topics include data descriptions, laboratory procedures, manuals, specifications, proposal preparation and responses.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "EST 304",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "EST 304"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9771",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 364",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "364",
+    "code": "EST 364",
+    "title": "How to Build a Startup",
+    "description": "Interactive hands-on course immerses students in real-world experience of business startup. Collaborating in interdisciplinary teams, formed before or in class, they learn structured methodology for testing assumptions underlying business ideas to determine viability of profit/not-for-profit business opportunities. Instructors and mentors guide teams to contact prospective customers and others, presenting conclusions each week. Mastery of methodology is key measure; teams forming companies receive post-class support, may compete for cash awards.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "completion of WRT 102 ; DEC Category C or QPS; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9772",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 371",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "371",
+    "code": "EST 371",
+    "title": "Introduction to Responsible AI and Data Science",
+    "description": "This course will equip students with technical foundations in AI and data science while focusing on fairness, bias mitigation, and the responsible design and deployment of AI systems. The concepts of Artificial Intelligence, data science, and data analysis for technology management are introduced. Additionally, the impact of AI on society will be reviewed and studied.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 132 or MAT 127 ; CSE 114 ; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 114"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9773",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 372",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "372",
+    "code": "EST 372",
+    "title": "The Mobile Revolution in Development",
+    "description": "This course will explore three themes: [1] current and future trends of digital formation technology toward mobility, [2] combined with many other technologies increasingly repurposed and adapted toward mobility and sustainability (wearable, IOT), [3] along with skills required for employing such arrangements effectively toward advancing social and economic development.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 132 or MAT 127 ; EST 320 ; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "EST 320"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9774",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 388",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "388",
+    "code": "EST 388",
+    "title": "Special Topics in Technological Systems Management",
+    "description": "A lecture or seminar course on a current topic in technology and society. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "TSM major or permission of instructor or department.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9775",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 389",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "389",
+    "code": "EST 389",
+    "title": "Special Topics in Technological Systems Management",
+    "description": "A lecture or seminar course on a current topic in technology and society. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "TSM major or permission of instructor or department.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9776",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 391",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "391",
+    "code": "EST 391",
+    "title": "Technology Assessment",
+    "description": "This class focuses on technologies and the systems in which they evolve to highlight different forms of evaluating technology. An overview of various methods, approaches, and tools for evaluation will be provided, including SWOT, STIP, forecasting, lifecycle assessments, and impact and risk assessments. The class will provide a context and framework for understanding policy applications of various technologies, as well as broader societal implications. Challenges and opportunities of technological change will be examined in the context of societal implications, including environmental change, ethics, economics, science and engineering, and infrastructure. Students evaluate real-world technologies throughout the semester.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 127 or MAT 132 or AMS 161 ; U3 or U4; TSM major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9777",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 392",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "392",
+    "code": "EST 392",
+    "title": "Engineering Economics",
+    "description": "This course has a systems analysis approach to problems of planning and design in manufacturing and technical sectors of industry, using principles of cash flow equivalencies. It covers aspects of engineering alternatives through financial concepts including time value of money, annual cost, present worth, incremental rate of return and cost-benefit analysis, analysis of various types of cash flows, development of rate of return, benefit-to-cost ratios, depreciation and the effects of investment tax assessment. Capital allocation theory is used to evaluate competing investment programs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 127 or MAT 132 or AMS 161 ; TSM, CIV, or MEC major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9778",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 393",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "393",
+    "code": "EST 393",
+    "title": "Project Management",
+    "description": "This course addresses fundamental project management concepts and skills needed to successfully initiate, lead, monitor, control and realize projects execution. In this course, students explore project management with a practical approach through case studies and group projects.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 127 or MAT 132 or AMS 161 ; U3 or U4; TSM major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9779",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 440",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "440",
+    "code": "EST 440",
+    "title": "Interdisciplinary Research Methods",
+    "description": "This course uses scientific research and engineering technology problem-solving as a framework for the synthesis of diverse disciplines studied by students in the first three undergraduate years. Provides students with experience in team problem-solving. Students will work in teams to conduct a technology assessment. Examples of various types of technology assessments will be studied, and students will discuss analysis techniques and team structuring in order to plan and execute a successful project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "EST 391 ; TSM major; U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "EST 391"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9780",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 441",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "441",
+    "code": "EST 441",
+    "title": "Interdisciplinary Senior Project",
+    "description": "Students will select a technology-oriented topic, one that could be related to a selected class theme or be of their choosing. Students will work individually on the topic and present on their research. A paper will also be produced. A book on describing what “technology” is, and how new technologies develop, will be closely read.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "EST 440",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "EST 440"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9781",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 475",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "475",
+    "code": "EST 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty instructor. May be used as an open elective only and repeated once.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing as an undergraduate CEAS major; a minimum g.p.a. of 3.00 in all Stony Brook courses; grade of B or better in the course in which the student is to assist and permission of department.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9782",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 488",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "488",
+    "code": "EST 488",
+    "title": "Internship in Technology and Society",
+    "description": "Participation in a private enterprise, public agency, or nonprofit institution. Students are required to submit a proposal to the department at the time of registration that included the location, immediate supervisor, nature of the project and hours per week for the project. One mid-semester report and one end of semester report are required.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "TSM Major: Permission of the department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9783",
+    "rawCorequisites": null
+  },
+  {
+    "id": "EST 499",
+    "deptCode": "EST",
+    "deptName": null,
+    "number": "499",
+    "code": "EST 499",
+    "title": "Research in Technology and Society",
+    "description": "An independent research project with faculty supervision. Permission to register requires a B average in all engineering courses and the agreement of a faculty member to supervise the research. May be repeated, but only three credits of research electives ( AMS 487 , CSE 487 , ESE 499 , EMS 499, EST 499, ISE 487 , MEC 499 ) may be counted toward engineering technical elective requirements.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9784",
+    "rawCorequisites": null
+  }
+]
