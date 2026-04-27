@@ -121,6 +121,12 @@ export default function SpecializationSelector({
 
     const completedCount = (detailSpec.courses || []).filter((code) => completedCourseCodes.has(code)).length;
 
+    const coreSection = detailSections.find((s) =>
+      (s.label || '').toLowerCase().includes('core')
+    );
+    const coreCompleted = coreSection ? coreSection.completedCount : 0;
+    const coreTotal = coreSection ? (coreSection.courses?.length || 0) : 0;
+
     window.dispatchEvent(
       new CustomEvent('specialization:selected', {
         detail: {
@@ -129,9 +135,13 @@ export default function SpecializationSelector({
             majorUrl: major.url,
             name: detailSpec.name,
             slug: detailSpec.slug,
+            description: detailSpec.description || null,
+            rules: detailSpec.rules || null,
             totalCount: detailSpec.courses?.length || 0,
             completedCount,
             remainingCount: Math.max((detailSpec.courses?.length || 0) - completedCount, 0),
+            coreCompleted,
+            coreTotal,
             sections: detailSections,
           },
         },

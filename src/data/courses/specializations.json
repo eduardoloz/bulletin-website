@@ -162,6 +162,12 @@
       {
         "name": "Artificial Intelligence and Data Science",
         "slug": "artificial-intelligence-and-data-science",
+        "description": "The specialization in artificial intelligence and data science emphasizes modern approaches for building intelligent systems using machine learning. It requires four courses selected from the list below. The four courses must include at least two core courses. Students may declare their participation in the specialization after completing two core courses.",
+        "rules": {
+          "totalCourses": 4,
+          "coreMin": 2,
+          "declarationCoreMin": 2
+        },
         "sections": [
           {
             "label": "Core Courses",
@@ -210,6 +216,8 @@
       {
         "name": "Human-Computer Interaction",
         "slug": "human-computer-interaction",
+        "description": "The specialization in human-computer interaction focuses on designing, building, and evaluating systems that people use directly. The track combines a set of HCI core courses with electives across CSE and Psychology and culminates in a project course.",
+        "rules": null,
         "sections": [
           {
             "label": "Core Courses",
@@ -273,6 +281,8 @@
       {
         "name": "Game Programming",
         "slug": "game-programming",
+        "description": "The specialization in game programming covers graphics, real-time systems, game engines, and the project work needed to ship interactive entertainment software. The track combines core courses with electives and a final project course.",
+        "rules": null,
         "sections": [
           {
             "label": "Core Courses",
@@ -334,6 +344,8 @@
       {
         "name": "Security and Privacy",
         "slug": "security-and-privacy",
+        "description": "The specialization in security and privacy covers the foundations and practice of building systems that resist attack and protect user data. The track combines required core courses in security with electives across systems, networking, and applied cryptography.",
+        "rules": null,
         "sections": [
           {
             "label": "Core Courses",
@@ -384,6 +396,8 @@
       {
         "name": "Systems Software Development",
         "slug": "systems-software-development",
+        "description": "The specialization in systems software development covers the engineering of operating systems, compilers, networks, and other infrastructure software. Students choose from a list of advanced systems-oriented CSE courses.",
+        "rules": null,
         "sections": [
           {
             "label": null,
@@ -1126,7 +1140,7 @@
   },
   {
     "majorId": "women-s-and-gender-studies-ba",
-    "majorName": "Women’s and Gender Studies, BA",
+    "majorName": "Women\u2019s and Gender Studies, BA",
     "poid": 409,
     "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=409&returnto=224",
     "specializations": [
