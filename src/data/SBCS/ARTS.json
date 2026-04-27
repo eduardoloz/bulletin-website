@@ -1,0 +1,373 @@
+[
+    {
+        "id": "ccs-200",
+        "deptCode": "CCS",
+        "number": "200",
+        "code": "CCS 200",
+        "title": "CCS 200: Media History"
+    },
+    {
+        "id": "ccs-202",
+        "deptCode": "CCS",
+        "number": "202",
+        "code": "CCS 202",
+        "title": "CCS 202: Film Genres"
+    },
+    {
+        "id": "ccs-203",
+        "deptCode": "CCS",
+        "number": "203",
+        "code": "CCS 203",
+        "title": "CCS 203: Cinema History"
+    },
+    {
+        "id": "ccs-204",
+        "deptCode": "CCS",
+        "number": "204",
+        "code": "CCS 204",
+        "title": "CCS 204: The Stony Brook Film Festival: Films and Contexts"
+    },
+    {
+        "id": "cwl-202",
+        "deptCode": "CWL",
+        "number": "202",
+        "code": "CWL 202",
+        "title": "CWL 202: Introduction to Creative Writing: Writing Everything"
+    },
+    {
+        "id": "dan-101",
+        "deptCode": "DAN",
+        "number": "101",
+        "code": "DAN 101",
+        "title": "DAN 101: Movement & Somatic Learning"
+    },
+    {
+        "id": "dan-102",
+        "deptCode": "DAN",
+        "number": "102",
+        "code": "DAN 102",
+        "title": "DAN 102: Intro to World Dance Cultures"
+    },
+    {
+        "id": "dan-164",
+        "deptCode": "DAN",
+        "number": "164",
+        "code": "DAN 164",
+        "title": "DAN 164: Tap Technique and History"
+    },
+    {
+        "id": "dan-165",
+        "deptCode": "DAN",
+        "number": "165",
+        "code": "DAN 165",
+        "title": "DAN 165: Contemporary Dance I"
+    },
+    {
+        "id": "dan-166",
+        "deptCode": "DAN",
+        "number": "166",
+        "code": "DAN 166",
+        "title": "DAN 166: Ballet Technique I"
+    },
+    {
+        "id": "dan-167",
+        "deptCode": "DAN",
+        "number": "167",
+        "code": "DAN 167",
+        "title": "DAN 167: Jazz Dance Technique I"
+    },
+    {
+        "id": "dan-168",
+        "deptCode": "DAN",
+        "number": "168",
+        "code": "DAN 168",
+        "title": "DAN 168: World Dance I"
+    },
+    {
+        "id": "dan-264",
+        "deptCode": "DAN",
+        "number": "264",
+        "code": "DAN 264",
+        "title": "DAN 264: Movement Awareness and Analysis"
+    },
+    {
+        "id": "egl-140",
+        "deptCode": "EGL",
+        "number": "140",
+        "code": "EGL 140",
+        "title": "EGL 140: Shakespeare in Performance"
+    },
+    {
+        "id": "egl-220",
+        "deptCode": "EGL",
+        "number": "220",
+        "code": "EGL 220",
+        "title": "EGL 220: Critical Approaches to the Cinema"
+    },
+    {
+        "id": "egl-285",
+        "deptCode": "EGL",
+        "number": "285",
+        "code": "EGL 285",
+        "title": "EGL 285: Writing Workshop: Fiction"
+    },
+    {
+        "id": "egl-286",
+        "deptCode": "EGL",
+        "number": "286",
+        "code": "EGL 286",
+        "title": "EGL 286: Writing Workshop: Poetry"
+    },
+    {
+        "id": "egl-325",
+        "deptCode": "EGL",
+        "number": "325",
+        "code": "EGL 325",
+        "title": "EGL 325: Screenwriting"
+    },
+    {
+        "id": "egl-328",
+        "deptCode": "EGL",
+        "number": "328",
+        "code": "EGL 328",
+        "title": "EGL 328: Documentary Theatre Creation"
+    },
+    {
+        "id": "egl-386",
+        "deptCode": "EGL",
+        "number": "386",
+        "code": "EGL 386",
+        "title": "EGL 386: Advanced Poetry Workshop"
+    },
+    {
+        "id": "egl-387",
+        "deptCode": "EGL",
+        "number": "387",
+        "code": "EGL 387",
+        "title": "EGL 387: Playwriting"
+    },
+    {
+        "id": "eur-390",
+        "deptCode": "EUR",
+        "number": "390",
+        "code": "EUR 390",
+        "title": "EUR 390: Special Topics in European Studies"
+    },
+    {
+        "id": "flm-101",
+        "deptCode": "FLM",
+        "number": "101",
+        "code": "FLM 101",
+        "title": "FLM 101: Introduction to Filmmaking and Television: Visual Storytelling"
+    },
+    {
+        "id": "hon-201",
+        "deptCode": "HON",
+        "number": "201",
+        "code": "HON 201",
+        "title": "HON 201: The Arts and Society"
+    },
+    {
+        "id": "huf-211",
+        "deptCode": "HUF",
+        "number": "211",
+        "code": "HUF 211",
+        "title": "HUF 211: French Cinema"
+    },
+    {
+        "id": "hug-221",
+        "deptCode": "HUG",
+        "number": "221",
+        "code": "HUG 221",
+        "title": "HUG 221: German Cinema Since 1945"
+    },
+    {
+        "id": "hui-231",
+        "deptCode": "HUI",
+        "number": "231",
+        "code": "HUI 231",
+        "title": "HUI 231: Italian Cinema"
+    },
+    {
+        "id": "hur-241",
+        "deptCode": "HUR",
+        "number": "241",
+        "code": "HUR 241",
+        "title": "HUR 241: Russian Cinema"
+    },
+    {
+        "id": "hus-201",
+        "deptCode": "HUS",
+        "number": "201",
+        "code": "HUS 201",
+        "title": "HUS 201: The Hispanic World through Visual Cultures"
+    },
+    {
+        "id": "hus-290",
+        "deptCode": "HUS",
+        "number": "290",
+        "code": "HUS 290",
+        "title": "HUS 290: Latin American Cinema"
+    },
+    {
+        "id": "iae-101",
+        "deptCode": "IAE",
+        "number": "101",
+        "code": "IAE 101",
+        "title": "IAE 101: Digital Intelligence"
+    },
+    {
+        "id": "mus-101",
+        "deptCode": "MUS",
+        "number": "101",
+        "code": "MUS 101",
+        "title": "MUS 101: Introduction to Western Classical Music"
+    },
+    {
+        "id": "mus-103",
+        "deptCode": "MUS",
+        "number": "103",
+        "code": "MUS 103",
+        "title": "MUS 103: Introduction to Music and the Cinema"
+    },
+    {
+        "id": "mus-105",
+        "deptCode": "MUS",
+        "number": "105",
+        "code": "MUS 105",
+        "title": "MUS 105: Music Cultures of the World"
+    },
+    {
+        "id": "mus-109",
+        "deptCode": "MUS",
+        "number": "109",
+        "code": "MUS 109",
+        "title": "MUS 109: Rock, Popular Music, and Society"
+    },
+    {
+        "id": "mus-119",
+        "deptCode": "MUS",
+        "number": "119",
+        "code": "MUS 119",
+        "title": "MUS 119: The Elements of Music"
+    },
+    {
+        "id": "mus-130",
+        "deptCode": "MUS",
+        "number": "130",
+        "code": "MUS 130",
+        "title": "MUS 130: Sound Structures"
+    },
+    {
+        "id": "mus-208",
+        "deptCode": "MUS",
+        "number": "208",
+        "code": "MUS 208",
+        "title": "MUS 208: Introduction to Music Technology"
+    },
+    {
+        "id": "mus-341",
+        "deptCode": "MUS",
+        "number": "341",
+        "code": "MUS 341",
+        "title": "MUS 341: Sound Design"
+    },
+    {
+        "id": "phi-264",
+        "deptCode": "PHI",
+        "number": "264",
+        "code": "PHI 264",
+        "title": "PHI 264: Philosophy and the Arts (III)"
+    },
+    {
+        "id": "spn-420",
+        "deptCode": "SPN",
+        "number": "420",
+        "code": "SPN 420",
+        "title": "SPN 420: Topics in Spanish and Latin American Cinema"
+    },
+    {
+        "id": "thr-100",
+        "deptCode": "THR",
+        "number": "100",
+        "code": "THR 100",
+        "title": "THR 100: Performing and Performance"
+    },
+    {
+        "id": "thr-101",
+        "deptCode": "THR",
+        "number": "101",
+        "code": "THR 101",
+        "title": "THR 101: Introduction to Theatre Arts"
+    },
+    {
+        "id": "thr-103",
+        "deptCode": "THR",
+        "number": "103",
+        "code": "THR 103",
+        "title": "THR 103: Introduction to Theatre Design"
+    },
+    {
+        "id": "thr-105",
+        "deptCode": "THR",
+        "number": "105",
+        "code": "THR 105",
+        "title": "THR 105: Acting I"
+    },
+    {
+        "id": "thr-107",
+        "deptCode": "THR",
+        "number": "107",
+        "code": "THR 107",
+        "title": "THR 107: The Broadway Musical"
+    },
+    {
+        "id": "thr-207",
+        "deptCode": "THR",
+        "number": "207",
+        "code": "THR 207",
+        "title": "THR 207: The Theatre of Baseball"
+    },
+    {
+        "id": "thr-214",
+        "deptCode": "THR",
+        "number": "214",
+        "code": "THR 214",
+        "title": "THR 214: Theatre in New York"
+    },
+    {
+        "id": "thr-216",
+        "deptCode": "THR",
+        "number": "216",
+        "code": "THR 216",
+        "title": "THR 216: Introduction to Visual Interpretation"
+    },
+    {
+        "id": "thr-224",
+        "deptCode": "THR",
+        "number": "224",
+        "code": "THR 224",
+        "title": "THR 224: Experimental Studio"
+    },
+    {
+        "id": "thr-325",
+        "deptCode": "THR",
+        "number": "325",
+        "code": "THR 325",
+        "title": "THR 325: Screenwriting"
+    },
+    {
+        "id": "thr-326",
+        "deptCode": "THR",
+        "number": "326",
+        "code": "THR 326",
+        "title": "THR 326: Playwriting"
+    },
+    {
+        "id": "thr-335",
+        "deptCode": "THR",
+        "number": "335",
+        "code": "THR 335",
+        "title": "THR 335: The Musicals of Stephen Sondheim"
+    }
+]

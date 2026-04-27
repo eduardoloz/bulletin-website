@@ -1,0 +1,51 @@
+[
+  {
+    "id": "wrt-102",
+    "deptCode": "WRT",
+    "number": "102",
+    "code": "WRT 102",
+    "title": "WRT 102: College Writing"
+  },
+  {
+    "id": "wrt-105",
+    "deptCode": "WRT",
+    "number": "105",
+    "code": "WRT 105",
+    "title": "WRT 105: Writing About Literature"
+  },
+  {
+    "id": "wrt-110",
+    "deptCode": "WRT",
+    "number": "110",
+    "code": "WRT 110",
+    "title": "WRT 110: Writing About Film and Media"
+  },
+  {
+    "id": "wrt-201",
+    "deptCode": "WRT",
+    "number": "201",
+    "code": "WRT 201",
+    "title": "WRT 201: Writing About Society"
+  },
+  {
+    "id": "wrt-202",
+    "deptCode": "WRT",
+    "number": "202",
+    "code": "WRT 202",
+    "title": "WRT 202: Writing About Science and Technology"
+  },
+  {
+    "id": "wrt-203",
+    "deptCode": "WRT",
+    "number": "203",
+    "code": "WRT 203",
+    "title": "WRT 203: Writing About the Arts"
+  },
+  {
+    "id": "wrt-205",
+    "deptCode": "WRT",
+    "number": "205",
+    "code": "WRT 205",
+    "title": "WRT 205: Writing About Culture and Media"
+  }
+]

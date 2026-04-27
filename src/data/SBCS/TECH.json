@@ -1,0 +1,93 @@
+[
+    {
+        "id": "est-100",
+        "deptCode": "EST",
+        "number": "100",
+        "code": "EST 100",
+        "title": "EST 100: Designing, Producing & Presenting Multimedia Projects"
+    },
+    {
+        "id": "est-105",
+        "deptCode": "EST",
+        "number": "105",
+        "code": "EST 105",
+        "title": "EST 105: The Digital Generation: Leveraging Technology to Build 21st Century Skills"
+    },
+    {
+        "id": "est-202",
+        "deptCode": "EST",
+        "number": "202",
+        "code": "EST 202",
+        "title": "EST 202: Introduction to Science, Technology, and Society Studies"
+    },
+    {
+        "id": "cse-101",
+        "deptCode": "CSE",
+        "number": "101",
+        "code": "CSE 101",
+        "title": "CSE 101: Introduction to Computing"
+    },
+    {
+        "id": "cse-114",
+        "deptCode": "CSE",
+        "number": "114",
+        "code": "CSE 114",
+        "title": "CSE 114: Introduction to Object-Oriented Programming"
+    },
+    {
+        "id": "est-205",
+        "deptCode": "EST",
+        "number": "205",
+        "code": "EST 205",
+        "title": "EST 205: Introduction to Technological Design: Innovation and Design Thinking"
+    },
+    {
+        "id": "est-207",
+        "deptCode": "EST",
+        "number": "207",
+        "code": "EST 207",
+        "title": "EST 207: Technology in Culture and Society"
+    },
+    {
+        "id": "est-221",
+        "deptCode": "EST",
+        "number": "221",
+        "code": "EST 221",
+        "title": "EST 221: Introduction to Digital Media"
+    },
+    {
+        "id": "est-240",
+        "deptCode": "EST",
+        "number": "240",
+        "code": "EST 240",
+        "title": "EST 240: Digital Tools and Creative Practices"
+    },
+    {
+        "id": "est-280",
+        "deptCode": "EST",
+        "number": "280",
+        "code": "EST 280",
+        "title": "EST 280: Technology and the Environment"
+    },
+    {
+        "id": "est-291",
+        "deptCode": "EST",
+        "number": "291",
+        "code": "EST 291",
+        "title": "EST 291: Emerging Technologies and Society"
+    },
+    {
+        "id": "est-310",
+        "deptCode": "EST",
+        "number": "310",
+        "code": "EST 310",
+        "title": "EST 310: Advanced Topics in Technology Studies"
+    },
+    {
+        "id": "ise-305",
+        "deptCode": "ISE",
+        "number": "305",
+        "code": "ISE 305",
+        "title": "ISE 305: Information Systems and Technology"
+    }
+]
