@@ -26,8 +26,12 @@ yarn-error.log*
 
 
 /scripts/*.json
-# Python virtual environment
+# Python virtual environments
 /scripts/venv/
+/chatbot/venv/
+# Python bytecode
+__pycache__/
 # Scraper output
 /scripts/courses.csv
+/scripts/outputs/
 .vercel
