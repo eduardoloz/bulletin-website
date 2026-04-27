@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "course_id": "4bafaacc-0701-4f0f-bbde-61a0497f377f",
+    "group_no": 0,
+    "kind": "prerequisite",
+    "required_code": "ACC210",
+    "required_id": "8d46d848-1e6c-426c-8ba1-614f954d6221"
+  },
+  {
+    "id": 2,
+    "course_id": "7484bd17-ed81-47a8-9570-61c1da5e38c2",
+    "group_no": 0,
+    "kind": "prerequisite",
+    "required_code": "ACC310",
+    "required_id": "4bafaacc-0701-4f0f-bbde-61a0497f377f"
+  },
+  {
+    "id": 3,
+    "course_id": "fbdba3cd-67d9-4ba6-bff5-26304b27b440",
+    "group_no": 0,
+    "kind": "prerequisite",
+    "required_code": "ACC311",
+    "required_id": "9bbefe96-c03c-4ff1-b769-8371b2452979"
+  },
+  {
+    "id": 4,
+    "course_id": "b9687fb7-5a53-4009-b97d-03c2181ceefd",
+    "group_no": 0,
+    "kind": "prerequisite",
+    "required_code": "ACC210",
+    "required_id": "8d46d848-1e6c-426c-8ba1-614f954d6221"
+  },
+  {
+    "id": 5,
+    "course_id": "68d9d396-8edf-4fe7-8815-2c2ae735234b",
+    "group_no": 0,
+    "kind": "prerequisite",
+    "required_code": "ACC313",
+    "required_id": "7484bd17-ed81-47a8-9570-61c1da5e38c2"
+  }
+]
