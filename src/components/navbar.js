@@ -34,6 +34,7 @@ const Navbar = () => {
         </div>
 
         <div className="space-x-4">
+          <a href="/chatbot" className="hover:text-gray-200">Chatbot</a>
           <a href="/about" className="hover:text-gray-200">About Us</a>
           <a href="/cat" className="hover:text-gray-200">CatPage</a>
         </div>
