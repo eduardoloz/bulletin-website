@@ -1,0 +1,1631 @@
+[
+  {
+    "id": "POL 101",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "101",
+    "code": "POL 101",
+    "title": "World Politics",
+    "description": "Analysis of the basic concepts and issues of international relations in the contemporary international system. The behaviors of states and their decision makers are considered according to various models of national and international conflict. The relationship between the characteristics of nations and their foreign policies is studied on a comparative basis.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11089",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 102",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "102",
+    "code": "POL 102",
+    "title": "Introduction to American Government",
+    "description": "What the informed citizen and specialist should know about the organization of American government, including the Constitution and what it means today, the Congress, political parties, pressure groups, growth of the Presidency, the Supreme Court, judicial review, federalism, separation of powers, and the Bill of Rights. May not be taken for credit in addition to POL 105.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11090",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 103",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "103",
+    "code": "POL 103",
+    "title": "Introduction to Comparative Politics",
+    "description": "Analysis of political institutions and processes in the contemporary world, emphasizing the interaction of political structures and processes in a variety of political settings.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11091",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 201",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "201",
+    "code": "POL 201",
+    "title": "Introduction to Statistical Methods in Political Science",
+    "description": "Elementary statistical methods in empirical political science, focusing on the analysis of public opinion, survey research designs, sampling, and probability. The course considers the application of descriptive and inferential statistics to testing hypotheses on various political issues. May not be taken for credit after any other course that satisfies the major¿s methodology requirement. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Satisfaction of entry skill in mathematics requirement or SBC category QPS or MAT Placement Score of level 2 or higher",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11092",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 214",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "214",
+    "code": "POL 214",
+    "title": "Modern Latin America",
+    "description": "An introduction to the major themes in the history of modern Latin America, from the early nineteenth century to the present. Students will gain a deeper understanding of some of the central historical themes that have shaped Latin American society and politics since achieving independence, thus providing the basis for making sound observations and judgments about the political, economic, social, and cultural realities affecting Latin America today. The class advances chronologically as well as thematically, covering topics such as nationalism, political economy, U.S.-Latin American relations, revolutionary & counterrevolutionary struggle, and cultural practices. Lectures approach the hemisphere comparatively, drawing similarities and differences between different nation-states and regions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11093",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 216",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "216",
+    "code": "POL 216",
+    "title": "History of U.S.-Latin American Relations",
+    "description": "An examination of the impact of U.S. economic and political relations with Latin America from the mid-19th century to the present. The course considers changes in American policy toward Latin America, as well as the varying responses of Latin American nations to U.S. intervention and influence.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11094",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 270",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "270",
+    "code": "POL 270",
+    "title": "Experiments in Political Science",
+    "description": "The purpose of this course is to develop students’ ability to critically analyze and evaluate the use of experiments to develop evidence-based claims about politics. The course will examine the philosophical and statistical foundations of the method, as well as ethical, normative, and practical limitations of experimentation. The course will also examine the findings of experimental research in several prominent areas of political science.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U1 or U2 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 1
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11095",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 287",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "287",
+    "code": "POL 287",
+    "title": "Introductory Research in Political Science",
+    "description": "",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of departmental research coordinator",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11096",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 302",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "302",
+    "code": "POL 302",
+    "title": "Politics of Latin America",
+    "description": "An introduction to some of the most pressing political topics in Latin America, addressing a variety of political experiences including political institutions, elections, democratic development, social dynamics, current events, and political research about the region.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher academic standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11691",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 303",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "303",
+    "code": "POL 303",
+    "title": "Gender and Politics in Global Perspective",
+    "description": "This course investigates the evolving role of women in politics from a global perspective. Examining women’s historic exclusion from political spheres to their increasing participation in voting, candidacy, and governance, it explores how gender influences political processes and outcomes. Through a detailed analysis of mass political participation, legislative dynamics, and women’s pursuit of executive office, the course delves into the impact of gender on political systems and policies worldwide. It covers how women¿s movements, voting behavior, and roles within political parties vary across different countries. Additionally, it assesses gendered legislative behaviors, the effectiveness of gender quotas, and the challenges women face in reaching executive positions. By studying these aspects, the course provides a comprehensive understanding of how gender shapes political dynamics, highlighting both global disparities and commonalities in women’s political engagement and representation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher academic standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11692",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 304",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "304",
+    "code": "POL 304",
+    "title": "Comparative Political Institutions",
+    "description": "This course examines major themes and theoretical contributions in the study of political institutions. It reviews research that investigates the origin and consequences of institutions from a comparative perspective including some classic works. The curriculum addresses a range of topics, including methodologies for analyzing institutions, the influence of legislative rules on political processes, and fundamental differences among constitutional frameworks. Additionally, it explores alternative institutional structures for divided societies, investigates the reasons behind electoral reforms and their subsequent effects, and assesses the link between democratic institutions and economic outcomes. Through this broad exploration, students will gain a nuanced understanding of how various institutional arrangements shape and are shaped by political, social and economic factors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher academic standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11693",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 305",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "305",
+    "code": "POL 305",
+    "title": "Government and Politics of the United Kingdom",
+    "description": "Examination of the political system of Great Britain and Northern Ireland, including the Constitution, parliament, cabinet, political parties, and the policy-making process.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 103 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 103"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11097",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 308",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "308",
+    "code": "POL 308",
+    "title": "Women Islam and Political Change in Africa",
+    "description": "Explores the impact of Islam on political institutions and representation in Africa. Using the example of how Muslim women in West, North, Southern, and East Africa are mobilizing to address gender inequality, explores variations in the formation of Islamist movements and examine the influence of moderate, progressive, and more radical forms of political Islam on the experiences of women. In order to provide students with a comprehensive picture, Islam and politics is contextualized by focusing on the experiences of selected countries from East and West Africa including Tanzania, Kenya, Somalia, Nigeria, Ghana, and Senegal.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11098",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 309",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "309",
+    "code": "POL 309",
+    "title": "Politics in the European Union",
+    "description": "Why the European Union was created, how its institutions have evolved over time, and where the union is going.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11099",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 310",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "310",
+    "code": "POL 310",
+    "title": "Immigration and Refugee Politics",
+    "description": "Provides an introduction to the politics of immigration and refugees by considering the impact of the movement and resettlement of foreigners across international borders on states, societies, and international relations. We will address several themes that generate heated debate within the topic of migration including, why people move, the impact of ethnic and religious diversity, state control over its borders, racism and xenophobia, immigrant integration strategies, citizenship policies, refugee movements, globalization, security and human smuggling.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing or approval of professor",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11100",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 311",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "311",
+    "code": "POL 311",
+    "title": "Introduction to International Law",
+    "description": "Casebook approach to standard introductory course in international law, including the following topics: state jurisdiction and responsibility, individuals, international organization, and use of force.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 101 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 101"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11101",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 313",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "313",
+    "code": "POL 313",
+    "title": "Problems of International Relations",
+    "description": "Analysis of the international system, its characteristic forms, and the principal forces making for conflict and adjustment. Examination of some prevalent analytical concepts, of major current problems and developments, and of prospects and alternatives for the future.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 101 ; U2 or higher standing.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 101"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11102",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 317",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "317",
+    "code": "POL 317",
+    "title": "American Election Campaigns",
+    "description": "The politics of presidential nominations through primaries, caucuses, and conventions; the conduct of presidential general election campaigns; mass media coverage and opinion polling; the citizen’s involvement in campaign politics; voter attitudes toward parties, candidates, and issues; and the interpretation of electoral outcomes.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11103",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 318",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "318",
+    "code": "POL 318",
+    "title": "Voters and Elections",
+    "description": "An examination of how citizens make electoral decisions, including the decision to participate at all in elections. The course compares models of voter behavior and probes the influence of such factors as party identification, opinions on issues, ideological orientations, and candidate evaluations. In addition, the social and economic context of voting is explored, as is the importance of elections for policy making and the functioning of the political system.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11104",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 319",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "319",
+    "code": "POL 319",
+    "title": "Business Law",
+    "description": "A study of the legal environment of business operations, covering such topics as the principle of contracts, commercial papers, partnerships, corporations, real property, estates, bankruptcy, antitrust laws, and environmental and civil rights regulations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11105",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 320",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "320",
+    "code": "POL 320",
+    "title": "Constitutional Law and Politics: United States",
+    "description": "A study of the role of the modern Supreme Court within the political and governmental process; its relation with Congress, the Presidency, state and local governments, parties, and interest groups; and the Court?s policy-making role in economic regulation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11106",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 322",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "322",
+    "code": "POL 322",
+    "title": "The Presidency in the American Political System",
+    "description": "How presidential power developed historically; from what sources the powers of the modern Presidency emanate; how decisions are made in the presidential institution; how and to what degree presidential power may or ought to be controlled.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11107",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 323",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "323",
+    "code": "POL 323",
+    "title": "U.S. Congress",
+    "description": "An examination of the most powerful legislative institution in America. The historical background of Congress is examined along with its internal organization, rules, and relationship to the rest of government and to the world outside Washington.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11108",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 324",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "324",
+    "code": "POL 324",
+    "title": "American Political Parties and Pressure Groups",
+    "description": "An examination of political party organization, political leadership, finance, campaign techniques, and legal controls over parties; the functions and methods of pressure groups and their interaction with policy makers; the historical origins and development of the American party system; the significance of parties and pressure groups for democratic ideology; and the problems of political leadership in a democracy.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11109",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 325",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "325",
+    "code": "POL 325",
+    "title": "Civil Liberties and Civil Rights",
+    "description": "A systematic treatment of leading Supreme Court decisions in such areas as freedom of speech, the press, and religion; the rights of criminal defendants; voting rights; the right to privacy; and discrimination on grounds of race, sex, poverty, illegitimacy, and alienage.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11110",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 327",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "327",
+    "code": "POL 327",
+    "title": "Urban Politics",
+    "description": "Covering the development of urban settlements from the early 19th century to the contemporary period, the course emphasizes both the formal and informal political institutions and processes in American cities and suburbs, including governmental structures, political parties, interest groups, and service delivery systems. Special attention is given to the multiethnic and multicultural context within which urban politics in the Unites States takes place. Among the topics examined is the historical development of urban settlements in the United States, studying both the growth of cities and suburbs and the ever-changing relationship between these types of settlements evident at different times in our history.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11111",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 328",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "328",
+    "code": "POL 328",
+    "title": "Criminal Law",
+    "description": "A survey of substantive and procedural criminal law as it applies to traditional and contemporary penal issues, including a review of relevant U.S. and New York constitutional, statutory, and case law provisions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11112",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 330",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "330",
+    "code": "POL 330",
+    "title": "Gender Issues in the Law",
+    "description": "A critical exploration of American law that specifically addresses the issues of (in)equality of women and men in the United States. The course surveys and analyzes cases from the pre-Civil War era to the end of the 20th century dealing with various manifestations of sex discrimination, decided in the federal court system, typically by the Supreme Court, and the state court system. The course also considers how the political nature of the adjudicative process has ramifications for the decisions rendered by a court.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11113",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 332",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "332",
+    "code": "POL 332",
+    "title": "Politics of Criminal Due Process",
+    "description": "A survey of the procedural steps through which a criminal case passes commencing with the initial investigation of a crime, covering the laws and court rules governing arrest, search and seizure, bail and fair trial, and concluding with the unconditional release of an offender.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11114",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 333",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "333",
+    "code": "POL 333",
+    "title": "Environmental Law",
+    "description": "Survey of the origins of environmental law and the major legislation enacted by Congress and the state of New York. Special emphasis is placed on the application of environmental law to the problem of solid waste management on Long Island.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ECO 108 ; POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ECO 108"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11115",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 334",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "334",
+    "code": "POL 334",
+    "title": "Modern Terrorism",
+    "description": "Examines the origins, ideology, and tactics of modern non-state actors who use terrorism to achieve their ends. What circumstances lead to the founding and growth of organizations engaged in terrorism? In what contexts are they successful? What are the underlying socio-economic factors that explain their behaviors? What links do they have to existing governmental and cultural organizations?",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 101 ; POL 103 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 101"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 103"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11116",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 336",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "336",
+    "code": "POL 336",
+    "title": "U.S. Foreign Policy",
+    "description": "An examination of the central problems in making U.S. foreign policy. The particular system and structure of foreign policy making as they have evolved from the constitutional and historical roots of the United States are the focus. An important central theme is the potential tension between the demands of effective foreign policy and democratic restraints.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11117",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 337",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "337",
+    "code": "POL 337",
+    "title": "The Politics of Africa",
+    "description": "A study of nationalism, political thought, and political institutions in Africa. Consideration is given to the quest for unity, the problems of liberation, and the political implications of social change.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Two AFS or POL courses; U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11118",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 338",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "338",
+    "code": "POL 338",
+    "title": "Contemporary India: History, Politics, and Diplomacy",
+    "description": "Study of the forces shaping India’s post-independence history, domestic politics, and foreign diplomacy. As the world’s largest democracy, second most populous nation, and Asia’s second fastest growing economy, its impact on the international scene in the coming years will be carefully analyzed. The course will also focus on emerging trends in Indo-U.S. relations and impact of the Indian diaspora.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "One previous course in AAS or POL; U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11119",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 339",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "339",
+    "code": "POL 339",
+    "title": "Contemporary China: History, Politics, and Diplomacy",
+    "description": "This course will analyze the evolution of major events in contemporary China following the communist revolution that led to the establishment of the People’s Republic in 1949. The course will examine major political, economic, and social developments in light of both their general global impact and their particular relationship with the U.S.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AAS 219 or POL 101 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AAS 219"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "POL 101"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11120",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 344",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "344",
+    "code": "POL 344",
+    "title": "American Political Ideology and Public Opinion",
+    "description": "An examination of the nature of contemporary political ideology and public opinion in the United States. The goal is to understand political conflict and debate in the U.S. and the ways in which the public influences that debate. Major topics in public opinion include political tolerance and trust, attitudes toward women and African Americans, the role of the mass media, and the impact of political values and ideology on political campaigns and elections.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; C or higher in POL 201 or any other course satisfying the major’s methodology requirement; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 201"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11121",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 346",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "346",
+    "code": "POL 346",
+    "title": "Political Psychology",
+    "description": "Focus on the application of psychological concepts and measures to political behavior. Course topics include attitude measurement, stability and change, obedience to authority, learning theory, attention and problem solving, personality correlates of political activity, and stress and aggression.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11122",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 347",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "347",
+    "code": "POL 347",
+    "title": "Women and Politics",
+    "description": "Analysis of the role of women in current American politics – their electoral participation, office seeking, and political beliefs – and policy issues that have special relevance to women. The course traces the history of American women’s political involvement and the historical trajectory of gender-related policy from the mid-19th century to today.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11123",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 348",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "348",
+    "code": "POL 348",
+    "title": "Political Beliefs and Judgments",
+    "description": "Following a review of the literature on political attitudes, the course applies psychological concepts and experimental approaches to the study of the content and structure of political beliefs and judgments.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11124",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 349",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "349",
+    "code": "POL 349",
+    "title": "Social Psychology and Law",
+    "description": "Examines the interface between social psychological research and the law to address such questions. We will consider scientific evidence and scholarly perspectives surrounding the role of psychological experts in the legal system; the use of social science in the law and public policy; eyewitness memory; police interrogation and false confessions; jury selection and decision-making; judicial and prosecutorial discretion.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11125",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 350",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "350",
+    "code": "POL 350",
+    "title": "Contemporary European Political Theory",
+    "description": "Analysis of major writings in European political thought throughout the 20th century, focusing on four important ideological groupings: liberalism, socialism, fascism, and conservatism, with consideration of their historical antecedents.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11126",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 351",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "351",
+    "code": "POL 351",
+    "title": "Social Surveys in Contemporary Society",
+    "description": "An interdisciplinary course on the history, uses, design, and implementation of the social survey. Emphasis is given to the use of surveys in politics, the media, and business.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11127",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 352",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "352",
+    "code": "POL 352",
+    "title": "Current Political Events",
+    "description": "Addresses how political research explains current political events. Attention will be paid to primarily to American national politics. The course will address theories of presidential elections, presidential-congressional relations, and current public opinion. The course will analyze whether those theories apply to current U.S. politics or whether the theories are outdated because of recent developments.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11128",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 353",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "353",
+    "code": "POL 353",
+    "title": "Contemporary Race Relations in American Politics",
+    "description": "Introduces students to the dynamics of race/ethnicity in United States and specifically examines the role of race/ethnicity in American politics. To help students understand different perspectives on the topic, this course utilizes an interdisciplinary approach that incorporates theoretical frameworks, survey data, and commentary to understand concepts of race and identity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11129",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 359",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "359",
+    "code": "POL 359",
+    "title": "Public Policy Analysis",
+    "description": "A course analyzing the connection between the administrative processes of government in the United States and the public policy process. It focuses on the analysis of policy formulation and the broader connections between public policy and the American political process.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11130",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 365",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "365",
+    "code": "POL 365",
+    "title": "Economy and Democracy",
+    "description": "An examination of the interplay between economics and politics in Western democracies. Topics include the economic theory of democracy; the political-business cycle; political parties and economic policies; the economy and voter choices in elections; economic performance and government (especially presidential) popularity; and the formation of economic expectations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11131",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 366",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "366",
+    "code": "POL 366",
+    "title": "Press & the Presidency",
+    "description": "Students examine the complex, difficult, co-dependent relationship between the news media and the president including the role of the press in a presidential campaign. The course includes a study of the historical relationship between the press and the president, the reasons for the fundamental deterioration of the press-White House relationship over the last 50 years, the impact of the digital revolution on the relationship, and whether voters can make an informed decision based on the information provided by the news media.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11132",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 367",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "367",
+    "code": "POL 367",
+    "title": "Mass Media in American Politics",
+    "description": "Competing theories of the power of the press are tested by examining the literature on mass media effects on what the public thinks and what the public thinks about. Various explanations of why news organizations behave as they do are also assessed. Conflicts between freedom of the press and such values as privacy, national security, and the right to fair trial are discussed. The relationships between freedom of the press and the public’s right to know are also explored.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11133",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 368",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "368",
+    "code": "POL 368",
+    "title": "Social Networks and Politics",
+    "description": "An examination of social networks in contemporary politics. The course progresses from interpersonal social networks to the use of online social networks. Attention given to how interpersonal social networks shape political attitudes and behavior, how online social networks are used to organize movements, and to communicate political information.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; POL 201 or any other course satisfying the major’s methodology requirement; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 201"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11134",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 369",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "369",
+    "code": "POL 369",
+    "title": "Introduction to Political Informatics",
+    "description": "Recent advances in the availability of large data sets, analytic methods, and technology tools have impacted the foundations of democratic society, specifically the ability of elections to provide representation for the underlying population. This course presents the information aspects of these advances. Topics covered include election data capture, election result data sets, gerrymandering, redistricting, micro-targeting, voter surveys, election security, election district geometry, impact of social media, measures of political quality, and the prediction of election results.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 102 , AMS 110 , AMS 310 , or POL 201 or any other course satisfying the POL Major Methodology requirement",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 102"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 110"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 201"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11135",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 371",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "371",
+    "code": "POL 371",
+    "title": "Politics of Climate Change",
+    "description": "The course covers multiple dimensions of climate change as a social and political problem. It examines public opinion, domestic legislation, and international agreements related to climate policy. It also explains how science and technology shapes opinion and policy.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11136",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 373",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "373",
+    "code": "POL 373",
+    "title": "The Biology of Politics",
+    "description": "The study of politics has traditionally focused on factors such as demography, socioeconomic status, mobilization, electoral institutions, and social norms to answer questions of political attitude formation and political participation. However, scholars have recently begun to explore the possibility that biological differences may, at least in part, help to explain individual differences in political attitudes and behavior. This course explores the relationship between biology and political behavior with an emphasis on how the two may be linked. We examine human political behavior from evolutionary, genetic, and neurobiological perspectives, considering literature on non-human animals, developmental psychology, personality, psychophysiology, neurobiology, genetics, hormones, disgust sensitivity, and mating.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11137",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 374",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "374",
+    "code": "POL 374",
+    "title": "Global Issues in the United Nations",
+    "description": "An overview of key issues and contemporary debate in the United Nations toward an understanding of its formal and informal operations. Issues include peace and security; human rights; development and trade; and the global environment. Consideration of perspectives of people from outside the United States and the West; the major obstacles to effective international cooperation in the U.N. and the ways these obstacles might be overcome; and how democratic governance is affected by the rise of global institutions and governance. This course offered as both POL and SOC 374 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "One SBS course or U3/U4 status",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11138",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 375",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "375",
+    "code": "POL 375",
+    "title": "The Political Animal",
+    "description": "Examines political behavior from the perspective of evolutionary biology. We compare human social behavior to similar behaviors observed in chimpanzees, baboons, dolphins, honeybees, and other animal species. We look at behaviors such as altruism, mating, fighting, dominance hierarchies, alliances, punishment, trade, risk sharing, group decision-making, social learning, and culture. For each social behavior, we consider the underlying psychological systems, how they process information, and what evolutionary functions they perform. We will focus particularly on evidence from experiments. Finally, we explore how humans invent new political institutions that extend our evolved political strategies.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11139",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 378",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "378",
+    "code": "POL 378",
+    "title": "Introduction to Torts",
+    "description": "Focusing on many of the topics covered in a first-year law school torts course, we will explore a variety of areas. Time permitting, we will address intentional torts against persons (e.g., assault, battery and false imprisonment); intentional torts against property (e.g., trespass, nuisance and conversion); defenses to intentional torts; the elements of a negligence claim (including duty of care and causation); defenses to negligence claims (including contributory and comparative negligence); nonfeasance (the failure to act); vicarious liability; strict liability; wrongful death claims; emotional harm; prenatal harm; compensatory and punitive damages; defamation; fraud; business torts; and sovereign immunity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 , U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11694",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 379",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "379",
+    "code": "POL 379",
+    "title": "Federal Government Power",
+    "description": "This course will explore the constitutional, legal and political limitations on the exercise of federal government power. We will focus upon, among other topics, the philosophical influences upon the Framers, as reflected in the Declaration of Independence, the Constitution and elsewhere; the constitutional structure developed by the Framers for separating and limiting the powers of the executive, legislative and judicial branches; the constitutional, statutory and common law principles and laws that constrain the exercise of power by the President, Congress and the courts; the federalism relationship between the federal government and the states; the expansion of executive power, including that wielded by law-enforcement agencies, the intelligence community and other executive branch bureaucracies; the expansive reach of judicial power; the evolving power of Congress; the impeachment of executive and judicial branch officers; and the political, media and other constraints on the exercise of federal power.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 102 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11695",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 380",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "380",
+    "code": "POL 380",
+    "title": "Government and Politics of the Middle East",
+    "description": "This course examines the international relations of the contemporary Middle East contextualizing the study in a historical and comparative framework. The course covers the relevant history of the region, and engages in comparative analysis of the international, domestic politics, civil society and political economy of Middle Eastern states and non-state actors. We draw from the conceptual framework introduced in POL 101 : World Politics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 101 or POL 103 ; U2 or higher standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "POL 101"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "POL 103"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11140",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 390",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "390",
+    "code": "POL 390",
+    "title": "Topics in Political Science",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 or higher standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11141",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 401",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "401",
+    "code": "POL 401",
+    "title": "Seminar in Advanced Topics",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11142",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 402",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "402",
+    "code": "POL 402",
+    "title": "Advanced Seminar in Political Psychology",
+    "description": "Intensive seminar exploring topics in political psychology, covering areas such as: public opinion, political ideology, political mobilization, social movements, persuasion and propaganda, moral politics, and others. May be repeated as the topic changes.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of Course Instructor and Director of the MA in Political Psychology program.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11752",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 447",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "447",
+    "code": "POL 447",
+    "title": "Directed Readings in Political Science",
+    "description": "Individually supervised readings in selected topics of the discipline.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Political science major with U3 or U4 standing; 15 credits in political science; permission of instructor and department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11144",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 458",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "458",
+    "code": "POL 458",
+    "title": "Speak Effectively Before an Audience",
+    "description": "A zero credit course that may be taken in conjunction with any POL course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum’s SPK learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11145",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 459",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "459",
+    "code": "POL 459",
+    "title": "Write Effectively in Political Science",
+    "description": "A zero-credit course that may be taken with permission of the Director of Undergraduate Studies. The course provides an opportunity to demonstrate the skills and techniques of effective academic writing through the submission of a portfolio of papers.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11146",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 475",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "475",
+    "code": "POL 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. The student is required to attend all the classes, do all the regularly assigned work and meet with the faculty member at regularly scheduled times to discuss the intellectual and pedagogical matters relating to the course. Not for major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Political science major; U4 standing; permission of instructor",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11147",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 476",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "476",
+    "code": "POL 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "Work with a faculty member as an assistant in one of the faculty member’s regularly scheduled classes. Students assume greater responsibility in such areas as leading discussions and analyzing results of tests that have already been graded. The course in which the student is permitted to work as a teaching assistant must be different from the course in which he or she previously served. Not for major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "POL 475 ; permission of instructor and department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "POL 475"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11148",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 477",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "477",
+    "code": "POL 477",
+    "title": "Qualitative & Mixed Methods",
+    "description": "Exposes students to qualitative and mixed methods research including epistemological, ontological debates, research design, methodologies, data analysis, and applications in scholarly published works. A combination of mixed methods approaches utilized in political science and the interdisciplinary fields of African Studies, Africana Studies, and Women’s and Gender Studies are explored. Key methods that will be covered include interviews (unstructured, semi-structured, structured), oral histories, case studies, analytical narratives, participant observation and ethnography, focus groups, large-N studies, GIS, sequencing of methods, databases, and content analysis. Students will develop a research proposal that can be utilized for senior projects.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 status",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11149",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 487",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "487",
+    "code": "POL 487",
+    "title": "Directed Research",
+    "description": "Qualified advanced undergraduates in political science may carry out individual research projects under the direct supervision of a faculty member.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Political science major; 15 credits in political science; permission of instructor and department; permission of departmental research coordinator may be substituted.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11150",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 488",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "488",
+    "code": "POL 488",
+    "title": "Internship",
+    "description": "Participation in a local, state, or federal governmental agency or community organization. Students are required to submit progress reports to their department sponsor and a final report on their experience to the department faculty.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Political science major or minor; 15 credits in political science; permission of instructor and department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11151",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 489",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "489",
+    "code": "POL 489",
+    "title": "Washington or Albany Internship",
+    "description": "Designed so that students can participate as interns in Washington, D.C. through a department approved internship agency in private or public sector organizations and agencies or in Albany as interns in the New York State Assembly or Senate Program. Students are supervised by practitioners within the organization or agency. Only three credits may be applied to POL major or minor requirements.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Department consent; POL major or minor; 3.0 GPA; 15 credits in POL; sponsorship of political science faculty member",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11152",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 490",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "490",
+    "code": "POL 490",
+    "title": "Washington or Albany Seminar",
+    "description": "Seminar offered in Washington, D.C. as part of the internship agency program or in Albany as part of the New York State Assembly or Senate Internship Program. The seminars are taught by people with experience in public and private agencies, public policy formulation, and relevant academic and professional experience.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Department consent; POL major or minor; 3.0 GPA; 15 credits in POL; sponsorship of political science faculty member",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11153",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 495",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "495",
+    "code": "POL 495",
+    "title": "Senior Honors Project in Political Science",
+    "description": "First course of a two-semester project for political science majors who are candidates for the degree with honors. Arranged in consultation with the department, the project involves independent study and the writing of a research paper under close supervision of a faculty member. Students enrolled in POL 495 are obliged to complete POL 496 . Students receive only one grade upon completion of the sequence.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Admission to the political science honors program",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11154",
+    "rawCorequisites": null
+  },
+  {
+    "id": "POL 496",
+    "deptCode": "POL",
+    "deptName": null,
+    "number": "496",
+    "code": "POL 496",
+    "title": "Senior Honors Project in Political Science",
+    "description": "Second course of a two-semester project for political science majors who are candidates for the degree with honors. Arranged in consultation with the department, the project involves independent study and the writing of a research paper under close supervision of a faculty member. Students enrolled in POL 495 are obliged to complete POL 496. Students receive only one grade upon completion of the sequence.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11155",
+    "rawCorequisites": null
+  }
+]

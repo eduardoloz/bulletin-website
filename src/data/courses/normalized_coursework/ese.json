@@ -1,0 +1,1878 @@
+[
+  {
+    "id": "ESE 111",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "111",
+    "code": "ESE 111",
+    "title": "Making with Arduino: Hardware and Programming",
+    "description": "Create a working electronic project using low-cost and easy-to-program Arduino development boards. Example projects may include wearable electronics, robots, and electronic displays. An introduction to the C programming language will be provided along with the basics of embedded electronics and the Internet of Things.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9645",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 118",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "118",
+    "code": "ESE 118",
+    "title": "Digital Logic Design",
+    "description": "Develops methods of analysis and design of both combinational and sequential systems regarding digital circuits as functional blocks. Utilizes demonstrations and laboratory projects consisting of building hardware on breadboards and simulation of design using CAD tools. Topics include: number systems and codes; switching algebra and switching functions; standard combinational modules and arithmetic circuits; realization of switching functions; latches and flip-flops; standard sequential modules; memory, combinational, and sequential PLDs and their applications; design of system controllers. May not be taken for credit in addition to EEO 218 / EEO 219 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 123",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9646",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 121",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "121",
+    "code": "ESE 121",
+    "title": "Introduction to Audio Systems",
+    "description": "Analog and digital audio systems, musical instrument amplifiers and effects, audio instrumentation, samplers, synthesizers, and audio transducers will be studied. Signal and system concepts will be demonstrated using audible examples to develop intuitive and non-mathematical insights. Audio system specifications will be explained and their effects demonstrated.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9647",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 122",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "122",
+    "code": "ESE 122",
+    "title": "Discrete Mathematics for Engineers",
+    "description": "Introduction to topics in computational mathematics, such as number systems, Boolean algebra, mathematical induction, combinatorics and probability, recursion and graph theory. Algorithm aspects of the topics discussed will be emphasized.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9648",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 123",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "123",
+    "code": "ESE 123",
+    "title": "Introduction to Electrical and Computer Engineering",
+    "description": "Introduces basic electrical and computer engineering concepts in a dual approach that includes: laboratories for hands-on wired and computer simulation experiments in analog and logic circuits, and lectures providing concepts and theory relevant to the laboratories. Emphasizes physical insight and applications rather than theory.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9649",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 124",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "124",
+    "code": "ESE 124",
+    "title": "Programming Fundamentals",
+    "description": "The course presents fundamental and more advanced C programming concepts. Lectures discuss the C language constructs and exemplify their using in relevant programming applications. The course also introduces fundamental concepts in electrical and computer engineering, such as bitwise operations, text file scanning, stack-based computation, table-based finite state machine implementation, hash tables, and linked lists. Scheduled lab activities focus on devising, implementing, debugging, and validating C programs for the concepts discussed in class. A course project focuses on developing a more extensive C program that comprehensively utilizes the programming concepts discussed during the semester. May not be taken for credit in addition to EEO 124 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "Declared Area of Interest or Major in Electrical or Computer Engineering.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9650",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 188",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "188",
+    "code": "ESE 188",
+    "title": "Understanding Machine Learning",
+    "description": "This is a course on the basics of machine learning. Students develop an intuitive understanding of the core concepts of machine learning including supervised and unsupervised learning, classification and prediction. The course provides a number of practical examples from a wide range of disciplines including biomedicine, social sciences, and engineering. The course does not require any prerequisites in engineering or computer science.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9651",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 201",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "201",
+    "code": "ESE 201",
+    "title": "Engineering and Technology Entrepreneurship",
+    "description": "The purpose of this course is to bridge the gap between technical competence and entrepreneurial proficiency. Students are not expected to have any formal business background, but have some background in a technical field. These fields can range from the engineering disciplines to computer science, and from biology and chemistry to medicine. Accordingly, the course will provide the necessary exposure to the fundamentals of business, while minimizing the use of business school jargon. Entrepreneurship is considered as a manageable process built around innovativeness, risk-taking and proactiveness. The course focuses on ventures where the business concept is built around either a significant technical advance in an operational process, or in the application of technology to create a new product or service.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BME 100 or CME 101 or ESG 100 or ESE 123 or MEC 101 or EST 192 or EST 194 or EST 202 or LSE 320",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BME 100"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CME 101"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESG 100"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 123"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MEC 101"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "EST 192"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "EST 194"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "EST 202"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "LSE 320"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9652",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 202",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "202",
+    "code": "ESE 202",
+    "title": "Humanistic Engineering",
+    "description": "The course discusses the nature of the co-dependencies of various human endeavors, like art, science and engineering, and the degree to which traditionally non-engineering elements, like meaning, fairness, or artistic creativity, should be considered by present processing / computational systems and methods in engineering. The course starts with presenting the main theories in philosophy, art, psychology, and engineering design on the nature and characteristics of evolution and progress. The main elements of engineering design for innovation are being discussed and how it relates to humanistic values. Computational methods towards mimicking and generating creative outcomes are presented and then compared to human creativity. The covered topics include the evolution process in art and engineering, its defining stages and elements, existing computational approaches towards co-achieving human and engineering goals with computational art as an example, the importance of expertise. The course offers exposure to existing software tools related to computational creativity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 standing or higher",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9653",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 224",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "224",
+    "code": "ESE 224",
+    "title": "Advanced Programming and Data Structures",
+    "description": "The course presents fundamental data structures and algorithms frequently used in engineering applications. Object oriented programming in C++ is used to teach the concepts. Discussed topics include: programming and applications of data structures; stacks, queues, lists, heaps, priority queues, and introduction to binary trees. Recursive programming is heavily utilized. Fundamental sorting algorithms are examined along with informal efficiency analysis. May not be taken for credit in addition to EEO 224 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 124",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 124"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9654",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 271",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "271",
+    "code": "ESE 271",
+    "title": "Electrical Circuit Analysis",
+    "description": "The course covers the following topics: passive circuit elements: resistors, capacitors, inductors. Elements of circuit topology. Kirchhoff’s and Ohm’s law. Nodal and mesh analysis. Equivalent circuits. Steady-state AC circuits. Phasors. Transient analysis. Laplace transforms. Fundamentals of AC power, coupled inductors (transformers). Not for credit in addition to EEO 271 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "MAT 127 or MAT 132 or AMS 161",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 161"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9655",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 272",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "272",
+    "code": "ESE 272",
+    "title": "Electronics",
+    "description": "This is the first non-linear electronics class that introduces the students to the fundamentals of the circuit design through the architecture of a modern electronics system at the interface with sensors and actuators. Modeling of the non-linear devices, diode and MOS transistors, is presented, along with basic properties of MOS transistors for analog (amplification) and digital (switching) IC circuit design. Operational amplifier ideal and non-ideal models are explored along with the concepts of the feedback and stability. Signal conditioning circuits (fixed-gain, difference and instrumentation amplifiers, active filters), signal shaping circuits (rectifier, clipper, peak detector) and oscillators are presented. Basics of sample and hold circuit, data converters, digital signal processing platforms and radios are presented.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 271",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 271"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9656",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 273",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "273",
+    "code": "ESE 273",
+    "title": "Microelectronic Circuits",
+    "description": "This is the first integrated circuits class that introduces the students to the fundamentals of the non-linear devices and design of IC amplifiers. The course starts with the introduction to the device physics, operation and modeling of a diode. Operation of MOS transistor, derivation of the large-signal transistor current as a function of the terminal voltages in different regions of operation is then presented, along with the small-signal model. Single-stage amplifier structures are explored, along with the introduction of the implementation of current source and current mirror. Frequency-response of common-source amplifier is presented. The concepts of multi-stage amplification and differential pair are introduced. Operation modeling of bipolar transistors are presented, along with the common-emitter amplifier. Comparison of MOS and BJT transistor and performance of common-source and common-emitter is presented. Not for credit in addition to EEO 315 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 271",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 271"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9657",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 280",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "280",
+    "code": "ESE 280",
+    "title": "Embedded Microcontroller Systems Design I",
+    "description": "Fundamental design of microcontroller-based electronic systems. Topics include system level architecture, microcontrollers, memory, configurable ports, peripheral ICs, interrupts, sensors, and actuators, serial data protocols, assembly language programming, debugging, and table driven FSMs. Hardware/software trade-offs in implementing system functions. Hardware and software design are equally emphasized. Laboratory work involves design, implementation, and verification of microcontroller systems.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE or ECE major; ESE 118 or permission of instructor.",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 118"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9658",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 290",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "290",
+    "code": "ESE 290",
+    "title": "Transitional Study",
+    "description": "A vehicle used for transfer students to remedy discrepancies between a Stony Brook course and a course taken at another institution. For example, it allows the student to take the laboratory portion of a course for which he or she has had the theoretical portion elsewhere. Open elective credit only.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9659",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 300",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "300",
+    "code": "ESE 300",
+    "title": "Technical Communication for Electrical and Computer Engineers",
+    "description": "Topics include how technical writing differs from other forms of writing, the components of technical writing, technical style, report writing, technical definitions, proposal writing, writing by group or team, instructions and manuals, transmittal letters, memoranda, abstracts and summaries, proper methods of documentation, presentations and briefings, and analysis of published engineering writing. Also covered are the writing of resumes and cover letters. May not be taken for credit in addition to EEO 300 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; ESE or ECE major, U3 standing; ESE 280",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9660",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 301",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "301",
+    "code": "ESE 301",
+    "title": "Engineering Ethics and Societal Impact",
+    "description": "The study of ethical issues facing engineers and engineering related organizations and the societal impact of technology. Decisions involving moral conduct, character, ideals and relationships of people and organizations involved in technology. The interaction of engineers, their technology, the society and the environment is examined using case studies. Introduction to patents, copyright, trademarks and infringement using case studies. May not be taken for credit in addition to EEO 302 .",
+    "credits": 2,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9661",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 304",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "304",
+    "code": "ESE 304",
+    "title": "Applications of Operational Amplifiers",
+    "description": "Design of electronic instrumentation: structure of basic measurement systems, transducers, analysis and characteristics of operational amplifiers, analog signal conditioning with operational amplifiers, sampling, multiplexing, A/D and D/A conversion; digital signal conditioning, data input and display, and automated measurement systems. Application of measurement systems to pollution and to biomedical and industrial monitoring is considered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 273",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 273"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9662",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 305",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "305",
+    "code": "ESE 305",
+    "title": "Deterministic Signals and Systems",
+    "description": "Introduction to signals and systems. Manipulation of simple analog and digital signals. Relationship between frequencies of analog signals and their sampled sequences. Sampling theorem. Concepts of linearity, time-invariance, causality in systems. Convolution integral and summation; FIR and IIR digital filters. Differential and difference equations. Laplace transform, Z-transform, Fourier series and Fourier transform. Stability, frequency response and filtering. Provides general background for subsequent courses in control, communication, electronics, and digital signal processing. Not for credit in addition to EEO 301 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9663",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 306",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "306",
+    "code": "ESE 306",
+    "title": "Random Signals and Systems",
+    "description": "Random experiments and events; random variables and random vectors, probability distribution functions, random processes; Binomial, Bernoulli, Poisson, and Gaussian processes; Markov chains; significance testing, detection of signals, estimation of signal parameters; properties and application of auto-correlation and cross-correlation functions; power spectral density; response of linear systems to random inputs. May not be taken for credit in addition to EEO 306 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9664",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 315",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "315",
+    "code": "ESE 315",
+    "title": "Control System Design",
+    "description": "The course aims to introduce students to basic concepts of classical control theory, such as closed-loop systems, root-locus analysis, Bode diagrams and Nyquist Criterion, and their applications in electrical, mechanical, and electromechanical systems. The students are expected to master the methods for control systems design including basic feedback control and PID control, which have a major application in the design of process control systems for industry.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9665",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 319",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "319",
+    "code": "ESE 319",
+    "title": "Electromagnetic Waves and Transmission Lines",
+    "description": "Properties of generic uniform plane waves including phase and group velocities. Uniform plane electromagnetic waves (UPEMWs) consisting of an electric field wave and a magnetic field wave, both moving synchronously in space and time; mutual right-handed orthogonality between the electric and magnetic field vectors and the direction of propagation; Poynting vector. Transmission lines (TLs): voltage and current behaving as waves on TLs, voltage reflection coefficient, impedance transformation law, VSWR, Smith Chart, impedance matching. Maxwell equations, EM wave equation, boundary conditions. Scattering of UPEMWs incident normally or obliquely at the interface plane between two dielectric media. Waveguides: TE and TM modes of a rectangular waveguide, cut-off frequencies, dominant mode, power flow. Not for credit in addition to EEO 319 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 271 ; AMS 261 or MAT 203 or MAT 307 ; AMS 361 or MAT 303 or MAT 308",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 271"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 308"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9666",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 323",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "323",
+    "code": "ESE 323",
+    "title": "Modern Circuit Board Design and Prototyping",
+    "description": "Design, fabricate, and test a prototype device using a custom made circuit board, surface mount components, and a 3D printed enclosure. Topics include printed circuit design, active and passive component selection, design for testability, solid modeling, and 3D printing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 272 and ESE 280",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 272"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9667",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 324",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "324",
+    "code": "ESE 324",
+    "title": "Advanced Electronics Laboratory",
+    "description": "The objective of this advanced electronics lab course is to provide hands-on design experience for students. The students will have the opportunity to leverage theoretical knowledge acquired during ESE 272 and ESE 273 to design and test more complex and highly popular electronic circuits such as multi-stage amplifier, voltage regulator, and DC-DC boost and buck converters, data converters, and phase-locked loop. The initial several experiments will be based on the fundamental single stage amplifiers. The rest of the experiments will be more design centric where students will have the responsibility to determine either topology or the values of the circuit elements in each experiment in order to satisfy specific design objectives. The lectures will cover the theoretical principles as well as related design tradeoffs. Different topologies and analysis techniques will be presented for each circuit, guiding students during the design process.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 272 or ESE 211; ESE 273",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 272"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 211"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 273"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9668",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 325",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "325",
+    "code": "ESE 325",
+    "title": "Modern Sensors",
+    "description": "The course focuses on the underlying physics principles, design, and practical implementation of sensors and transducers including piezoelectric, acoustic, inertial, pressure, position, flow, capacitive, magnetic, optical, and bioelectric sensors. Established as well as novel sensor technologies as well as problems of interfacing various sensors with electronics are discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 273",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 273"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9669",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 326",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "326",
+    "code": "ESE 326",
+    "title": "Fundamental Algorithms for Automated Electronic Design",
+    "description": "Upon completion of the course, students will know to design and implement the fundamental algorithms for automated electronic design, such as system and circuit design. The discussed core algorithms include greedy algorithms, divide-and-conquer, quicksort, dynamic programming, graph algorithms, and string matching. Analysis of algorithms is also discussed. These algorithms are exemplified for basic electronic design tasks, like circuit partitioning, floorplanning, module placement, signal routing, task scheduling, resource allocation, and technology mapping. The course work involves programming exercises and one course project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 224",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 224"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9670",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 327",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "327",
+    "code": "ESE 327",
+    "title": "Fundamental Algorithms for Machine Learning Systems",
+    "description": "The course presents the fundamental methods used in Machine Learning for engineering applications. The course discusses representation models for learning, extraction of frequent patterns, classification, clustering, and application of these techniques for different engineering applications. Supervised and unsupervised learning methods are discussed. The course includes two projects that involve devising and implementing the studied techniques and their evaluation using standard benchmark data.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 224",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 224"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9671",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 330",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "330",
+    "code": "ESE 330",
+    "title": "Integrated Electronics",
+    "description": "An overview of the design and fabrication of integrated circuits. Topics include gate-level and transistor-level design; fabrication material and processes; layout of circuits; automated design tools. This material is directly applicable to industrial IC design and provides a strong background for more advanced courses.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 273",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 273"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9672",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 331",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "331",
+    "code": "ESE 331",
+    "title": "Semiconductor Devices",
+    "description": "The course covers physical principles of operation of semiconductor devices. Energy bands and energy band diagram, carrier densities, transport properties, generation recombination phenomena in bulk semiconductors, and the continuity equation are covered first. Equipped with an understanding of the character of physical phenomena in semiconductors, students learn the principles of operation, current-voltage characteristics, and nonidealities of p-n junction diodes, metal-semiconductor contacts, bipolar junction transistors, and field effect transistors. Not for credit in addition to EEO 331 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 361 or MAT 303 ; PHY 127 / PHY 134 or PHY 132 / PHY 134 or PHY 142",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 127"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 132"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 142"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9673",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 332",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "332",
+    "code": "ESE 332",
+    "title": "Quantum Mechanics for Engineers",
+    "description": "Introductory undergraduate level first course in quantum mechanics geared towards engineers and applied physicists. Comprehensive introduction to quantum mechanics and its application to real-world problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 122 /124 or PHY 126 and PHY 127 and PHY 134 or PHY 132 / PHY 134 or PHY 142 / PHY 134 ; MAT 127 or PHY 132 or AMS 161",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 122"
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 126"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 127"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 132"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 142"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9674",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 333",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "333",
+    "code": "ESE 333",
+    "title": "Real-Time Operating Systems",
+    "description": "Introduces basic concepts and principles of real-time operating systems. Topics include structure, multiple processes, interprocess communication, real-time process scheduling, memory management, virtual memory, file system design, security, protection, and programming environments for real-time systems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 224 or CSE 214 ; ESE 280",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 224"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9675",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 334",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "334",
+    "code": "ESE 334",
+    "title": "Introduction to Nanoelectronic Devices",
+    "description": "The major goals and objectives are to provide undergraduate students with initial knowledge and understanding of nanoelectronic devices. The course will cover physical properties of low-dimensional structures (quantum wells, quantum wires, quantum dots, and superlattices) that create a basis for operation of nanoelectronic devices as well as nanostructure fabrication, characterization and applications in nanoelectronics. Additionally, the course will cover applications of nanotechnology in biology and medicine.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 331",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 331"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9676",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 335",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "335",
+    "code": "ESE 335",
+    "title": "Offshore Wind Power System Analysis and Control",
+    "description": "This course provides a comprehensive foundation for the analysis, operation, and control of offshore wind (OSW) power systems. It covers essential topics such as OSW system modeling, static, dynamic, and transient analysis of OSW grids, and simulation techniques for large-scale OSW networks. Students will also be exposed to the unique challenges associated with integrating offshore wind into power grids, including stability, reliability, and efficiency considerations, as well as the advanced control and protection strategies for maintaining OSW system resilience. Through a combination of theoretical study and practical simulation exercises, students will develop the skills needed to analyze and optimize OSW power systems for real-world applications.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 271",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 271"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11728",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 337",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "337",
+    "code": "ESE 337",
+    "title": "Digital Signal Processing: Theory",
+    "description": "Introduces digital signal processing theory, discrete time sequences and systems, linear time-invariant (LTI) systems, convolution sum, Discrete Time Fourier Transform (DTFT), Z-transform, Discrete Fourier Series (DFS), sampling DTFT, Discrete Fourier Transform (DFT), Fast Fourier Transform (FFT), sampling and reconstruction of continuous and discrete time signals, design of FIR and IIR filters, difference equations. May not be taken for credit in addition to EEO 303 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 305",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 305"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9677",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 342",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "342",
+    "code": "ESE 342",
+    "title": "Communication Systems",
+    "description": "Basic concepts in both analog and digital data communications; signals, spectra, and linear networks; Sampling and pulse modulation; Pulse modulation schemes; Principles of digital transmission; Behavior of analog and digital systems in noise; Channel capacity and channel coding schemes.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 306",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 306"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9678",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 343",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "343",
+    "code": "ESE 343",
+    "title": "Mobile Cloud Computing",
+    "description": "Introduction to the basic concepts of mobile cloud computing, including: 1. The mobile computing technology used in modern smart phones; 2. The cloud computing technology used in existing data centers; 3. The synergy of mobile and cloud computing and its applications; 4. Programming on smart phone utilizing data center services. Students will gain knowledge of: the fundamental principles of mobile cloud computing, the major technologies that support mobile cloud computing, the current challenges and primary areas of research within the field of mobile cloud computing, and a basic understanding of the role of mobile cloud computing in the context of everyday living.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 224 or CSE 214 or CSE 230 or ISE 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 224"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9679",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 344",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "344",
+    "code": "ESE 344",
+    "title": "Software Techniques for Engineers",
+    "description": "This course covers software techniques for solving electrical and computer engineering problems in the C++ programming language. Design, implementation, and application to engineering problems of non-linear data structures and related advanced algorithms are covered. This includes binary trees, trees, graphs, and networks. OOP features such as Polymorphism, templates, Exception handling, File I/O operations, as well as Standard Template Library are used in the programming projects.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 224",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 224"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9680",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 345",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "345",
+    "code": "ESE 345",
+    "title": "Computer Architecture",
+    "description": "This course focuses on the fundamental techniques of designing and evaluating modern computer architectures and tradeoffs present at the hardware/software boundary. The emphasis is on instruction set design, processor design, memory and parallel processing. Students will get an understanding of the design process in the context of a complex computer system. Students will undertake a VHDL/Verilog design project using modern CAD tools.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 280 and ESE 382",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 382"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9681",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 346",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "346",
+    "code": "ESE 346",
+    "title": "Computer Communications",
+    "description": "Basic theory and technology of computer communications. Introduction to performance evaluation, error codes and routing algorithms. Introduction to queueing theory, machine learning for networking and network planning. Other topics include Ethernet, wireless networks including LTE, 5G and 6G, fiber optic networking, software defined networking, networking on chips, space networks, data centers, grids and clouds. Not for credit in addition to CSE 310 or ISE 316 or ISE 317 or EEO 346 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9682",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 347",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "347",
+    "code": "ESE 347",
+    "title": "Digital Signal Processing: Implementation",
+    "description": "Fundamental techniques for implementing standard signal-processing algorithms on dedicated digital signal-processing chips. Includes a review of discrete-time systems, sampling and reconstruction, FIR and IIR filter design, FFT, architecture and assembly language of a basic signal processing chip, and an introduction to adaptive filtering.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 337 , or ESE 305 and ESE 280",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 337"
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 305"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 280"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9683",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 350",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "350",
+    "code": "ESE 350",
+    "title": "Electric Power Systems",
+    "description": "Fundamental engineering theory for the design and operation of a modern electric power system. Modern aspects of generation, transmission, and distribution are considered with appropriate inspection trips to operating electric power facilities (when available). Topics included are: Three Phase AC systems, phasor and function of time analysis, per unit representation, transmission line parameters, delta-wye transformers, power flow, transient stability, renewable energy integration, and basics of power system protection.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 271",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 271"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9684",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 351",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "351",
+    "code": "ESE 351",
+    "title": "Power Electronics Devices Circuits and Applications",
+    "description": "An introduction to power electronics at its fundamental level, including power devices, gate drive, basic topologies, modulation and their applications.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 272 or ESE 273",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 272"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 273"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11729",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 352",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "352",
+    "code": "ESE 352",
+    "title": "Electromechanical Energy Converters",
+    "description": "An introduction to the conversion of mechanical power to electric power (generators) and the conversion of electric power to mechanical power (motors). Analysis of the interaction of magnetic fields with electric current and moving conductors to produce electromagnetic force and induced voltage. Energy converters studied include three phase AC synchronous generators and motors, AC induction motors, DC linear and rotating machines, and single phase AC motors. An introduction to inverter-based renewable energy generations in power systems. May not be taken for credit in addition to EEO 425 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 273",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 273"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9685",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 355",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "355",
+    "code": "ESE 355",
+    "title": "VLSI System Design",
+    "description": "Introduces techniques and tools for scalable VLSI design and analysis. Emphasis is on physical design and on performance analysis. Includes extensive laboratory experiments and hands-on use of CAD tools.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 118",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 118"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9686",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 356",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "356",
+    "code": "ESE 356",
+    "title": "Digital System Specification and Modeling",
+    "description": "A comprehensive introduction to the field of system level design. This course introduces basic concepts of complex hybrid (software/hardware) system modeling and simulation methodologies. Topics include top-down and bottom-up design methodology, system complexity refinement, SystemC specification language syntax and semantics, behavioral and system-level modeling, channel and interface modeling and implementation, and IP core development. Included are three projects on modeling and simulation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 224 and ESE 280",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 224"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9687",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 358",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "358",
+    "code": "ESE 358",
+    "title": "Computer Vision",
+    "description": "Introduces fundamental concepts, algorithms, computational techniques, and applications in visual information processing. Covers image formation models and image filtering, binary image analysis, feature detection, contours, image segmentation, 3D image capture and analysis through stereo, motion, structured-light, and LIDAR, medical images, pattern classification, machine learning, and 3D object recognition.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 305 ; ESE 224 or CSE 230",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 305"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 224"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 230"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9688",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 360",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "360",
+    "code": "ESE 360",
+    "title": "Network Security Engineering",
+    "description": "An introduction to computer network and telecommunication network security engineering. Special emphasis on building security into hardware and hardware working with software. Topics include encryption, public key cryptography, authentication, intrusion detection, digital rights management, firewalls, trusted computing, encrypted computing, intruders and viruses. Not for credit in addition to CSE 408.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9689",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 366",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "366",
+    "code": "ESE 366",
+    "title": "Design using Programmable Mixed-Signal Systems-on-Chip",
+    "description": "This course focuses on development of mixed-signal embedded applications that utilize systems on chip (SoC) technology. The course discusses design issues such as: implementation of functionality; realizing new interfacing capabilities; and improving performance through programming the embedded microcontroller and customizing the reconfigurable analog and digital hardware of SoC. May not be taken for credit in addition to EEO 366 .",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 380 and ESE 372; ESE 224 or CSE 230",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 380"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 372"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 224"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 230"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9690",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 375",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "375",
+    "code": "ESE 375",
+    "title": "Architectures for Digital Signal Processing",
+    "description": "This course covers various aspects of architectures in digital signal processing and multimedia data processing. The topics include iteration bound analysis, retiming the circuits, unfolding and folding the architectures, algorithmic and numerical strength reduction for low power and low complexity design, introduction to array processor architectures and CORDIC implementation.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 280 and ESE 305",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 305"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9691",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 381",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "381",
+    "code": "ESE 381",
+    "title": "Embedded Microprocessor Systems Design II",
+    "description": "A continuation of ESE 380. The entire system design cycle, including requirements definition and system specifications, is covered. Topics include real-time requirements, timing, interrupt driven systems, analog data conversion, multi-module and multi-language systems. The interface between high-level language and assembly language is covered. A complete system is designed and prototyped in the laboratory.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 271 and ESE 280",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 271"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 280"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9692",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 382",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "382",
+    "code": "ESE 382",
+    "title": "Digital Design Using VHDL and PLDs",
+    "description": "Digital system design using the hardware description language VHDL and system implementation using complex programmable logic devices (CPLDs) and field programmable gate arrays (FPGAs). Topics include design methodology, VHDL syntax, entities, architectures, testbenches, subprograms, packages, and libraries. Architecture and characteristics of PLDs and FPGAs are studied. Laboratory work involves writing the VHDL descriptions and testbenches for designs, compiling, and functionally stimulating the designs, fitting and timing simulation of the fitted designs, and programming the designs into a CPLD or FPGA and bench testing.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE or ECE major; ESE 118 or permission of instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 118"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9693",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 388",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "388",
+    "code": "ESE 388",
+    "title": "Foundations of Machine Learning",
+    "description": "This course provides an introduction to the fundamental concepts of machine learning. Statistical learning framework is utilized for clustering, classification, and prediction tasks. Concepts are reinforced through theoretical and programming assignments, with applications in computer vision, natural language processing and bioinformatics. May not be taken for credit in addition to EEO 388 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 224 and ESE 306",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 224"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 306"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9694",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 411",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "411",
+    "code": "ESE 411",
+    "title": "Analog Integrated Circuits",
+    "description": "Single-stage amplifiers biased and loaded with current mirrors. Frequency response. Two-stage operational amplifiers designed by conventional and computer-aided techniques. Negative feedback, stability and compensation. May not be taken for credit in addition to EEO 311 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 273",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 273"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9695",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 412",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "412",
+    "code": "ESE 412",
+    "title": "Lightwave Devices",
+    "description": "Introduction to optical semiconductor devices and their applications in telecommunications, optoelectronics, and consumer electronics-areas where signal processing or the transmission of signals across free space or fiber optic cables is involved. It discusses design and operation of optical modulators, quantum well lasers, light emitting diodes, and photodetectors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 331",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 331"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9696",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 413",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "413",
+    "code": "ESE 413",
+    "title": "Introduction to Photovoltaics",
+    "description": "Introduction to the basic concepts of photovoltaic solar energy conversion, including: 1. The solar resource in the context of global energy demand; 2. The operating principles and theoretical limits of photovoltaic devices; 3. Device fabrication, architecture, and primary challenges and practical limitations for the major technologies and materials used for photovoltaic devices. Students will gain knowledge of: the device physics of solar cells, the operating principles of the major commercial photovoltaic technologies, the current challenges and primary areas of research within the field of photovoltaics, and a basic understanding of the role of photovoltaics in the context of the global energy system.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 331",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 331"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9697",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 414",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "414",
+    "code": "ESE 414",
+    "title": "Fundamentals of Low Noise Electronics for Sensors",
+    "description": "Introduction to sensor model, electronic noise, signal-to-noise analysis in frequency and time domains, low-noise charge amplification, low-noise amplifier design, filter design, analog and digital signal processing for sensors. May not be taken for credit in addition to EEO 414 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 411",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 411"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9698",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 431",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "431",
+    "code": "ESE 431",
+    "title": "HVDC Grids",
+    "description": "The course focuses on High Voltage Direct Current (HVDC) and HVDC based integration of clean energy. Topics include: current source converters (CSC) HVDC, voltage source converters (VSC)-HVDC, multi-terminal HVDC, and clean energy integration through VSC-HVDC.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 350",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 350"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11730",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 435",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "435",
+    "code": "ESE 435",
+    "title": "Power System Analysis",
+    "description": "The course focuses on fundamental analytics of power systems. The course will help students understand major problems in power system static, dynamic, and stability analysis, as well as fundamental optimization issues in power system operation. The course covers power system steady-state modeling with emphasis on admittance and impedance matrix, power system dynamics modeling with emphasis on the functional state-space model, and power system analytics with emphasis on power flow analysis, eigenvalue analysis, and time-domain transient simulation. Advanced topics such as power system optimization exemplified by optimal power flow and unit commitment, as well as power system control will also be introduced. Emphasis is on using applied mathematics to analyze power system problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 210 or equivalent; ESE 271 ; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 210"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 271"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9699",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 440",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "440",
+    "code": "ESE 440",
+    "title": "Senior Design I",
+    "description": "The senior design sequence (ESE 440 and ESE 441 ) is a two-semester, team based and independent capstone project with deliverables. The primary objective of the senior design course sequence is to provide a vehicle for students to transition from an academic environment to that of a commercial/professional engineering environment. Students learn to work in teams to complete a project from concept, practical design based on multiple constraints, to creating a deliverable product meeting the design specifications. Students present written, oral and poster presentations of the project. While most of the project work is done outside the classroom, guest speakers provide insight into other related topics from resume preparation, to program management, to team dynamics and to design methodologies used in industry. The project incorporates appropriate engineering standards and multiple realistic constraints. The final grade will be assigned at the end of the two course sequence ESE 440- ESE 441 . Not counted as a technical elective. May not be taken for credit in addition to EEO 440 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE or ECE major, U4 standing; ESE 300 ; For ESE majors: two ESE electives or for ECE majors: two ECE electives.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 300"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9700",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 441",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "441",
+    "code": "ESE 441",
+    "title": "Senior Design II",
+    "description": "The senior design sequence ( ESE 440 and ESE 441) is a two-semester, team based and independent capstone project with deliverables. The primary objective of the senior design course sequence is to provide a vehicle for students to transition from an academic environment to that of a commercial/professional engineering environment. Students learn to work in teams to complete a project from concept, practical design based on multiple constraints, to creating a deliverable product meeting the design specifications. Students present written, oral and poster presentations of the project. While most of the project work is done outside the classroom, guest speakers provide insight into other related topics from resume preparation, to program management, to team dynamics and to design methodologies used in industry. The project incorporates appropriate engineering standards and multiple realistic constraints. Not counted as a technical elective. May not be taken for credit in addition to EEO 441 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 440",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 440"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9701",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 442",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "442",
+    "code": "ESE 442",
+    "title": "Recent Advances in Communications and Wireless Networks",
+    "description": "This course covers major wireless network protocols and recent advances on selected topics of communications and networks. Students are expected to survey the current literature on the subject area of the course and complete a project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 342 or ESE 346 or CSE 310",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 342"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 346"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 310"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9702",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 451",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "451",
+    "code": "ESE 451",
+    "title": "Power Electronics",
+    "description": "An introduction to the design and characterization of high-efficiency switch-mode power converters. Fundamental dc-dc converter topologies will be introduced and analyzed in the steady state and dynamically. The application of semiconductor devices in power applications including MOSFET, BJT, IGBT, and thyristors will be studied. Non-idealities in circuit components and the design of magnetic components will be discussed. Students will build and characterize circuits of their own design.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 273",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 273"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9703",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 452",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "452",
+    "code": "ESE 452",
+    "title": "Advanced Power Electronics",
+    "description": "A continued study of switching power converters after ESE 451 . Topics include power factor and AC power line current harmonics, analysis of discontinuous circuit operation, resonant converters, and soft-switching. The advantages of wide band gap semiconductors in high power applications will be discussed. Students will build and characterize their designs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 451",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 451"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9704",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 457",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "457",
+    "code": "ESE 457",
+    "title": "Fundamentals of Digital Image Processing",
+    "description": "This course covers fundamentals of digital image processing. Basic principles, computational algorithms, and applications are covered. Topics include image formation and sensing, sampling and quantization, image enhancement and histogram analysis, geometric transformations, filtering in the spatial and Fourier domains, edge and feature detection, color image processing, image deblurring, and medical images and computed tomography.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 305 ; ESE 224",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 305"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ESE 224"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9705",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 462",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "462",
+    "code": "ESE 462",
+    "title": "AI Driven Smart Grids",
+    "description": "The course focuses on Artificial Intelligence (AI) applications to power system modeling, analysis, and operation. Topics include basics of AI and smart grid, AI-driven modeling such as load/renewable energy prediction and dynamic model discovery, AI-driven power system analysis such as dynamic simulation, and stability and security assessment, and AI-based operation such as optimal dispatch and emergency control. Emerging topics, including generative AI, quantum machine learning, and trustworthy AI, will also be discussed. Students enrolled in the course are expected to possess a foundational capability in using Matlab or Python for developing basic programs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 350 or ESE 435 ; AMS 210 or MAT 211",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 350"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ESE 435"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9706",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 475",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "475",
+    "code": "ESE 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist the faculty in teaching by conducting recitation or laboratory sections that supplement a lecture course. The student receives regularly scheduled supervision from the faculty instructor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing; a minimum g.p.a. of 3.00 in all Stony Brook courses, and a grade of B or better in the course in which the student is to assist; permission of department.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9707",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 476",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "476",
+    "code": "ESE 476",
+    "title": "Instructional Laboratory Development Practicum",
+    "description": "Students work closely with a faculty advisor and staff in developing new laboratory experiments for scheduled laboratory courses in electrical and computer engineering. A comprehensive technical report and the instructional materials developed must be submitted at the end of the course. May be used as a technical elective for electrical and computer engineering majors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U4 standing; minimum cumulative g.p.a. of 3.0 and minimum grade of A- in the course for which the students will develop material; permission of department and instructor",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9708",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 481",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "481",
+    "code": "ESE 481",
+    "title": "Design of Secure IoT Embedded Systems",
+    "description": "This course focuses on the design, development, and implementation of secure IoT systems using microcontrollers, radio modules, sensors, and actuators. Topics include security and access management. Installation of security credentials on a microcontroller. Microcontrollers with radio modules. Pre-provisioned radio modules. AWS serverless IoT. ExpressLink and AT commands. Permissions, policies and rules. IoT payloads and JSON. Message brokers. Publish and subscribe principle. MQTT broker and verification tools. IoT centric cloud services and their use. Operating a microcontroller in low power modes. The laboratory portion of the course will provide hands-on experience in designing and implementing IoT embedded systems.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "ESE 381",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 381"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9709",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 488",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "488",
+    "code": "ESE 488",
+    "title": "Internship in Electrical/Computer Engineering",
+    "description": "An independent off-campus engineering project with faculty supervision.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ECE or ESE major; U3 or U4 standing; 3.00 g.p.a. minimum in all engineering courses; permission of department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9710",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 494",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "494",
+    "code": "ESE 494",
+    "title": "Honors Seminar on Research",
+    "description": "An introduction to the world wide research enterprise with special emphasis on research in the United States. Topics include research funding, publications, patents, career options, theory versus experiment, entrepreneurship and presentation skills.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Acceptance into the ECE or ESE Honors programs or permission of instructor.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9711",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 495",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "495",
+    "code": "ESE 495",
+    "title": "Honors Research Project",
+    "description": "A research project, for students in the honors program, conducted under the supervision of an electrical and computer engineering faculty member.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ESE 494 , permission of department and acceptance into the ECE or ESE Honors programs",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ESE 494"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9712",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ESE 499",
+    "deptCode": "ESE",
+    "deptName": null,
+    "number": "499",
+    "code": "ESE 499",
+    "title": "Research in Electrical Sciences",
+    "description": "An independent research project with faculty supervision. Permission to register requires a 3.00 g.p.a. in all engineering courses and the agreement of a faculty member to supervise the research.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9713",
+    "rawCorequisites": null
+  }
+]

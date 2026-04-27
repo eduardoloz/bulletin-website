@@ -1,0 +1,933 @@
+[
+  {
+    "id": "ISE 102",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "102",
+    "code": "ISE 102",
+    "title": "Introduction to Web Design and Programming",
+    "description": "An introduction to the design of Web pages, specifically the development of browser and device independent HTML, with an emphasis on the XHTML standards. Includes the use of style sheets (CSS) and tools for page layout and verification. HTML is presented as a mark-up language, exploring the rules of HTML elements and attributes. Students learn the separation of page viewing information from the HTML through CSS style sheets as well as the use of block layout without using HTML tables. Addresses HTML display properties including text, color, image, and graphic elements as well as approaches to HTML validation and techniques.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10421",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 108",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "108",
+    "code": "ISE 108",
+    "title": "Introduction to Programming",
+    "description": "Introduces computer programming at a level suitable for those with no prior programming experiences, including liberal arts and humanities majors. Programming exercises involve state-of-the-art visual applications. Topics include problem-solving techniques, object-oriented design, and programming concepts such as conditionals, iteration, arrays, and modularity.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10422",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 208",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "208",
+    "code": "ISE 208",
+    "title": "Intermediate Programming",
+    "description": "Teaches programming and system design techniques with an emphasis on applications to business. Topics include object-oriented design techniques, testing and debugging, data structures, recursion, and exception-handling. Uses the Java programming language.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ISE 108",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "ISE 108"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10423",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 218",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "218",
+    "code": "ISE 218",
+    "title": "Fundamentals of Information Technology",
+    "description": "This course introduces the fundamentals of Information Technology (IT) to students interested in the relationship between computer hardware, software, networks, and information systems. The course examines components found in high use computing devices such as desktop computers, smart phones, and navigation systems. The focus of the examination is understanding the underlying technology of each component, along with price/performance curves and competing technologies. Upon completion of the course, students should be proficient in reading device specifications, particularly functional and performance implications. Students should also be able to use that knowledge to compare competing devices.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 4 or higher on the mathematics placement examination or a grade of C or better in MAT 123 or higher",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 123"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10424",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 300",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "300",
+    "code": "ISE 300",
+    "title": "Technical Communications",
+    "description": "Principles of professional technical communications for Computer Science and Information Systems majors. Topics include writing business communications, user manuals, press releases, literature reviews, and research abstracts. Persuasive oral communications and effective presentation techniques, to address a range of audiences, will also be covered. This course satisfies the upper-division writing requirement for CSE and ISE majors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; CSE or ISE or DAS major; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10425",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 301",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "301",
+    "code": "ISE 301",
+    "title": "History of Computing",
+    "description": "A study of the history of computational devices from the early ages through the end of the 20th century. Topics include needs for computation in ancient times, development of computational models and devices through the 1800’s and early 1900’s, World War II and the development of the first modern computer, and early uses in business. Creation of programming languages and the microchip. Societal changes in computer usage due to the microcomputer, emergence of the Internet, the World Wide Web, and mobile computing. Legal and social impacts of modern computing. Cannot be used as a technical elective for the CSE major or minor.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 standing or higher",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10426",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 305",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "305",
+    "code": "ISE 305",
+    "title": "Database Design and Practice",
+    "description": "The design of database applications including Entity-Relationship data modeling, the relational data model, the SQL database query language, application development, and database administration. Students will complete a project that includes designing a database application and implementing it using database development tools.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ISE 208 or CSE 114 or CSE 230",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 208"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 114"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 230"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10427",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 311",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "311",
+    "code": "ISE 311",
+    "title": "Systems Administration",
+    "description": "This course covers practical techniques to manage information systems, also known as IT Systems Administration. Students will learn how to install computers for assorted hardware and software platforms (Windows, Unix/Linux, OS-X). Install networking equipment and configure it. Install server software on several systems (e.g. web, database, mail) and configure it. Secure the network, hosts, and services, and apply system patches. Set up redundant computing services, virtual machines/services, and hardware so that services can survive some hardware/software failures. Evaluate the performance, reliability, and security of the overall system.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 230 or CSE 260 or ISE 208 ; ISE or CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10428",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 312",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "312",
+    "code": "ISE 312",
+    "title": "Social, Legal, and Ethical Issues in Computing",
+    "description": "This course deals with the impact of computers on us as individuals and on our society. Rapid changes in computing technology and in our use of that technology have changed the ways we work, play, and interact with other people. These changes have created a flood of new social, legal and ethical issues that demand critical examination.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE, ISE or DAS major; U3 or U4 standing; one D.E.C. E or SNW course",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10429",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 316",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "316",
+    "code": "ISE 316",
+    "title": "Introduction to Networking",
+    "description": "This course introduces the principles of computer networks, including network architectures, algorithms, and performance, with the TCP/IP based Internet as an example. It examines various networking protocols at different layers of the Internet protocol stack, including those at the application, transport, network, and the data link layers, respectively. 3 credits Prerequisite(s): CSE 114 or ISE 208 ; Level 4 or higher on the mathematics placement exam or MAT 123 Anti-requisite : May not be taken by students with credit for CSE 310.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 114 or ISE 208 ; Level 4 or higher on the mathematics placement exam or MAT 123",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 114"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "ISE 208"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 123"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10430",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 317",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "317",
+    "code": "ISE 317",
+    "title": "Computer Networking II",
+    "description": "Today’s computer networks have become an infrastructure as essential as utility networks such as the transportation network and the national grid of electricity. A wide variety of networking technologies are deployed to support nearly every sector of the society. Among these technologies, those that are related to wireless and mobile networking, multimedia networking, as well as network security are among the most popular and important. After learning fundamental concepts and protocols in computer networks from the first networks course, this second computer networks course examines more practical and advanced topics in computer networking. In addition to those mentioned above, we will also study advanced routing algorithms in computer networks and network management. Both are critical tasks for corporations such as network service providers and for individual professionals such as network administrators.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ISE 316 or CSE 310 ; ISE or CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 316"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 310"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10431",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 320",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "320",
+    "code": "ISE 320",
+    "title": "Information Management",
+    "description": "The course presents the relationship between information technology and the systems that use the technology. The emphasis is on business systems with a high information technology components (e.g. software developments, communications, financial management, etc.). Topics include infrastructure management, information management, security, and communications. Emphasis is given to case studies relating to information management.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2 Standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10432",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 321",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "321",
+    "code": "ISE 321",
+    "title": "Introduction to Network Administration",
+    "description": "The course introduces students to the fundamentals of network management, primarily for TCP/IP networks. Students are introduced to networking protocols, hardware, architecture, media, and software and experience hands-on management of typical network components. Various network protocols are examined, including Internet routing protocols. Network security is introduced in the overall context of network management.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ISE 316 or CSE 310 ; ISE or CSE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 316"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 310"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10433",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 323",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "323",
+    "code": "ISE 323",
+    "title": "Human-Computer Interaction",
+    "description": "A survey course designed to introduce students to Human-Computer Interaction and prepare them for further study in the specialized topics of their choice. Students will have the opportunity to delve deeper in the course through a course project, and through a two-three week special topic selected at the instructor’s discretion. Course is cross-listed as CSE 323 , EST 323 and ISE 323.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 230 or CSE 260 or ISE 208",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 230"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 208"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10434",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 325",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "325",
+    "code": "ISE 325",
+    "title": "Computers and Sculpture",
+    "description": "This multidisciplinary class surveys how computer science and computer technology are used in sculpture. Case studies with slides, videos, and software demonstrations illustrate a range of approaches of sculptors incorporating computers in their creative process. Various state-of-the art fabrication technologies are studied (with site visits if available on campus). Mathematical foundations are emphasized so students can recognize them when analyzing sculpture and choose the right tool when designing. In the weekly laboratory, these ideas are reinforced with projects using a range of available software and inexpensive construction materials, e.g., paper, cardboard, and foamcore.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 110 or CSE 101 or CSE 114",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 110"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 101"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 114"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10435",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 331",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "331",
+    "code": "ISE 331",
+    "title": "Fundamentals of Computer Security",
+    "description": "The course will introduce the concepts and terminology of computer security in addition to describing attacks against computer infrastructure and typical defenses against such attacks. The course will outline security policies and procedures used by enterprises and will introduce tools and techniques used by both attackers and defenders.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ISE 218 or CSE 220",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 218"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 220"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10436",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 332",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "332",
+    "code": "ISE 332",
+    "title": "Introduction to Visualization",
+    "description": "This course is an introduction to both the foundations and applications of visualization and visual analytics, for the purpose of understanding complex data in science, medicine, business, finance, and many others. It will begin with the basics - visual perception, cognition, human-computer interaction, the sense-making process, data mining, computer graphics, and information visualization. It will then move to discuss how these elementary techniques are coupled into an effective visual analytics pipeline that allows humans to interactively think with data and gain insight. Students will get hands-on experience via several programming projects, using popular public-domain statistics and visualization libraries and APIs.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; MAT 211 or AMS 210 ; AMS 110 or AMS 310 ; CSE or ISE or DAS major",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 110"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10437",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 333",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "333",
+    "code": "ISE 333",
+    "title": "User Interface Development",
+    "description": "Survey of user interface systems, with emphasis on responsive and adaptive strategies to accommodate cross-platform deployment across multiple devices such as desktops and mobile devices. Demonstration of the use of tool kits for designing user interfaces. Additional topics include human factors, design standards, and visual languages. Students participate in a project involving the design and implementation of user interface systems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; CSE or ISE major",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 214"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 260"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10438",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 334",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "334",
+    "code": "ISE 334",
+    "title": "Introduction to Multimedia Systems",
+    "description": "Survey of technologies available for user interfaces. Discussion of hypertext; voice, music, and video together with tools and models for capturing, editing, presenting, and combining them. Capabilities and characteristics of a range of peripheral devices including devices based on posture, gesture, head movement, and touch. Case studies of academic and commercial multimedia systems including virtual reality systems. Students participate in laboratory exercises and build a multimedia project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U2, U3 or U4 standing; CSE or ISE major",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 2
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10439",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 337",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "337",
+    "code": "ISE 337",
+    "title": "Scripting Languages",
+    "description": "Scripting languages are widely used in the IT industry. Programming with scripting languages, also known as scripting, has several advantages compared to programming with other types of languages in that scripts facilitate rapid program development; can automate high-level jobs or tasks very effectively; and can be used to compose various software components, even binaries, into more complex and powerful applications. This course introduces the principles of scripting, covers one or two selected scripting languages in depth, and illustrates the advanced use of scripting by extensive case studies in application areas such as system administration, web application development, graphical user interface development, and text processing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 or CSE 260 ; CSE or ISE or DAS major; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 214"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "CSE 260"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10440",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 339",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "339",
+    "code": "ISE 339",
+    "title": "Benevolent Computing",
+    "description": "This course explores the recent phenomenon of software applications that leverage social networks and mobile and cloud computing to solve local and global problems. The course uses case studies to document the process of developing civically-oriented applications. Students work in teams to identify campus causes (or off-campus non-profit organizations); and to design and develop applications (mobile or web-based) that will help those organizations achieve their goals. The course material synthesizes some of the department’s offerings in software engineering, human computer interaction, and ethics, but provides a practical focus and test bed for those concepts. Emphasis is on System Design, not on specific programming languages or development environments.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; ISE or TSM major",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10441",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 340",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "340",
+    "code": "ISE 340",
+    "title": "Design of Computer Games",
+    "description": "Fundamental ideas underlying the design of games, which occurs before the programming stage. How games function to create experiences, including rule design, play mechanics, game balancing, social game interaction and the integration of visual, audio, tactile and textual elements into the total game experience. Game design documentation and play testing. Students will design their own game during the semester.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10442",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 364",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "364",
+    "code": "ISE 364",
+    "title": "Advanced Multimedia Techniques",
+    "description": "Digital media production techniques for high-bandwidth applications such as electronic magazine illustration, broadcast television, and motion picture special effects. Students explore techniques such as 3D modeling and character animation, video compositing, and high-resolution image processing in a state-of-the art multimedia computing laboratory. High-capacity mutlimedia storage, high-speed networks, and new technologies such as DVD, HDTV, and broadband will be reviewed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 334 / ISE 334",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "CSE 334"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "ISE 334"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10443",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 369",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "369",
+    "code": "ISE 369",
+    "title": "Introduction to Political Informatics",
+    "description": "Recent advances in the availability of large data sets, analytic methods, and technology tools have impacted the foundations of democratic society, specifically the ability of elections to provide representation for the underlying population. This course presents the information aspects of these advances. Topics covered include election data capture, election result data sets, gerrymandering, redistricting, micro-targeting, voter surveys, election security, election district geometry, impact of social media, measures of political quality, and the prediction of election results.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 102 , AMS 110 , AMS 310 , or POL 201 or any other course satisfying the POL Major Methodology requirement",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 102"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 110"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "POL 201"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10444",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 377",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "377",
+    "code": "ISE 377",
+    "title": "Introduction to Medical Imaging",
+    "description": "An introduction to the mathematical, physical, and computational principles underlying modern medical imaging systems. Covers fundamentals of X-ray computer tomography, ultrasonic imaging, nuclear imaging, and magnetic resonance imaging (MRI), as well as more general concepts required for these, such as linear systems theory and the Fourier transform. Popular techniques for the visualization, segmentation, and analysis of medical image data are discussed, as well as applications of medical imaging, such as image-guided intervention. The course is appropriate for computer science, biomedical engineering, and electrical engineering majors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 127 or MAT 132 ; AMS 210 or MAT 211 or MAT 307",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10445",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 378",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "378",
+    "code": "ISE 378",
+    "title": "Introduction to Robotics",
+    "description": "Introduces basic concepts in robotics including coordinate transformation, kinematics, dynamics, Laplace transforms, equations of motion, feedback and feedforward control, and trajectory planning. Covers simple and complex sensors (such as cameras), hybrid and behavior based control and path planning. Concepts are illustrated through laboratories using the LEGO Robot Kit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "AMS 161 or MAT 127 or MAT 132 ; AMS 210 or MAT 211 or MEC 262",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 210"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 211"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MEC 262"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10446",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 390",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "390",
+    "code": "ISE 390",
+    "title": "Special Topics in Information Systems",
+    "description": "Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 ; ISE major or ISE minor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 214"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10447",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 391",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "391",
+    "code": "ISE 391",
+    "title": "Special Topics in Information Systems",
+    "description": "Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 ; ISE major or ISE minor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 214"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10448",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 392",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "392",
+    "code": "ISE 392",
+    "title": "Special Topics in Information Systems",
+    "description": "Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ISE major or ISE minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10449",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 393",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "393",
+    "code": "ISE 393",
+    "title": "Special Topics in Information Systems",
+    "description": "Lecture or seminar course on a current topic in information systems. Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "CSE 214 ; ISE major or ISE minor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "CSE 214"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10450",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 475",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "475",
+    "code": "ISE 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "Students assist faculty by conducting a recitation or laboratory section that supplements a lecture course The student receives regularly scheduled supervision from the faculty advisor. May be repeated once, but only one completion of the course will count towards the ISE upper division elective requirement.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing as an undergraduate CEAS major; a minimum g.p.a. of 3.00 in all Stony Brook courses; grade of B or better in the course in which the student is to assist and permission of department.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10451",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 487",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "487",
+    "code": "ISE 487",
+    "title": "Research in Information Systems",
+    "description": "An independent research project with faculty supervision. Only three credits of research electives ( AMS 487 , BME 499 , CSE 487 , ESE 499 , ESM 499 , EST 499 , ISE 487, MEC 499 ) may be counted toward technical elective requirements. May not be taken for more than six credits.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor and department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10452",
+    "rawCorequisites": null
+  },
+  {
+    "id": "ISE 488",
+    "deptCode": "ISE",
+    "deptName": null,
+    "number": "488",
+    "code": "ISE 488",
+    "title": "Information Systems Internship",
+    "description": "Participation in local, state, national, or international private enterprise, public agencies, or nonprofit institutions. To obtain permission to register for the course, students are required to submit proof that the work is related to their studies and the work will include at a minimum of 180 hours during the semester. During the semester, the student will submit progress reports and a final report on their experience to the client and to the department.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ISE major; U3 or U4 standing; permission of faculty sponsor and department",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=10453",
+    "rawCorequisites": null
+  }
+]

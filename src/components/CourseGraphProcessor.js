@@ -22,7 +22,17 @@ export default class CourseGraphProcessor {
     this.adjList = buildAdjacencyList(courses, this.courseMap);
   }
 
-  processGraph() {
+  processGraph(primaryDept = null) {
+    /* ---------- split major vs external courses ---------- */
+    const majorCourses = primaryDept
+      ? this.courses.filter(c => c.deptCode === primaryDept)
+      : this.courses;
+    const externalCourses = primaryDept
+      ? this.courses.filter(c => c.deptCode !== primaryDept)
+      : [];
+
+    const majorIds = new Set(majorCourses.map(c => c.id));
+
     /* ---------- topological sort to find each course's depth ---------- */
     const inDeg = Object.fromEntries(
       this.courses.map(c => [c.id, 0])
@@ -57,15 +67,18 @@ export default class CourseGraphProcessor {
       });
     }
 
-    /* ---------- separate isolated courses from tree ---------- */
+    /* ---------- separate isolated major courses from tree ---------- */
     const isolated = [];
     const tree = [];
 
-    this.courses.forEach(course => {
+    majorCourses.forEach(course => {
       const prereqIds = getPrerequisiteCourseIds(course);
       const dependents = this.adjList[course.id] || [];
+      // Only count connections within the major for isolated check
+      const majorPrereqs = prereqIds.filter(pid => majorIds.has(pid));
+      const majorDependents = dependents.filter(did => majorIds.has(did));
 
-      if (prereqIds.length === 0 && dependents.length === 0) {
+      if (majorPrereqs.length === 0 && majorDependents.length === 0) {
         isolated.push(course.id);
       } else {
         tree.push(course.id);
@@ -77,7 +90,7 @@ export default class CourseGraphProcessor {
       level[courseId] = (level[courseId] ?? 0) + 1;
     });
 
-    /* ---------- group courses by level ---------- */
+    /* ---------- group major courses by level ---------- */
     const levelNodes = {};
     if (isolated.length) levelNodes[0] = isolated;
 
@@ -87,16 +100,18 @@ export default class CourseGraphProcessor {
       levelNodes[lvl].push(courseId);
     });
 
-    /* ---------- compute grid coordinates ---------- */
-    const maxNodes = Math.max(...Object.values(levelNodes).map(arr => arr.length));
+    /* ---------- compute grid coordinates for major courses ---------- */
+    const maxNodes = Math.max(1, ...Object.values(levelNodes).map(arr => arr.length));
     const maxRowWidth = (maxNodes - 1) * this.horizontalSpacing;
 
     const nodes = [];
+    let maxY = 0;
     Object.entries(levelNodes).forEach(([levelStr, courseIds]) => {
       const lvl = parseInt(levelStr);
       const rowWidth = (courseIds.length - 1) * this.horizontalSpacing;
       const startX = (maxRowWidth - rowWidth) / 2; // center the row
       const y = lvl * this.verticalSpacing;
+      if (y > maxY) maxY = y;
 
       courseIds.forEach((courseId, i) => {
         const course = this.courseMap[courseId];
@@ -106,6 +121,111 @@ export default class CourseGraphProcessor {
           name: course.code,
           x: startX + i * this.horizontalSpacing,
           y
+        });
+      });
+    });
+
+    /* ---------- place external courses in a separate section below ---------- */
+    if (externalCourses.length > 0) {
+      // Group external courses by department
+      const extByDept = {};
+      externalCourses.forEach(course => {
+        const dept = course.deptCode || 'OTHER';
+        if (!extByDept[dept]) extByDept[dept] = [];
+        extByDept[dept].push(course);
+      });
+
+      // Sort each department's courses by number
+      Object.values(extByDept).forEach(arr =>
+        arr.sort((a, b) => (parseInt(a.number) || 0) - (parseInt(b.number) || 0))
+      );
+
+      const deptKeys = Object.keys(extByDept).sort();
+      const gapBelow = this.verticalSpacing * 1.5; // gap between major and external
+      let extY = maxY + gapBelow;
+
+      deptKeys.forEach(dept => {
+        const deptCourses = extByDept[dept];
+        const rowWidth = (deptCourses.length - 1) * this.horizontalSpacing;
+        const startX = (maxRowWidth - rowWidth) / 2;
+
+        deptCourses.forEach((course, i) => {
+          nodes.push({
+            id: course.id,
+            code: course.code,
+            name: course.code,
+            x: startX + i * this.horizontalSpacing,
+            y: extY,
+            isExternal: true,
+          });
+        });
+
+        extY += this.verticalSpacing;
+      });
+    }
+
+    /* ---------- build links ---------- */
+    const links = [];
+    this.courses.forEach(course => {
+      const prereqIds = getPrerequisiteCourseIds(course);
+      prereqIds.forEach(prereqId => {
+        if (this.courseMap[prereqId]) {
+          links.push({ source: prereqId, target: course.id });
+        }
+      });
+    });
+
+    return { nodes, links };
+  }
+
+  /**
+   * Layout by course level (100s, 200s, 300s, 400s, 500+).
+   * Within each row, courses are sorted by number.
+   * Prereq arrows still connect across rows.
+   */
+  processCourseLevelGraph() {
+    /* ---------- group by course level ---------- */
+    const levelBuckets = {}; // e.g. 1 => [courses with 1xx numbers]
+
+    this.courses.forEach(course => {
+      const num = parseInt(course.number, 10);
+      const bucket = isNaN(num) ? 0 : Math.floor(num / 100);
+      if (!levelBuckets[bucket]) levelBuckets[bucket] = [];
+      levelBuckets[bucket].push(course);
+    });
+
+    // Sort buckets by level, sort courses within each bucket by number
+    const sortedLevels = Object.keys(levelBuckets)
+      .map(Number)
+      .sort((a, b) => a - b);
+
+    sortedLevels.forEach(lvl => {
+      levelBuckets[lvl].sort((a, b) => {
+        const numA = parseInt(a.number, 10) || 0;
+        const numB = parseInt(b.number, 10) || 0;
+        return numA - numB;
+      });
+    });
+
+    /* ---------- compute grid coordinates ---------- */
+    const maxPerRow = Math.max(...sortedLevels.map(lvl => levelBuckets[lvl].length));
+    const maxRowWidth = (maxPerRow - 1) * this.horizontalSpacing;
+
+    const nodes = [];
+    sortedLevels.forEach((lvl, rowIndex) => {
+      const coursesInRow = levelBuckets[lvl];
+      const rowWidth = (coursesInRow.length - 1) * this.horizontalSpacing;
+      const startX = (maxRowWidth - rowWidth) / 2;
+      const y = rowIndex * this.verticalSpacing;
+
+      coursesInRow.forEach((course, i) => {
+        nodes.push({
+          id: course.id,
+          code: course.code,
+          name: course.code,
+          level: lvl,
+          x: startX + i * this.horizontalSpacing,
+          y,
         });
       });
     });

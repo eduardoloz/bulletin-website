@@ -1,0 +1,1258 @@
+[
+  {
+    "majorId": "africana-studies-ba",
+    "majorName": "Africana Studies, BA",
+    "poid": 249,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=249&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "anthropology-ba",
+    "majorName": "Anthropology, BA",
+    "poid": 252,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=252&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "applied-mathematics-and-statistics-bs",
+    "majorName": "Applied Mathematics and Statistics, BS",
+    "poid": 255,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=255&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "art-history-and-criticism-ba",
+    "majorName": "Art History and Criticism, BA",
+    "poid": 262,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=262&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "art-studio-ba",
+    "majorName": "Art, Studio, BA",
+    "poid": 265,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=265&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "asian-and-asian-american-studies-ba",
+    "majorName": "Asian and Asian American Studies, BA",
+    "poid": 268,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=268&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "astronomy-planetary-sciences-bs",
+    "majorName": "Astronomy/Planetary Sciences, BS",
+    "poid": 271,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=271&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "atmospheric-and-oceanic-sciences-bs",
+    "majorName": "Atmospheric and Oceanic Sciences, BS",
+    "poid": 274,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=274&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "biochemistry-bs",
+    "majorName": "Biochemistry, BS",
+    "poid": 278,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=278&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "biology-ba",
+    "majorName": "Biology, BA",
+    "poid": 282,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=282&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "biology-bs",
+    "majorName": "Biology, BS",
+    "poid": 283,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=283&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "biomedical-engineering-be",
+    "majorName": "Biomedical Engineering, BE",
+    "poid": 288,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=288&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "business-management-bs",
+    "majorName": "Business Management, BS",
+    "poid": 292,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=292&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "chemical-and-molecular-engineering-be",
+    "majorName": "Chemical and Molecular Engineering, BE",
+    "poid": 294,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=294&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "chemistry-ba",
+    "majorName": "Chemistry, BA",
+    "poid": 298,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=298&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "chemistry-bs",
+    "majorName": "Chemistry, BS",
+    "poid": 297,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=297&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "civil-engineering-be",
+    "majorName": "Civil Engineering, BE",
+    "poid": 304,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=304&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "climate-science-bs",
+    "majorName": "Climate Science, BS",
+    "poid": 484,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=484&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "clinical-laboratory-sciences-bs",
+    "majorName": "Clinical Laboratory Sciences, BS",
+    "poid": 503,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=503&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "coastal-environmental-studies-bs",
+    "majorName": "Coastal Environmental Studies, BS",
+    "poid": 309,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=309&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "communication-ba",
+    "majorName": "Communication, BA",
+    "poid": 312,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=312&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "computer-engineering-be",
+    "majorName": "Computer Engineering, BE",
+    "poid": 315,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=315&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "computer-science-bs",
+    "majorName": "Computer Science, BS",
+    "poid": 318,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=318&returnto=224",
+    "specializations": [
+      {
+        "name": "Artificial Intelligence and Data Science",
+        "slug": "artificial-intelligence-and-data-science",
+        "sections": [
+          {
+            "label": "Core Courses",
+            "courses": [
+              "CSE 351",
+              "CSE 352",
+              "CSE 353",
+              "CSE 357"
+            ]
+          },
+          {
+            "label": "Electives",
+            "courses": [
+              "CSE 323",
+              "CSE 327",
+              "CSE 332",
+              "CSE 337",
+              "CSE 354",
+              "CSE 371",
+              "CSE 378",
+              "CSE 390",
+              "CSE 487",
+              "CSE 495",
+              "CSE 496"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 351",
+          "CSE 352",
+          "CSE 353",
+          "CSE 357",
+          "CSE 323",
+          "CSE 327",
+          "CSE 332",
+          "CSE 337",
+          "CSE 354",
+          "CSE 371",
+          "CSE 378",
+          "CSE 390",
+          "CSE 487",
+          "CSE 495",
+          "CSE 496"
+        ]
+      },
+      {
+        "name": "Human-Computer Interaction",
+        "slug": "human-computer-interaction",
+        "sections": [
+          {
+            "label": "Core Courses",
+            "courses": [
+              "CSE 323",
+              "PSY 260",
+              "CSE 328",
+              "CSE 332",
+              "CSE 333"
+            ]
+          },
+          {
+            "label": "Two electives from the following, including at least one CSE course:",
+            "courses": [
+              "CSE 327",
+              "CSE 328",
+              "CSE 332",
+              "CSE 334",
+              "CSE 336",
+              "CSE 352",
+              "CSE 364",
+              "CSE 366",
+              "CSE 378",
+              "CSE 390",
+              "PSY 368",
+              "PSY 369"
+            ]
+          },
+          {
+            "label": "Project",
+            "courses": [
+              "CSE 487",
+              "CSE 488",
+              "CSE 495",
+              "CSE 496"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 323",
+          "PSY 260",
+          "CSE 328",
+          "CSE 332",
+          "CSE 333",
+          "CSE 327",
+          "CSE 334",
+          "CSE 336",
+          "CSE 352",
+          "CSE 364",
+          "CSE 366",
+          "CSE 378",
+          "CSE 390",
+          "PSY 368",
+          "PSY 369",
+          "CSE 487",
+          "CSE 488",
+          "CSE 495",
+          "CSE 496"
+        ]
+      },
+      {
+        "name": "Game Programming",
+        "slug": "game-programming",
+        "sections": [
+          {
+            "label": "Core Courses",
+            "courses": [
+              "CSE 306",
+              "CSE 328",
+              "CSE 380",
+              "CSE 381"
+            ]
+          },
+          {
+            "label": "Two electives from the following:",
+            "courses": [
+              "CSE 310",
+              "CSE 327",
+              "CSE 331",
+              "CSE 332",
+              "CSE 334",
+              "CSE 352",
+              "CSE 353",
+              "CSE 355",
+              "CSE 364",
+              "CSE 376",
+              "CSE 378"
+            ]
+          },
+          {
+            "label": "Project",
+            "courses": [
+              "CSE 487",
+              "CSE 488",
+              "CSE 495",
+              "CSE 496"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 306",
+          "CSE 328",
+          "CSE 380",
+          "CSE 381",
+          "CSE 310",
+          "CSE 327",
+          "CSE 331",
+          "CSE 332",
+          "CSE 334",
+          "CSE 352",
+          "CSE 353",
+          "CSE 355",
+          "CSE 364",
+          "CSE 376",
+          "CSE 378",
+          "CSE 487",
+          "CSE 488",
+          "CSE 495",
+          "CSE 496"
+        ]
+      },
+      {
+        "name": "Security and Privacy",
+        "slug": "security-and-privacy",
+        "sections": [
+          {
+            "label": "Core Courses",
+            "courses": [
+              "CSE 331",
+              "CSE 360",
+              "CSE 361",
+              "CSE 362",
+              "CSE 363"
+            ]
+          },
+          {
+            "label": "Three electives from the following, not to include any course taken as a core course.",
+            "courses": [
+              "CSE 310",
+              "CSE 360",
+              "CSE 361",
+              "CSE 362",
+              "CSE 363",
+              "CSE 304",
+              "CSE 306",
+              "CSE 356",
+              "CSE 376",
+              "CSE 390",
+              "CSE 487",
+              "CSE 495",
+              "CSE 496"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 331",
+          "CSE 360",
+          "CSE 361",
+          "CSE 362",
+          "CSE 363",
+          "CSE 310",
+          "CSE 304",
+          "CSE 306",
+          "CSE 356",
+          "CSE 376",
+          "CSE 390",
+          "CSE 487",
+          "CSE 495",
+          "CSE 496"
+        ]
+      },
+      {
+        "name": "Systems Software Development",
+        "slug": "systems-software-development",
+        "sections": [
+          {
+            "label": null,
+            "courses": [
+              "CSE 331",
+              "CSE 360",
+              "CSE 363",
+              "CSE 304",
+              "CSE 306",
+              "CSE 310",
+              "CSE 311",
+              "CSE 356",
+              "CSE 361",
+              "CSE 362",
+              "CSE 376",
+              "CSE 390"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 331",
+          "CSE 360",
+          "CSE 363",
+          "CSE 304",
+          "CSE 306",
+          "CSE 310",
+          "CSE 311",
+          "CSE 356",
+          "CSE 361",
+          "CSE 362",
+          "CSE 376",
+          "CSE 390"
+        ]
+      }
+    ]
+  },
+  {
+    "majorId": "creative-writing-bfa",
+    "majorName": "Creative Writing, BFA",
+    "poid": 322,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=322&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "data-science-bs",
+    "majorName": "Data Science, BS",
+    "poid": 498,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=498&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "earth-and-space-sciences-ba",
+    "majorName": "Earth and Space Sciences, BA",
+    "poid": 326,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=326&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "economics-ba",
+    "majorName": "Economics, BA",
+    "poid": 328,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=328&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "ecosystems-and-human-impact-ba",
+    "majorName": "Ecosystems and Human Impact, BA",
+    "poid": 330,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=330&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "electrical-engineering-online-bs",
+    "majorName": "Electrical Engineering Online, BS",
+    "poid": 339,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=339&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "electrical-engineering-be",
+    "majorName": "Electrical Engineering, BE",
+    "poid": 335,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=335&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "engineering-chemistry-bs",
+    "majorName": "Engineering Chemistry, BS",
+    "poid": 342,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=342&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "engineering-science-be",
+    "majorName": "Engineering Science, BE",
+    "poid": 346,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=346&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "english-ba",
+    "majorName": "English, BA",
+    "poid": 349,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=349&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "environmental-design-policy-and-planning-ba",
+    "majorName": "Environmental Design, Policy, and Planning, BA",
+    "poid": 352,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=352&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "environmental-humanities-ba",
+    "majorName": "Environmental Humanities, BA",
+    "poid": 356,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=356&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "environmental-studies-ba",
+    "majorName": "Environmental Studies, BA",
+    "poid": 359,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=359&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "french-ba",
+    "majorName": "French, BA",
+    "poid": 364,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=364&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "geology-bs",
+    "majorName": "Geology, BS",
+    "poid": 368,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=368&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "globalization-studies-and-international-relations-ba",
+    "majorName": "Globalization Studies and International Relations, BA",
+    "poid": 372,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=372&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "health-science-bs",
+    "majorName": "Health Science, BS",
+    "poid": 502,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=502&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "history-ba",
+    "majorName": "History, BA",
+    "poid": 377,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=377&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "human-evolutionary-biology-bs",
+    "majorName": "Human Evolutionary Biology, BS",
+    "poid": 381,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=381&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "information-systems-bs",
+    "majorName": "Information Systems, BS",
+    "poid": 384,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=384&returnto=224",
+    "specializations": [
+      {
+        "name": "Business and Economics",
+        "slug": "business-and-economics",
+        "sections": [
+          {
+            "label": "Core Courses",
+            "courses": [
+              "ECO 110",
+              "ECO 111",
+              "ACC 210"
+            ]
+          },
+          {
+            "label": "Two of the following:",
+            "courses": [
+              "ACC 214",
+              "ESE 201",
+              "BUS 115",
+              "BUS 215",
+              "BUS 220",
+              "BUS 294"
+            ]
+          },
+          {
+            "label": "Two of the following:",
+            "courses": [
+              "BUS 330",
+              "BUS 346",
+              "BUS 348",
+              "BUS 353",
+              "BUS 355",
+              "BUS 356",
+              "EST 305",
+              "EST 320",
+              "EST 325",
+              "EST 364",
+              "EST 392",
+              "EST 393",
+              "ECO 326",
+              "ECO 348",
+              "ECO 389",
+              "POL 319",
+              "POL 359",
+              "SOC 381"
+            ]
+          }
+        ],
+        "courses": [
+          "ECO 110",
+          "ECO 111",
+          "ACC 210",
+          "ACC 214",
+          "ESE 201",
+          "BUS 115",
+          "BUS 215",
+          "BUS 220",
+          "BUS 294",
+          "BUS 330",
+          "BUS 346",
+          "BUS 348",
+          "BUS 353",
+          "BUS 355",
+          "BUS 356",
+          "EST 305",
+          "EST 320",
+          "EST 325",
+          "EST 364",
+          "EST 392",
+          "EST 393",
+          "ECO 326",
+          "ECO 348",
+          "ECO 389",
+          "POL 319",
+          "POL 359",
+          "SOC 381"
+        ]
+      },
+      {
+        "name": "Financial Information Systems",
+        "slug": "financial-information-systems",
+        "sections": [
+          {
+            "label": "Two of the following:",
+            "courses": [
+              "CSE 113",
+              "AMS 315",
+              "AMS 318"
+            ]
+          },
+          {
+            "label": "Four of the following:",
+            "courses": [
+              "ACC 210",
+              "AMS 311",
+              "AMS 316",
+              "AMS 320",
+              "AMS 341",
+              "AMS 394",
+              "AMS 441",
+              "BUS 330",
+              "BUS 331",
+              "BUS 355",
+              "BUS 356",
+              "ISE 323",
+              "ISE 331"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 113",
+          "AMS 315",
+          "AMS 318",
+          "ACC 210",
+          "AMS 311",
+          "AMS 316",
+          "AMS 320",
+          "AMS 341",
+          "AMS 394",
+          "AMS 441",
+          "BUS 330",
+          "BUS 331",
+          "BUS 355",
+          "BUS 356",
+          "ISE 323",
+          "ISE 331"
+        ]
+      },
+      {
+        "name": "Health Informatics",
+        "slug": "health-informatics",
+        "sections": [
+          {
+            "label": "Core Courses:",
+            "courses": [
+              "HAN 200",
+              "BIO 202",
+              "BIO 203"
+            ]
+          },
+          {
+            "label": "Four of the following:",
+            "courses": [
+              "BCP 405",
+              "BME 205",
+              "CSE 377",
+              "ECO 327",
+              "HAN 202",
+              "PSY 103"
+            ]
+          }
+        ],
+        "courses": [
+          "HAN 200",
+          "BIO 202",
+          "BIO 203",
+          "BCP 405",
+          "BME 205",
+          "CSE 377",
+          "ECO 327",
+          "HAN 202",
+          "PSY 103"
+        ]
+      },
+      {
+        "name": "System & Network Administration",
+        "slug": "system-network-administration",
+        "sections": [
+          {
+            "label": null,
+            "courses": [
+              "ISE 311",
+              "ISE 321",
+              "ISE 331",
+              "CSE 331",
+              "ISE 337",
+              "CSE 337",
+              "ISE 488",
+              "ISE 487",
+              "ESE 442",
+              "CSE 370",
+              "EST 393",
+              "BUS 393",
+              "BUS 346",
+              "AMS 341"
+            ]
+          }
+        ],
+        "courses": [
+          "ISE 311",
+          "ISE 321",
+          "ISE 331",
+          "CSE 331",
+          "ISE 337",
+          "CSE 337",
+          "ISE 488",
+          "ISE 487",
+          "ESE 442",
+          "CSE 370",
+          "EST 393",
+          "BUS 393",
+          "BUS 346",
+          "AMS 341"
+        ]
+      },
+      {
+        "name": "Technological Systems Management",
+        "slug": "technological-systems-management",
+        "sections": [
+          {
+            "label": "Four required courses:",
+            "courses": [
+              "EST 201",
+              "EST 202",
+              "EST 391",
+              "EST 392",
+              "EST 393"
+            ]
+          },
+          {
+            "label": "Two elective courses from the following:",
+            "courses": [
+              "EST 310",
+              "ISE 340",
+              "EST 320",
+              "EST 323",
+              "ISE 323",
+              "EST 326",
+              "EST 327",
+              "EST 364"
+            ]
+          }
+        ],
+        "courses": [
+          "EST 201",
+          "EST 202",
+          "EST 391",
+          "EST 392",
+          "EST 393",
+          "EST 310",
+          "ISE 340",
+          "EST 320",
+          "EST 323",
+          "ISE 323",
+          "EST 326",
+          "EST 327",
+          "EST 364"
+        ]
+      },
+      {
+        "name": "Other Application Areas",
+        "slug": "other-application-areas",
+        "sections": [],
+        "courses": []
+      }
+    ]
+  },
+  {
+    "majorId": "italian-studies-ba",
+    "majorName": "Italian Studies, BA",
+    "poid": 388,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=388&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "journalism-ba",
+    "majorName": "Journalism, BA",
+    "poid": 393,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=393&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "linguistics-ba",
+    "majorName": "Linguistics, BA",
+    "poid": 399,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=399&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "marine-sciences-bs",
+    "majorName": "Marine Sciences, BS",
+    "poid": 403,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=403&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "marine-vertebrate-biology-bs",
+    "majorName": "Marine Vertebrate Biology, BS",
+    "poid": 468,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=468&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "mass-communication-bs",
+    "majorName": "Mass Communication, BS",
+    "poid": 466,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=466&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "mathematics-bs",
+    "majorName": "Mathematics, BS",
+    "poid": 461,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=461&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "mechanical-engineering-be",
+    "majorName": "Mechanical Engineering, BE",
+    "poid": 457,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=457&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "media-art-culture-ba",
+    "majorName": "Media/Art/Culture, BA",
+    "poid": 455,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=455&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "multidisciplinary-studies-ba",
+    "majorName": "Multidisciplinary Studies, BA",
+    "poid": 453,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=453&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "music-ba",
+    "majorName": "Music, BA",
+    "poid": 446,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=446&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "nursing-bs",
+    "majorName": "Nursing, BS",
+    "poid": 506,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=506&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "philosophy-ba",
+    "majorName": "Philosophy, BA",
+    "poid": 441,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=441&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "physics-bs",
+    "majorName": "Physics, BS",
+    "poid": 438,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=438&returnto=224",
+    "specializations": [
+      {
+        "name": "Optics",
+        "slug": "optics",
+        "sections": [
+          {
+            "label": "Required Departmental Courses (6 credits)",
+            "courses": [
+              "PHY 302",
+              "PHY 452"
+            ]
+          },
+          {
+            "label": "Optics-Related Laboratory Experience",
+            "courses": [
+              "PHY 487"
+            ]
+          },
+          {
+            "label": "One Additional Elective Course:",
+            "courses": [
+              "PHY 405",
+              "ESM 325",
+              "ESE 342",
+              "ESE 358",
+              "ESE 457"
+            ]
+          }
+        ],
+        "courses": [
+          "PHY 302",
+          "PHY 452",
+          "PHY 487",
+          "PHY 405",
+          "ESM 325",
+          "ESE 342",
+          "ESE 358",
+          "ESE 457"
+        ]
+      }
+    ]
+  },
+  {
+    "majorId": "political-science-ba",
+    "majorName": "Political Science, BA",
+    "poid": 434,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=434&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "psychology-ba",
+    "majorName": "Psychology, BA",
+    "poid": 429,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=429&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "psychology-bs",
+    "majorName": "Psychology, BS",
+    "poid": 430,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=430&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "respiratory-care-bs",
+    "majorName": "Respiratory Care, BS",
+    "poid": 504,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=504&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "rhetoric-and-writing-ba",
+    "majorName": "Rhetoric and Writing, BA",
+    "poid": 493,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=493&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "social-work-bs",
+    "majorName": "Social Work, BS",
+    "poid": 505,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=505&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "sociology-ba",
+    "majorName": "Sociology, BA",
+    "poid": 423,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=423&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "spanish-language-and-literature-ba",
+    "majorName": "Spanish Language and Literature,BA",
+    "poid": 419,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=419&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "sustainability-studies-ba",
+    "majorName": "Sustainability Studies, BA",
+    "poid": 416,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=416&returnto=224",
+    "specializations": []
+  },
+  {
+    "majorId": "technological-systems-management-bs",
+    "majorName": "Technological Systems Management, BS",
+    "poid": 414,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=414&returnto=224",
+    "specializations": [
+      {
+        "name": "Computer Science",
+        "slug": "computer-science",
+        "sections": [
+          {
+            "label": "Required Courses",
+            "courses": [
+              "CSE 190",
+              "CSE 191",
+              "CSE 192",
+              "CSE 101",
+              "CSE 103",
+              "CSE 114",
+              "CSE 214",
+              "ISE 218"
+            ]
+          },
+          {
+            "label": "Students must also select three courses from the following list:",
+            "courses": [
+              "CSE 390",
+              "ISE 305",
+              "CSE 310",
+              "ISE 316",
+              "CSE 337",
+              "CSE 373",
+              "CSE 391",
+              "CSE 392"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 190",
+          "CSE 191",
+          "CSE 192",
+          "CSE 101",
+          "CSE 103",
+          "CSE 114",
+          "CSE 214",
+          "ISE 218",
+          "CSE 390",
+          "ISE 305",
+          "CSE 310",
+          "ISE 316",
+          "CSE 337",
+          "CSE 373",
+          "CSE 391",
+          "CSE 392"
+        ]
+      },
+      {
+        "name": "Information Systems",
+        "slug": "information-systems",
+        "sections": [
+          {
+            "label": "Required Courses",
+            "courses": [
+              "CSE 190",
+              "CSE 191",
+              "CSE 192",
+              "CSE 101",
+              "CSE 103",
+              "CSE 114",
+              "CSE 214",
+              "ISE 218"
+            ]
+          },
+          {
+            "label": "Students must also select three courses from the following list:",
+            "courses": [
+              "CSE 390",
+              "ISE 305",
+              "CSE 310",
+              "ISE 316",
+              "ISE 321",
+              "ISE 331",
+              "CSE 391",
+              "CSE 392"
+            ]
+          }
+        ],
+        "courses": [
+          "CSE 190",
+          "CSE 191",
+          "CSE 192",
+          "CSE 101",
+          "CSE 103",
+          "CSE 114",
+          "CSE 214",
+          "ISE 218",
+          "CSE 390",
+          "ISE 305",
+          "CSE 310",
+          "ISE 316",
+          "ISE 321",
+          "ISE 331",
+          "CSE 391",
+          "CSE 392"
+        ]
+      }
+    ]
+  },
+  {
+    "majorId": "women-s-and-gender-studies-ba",
+    "majorName": "Women’s and Gender Studies, BA",
+    "poid": 409,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=409&returnto=224",
+    "specializations": [
+      {
+        "name": "Gender, Sexuality, and Public Health",
+        "slug": "gender-sexuality-and-public-health",
+        "sections": [
+          {
+            "label": "Specialization Courses",
+            "courses": [
+              "WST 111",
+              "WST 112",
+              "WST 391",
+              "WST 392",
+              "WST 394",
+              "WST 399",
+              "WST 401",
+              "WST 340",
+              "SOC 340",
+              "WST 381",
+              "AFS 381",
+              "HIS 374",
+              "WST 374",
+              "HIS 394",
+              "PSY 349"
+            ]
+          }
+        ],
+        "courses": [
+          "WST 111",
+          "WST 112",
+          "WST 391",
+          "WST 392",
+          "WST 394",
+          "WST 399",
+          "WST 401",
+          "WST 340",
+          "SOC 340",
+          "WST 381",
+          "AFS 381",
+          "HIS 374",
+          "WST 374",
+          "HIS 394",
+          "PSY 349"
+        ]
+      },
+      {
+        "name": "Gender and Social Change",
+        "slug": "gender-and-social-change",
+        "sections": [
+          {
+            "label": "Elective courses for the Specialization in Gender and Social Change",
+            "courses": [
+              "WST 247",
+              "SOC 247",
+              "WST 310",
+              "WST 377",
+              "PSY 347",
+              "WST 391",
+              "WST 392",
+              "WST 394",
+              "WST 395",
+              "WST 396",
+              "WST 397",
+              "WST 398",
+              "LHD 301",
+              "LHD 401",
+              "WST 330",
+              "POL 330",
+              "WST 347",
+              "POL 347",
+              "WST 340",
+              "SOC 340",
+              "WST 350",
+              "AFS 350",
+              "WST 371",
+              "SOC 371",
+              "AAS 392",
+              "AFS 345",
+              "CCS 401",
+              "CFS 308",
+              "HIS 300",
+              "SOC 390"
+            ]
+          }
+        ],
+        "courses": [
+          "WST 247",
+          "SOC 247",
+          "WST 310",
+          "WST 377",
+          "PSY 347",
+          "WST 391",
+          "WST 392",
+          "WST 394",
+          "WST 395",
+          "WST 396",
+          "WST 397",
+          "WST 398",
+          "LHD 301",
+          "LHD 401",
+          "WST 330",
+          "POL 330",
+          "WST 347",
+          "POL 347",
+          "WST 340",
+          "SOC 340",
+          "WST 350",
+          "AFS 350",
+          "WST 371",
+          "SOC 371",
+          "AAS 392",
+          "AFS 345",
+          "CCS 401",
+          "CFS 308",
+          "HIS 300",
+          "SOC 390"
+        ]
+      }
+    ]
+  },
+  {
+    "majorId": "education-and-teacher-certification",
+    "majorName": "Education and Teacher Certification",
+    "poid": 407,
+    "url": "https://catalog.stonybrook.edu/preview_program.php?catoid=7&poid=407&returnto=224",
+    "specializations": []
+  }
+]

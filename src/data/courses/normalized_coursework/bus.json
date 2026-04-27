@@ -1,0 +1,1435 @@
+[
+  {
+    "id": "BUS 115",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "115",
+    "code": "BUS 115",
+    "title": "Introduction to Business",
+    "description": "The course provides a general framework for students to develop an understanding of how businesses work, how they are managed, and how different business models are applied to existing businesses in today’s fast paced business environment. Introduces students to major business topics to form a foundation for understanding the general functional areas of business, the environment businesses operate in, and general principles of management and leadership. The course materials and coverage provides the fundamentals necessary for Business majors and minors understanding of more advanced business topics encountered in upper division Business courses while introducing students from other majors to the importance of business in the development of ideas into products and services and their distribution to customers through markets. As part of the course, students must participate in experiments and/or a library research project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8975",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 215",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "215",
+    "code": "BUS 215",
+    "title": "Introduction to Business Statistics",
+    "description": "The application of current statistical methods to problems in the modern business environment. Topics include probability, random variables, sampling techniques, confidence intervals, hypothesis testing, and regression. Students analyze real data sets using standard statistical software, interpret the output, and write extensively about the results.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major, CME Major, or ISE Major; and MAT 122 or higher.",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "MAT 122"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8976",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 220",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "220",
+    "code": "BUS 220",
+    "title": "Introduction to Decision Sciences",
+    "description": "Familiarizes students with a variety of quantitative methods applicable in managing both the service and manufacturing sectors. Basic concepts of quantitative modeling are applied and tested in various examples supporting decision making in business settings. Topics include: optimization via linear, integer, and goal programming; simulation; decision and break-even analysis; and forecasting. (Formerly Management Science)",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major, MTD, ECO, ISE, or CME or DAS major; BUS 215 or AMS 310 ; MAT 122 or higher",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "BUS 215"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 122"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8977",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 230",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "230",
+    "code": "BUS 230",
+    "title": "Personal Finance",
+    "description": "This course equips students with essential personal finance management knowledge and techniques. Through lectures and discussions, students will develop analytical skills crucial for effective financial decision-making. Topics covered include budgeting, debt management, investments, insurance, retirement, and estate planning. By the end of the course, students will possess the practical knowledge necessary to make informed personal financial decisions, enabling them to adapt to changing economic conditions and work towards long-term financial stability.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Finance Minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11714",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 294",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "294",
+    "code": "BUS 294",
+    "title": "Principles of Management",
+    "description": "An analysis and application of the basic principles of management. Subjects include management by objectives, supervisory leadership styles, current managerial problems, motivational techniques, organizational problems, communications, planning techniques and management control systems. We will closely examine case studies that focus on real world problems involving major corporations and closely look at the relationships that led to the issues.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major, U1 or U2 standing or permission of instructor",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 1
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8978",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 300",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "300",
+    "code": "BUS 300",
+    "title": "Writing for Business Management",
+    "description": "In order to meet the upper-division writing requirement for the BUS major, the student must complete a portfolio of written work consisting of three documents: his/her resume; a letter of application for a real job advertised in a newspaper or other medium; and a two-page memorandum describing the results of an analysis or similar issue appropriate to a business organization.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "BUS major; U3 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8979",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 301",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "301",
+    "code": "BUS 301",
+    "title": "Business Communications",
+    "description": "The purpose of BUS 301 - Business Communications is to provide Stony Brook College of Business undergraduates with a conceptual framework and specific tools for communicating in complex environments and accomplishing strategic academic and professional business goals. This core course provides writing, oral and collaborative skills necessary for future business courses, internships, and professional positions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or Communication and Innovation minor; WRT 102 ; and U2 standing or higher",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8980",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 302",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "302",
+    "code": "BUS 302",
+    "title": "Social Media Marketing Strategy",
+    "description": "Social Media Marketing Strategy covers theoretical and practical perspectives for developing and implementing social media marketing strategies. The course is designed to expose students to state-of-the-art practices in social media marketing with an emphasis on leveraging insights from social media to inform strategic firm decisions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; U2 standing or above",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8981",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 317",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "317",
+    "code": "BUS 317",
+    "title": "Estate & Financial Planning",
+    "description": "The Retirement, Estate, and Financial Planning course is designed for students interested in pursuing careers in Insurance, financial planning and asset management. This course will also be highly beneficial for those wishing to learn how to manage their own financial affairs and how to make wise financial decisions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or REI minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8982",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 325",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "325",
+    "code": "BUS 325",
+    "title": "Legal Environment of Business",
+    "description": "Explores competing interests of buyers and sellers, creditors and debtors, suppliers and consumers. Studies the Uniform Commercial Code from the initiation of a sales contract through financing of transactions, examines the rights of debtors and creditors in bankruptcy, and introduces basic concepts of law and regulation in the areas of securities, environmental protection, employment, and anti-trust.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "ACC Minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8983",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 326",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "326",
+    "code": "BUS 326",
+    "title": "Organizational Behavior",
+    "description": "As members of many types of organizations throughout our lives, we are all affected at some time or another by their internal dynamics. These dynamics consist of the behaviors of individuals and students as they work and interact together within the organization. To help us best understand and address these issues, the field of organizational behavior has developed as the study of the behavior of individuals and students in organizations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business major and WRT 102",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8984",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 330",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "330",
+    "code": "BUS 330",
+    "title": "Principles of Finance",
+    "description": "The goal of the course is to introduce students to the basic concepts and tools in finance. Upon completion of the course students should understand the role of a financial manager, be able to develop and analyze financial statements of a corporation, recognize the corporation’s main sources and uses of funds, and develop understanding of the corporation’s capital budgeting process.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS, AMS, MTD, ISE, or ECO major or FIN Minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8985",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 331",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "331",
+    "code": "BUS 331",
+    "title": "International Finance",
+    "description": "Course will focus on understanding how firms meet and manage their financial objectives in today’s international financial environment. The topics include the management of foreign exchange exposure, foreign direct investment decisions, and multinational capital budgeting.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business major or AMS or ISE or MTD or ECO major and BUS 330 .",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8986",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 332",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "332",
+    "code": "BUS 332",
+    "title": "Entrepreneurial Finance",
+    "description": "Before going public, companies like Facebook, LinkedIn and Zynga relied on venture capital financing to grow. Similar companies are increasingly choosing private market solutions. A focus on the development of secondary markets that provide an alternative to the traditional IPO. This course teaches the necessary tools for investors and entrepreneurs to build and evaluate these early-stage companies.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business Major and BUS 330",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8987",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 333",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "333",
+    "code": "BUS 333",
+    "title": "Introduction to the Business of Real Estate",
+    "description": "This foundation course is a multi-dimensional program whose main objective is to provide students with a comprehensive understanding of the real estate profession. The core subjects will include real estate development, legal issues, real estate finance and investment, appraisals, environmental issues, real estate economics and capital markets. Highly qualified guest speakers will be invited for presentations and discussions to provide the student with in-depth hands on knowledge and experience in all facets of the real estate profession.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or REI minor;",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8988",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 334",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "334",
+    "code": "BUS 334",
+    "title": "Integrated Marketing Communications",
+    "description": "Stages and processes involved in developing an integrated marketing communications campaign. A range of marketing activities, including a situation analysis of the company, competition, and business environment, communications audit of a brand and its competitors, budgetary considerations, creative strategy and media planning will be covered. Apply learning to a team project that will walk through various stages of developing an integrated marketing communications campaign.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or PSY major with a marketing concentration; U3 or U4 standing.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8989",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 336",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "336",
+    "code": "BUS 336",
+    "title": "Mergers & Acquisitions",
+    "description": "Corporate mergers and acquisitions continue to play a significant role in many companies’ value and growth strategies. This course provides a comprehensive introduction to mergers and acquisitions (M&A) from the perspective of corporate finance. The primary objective of the course is for each student to gain a well-rounded understanding of the major strategic, economic, financial, and governance issues of mergers and acquisitions.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business Major and BUS 330",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8990",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 337",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "337",
+    "code": "BUS 337",
+    "title": "Entrepreneurship Compared Across Countries",
+    "description": "Starting and managing a business is a risky albeit potentially rewarding undertaking. The complexity and challenges (as well as potential payoffs) facing entrepreneurs and business managers vary across different countries. The origins and development of entrepreneurs and entrepreneurship has similarities and differences across countries. The development of value is common across countries. The way that value is developed differs historically in Great Britain, Europe, Asia, and the Middle East compared to development in the United States. Value is distinguished from financing and taxing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8991",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 340",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "340",
+    "code": "BUS 340",
+    "title": "Information Systems in Management",
+    "description": "An introductory course in management information systems (MIS). Its objectives are to develop a basic understanding of the concepts and techniques needed in analyzing, designing, and managing these systems, and to explore the applications of computers and information technology to improve the efficiency and effectiveness of individuals, groups, and organizations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major, CME Major or DAS major; U3 or U4 standing.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8992",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 346",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "346",
+    "code": "BUS 346",
+    "title": "Operations Management",
+    "description": "Analysis and design of service and manufacturing systems. Topics include quality management, product and service design, process selection and capacity planning, design of work systems, inventory management, aggregate planning, material requirements planning, scheduling, waiting line model, just-in-time systems, and supply chain management.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major, DAS Major or ISE Major: BUS 215 or AMS 102 or AMS 310 for non-business majors, and BUS 220 .",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 215"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 102"
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 310"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "BUS 220"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8993",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 348",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "348",
+    "code": "BUS 348",
+    "title": "Principles of Marketing",
+    "description": "Basic marketing concepts and their applications. Issues include strategy, market segmentation, individual consumer behavior, marketing research, promotion, pricing and international marketing. The emphasis is on analysis of the challenges facing business with respect to all relevant constituencies, including the company in general, managerial colleagues across functional areas, consumers, stockholders, and government. This course may not be taken for credit in addition to BUS 349.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major or ISE Major or PSY major admitted to the marketing concentration.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8994",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 351",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "351",
+    "code": "BUS 351",
+    "title": "Human Resource Management",
+    "description": "Major trends in personnel management, including problems and issues faced by organizations and individuals in times of change. Responsibilities of the human resources department and the roles that every manager plays, both as a supervisor and as a client of the human resources department, are studied. Topics include human resources forecasting and planning job design, employee selection, test development and validation, equal employment opportunity laws and judicial rulings, performance appraisal, compensation, benefits, career development, safety, and labor relations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major or MTD Major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8995",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 353",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "353",
+    "code": "BUS 353",
+    "title": "Entrepreneurship",
+    "description": "Entrepreneurship is the study of new venture creation and management and it could occur in a myriad of ways depending on the interactions of entrepreneurs and opportunities. This course provides an overview of issues of creating a business, ranging from opportunity recognition and evaluation to resource acquisitions and management. It is designed to appeal to individuals with strong desires to become entrepreneurs, to join start up companies, or to work in the venture capital industry. The course objectives are threefold: 1) to develop a scientific understanding of entrepreneurship, and the empirical evidence in support of theories; 2) to transform this scientific understanding to practice; and 3) to provide firsthand experience with dealing with uncertainty and managing the start-up process.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business majors, Engineering majors or Communication and Innovation minors: U4 Standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8996",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 354",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "354",
+    "code": "BUS 354",
+    "title": "Understanding Business Agreements",
+    "description": "Provides students with an understanding of legal documents in business and the business transactions behind them. Students review many types of legal documents likely to be encountered in a business career. Includes: agreements between business partners (stockholders and partnership agreements); technology and employment related agreements (confidentiality, employment, and joint development agreements); and commercial transactions (sales, loan, and acquisition agreements).",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing; BUS or CEAS major",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8997",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 355",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "355",
+    "code": "BUS 355",
+    "title": "Investment Analysis",
+    "description": "Investment Analysis helps students make informed investment decisions in their personal and professional lives by providing a solid foundation of practical applications to introduce the topics and techniques used by investors and money managers. Course topics include: the investment environment, securities markets and transactions, finding investment data and information, return and risk, modern portfolio concepts, common stocks, analyzing common stocks, stock valuation, market efficiency and behavioral finance, fixed-income securities, mutual funds and exchange-traded funds.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS, AMS, ECO, MTD, ISE major or REI minor, or FIN minor; BUS 330",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8998",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 356",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "356",
+    "code": "BUS 356",
+    "title": "Financial Analysis, AI, Excel",
+    "description": "This course focuses on issues in finance and investing, with an emphasis on computational techniques related to corporate finance and investment decisions. Using Excel, AI-driven analytical tools such as Copilot for Excel, and ChatGPT, students will explore financial mathematics in areas such as foreign currency transactions, corporate valuation, capital budgeting, inventory valuation, profit margins, financial modeling, leveraged buyouts, and financial forecasting. The course will also introduce AI applications in financial analysis, including predictive modeling, automation of financial tasks, and data-driven decision-making.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or ECO major and BUS 330",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=8999",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 357",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "357",
+    "code": "BUS 357",
+    "title": "Principles of Sales",
+    "description": "Presents the skills to be successful in an extremely competitive business sales environment. Includes customer qualification, prospecting, sales message, sales demonstration, handling objections, closing techniques, and telemarketing and customer service activities.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business major and BUS 348",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 348"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9000",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 358",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "358",
+    "code": "BUS 358",
+    "title": "Marketing Research",
+    "description": "Introduces marketing research tools that aid managers in marketing decision-making and how the marketing research process can be used to collect and analyze data and information to solve marketing problems. A strong applied orientation exposes students to marketing research in traditional areas such as market segmentation, product positioning, product design, brand perception, and sales forecasting, as well as emerging areas including customer satisfaction, customer relationship management (CRM), and on-line marketing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or PSY major admitted to the marketing concentration; U2 standing or higher; BUS 348 ; BUS 215 for BUS majors, one of the following for PSY majors: AMS 102 , ECO 320 , POL 201 , PSY 201 or SOC 202 .",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 2
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 348"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "BUS 215"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "AMS 102"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "ECO 320"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "POL 201"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PSY 201"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "SOC 202"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9001",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 359",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "359",
+    "code": "BUS 359",
+    "title": "Consumer Behavior",
+    "description": "Examines the basic concepts underlying consumer behavior with the goal of understanding how these concepts can be applied in analyzing and solving marketing problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or PSY major admitted to the marketing concentration; BUS 348 ; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 3
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 348"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9002",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 361",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "361",
+    "code": "BUS 361",
+    "title": "Retail Management",
+    "description": "This course focuses on the necessary concepts and principles of retailing involved in making retail and wholesale decisions. The course looks at retailing from both a consumer perspective (e.g., why does a consumer shop a particular retail outlet?) and a business-to-business perspective (e.q., how does the retailer decide which supplier to use?) Additionally, the course examines the various methods of retailing (e.q./ bricks and mortar, bricks and clicks) and how these methods have evolved and will evolve in the future. The content of the course is useful for students interested in working in the retail industry, as well as for students interested in working for companies that interface with retailers such as manufacturers of consumer products or for students with a general management or entrepreneurial interest.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9003",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 362",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "362",
+    "code": "BUS 362",
+    "title": "Principles of International Marketing",
+    "description": "Course incorporates functions of the marketing organization whose responsibility is to direct and lead the total international marketing enterprise. It addresses the 4 P’s of marketing and other marketing principles and how they apply to global markets.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9004",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 363",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "363",
+    "code": "BUS 363",
+    "title": "Brand Management",
+    "description": "This course teaches students fundamental and leading-edge concepts in brand management. It will address the strategic importance of branding, provide theories and strategies for building, leveraging, and defending strong brands, and discuss current opportunities and challenges facing brand managers. The student will learn how to manage key relationships and functions that surround the brand, e.g. , advertising, promotion, public relations, licensing, product and package design. A capable brand manager has exceptional strategic, quantitative, interpersonal, and presentation skills, and must be comfortable with decision-making and leadership. The course will focus on the development and application of these skills in brand management via in-class learning, case discussion, and project work.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business major and BUS 348",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 348"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9005",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 365",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "365",
+    "code": "BUS 365",
+    "title": "Financial Management",
+    "description": "Financial management techniques and analysis for improving business decision-making will be explored. Topics include: Long and short term financial decisions, debt and equity funding, capital structure, net working capital, inventory management, account receivable management, and how to deal with financial distress related to reorganization and/or liquidation in bankruptcy. The basics of payout policy will be discussed including dividends and stock repurchases. In addition, students will learn how companies finance merger and acquisition decisions, including leveraged buyouts.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS, AMS, MTD, ISE, or ECO major or FIN minor; BUS 330",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9006",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 366",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "366",
+    "code": "BUS 366",
+    "title": "Money and Financial Institutions",
+    "description": "The characteristics of money and financial institutions within the financial system. Organization and operations of the Federal Reserve System, U.S. Banks and the U.S. Treasury. Details on how these financial institutions impact on the financial system. Determination of interest rates. Study of the framework and the management of banking and non-bank financial intermediaries.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS, AMS, MTD, ISE, or ECO major; BUS 330",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9007",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 367",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "367",
+    "code": "BUS 367",
+    "title": "Python for Finance",
+    "description": "This course offers a comprehensive introduction to Python programming with a focus on its applications in data science and financial data analytics. Students will learn the fundamentals of Python programming and how to recover and manipulate financial data. Building on this foundation, students will then explore practical applications in finance. Students will have hands-on experience applying Python to both data science and financial tasks.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major or Finance Minor and BUS 330",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 330"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11713",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 370",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "370",
+    "code": "BUS 370",
+    "title": "Lean Practices in Operations",
+    "description": "Global competitive forces are driving the adoption of lean practices in service, retail, and production operations. Using examples from diverse industry leaders such as Wal Mart, Dell, McDonald’s, and Toyota, this course examines the application of the Seven Deadly Wastes, Just-in-Time, Value Stream Mapping, and Supply Chain Alliances.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9008",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 371",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "371",
+    "code": "BUS 371",
+    "title": "Supply Chain Management",
+    "description": "Businesses engage in a diverse set of activities in their daily operations including production planning, resource procurement, inventory management, distribution, and interaction with other firms. The goal of supply chain management is to maximize the economic value of these activities through system level coordination. A successful supply chain streamlines the flow of materials, goods, information, and capital along each component of the supply chain.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major and pre/co-requisite BUS 346",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 346"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9009",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 372",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "372",
+    "code": "BUS 372",
+    "title": "Quality Management",
+    "description": "The philosophies, tools, and techniques to identify and meet internal and external customer needs. Emphasis on the importance of satisfying the customer’s perception of quality as a strategic necessity in Operations Management. Topics include Total Quality Management (TQM), quality control, statistical process control, and Six Sigma.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9010",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 375",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "375",
+    "code": "BUS 375",
+    "title": "Introduction to Artificial Intelligence",
+    "description": "This course provides an introduction to artificial intelligence (AI) and machine learning technologies, with a specific focus on their business applications and impact across industries. Students will understand the fundamental concepts of AI and machine learning. Through interactive exercises and projects, students will develop essential programming skills and explore how AI-driven insights support decision-making in various industries. Through guided instruction in programming basics, students will develop the technical foundation needed to implement machine learning models and analyze complex datasets. By the end of the course, students will be equipped to understand AI technologies and leverage them effectively in business fields.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major and BUS 215 or DAS Major and AMS 310",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 215"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 310"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9011",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 376",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "376",
+    "code": "BUS 376",
+    "title": "Risk Management & Insurance",
+    "description": "Risk Management and Insurance course will explore the principles of risk and insurance. The course will include an analysis of risk and strategies to eliminate, minimize, or transfer risk. Students will become familiar with key components and life, accident, and health insurance policies as well as property and casualty insurance.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or REI minor or DAS Major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9012",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 377",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "377",
+    "code": "BUS 377",
+    "title": "Risk Management & Insurance II",
+    "description": "Risk Management and Insurance II will continue to explore the principles of risk and insurance. The course will include an analysis of risk and strategies to eliminate, minimize, or transfer risk. Students will become familiar with the key components of life, auto, accident and health insurance policies as well as property and casualty insurance. Annuity, 401K and other retirement plans will be discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or REI minor or DAS major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9013",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 378",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "378",
+    "code": "BUS 378",
+    "title": "Marketing Ethics, Public Policy, and Social Change",
+    "description": "This course examines ethical and legal issues associated with marketing practices as well as how marketing can be used to exact change to improve societal health and well-being. These concepts will be examined primarily from the point of view of the behavioral sciences including psychological, sociological, economics, and cultural perspectives. Students will apply this basic knowledge to analyze ethical problems associated with marketing practices, analyze effectiveness of public policy based on scientific knowledge, and develop ideas for social change and social justice through marketing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9014",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 380",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "380",
+    "code": "BUS 380",
+    "title": "Honors: Emerging Topics in Business",
+    "description": "This course aims to expose students to advancement and trendy topics in cutting-edge business practice or practice-relevant research in various business fields. Practice-relevant business research is drawn from various functional areas, such as accounting, data analytics, entrepreneurship, finance, marketing, and operations. Research methodologies will be introduced, which may include survey design, interviewing, experimental design, archival empirical research, and popular modeling methods. The course incorporates mini-research or experiential learning cases related to business practice.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Admission to the Business Honors Program and A- or better in BUS 215 or BUS 220",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 215"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 220"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9015",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 383",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "383",
+    "code": "BUS 383",
+    "title": "Social Entrepreneurship",
+    "description": "Students explore the concept of social entrepreneurship, including motivation and skills for advocacy, entrepreneurship, and leadership. Topics include forms of social entrepreneurship (private, public, and not-for-profit), venture capital and fund raising, market analysis, marketing, communications, human resources, and human relations, including negotiation and conflict resolution methods. Students will explore models of corporate social responsibility, university service to the community, and grass-roots ventures spawned by perceived need and the will to make a difference. Students work in teams to develop a strategic business plan for their own venture and present their proposals to the class.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business Major or Communication and Innovation minor",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9016",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 390",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "390",
+    "code": "BUS 390",
+    "title": "Special Topics in Business Management",
+    "description": "Semester supplements to this Bulletin contain specific description when course is offered.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9018",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 391",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "391",
+    "code": "BUS 391",
+    "title": "Management of Sports Organizations",
+    "description": "Introduction of fundamental issues pertinent to any business - planning organization, staffing, and controlling. It discusses areas the sports manager is likely to encounter while conducting business, such as federal legislation influencing the sport business, employment related issues, funding and budgeting, risk management, site selection and customer service.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9019",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 393",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "393",
+    "code": "BUS 393",
+    "title": "Principles of Project Management",
+    "description": "Anything we do in both our personal and professional lives that delivers something unique within a finite time frame is a project. Applying project management tools and techniques improves the likelihood of success. Beyond schedules and budgets, project managers must demonstrate high emotional intelligence to lead teams, effectively solve problems, and understand the nuances of culture and contracts. In this “get-out-of-your-chair” classroom exercise laden course, students will experience project management concepts. Class discussions will focus on the “real world” application of these concepts. Students will also gain hands-on experience with Microsoft Project.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9020",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 395",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "395",
+    "code": "BUS 395",
+    "title": "Marketing Analytics",
+    "description": "This course introduces students to the fundamentals of data-driven marketing, including topics from marketing research and analytics. It examines the many different sources of data available to marketers, including data from customer transactions, surveys, pricing, and advertising, and how to use those data to guide decision-making. Through real-world applications from various industries, including hands-on analyses using modern data analysis tools, students will learn how to formulate marketing problems as testable hypotheses, systematically gather data, and apply statistical tools to yield actionable marketing insights.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major and BUS 215 and BUS 348",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 215"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 348"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=22746",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 399",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "399",
+    "code": "BUS 399",
+    "title": "Intellectual Property Strategy",
+    "description": "Concepts and techniques of strategic management are examined and applied to relevant cases involving the management of intellectual property as applied to a wide range of industries and innovations. The course will begin with a brief overview/review of some principals of management strategy. We will then survey the types of intellectual property, and some of the laws that support exclusivity in intellectual property rights. This will provide the foundation for more in-depth discussion of the relevant issues and examination of how companies and individual innovators utilize intellectual property to protect their innovations and profit from them. Course lecture and discussion will focus on the strategic uses of various forms of intellectual property, including patents, trade names, trade secrets, and copyrights. Students will explore the use and importance of intellectual property in building and sustaining a competitive advantage, as well as strategies used to realize the highest value from intellectual property.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business major or Communication and Innovation minor; U3 or U4 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9021",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 401",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "401",
+    "code": "BUS 401",
+    "title": "Negotiation Workshop",
+    "description": "Real-time “hands-on” experience in bargaining and negotiating. Students develop expertise in applying techniques for collaborative problem solving and resolving conflicts between parties. Topics include analysis of distributive (zero-sum) and integrative (win-win) bargaining situations, ethical and legal considerations, dealing with contentious and “tricky” negotiating tactics, psychological heuristics and biases, verbal and nonverbal communication, roles of agents in negotiation, mediation, inter- and intra-organizational negotiation, multi party negotiation, and cross-cultural negotiation. Students participate in in-class role-play situations involving negotiating with each other in a variety of realistic business and personal scenarios.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business Major; U4 Standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9022",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 406",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "406",
+    "code": "BUS 406",
+    "title": "Real Estate Finance",
+    "description": "The course is designed for undergraduate students with a strong interest in real estate capital markets. Its target audience is students interested in Real Estate, but the course is also open to finance-oriented students who wish to gain an in-depth understanding of real estate investment analysis. The course addresses public and private providers of real estate debt and equity capital and how this capital is channeled into commercial real estate. An introduction to the real estate investment market with descriptions of different types of ownership, financing, and income tax laws. This course provides analysis of the various types of real estate investments and how to put those concepts into practical use. The purpose of this course is to prepare the student for employment or interacting with the mortgage and real estate industry. This course will help students develop the understanding and skills necessary to become successful real estate practitioners and or investors. Investment Principles are not just about textbook learning: it challenges students to use their critical/creative skills in all aspects of the Real Estate Industry, not just those covered in this course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or REI minor and BUS 376 and BUS 333",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 376"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 333"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9023",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 408",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "408",
+    "code": "BUS 408",
+    "title": "Property & Casualty Insurance",
+    "description": "Foundations of Property & Casualty (P&C) course will explore the foundational coverages of homeowners, personal auto, personal excess, commercial general liability, commercial property, commercial excess, workers compensation, inland marine, package policy, business owner¿s policy, and management liability insurance coverages. The course will include real life examples of P&C coverage and claims scenarios. Students will learn how to apply the coverages in certain personal and business environments. Students will become familiar with the basic P&C coverages and help prepare them for a career in various risk management and insurance organizations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS major or REI minor and BUS 376",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 376"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9024",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 440",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "440",
+    "code": "BUS 440",
+    "title": "International Management",
+    "description": "Increasing internationalization of markets is forcing firms to develop global strategies that protect profits and enhance value chains. Various aspects of international business including currency exchange, tariffs, BOP, economic parameters, regional labor practices and international channels of distribution will be discussed. Concepts of cross-border wealth creation and various theories of trade will be reviewed as well as international Product Life Cycle. Socio-cultural components will be discussed with emphasis on management choices. Other topics such as location, topography and climate will be reviewed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major or ECO or MTD Major; U4 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9025",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 441",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "441",
+    "code": "BUS 441",
+    "title": "Business Strategy",
+    "description": "Capstone course that builds on tools and concepts introduced in more specialized business courses and on students’ general business knowledge. Includes: methods for analysis of forces driving competition; identification of strengths, weaknesses, opportunities, and threats faced by individual corporations; and practical strategies for enabling new or existing firms to compete successfully within an industry. Case studies and in-class situations challenge students to develop skills in handling multidimensional business problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS or ECO or MTD or CME Major; U4 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9026",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 446",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "446",
+    "code": "BUS 446",
+    "title": "Ethics: Critical Thinking through Film",
+    "description": "This course combines critical thinking, discussion of moral values, and ethical considerations applied in a business setting. Using narrative film (i.e. a fictional scenario) to depict challenging ethical dilemmas, students will engage in critical thinking, evaluation of moral standards, and display of various ethical positions pertaining to contemporary society and business. A simulated situation as presented in a narrative film and supported by research from the humanities, will add to experiential learning, emphasized in contemporary business education.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major; WRT 102 ; U4 standing",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9027",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 447",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "447",
+    "code": "BUS 447",
+    "title": "Business Ethics",
+    "description": "An introduction to traditional ethical theories and their application to business. A basis for understanding how ethical issues in business arise, and some strategies to control or resolve them, are derived from an examination of the work of philosophers and other writers relating to business ethics. Recent business case studies enable students to develop their own perspectives.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major or ECO, ISE, or MTD Major; WRT 102 ; U4 standing.",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9028",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 448",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "448",
+    "code": "BUS 448",
+    "title": "Marketing Strategy",
+    "description": "A capstone course for students in the Marketing Specialization in which students apply a wide range of marketing principles to address problems different companies face in areas such as channel distribution, pricing, new product development, communication, promotions, strategic marketing alliances, positioning, and target marketing.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major or PSY major admitted to the marketing concentration and U4 Standing;",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 4
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9029",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 449",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "449",
+    "code": "BUS 449",
+    "title": "Marketing in Action",
+    "description": "An advanced project-based course for students specializing in Marketing. Students will apply all concepts and frameworks learned from prior marketing courses. This course provides an experiential, project-based learning environment in which students will gain a personal feel for strategic marketing planning and decision making working for a real business client. Students will address critical decision issues involved in marketing planning at a strategic level, including segmentation and positioning, product development, customer acquisition and retention, brand management, marketing research, and the use of advertising and promotion. Particular emphasis will be placed on digital and social media marketing and it’s increased role in communication and tracking results. The environment firms face today is increasingly complex and fast-changing. Hence, the core job of marketing – attract, retain, grow customers; earn profits – is ever more important. This course will attempt to provide the strategic marketing experience you will need to help jumpstart and succeed in your career.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS Major; U4 Standing; BUS 348 and BUS 358",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "STANDING_AT_LEAST",
+          "minStanding": 4
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 348"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "BUS 358"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9030",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 475",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "475",
+    "code": "BUS 475",
+    "title": "Undergraduate Teaching Practicum I",
+    "description": "The continuation on a more advanced level of training in the techniques of organization and management in the teaching of business management courses. Students are expected to assume greater responsibility in such areas as leading discussions, analyzing results of tests that have already been graded, and observing teaching. Students may not serve as teaching assistants in the same course twice.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Grade of A or A- in the course in which the student is to assist and permission of undergraduate program director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9031",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 476",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "476",
+    "code": "BUS 476",
+    "title": "Undergraduate Teaching Practicum II",
+    "description": "The continuation on a more advanced level of training in the techniques of organization and management in the teaching of business management courses. Students are expected to assume greater responsibility in such areas as leading discussions, analyzing results of tests that have already been graded, and observing teaching. Students may not serve as teaching assistants in the same course twice.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "BUS 475 and permission of undergraduate program director",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 475"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9032",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 487",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "487",
+    "code": "BUS 487",
+    "title": "Independent Research",
+    "description": "Provides the opportunity for students to undertake a special independent project entailing advanced readings, reports, and discussion, or research on a topic of their own choosing with the guidance of a faculty member.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of instructor and undergraduate program director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9033",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 488",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "488",
+    "code": "BUS 488",
+    "title": "Internship",
+    "description": "Participation in local, state, national, or international private enterprises, public agencies, or nonprofit institutions.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "BUS major; permission of undergraduate program director",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9034",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 495",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "495",
+    "code": "BUS 495",
+    "title": "Business Honors Program Thesis",
+    "description": "The student writes the Business Honors program thesis for two semesters under the supervision of a faculty member thesis advisor and the program director to satisfy the requirements of the Business Honors Program. The thesis advisor will direct and assist the student as he or she develops the thesis topic, formulates the research hypotheses, performs the basic research, writes the thesis, and presents the thesis research. The faculty member will also assist the student in acquiring necessary knowledge in their area of research. Students are required to present their thesis at the Undergraduate Research and Creativity (URECA) program in April. Students receive only one grade upon completion of the sequence BUS 495-496.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Admission to the Business Honors Program, BUS 380 B-minus or above and department consent required",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "BUS 380"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9035",
+    "rawCorequisites": null
+  },
+  {
+    "id": "BUS 496",
+    "deptCode": "BUS",
+    "deptName": null,
+    "number": "496",
+    "code": "BUS 496",
+    "title": "Business Honors Program Thesis",
+    "description": "The student writes the Business Honors program thesis for two semesters under the supervision of a faculty member thesis advisor and the program director to satisfy the requirements of the Business Honors Program. The thesis advisor will direct and assist the student as he or she develops the thesis topic, formulates the research hypotheses, performs the basic research, writes the thesis, and presents the thesis research. The faculty member will also assist the student in acquiring necessary knowledge in their area of research. Students are required to present their thesis at the Undergraduate Research and Creativity (URECA) program in April. Students receive only one grade upon completion of the sequence BUS 495 -496.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Business Honors Program membership and department consent required.",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=9036",
+    "rawCorequisites": null
+  }
+]

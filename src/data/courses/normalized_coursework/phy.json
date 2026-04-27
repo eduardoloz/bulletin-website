@@ -1,0 +1,1526 @@
+[
+  {
+    "id": "PHY 112",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "112",
+    "code": "PHY 112",
+    "title": "Light, Color, and Vision",
+    "description": "An introduction to the modern understanding of light, color, and vision, primarily for non-science majors and especially beneficial to students majoring in visual arts or theatre. Topics include the nature of light; the human eye and vision; illusions, color perception, and color theory; optical instruments; the camera and photography; optical phenomena in the atmosphere (mirages, rainbows, halos); and light in modern physics (relativity, lasers). Not for major credit. Not for credit in addition to PHY 122 , PHY 126 , PHY 132 or PHY 142 . Students majoring or planning to major in PHY, AST, CHE, MAT, AMS or engineering may not take this course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11038",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 113",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "113",
+    "code": "PHY 113",
+    "title": "Physics of Sports",
+    "description": "First part of an introduction to physics from the perspective of sports, especially designed for non-science majors. Basic concepts in classical mechanics and fluid dynamics are used to analyze particular actions in football, baseball, soccer, track and field, and other sports. Students learn, for example, about the knuckle ball in baseball and why it is so hard to hit, and why quarterbacks throw a football in a spiral. The concepts of heat, energy, and calories are also discussed. The laboratory component, PHY 115 , may be taken concurrently with or after PHY 113. Not for credit in addition to PHY 121 , PHY 125 , PHY 131 or PHY 141 . Students majoring or planning to major in PHY, AST, CHE, MAT, AMS or engineering may not take this course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Satisfaction of entry skill in mathematics requirement (Skill 1) or satisfactory completion of D.E.C. C or QPS",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11039",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 115",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "115",
+    "code": "PHY 115",
+    "title": "Physics of Sports Laboratory",
+    "description": "Laboratory component of PHY 113 . Experiments are designed to help students better understand the physics aspects of sports. Students work in groups and conduct experiments indoors and outdoors. Knowledge of first-year college-level mathematics is recommended, but most necessary information is taught in class as needed. May be taken concurrently with or after PHY 113 .",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11040",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 119",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "119",
+    "code": "PHY 119",
+    "title": "Physics for Environmental Studies",
+    "description": "The principles of physics as they apply to environmental issues. A review of mathematics is followed by a discussion of Newton’s laws, conservation principles, topics in fluids and wave motion, optical instruments, and radioactivity. Three lectures and one laboratory session per week.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "MAT 123 ; CHE 131",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 123"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "CHE 131"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11041",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 121",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "121",
+    "code": "PHY 121",
+    "title": "Physics for the Life Sciences I",
+    "description": "First part of an introduction to physics with applications to biology, primarily for students majoring in biological sciences or pre-clinical programs. Topics include mechanics, fluid mechanics, and thermodynamics. Strong algebra skills and knowledge of the ideas of calculus are required. Three lecture hours and two laboratory hours per week. PHY 121 may not be taken for credit in addition to PHY 125 , PHY 131 , or PHY 141 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "MAT 125 or MAT 131 or MAT 141 or AMS 151",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 141"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11042",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 122",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "122",
+    "code": "PHY 122",
+    "title": "Physics for the Life Sciences II",
+    "description": "Second part of an introduction to physics with applications to biology, primarily for students majoring in biological sciences or pre-clinical programs. Topics include electromagnetism, optics, acoustics, and radiation phenomena. Strong algebra skills and knowledge of the ideas of calculus are required. Three lecture hours and two laboratory hours per week. PHY 122 may not be taken for credit in addition to PHY 127 , PHY 132 , or PHY 142 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "C or higher in PHY 121",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PHY 121"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11043",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 125",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "125",
+    "code": "PHY 125",
+    "title": "Classical Physics A",
+    "description": "First of a three-part sequence intended for physical-sciences or engineering majors. It focuses on the mechanics of point particles and simple oscillators, and emphasizes motion in one and two dimensions and the concepts of momentum and energy. Calculus is used concurrently with its development in MAT 125 . Three lecture hours and one recitation hour per week. Not for credit in addition to PHY 121 , PHY 131 , or PHY 141 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11044",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 126",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "126",
+    "code": "PHY 126",
+    "title": "Classical Physics B",
+    "description": "Second or third of a three-part sequence for physical-sciences or engineering majors. It focuses on the mechanics of rigid bodies, on fluids, waves, thermodynamics, and optics. Three lecture hours and one recitation hour per week. Associated Labs ( PHY 133 or PHY 134 ) are offered separately. Not for credit in addition to PHY 132 , or PHY 142 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: PHY 125 or PHY 131 or PHY 141",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 141"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11045",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 127",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "127",
+    "code": "PHY 127",
+    "title": "Classical Physics C",
+    "description": "Second or third of a three-part sequence for physical-sciences or engineering majors. It focuses on electromagnetism using the concepts of vector fields and scalar potentials, and on DC and AC electric circuits. Calculus is used concurrently with its development in MAT 126 . Three lecture hours and one recitation hour per week. Associated Labs ( PHY 133 or PHY 134 ) are offered separately. Not for credit in addition to PHY 122 , PHY 132 , or PHY 142 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher: PHY 125 or PHY 131 or PHY 141",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 141"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11046",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 131",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "131",
+    "code": "PHY 131",
+    "title": "Classical Physics I",
+    "description": "First part of a two-semester physics sequence for physical-sciences or engineering majors who have a strong mathematics background and are ready for a fast learning pace. It covers mechanics, wave motion, kinetic theory, and thermodynamics. Calculus is used concurrently with its development in MAT 131 . Three lecture hours and one recitation hour per week. The Laboratory component, PHY 133 (Lab 1), could be taken concurrently. Not for credit in addition to PHY 121 , PHY 125 , or PHY 141 . Advanced Placement Physics or a very strong course in high school Physics is recommended. This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11047",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 132",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "132",
+    "code": "PHY 132",
+    "title": "Classical Physics II",
+    "description": "Second part of a two-semester physics sequence for physical-sciences or engineering majors who have a strong mathematics background and are ready for a fast learning pace. It covers electromagnetism, electric circuit theory, and optics. Calculus is used concurrently with its development in MAT 132 . Three lecture hours and one recitation hour per week. The Laboratory component, PHY 134 , may be taken concurrently. Not for credit in addition to PHY 122 , PHY 127 , or PHY 142 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in PHY 131 or PHY 141",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 141"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11048",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 133",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "133",
+    "code": "PHY 133",
+    "title": "Classical Physics Laboratory I",
+    "description": "Two and one half hours of laboratory per week that corresponds to the content of PHY 131 or PHY 125 PHY 126 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11049",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 134",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "134",
+    "code": "PHY 134",
+    "title": "Classical Physics Laboratory II",
+    "description": "Two and one half hours of laboratory per week that corresponds to the content of PHY 132 or PHY 126 PHY 127 . This course has been designated as a High Demand/Controlled Access (HD/CA) course. Students registering for HD/CA courses for the first time will have priority to do so.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "C or higher in PHY 133",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PHY 133"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11050",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 141",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "141",
+    "code": "PHY 141",
+    "title": "Classical Physics I: Honors",
+    "description": "MAT 131 First part of a demanding two-semester sequence for students with the strongest background, interests, and abilities in science and mathematics. The topics covered in PHY 141 are similar to those in PHY 131 but are treated in more depth in a small-class setting. Students may transfer to PHY 131 at any time during the first half of each semester without penalty. Three lecture hours and one recitation hour per week. PHY 141 may not be taken for credit in addition to PHY 121 , PHY 125 , or PHY 131 . Advanced Placement Physics or a very strong course in high school Physics is recommended.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Level 6 on Math Placement, or B or higher in MAT 131 or 141 or AMS 151 , or B+ or higher in MAT 125 , or instructor permission (priority given to students in Honors or WISE programs)",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11051",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 142",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "142",
+    "code": "PHY 142",
+    "title": "Classical Physics II: Honors",
+    "description": "Second part of a demanding two-semester sequence for students with the strongest background, interests and abilities in science and mathematics. The topics covered in PHY 142 are similar to those in PHY 132 , but are treated in more depth in a small-class setting. Students may transfer to PHY 132 at any time during the first half of each semester without penalty. Three lecture hours and one recitation hour per week. PHY 142 may not be taken for credit in addition to PHY 122 , PHY 127 , or PHY 132 .",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "C or higher in PHY 141 or permission of department",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PHY 141"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11052",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 153",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "153",
+    "code": "PHY 153",
+    "title": "Data Analysis for Physics and Astronomy with Python",
+    "description": "An introduction to statistical data analysis with modern techniques, including the Python programming language on Windows computers for students with no prior experience in programming. Topics include concepts and methods to characterize experimental data such as averages, variances, standard deviations, propagation of uncertainties, probability distributions, confidence intervals, hypothesis testing, chi-squared minimization, and straight line fitting. Emphasis on practical data centric applications–preparation for experimental laboratory work and research. Extensive use of computers outside the classroom will be required.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 133 and a grade of C or better in MAT 125 or MAT 131 or MAT 141 or AMS 151 or MAT 171",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 133"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 141"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "AMS 151"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 171"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11053",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 191",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "191",
+    "code": "PHY 191",
+    "title": "Transitional Study",
+    "description": "Laboratory for transfer students to supplement courses taken at another institution. Students take the laboratory portion of a 100-level course for which they have taken the theoretical portion elsewhere.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11054",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 192",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "192",
+    "code": "PHY 192",
+    "title": "Transitional Study",
+    "description": "Laboratory for transfer students to supplement courses taken at another institution. Students take the laboratory portion of a 100-level course for which they have taken the theoretical portion elsewhere.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11055",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 231",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "231",
+    "code": "PHY 231",
+    "title": "Physics for Future Presidents",
+    "description": "A study of key physics ideas that a newly-inaugurated President of the country, or a newly-hired President of a company, needs to know. This course equips the future President with enough knowledge of the physics behind a pressing issue to make an intelligent decision even in the face of conflicting advice about issues including energy, national security, and space exploration. Politics is the art of balancing competing demands, and business involves profitably serving customers, so the economics of many technologies will also be discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one D.E.C. E or SNW course and one D.E.C. F or SBS course",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11056",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 237",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "237",
+    "code": "PHY 237",
+    "title": "World Climate and Atmosphere",
+    "description": "An exploration of current concerns about the greenhouse effect, acid rain, and global ozone loss, in a format accessible to non-science majors. The social and political steps being taken to limit global atmospheric pollution and climate change are discussed. Not for major credit.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11057",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 251",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "251",
+    "code": "PHY 251",
+    "title": "Modern Physics",
+    "description": "A survey of the major physics theories of the 20th century (relativity and quantum mechanics) and their impact on most areas of physics. It introduces the special theory of relativity, the concepts of quantum and wave-particle duality, Schroedinger’s wave equation, and other fundamentals of quantum theory as they apply to nuclei, atoms, molecules, and solids. It is recommended that students take the laboratory component, PHY 252 , concurrently. Three hours lecture and one hour recitation per week.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 122 /124, or PHY 126 and PHY 127 , or PHY 132 or PHY 142 ; and PHY 134 ; C or higher in MAT 126 or MAT 132 or 142 or 171 or AMS 161",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 122"
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 126"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 127"
+                }
+              ]
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 142"
+            }
+          ]
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 134"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 126"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11058",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 252",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "252",
+    "code": "PHY 252",
+    "title": "Modern Physics Laboratory",
+    "description": "Students perform some of the pivotal experiments of the 20th century. It is recommended that students take the lecture component, PHY 251 , concurrently. Two hours of laboratory per week.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11059",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 277",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "277",
+    "code": "PHY 277",
+    "title": "Computation for Physics and Astronomy",
+    "description": "An introduction to computing on UNIX/Linux computers. Fundamentals of using UNIX/Linux to write computer programs for numerical algorithms to solve computational physics and astronomy problems. Assignments are carried out in a high-level compiled programming language such as modern Fortran or C++ and require extensive use of SINC site computers outside the classroom.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 125 , PHY 126 , PHY 127 and PHY 133 &, PHY 134 ; or PHY 131 / PHY 133 , PHY 132 / PHY 134 ; or PHY 141 / PHY 133 , PHY 142 / PHY 134 ; AMS 151 or MAT 126 or MAT 131 or MAT 141",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 125"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 126"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 127"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 133"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 134"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 131"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 132"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 141"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 142"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 151"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 126"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 131"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 141"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11060",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 287",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "287",
+    "code": "PHY 287",
+    "title": "Introduction to Research",
+    "description": "An opportunity for students, while still early in their studies, to do research commensurate with their level of preparation. Students work alongside faculty, post-doctoral fellows, and graduate students on ongoing research projects. Students must take the initiative to negotiate the opportunity. BNL and other scientists may be allowed as co-supervisors.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11061",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 291",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "291",
+    "code": "PHY 291",
+    "title": "Transitional Study",
+    "description": "A laboratory for transfer students to supplement a course taken at another institution. Students take the laboratory portion of a 200-level course for which they have taken the theoretical portion elsewhere.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11062",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 300",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "300",
+    "code": "PHY 300",
+    "title": "Waves and Optics",
+    "description": "The physics of oscillations and waves, from mechanical waves to light waves to electron waves. Topics include resonance and normal modes of coupled oscillators, the wave equation and wave propagation, interference and diffraction, polarization and imaging, coherence, and lasers. Three lecture hours and one two-hour laboratory per week.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "PHY 132 / PHY 134 or PHY 142 / PHY 134 or PHY 126 / PHY 127 / PHY 134",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 134"
+            }
+          ]
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 142"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 134"
+            }
+          ]
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 126"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 134"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11063",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 301",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "301",
+    "code": "PHY 301",
+    "title": "Electromagnetic Theory I",
+    "description": "The application of Maxwell’s equations to solve time-independent boundary-value problems and to study the interactions of electric and magnetic fields with bulk matter.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 251 and PHY 277 or permission of department; MAT 203 or MAT 205 or AMS 261 or MAT 307",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 251"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 277"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 203"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 205"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 261"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 307"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11064",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 302",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "302",
+    "code": "PHY 302",
+    "title": "Electromagnetic Theory II",
+    "description": "A study of time-dependent electric and magnetic fields as derived from Maxwell’s equations. Topics include the interrelations of electric and magnetic fields and their potentials; energy and momentum associated with electromagnetic fields and the Maxwell vacuum and matter; waveguides and transmission lines; special relativity for electromagnetism; retarded potentials for time-varying sources; and radiation of electromagnetic waves.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 301",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PHY 301"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11065",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 303",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "303",
+    "code": "PHY 303",
+    "title": "Mechanics",
+    "description": "An in-depth study of classical mechanics, from the Newtonian to the Lagrangian and Hamiltonian formulations. First, Newtonian mechanics is reviewed and applied to more advanced problems than those considered in PHY 131 or PHY 141 . The Lagrangian and Hamiltonian methods are then derived from the Newtonian treatment and applied to various problems.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 251 and PHY 277 or permission of department; MAT 303 or MAT 305 or AMS 361 or MAT 308",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 251"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 277"
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 303"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 305"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 361"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 308"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11066",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 306",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "306",
+    "code": "PHY 306",
+    "title": "Thermodynamics, Kinetic Theory, and Statistical Mechanics",
+    "description": "A study of the laws that govern physical systems in thermal equilibrium. In the first part, the concepts of temperature, internal energy, and entropy are analyzed and the first and second laws of thermodynamics are used to connect various properties that are independent of the microscopic details of the system. The second part is devoted to a microscopic study of a system in thermal equilibrium, from the kinetic theory of gases to statistical mechanics and the relation between entropy and probability, with application to simple examples in classical and quantum statistics.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 251 , PHY 277 , PHY 300",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 251"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 277"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 300"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11067",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 307",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "307",
+    "code": "PHY 307",
+    "title": "Physical and Mathematical Foundations of Quantum Mechanics",
+    "description": "Physical and mathematical foundations of quantum mechanics. Maxwell waves and their properties: intensity, energy density, and momentum density. Planck-Einstein relation between energy and frequency for light quanta. De Broglie relation between momentum and wavelength. Number density and probability density of photons. One-photon quantum mechanics, with Maxwell field as the wave function. Diffraction phenomena. Uncertainty relation between wavelength and position, hence between momentum and position. Not for credit in addition to PHY 390 with similar topic. Not for credit in addition to PHY 274.",
+    "credits": 4,
+    "active": true,
+    "rawPrerequisites": "PHY 122 /124, or PHY 126 and PHY 127 and PHY 134 , or PHY 132 and PHY 134 , or PHY 142 and PHY 134 ; MAT 132 or MAT 142 or MAT 127 or MAT 171 or AMS 161",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 122"
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 126"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 127"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 132"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            },
+            {
+              "kind": "AND",
+              "nodes": [
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 142"
+                },
+                {
+                  "kind": "COURSE",
+                  "courseId": "PHY 134"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "kind": "OR",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 142"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "MAT 171"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "AMS 161"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11068",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 308",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "308",
+    "code": "PHY 308",
+    "title": "Quantum Physics",
+    "description": "The concepts, historical development, and mathematical methods of quantum mechanics. Topics include Schroedinger’s equation in time-dependent and time-independent forms; one- and three-dimensional solutions, including the treatment of angular momentum and spin. Applications to simple systems, especially the hydrogen atom, are stressed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 300 , PHY 301 , and PHY 303",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 300"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 301"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 303"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11069",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 311",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "311",
+    "code": "PHY 311",
+    "title": "Connections in Science",
+    "description": "A selection of the interrelations between physics and other scientific and technological fields, using modern examples from engineering, medicine, and applied mathematics, among others. The course is taught as a seminar and includes guest lecturers, tours of laboratories, and discussion of classic and current research projects. Appropriate for physics and non-physics majors alike.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "PHY 122 /124 or PHY 126 and PHY 127 and PHY 134 or PHY 132 / PHY 134 or PHY 142 / PHY 134",
+    "prerequisites": {
+      "kind": "OR",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 122"
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 126"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 127"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 134"
+            }
+          ]
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 132"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 134"
+            }
+          ]
+        },
+        {
+          "kind": "AND",
+          "nodes": [
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 142"
+            },
+            {
+              "kind": "COURSE",
+              "courseId": "PHY 134"
+            }
+          ]
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11070",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 313",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "313",
+    "code": "PHY 313",
+    "title": "Mystery of Matter",
+    "description": "Exploration of our understanding of the basic constituents of matter, and of how that understanding and the tools developed to study them affect aspects of contemporary society. Historical discoveries and their place in social and political institutions of the time are considered, along with issues of government funding and the cost to society. Includes a discussion of developments at Brookhaven National Laboratory and their scientific and social impact. Not intended for Physics majors with U3 or U4 status.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "U3 or U4 standing for non-physics majors; one D.E.C. E or SNW course. All Physics/Astronomy majors need permission of department to enroll, please consult the Director of UG Studies.",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11071",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 335",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "335",
+    "code": "PHY 335",
+    "title": "Electronics and Instrumentation Laboratory",
+    "description": "Students will design, build and test basic DC and AC circuits which perform a useful function, as viewed by physicists, involving resistors, capacitors, transformers, diodes, transistors and operational amplifiers. Students will measure these circuits using digital multi-meters and digital oscilloscopes. Understanding of analog circuits will be stressed including negative feedback applied to operational amplifiers. Two three-hour laboratories per week.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 251 and WRT 102",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 251"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11072",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 382",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "382",
+    "code": "PHY 382",
+    "title": "The Quantum Moment: Quantum Mechanics in Philosophy, Culture, and Life (III)",
+    "description": "This course explores the implications and influence, real and alleged, of quantum mechanics on fields other than physics. What does quantum mechanics mean, if anything, for philosophy, ethics, and social behavior? At the same time, we shall look into how social and cultural influences may have affected the way that quantum mechanics was formulated, and how it has evolved. We shall review the early history of quantum mechanics, and discuss some of the important debates at the founding of quantum mechanics. Students will not be expected to learn the mathematics in depth, only the introduction provided by the instructors aimed at non-science students. Besides readings, the course will also involve plays, films, and guest speakers. Students will be expected to work on a final project, to be presented in class.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "one Physics or Philosophy course and U3 or U4 standing",
+    "prerequisites": {
+      "kind": "STANDING_AT_LEAST",
+      "minStanding": 3
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11073",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 390",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "390",
+    "code": "PHY 390",
+    "title": "Special Topics in Physics",
+    "description": "",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11074",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 405",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "405",
+    "code": "PHY 405",
+    "title": "Advanced Quantum Physics",
+    "description": "Study of quantitative methods of quantum mechanics, including perturbation theory and the WKB approximation, scattering theory, and elements of quantum-information theory. Symmetry principles are stressed and advanced mathematical techniques are used throughout the course.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 303 and PHY 308 ; MAT 341",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 303"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 308"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "MAT 341"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11075",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 408",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "408",
+    "code": "PHY 408",
+    "title": "Relativity",
+    "description": "A development of the special theory of relativity leading to general relativity with applications to cosmology.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 303",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PHY 303"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11076",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 420",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "420",
+    "code": "PHY 420",
+    "title": "Introduction to Accelerator Science and Technology",
+    "description": "This course will introduce students to the field of accelerator science and technology, a very versatile branch of physics and technology. This course is composed of the following parts: introduction of accelerator history and their basic principles, basic beam dynamics in synchrotrons, introduction of challenges in Accelerator physics, and introduction of typical beam measurements and instrumentations.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 277 , PHY 300 , PHY 301 , PHY 302 , and PHY 303",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 277"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 300"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 301"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 302"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 303"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11077",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 431",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "431",
+    "code": "PHY 431",
+    "title": "Nuclear and Particle Physics",
+    "description": "Students will study a selection of topics from the properties of elementary particles, the strong, weak, and electromagnetic forces, symmetries, particle interaction and decay rates, nuclear structure, nuclear reactions, nuclear forces, the interaction of radiation with matter, accelerators and radiation detectors.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 308",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "PHY 308"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11078",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 444",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "444",
+    "code": "PHY 444",
+    "title": "Experiential Learning",
+    "description": "This course is designed for students who engage in a substantial, structured experiential learning activity in conjunction with another class. Experiential learning occurs when knowledge acquired through formal learning and past experience are applied to a “real-world” setting or problem to create new knowledge through a process of reflection, critical analysis, feedback and synthesis. Beyond-the-classroom experiences that support experiential learning may include: service learning, mentored research, field work, or an internship.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 or equivalent; permission of the instructor and approval of the EXP contract ( http://sb.cc.stonybrook.edu/bulletin/current/policiesandregulations/degree_requirements/EXPplus.php )",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11079",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 445",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "445",
+    "code": "PHY 445",
+    "title": "Senior Laboratory",
+    "description": "A selection of historically important experiments from atomic and nuclear spectroscopy, particle physics, solid-state and low-temperature physics performed with modern instrumentation. Each student does three experiments, usually with a partner. As students progress, they are encouraged to pursue independent projects, without rigid formats or procedures. The emphasis is on the development of experimental skills and on individual, ethical, professionally acceptable analysis and presentation of results, both orally and in writing. Two three-hour laboratory sessions per week.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 308 , PHY 335 , and WRT 102",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 308"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 335"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "WRT 102"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11080",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 447",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "447",
+    "code": "PHY 447",
+    "title": "Tutorial in Advanced Topics",
+    "description": "Selected readings in advanced topics for upper-division students of unusual ability and substantial accomplishments. Prior to the beginning of the semester, the topic to be studied is selected by the supervising member of the faculty and a reading assignment is planned. Weekly conferences with this faculty member are devoted to discussion of material, resolution of problems encountered, and assessment of the student’s progress.",
+    "credits": 1,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11081",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 451",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "451",
+    "code": "PHY 451",
+    "title": "Quantum Electronics",
+    "description": "Introduction to modern atomic physics for the laser era. Emphasis on the interaction between atoms and light, as well as on atomic structure and how it affects this interaction. Modern applications such as laser cooling, atom trapping, precision spectroscopy with frequency comb, quantum information, and others will be discussed.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11082",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 452",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "452",
+    "code": "PHY 452",
+    "title": "Atomic Physics and Lasers",
+    "description": "This course begins with an in-depth introduction to modern atomic physics for the laser era. Emphasis is on the fundamentals of light-matter interactions as well as on atomic structure and how it affects the interaction. The main topics include laser fundamentals, atom trapping, precision spectroscopy with frequency comb, quantum information and others.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 300 and PHY 308",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 300"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 308"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11083",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 458",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "458",
+    "code": "PHY 458",
+    "title": "Speak Effectively Before an Audience",
+    "description": "A zero credit course that may be taken in conjunction with any PHY course that provides opportunity to achieve the learning outcomes of the Stony Brook Curriculum’s SPK learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": null,
+    "prerequisites": null,
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11084",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 459",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "459",
+    "code": "PHY 459",
+    "title": "Write Effectively in Physics",
+    "description": "A zero credit course that may be taken in conjunction with any 300- or 400-level PHY course, with permission of the instructor. The course provides opportunity to practice the skills and techniques of effective academic writing and satisfies the learning outcomes of the Stony Brook Curriculum’s WRTD learning objective.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "WRT 102 ; permission of the instructor",
+    "prerequisites": {
+      "kind": "COURSE",
+      "courseId": "WRT 102"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11085",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 472",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "472",
+    "code": "PHY 472",
+    "title": "Solid-State Physics",
+    "description": "A study of the different types of solids, with emphasis on their thermal, electrical, and optical properties. It introduces the concepts of phonons and electronic bands, and applications to metals, semiconductors, superconductors, and magnetism.",
+    "credits": 3,
+    "active": true,
+    "rawPrerequisites": "PHY 306 and PHY 308",
+    "prerequisites": {
+      "kind": "AND",
+      "nodes": [
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 306"
+        },
+        {
+          "kind": "COURSE",
+          "courseId": "PHY 308"
+        }
+      ]
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11086",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 475",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "475",
+    "code": "PHY 475",
+    "title": "Undergraduate Teaching Practicum",
+    "description": "An opportunity for selected undergraduates to collaborate with the faculty in teaching at the introductory level. In addition to working as tutors and as laboratory assistants, students meet once a week with a faculty supervisor to discuss problems they have encountered and to plan future activities. Students are generally assigned to assist in courses they have completed and in which they have excelled. Not for major credit.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11087",
+    "rawCorequisites": null
+  },
+  {
+    "id": "PHY 487",
+    "deptCode": "PHY",
+    "deptName": null,
+    "number": "487",
+    "code": "PHY 487",
+    "title": "Research",
+    "description": "An opportunity for students to conduct faculty-supervised research for academic credit. Students must take the initiative to negotiate the opportunity. BNL and other scientists may be allowed as co-supervisors. Research proposals must be prepared by the student and submitted for approval by the supervising faculty before the beginning of the credit period. An account of the work and the results achieved is submitted to the supervisor before the end of the credit period.",
+    "credits": 0,
+    "active": true,
+    "rawPrerequisites": "Permission of department",
+    "prerequisites": {
+      "kind": "TRUE"
+    },
+    "corequisites": null,
+    "advisorNotes": null,
+    "url": "https://catalog.stonybrook.edu/preview_course_nopop.php?catoid=8&coid=11088",
+    "rawCorequisites": null
+  }
+]
